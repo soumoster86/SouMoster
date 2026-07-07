@@ -11,6 +11,7 @@ export interface App {
   icon: string;
   banner: string;
   screenshots: string[];
+  gameplayVideo?: string;
   features: string[];
   howToPlay: string[];
   versionHistory: VersionEntry[];

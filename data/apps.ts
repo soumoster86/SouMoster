@@ -21,6 +21,7 @@ export const apps: App[] = [
       "/images/screenshots/Screenshot_20260704_103448.png",
       "/images/screenshots/Screenshot_20260704_103506.png",
     ],
+    gameplayVideo: "/videos/road-hopper-gameplay.webm",
     features: [
       "One-tap intuitive controls",
       "Endless procedurally generated roads",

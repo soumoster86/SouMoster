@@ -2,6 +2,7 @@ import { CheckCircle, AlertTriangle } from "lucide-react";
 import { notFound } from "next/navigation";
 import { AppCard } from "@/components/apps/AppCard";
 import { AppDetailHero } from "@/components/apps/AppDetailHero";
+import { GameplayVideo } from "@/components/apps/GameplayVideo";
 import { ScreenshotCarousel } from "@/components/apps/ScreenshotCarousel";
 import { PageTransition } from "@/components/shared/PageTransition";
 import { Accordion } from "@/components/ui/Accordion";
@@ -54,12 +55,16 @@ export default async function AppPage({ params }: AppPageProps) {
           <ScreenshotCarousel screenshots={app.screenshots} appName={app.name} />
         </section>
 
-        <section>
-          <SectionHeading title="Video" align="left" />
-          <div className="glass flex aspect-video items-center justify-center rounded-2xl">
-            <p className="text-muted">Gameplay video coming soon</p>
-          </div>
-        </section>
+        {app.gameplayVideo && (
+          <section>
+            <SectionHeading title="Gameplay Video" align="left" />
+            <GameplayVideo
+              src={app.gameplayVideo}
+              title={app.name}
+              poster={app.screenshots[0]}
+            />
+          </section>
+        )}
 
         <section>
           <SectionHeading title="How to Play" align="left" />
