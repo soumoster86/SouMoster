@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="50%" stop-color="#FFB703"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect x="0" y="320" width="800" height="80" fill="#1E293B"/>
+  <rect x="0" y="350" width="800" height="6" fill="#FBBF24"/>
+  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="url(#accent)">Road Hopper</text>
+  <text x="400" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#CBD5E1">Hop. Dodge. Survive.</text>
+  <circle cx="400" cy="290" r="20" fill="#6C63FF"/>
+  <rect x="150" y="300" width="50" height="25" rx="5" fill="#EF4444" opacity="0.7"/>
+  <rect x="600" y="295" width="60" height="30" rx="5" fill="#3B82F6" opacity="0.7"/>
+</svg>

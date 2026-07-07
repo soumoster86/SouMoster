@@ -1,0 +1,19 @@
+---
+pid: 45360
+cwd: "C:\Users\soumo\HTMLProjects\SouMoster"
+command: "Set-Location C:\\Users\\soumo\\HTMLProjects\\SouMoster; npm install"
+started_at: 2026-07-07T18:16:59.025Z
+running_for_ms: 844999   
+---
+
+added 407 packages, and audited 408 packages in 2m
+
+199 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.

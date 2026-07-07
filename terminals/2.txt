@@ -1,0 +1,63 @@
+---
+pid: 11096
+cwd: "C:\Users\soumo\HTMLProjects\SouMoster"
+command: "Set-Location C:\\Users\\soumo\\HTMLProjects\\SouMoster; npm run build"
+started_at: 2026-07-07T18:18:59.148Z
+running_for_ms: 724999   
+---
+
+> soumoster@1.0.0 build
+> next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+   ▲ Next.js 15.5.20
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 22.1s
+   Linting and checking validity of types ...
+
+./app/about/page.tsx
+4:15  Warning: 'Flag' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/18) ...
+   Generating static pages (4/18) 
+   Generating static pages (8/18) 
+   Generating static pages (13/18) 
+ ✓ Generating static pages (18/18)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                     7.9 kB         170 kB
+├ ○ /_not-found                            144 B         103 kB
+├ ○ /about                               2.72 kB         145 kB
+├ ○ /apps                                4.39 kB         164 kB
+├ ● /apps/[slug]                         3.25 kB         165 kB
+├   └ /apps/road-hopper
+├ ○ /blog                                  714 B         155 kB
+├ ● /blog/[slug]                           322 B         146 kB
+├   ├ /blog/road-hopper-v1-2
+├   ├ /blog/road-hopper-launch
+├   └ /blog/developer-diary-1
+├ ○ /contact                             3.94 kB         157 kB
+├ ○ /icon.svg                                0 B            0 B
+├ ○ /privacy                               520 B         142 kB
+├ ○ /robots.txt                            144 B         103 kB
+├ ○ /sitemap.xml                           144 B         103 kB
+├ ○ /support                             4.65 kB         158 kB
+└ ○ /terms                                 520 B         142 kB
++ First Load JS shared by all             102 kB
+  ├ chunks/255-3981a3d1f3561bd8.js       46.2 kB
+  ├ chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

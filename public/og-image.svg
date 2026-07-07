@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="50%" stop-color="#FFB703"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+  </defs>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="url(#g)">SouMoster</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#CBD5E1">Building fun, addictive Android games</text>
+</svg>
