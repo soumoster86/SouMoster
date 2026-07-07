@@ -42,7 +42,7 @@ export function Navbar() {
                 "rounded-lg px-4 py-2 text-sm font-medium transition-colors",
                 pathname === link.href
                   ? "bg-primary/20 text-primary"
-                  : "text-muted hover:text-text hover:bg-white/5",
+                  : "text-muted hover:text-text hover-surface",
               )}
             >
               {link.label}
@@ -54,7 +54,7 @@ export function Navbar() {
           {mounted && (
             <button
               onClick={toggleTheme}
-              className="rounded-lg p-2 text-muted transition-colors hover:bg-white/5 hover:text-text"
+              className="hover-surface rounded-lg p-2 text-muted transition-colors hover:text-text"
               aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
             >
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
@@ -62,7 +62,7 @@ export function Navbar() {
           )}
 
           <button
-            className="rounded-lg p-2 text-muted transition-colors hover:bg-white/5 hover:text-text md:hidden"
+            className="hover-surface rounded-lg p-2 text-muted transition-colors hover:text-text md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}

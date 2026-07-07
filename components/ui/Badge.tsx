@@ -8,7 +8,7 @@ interface BadgeProps {
 
 const variants = {
   primary: "bg-primary/20 text-primary border-primary/30",
-  secondary: "bg-secondary/20 text-secondary border-secondary/30",
+  secondary: "bg-secondary/20 text-amber-800 border-secondary/40",
   accent: "bg-accent/20 text-accent border-accent/30",
   default: "bg-card text-muted border-border",
 };

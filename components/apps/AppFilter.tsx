@@ -35,7 +35,7 @@ export function AppFilter({ search, onSearchChange, category, onCategoryChange }
               "rounded-full px-4 py-2 text-sm font-medium transition-colors",
               category === cat
                 ? "bg-primary text-white"
-                : "bg-card text-muted hover:bg-primary/20 hover:text-primary",
+                : "bg-card text-muted hover:bg-primary/15 hover:text-primary",
             )}
             aria-pressed={category === cat}
           >

@@ -23,7 +23,7 @@ export function Accordion({ items, className }: AccordionProps) {
       {items.map((item, index) => (
         <div key={index} className="glass rounded-xl overflow-hidden">
           <button
-            className="flex w-full items-center justify-between px-6 py-4 text-left font-medium text-text transition-colors hover:bg-white/5"
+            className="hover-surface flex w-full items-center justify-between px-6 py-4 text-left font-medium text-text transition-colors"
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
             aria-expanded={openIndex === index}
             aria-controls={`accordion-content-${index}`}

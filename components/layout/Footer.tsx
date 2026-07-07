@@ -25,7 +25,7 @@ export function Footer() {
                   href={social.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-lg p-2 text-muted transition-colors hover:bg-white/5 hover:text-primary"
+                  className="hover-surface rounded-lg p-2 text-muted transition-colors hover:text-primary"
                   aria-label={social.name}
                 >
                   {social.icon === "github" && <Github className="h-5 w-5" />}
