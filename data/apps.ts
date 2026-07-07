@@ -11,9 +11,8 @@ export const apps: App[] = [
       "Road Hopper is a fast-paced arcade runner that puts your reflexes to the test. Navigate through busy highways, dodge speeding vehicles, collect power-ups, and compete for the highest score. With simple one-tap controls and increasingly challenging gameplay, Road Hopper delivers the perfect pick-up-and-play experience for casual and hardcore gamers alike.",
     genre: "Arcade Runner",
     category: "Arcade",
-    version: "1.2.0",
-    playStoreUrl:
-      "https://play.google.com/store/apps/details?id=com.soumoster.roadhopper",
+    version: "8.1.3",
+    playStoreUrl: "https://play.google.com/apps/testing/com.roadohopper.game",
     icon: "/images/screenshots/roadhopper_icon_1024.png",
     banner: "/images/screenshots/Screenshot_20260704_103339.png",
     screenshots: [
@@ -41,6 +40,17 @@ export const apps: App[] = [
       "Beat your high score and climb the leaderboard",
     ],
     versionHistory: [
+      {
+        version: "8.1.3",
+        date: "2026-07-07",
+        changes: [
+          "Revive! Watch a short ad after you're hit to continue your run — your score keeps going",
+          "Fixed a launch crash — the game is now stable",
+          "Every character has its own funny name & hop sound (meet Cluck Norris, Neil Hopstrong & more)",
+          "Cleaner arcade launch screen",
+          "Performance and polish fixes",
+        ],
+      },
       {
         version: "1.2.0",
         date: "2026-03-01",
@@ -89,7 +99,7 @@ export const apps: App[] = [
       {
         question: "How do I report a bug?",
         answer:
-          "Visit our Support page or email support@soumoster.com with details about the issue.",
+          "Visit our Support page or email soumoster@gmail.com with details about the issue.",
       },
     ],
     featured: true,

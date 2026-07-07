@@ -1,29 +1,25 @@
 ---
-title: "Road Hopper is Live on Google Play!"
-excerpt: "Our first Android game, Road Hopper, is now available for download worldwide."
-date: "2025-08-01"
+title: "Road Hopper is in Beta Test!"
+excerpt: "Road Hopper is now available for beta testing on Google Play. Hop in and help us shape the game!"
+date: "2026-07-07"
 category: "Announcement"
 author: "SouMoster Team"
 ---
 
-## We Did It!
+## Beta Test Now Open
 
-After months of development, testing, and polishing, **Road Hopper** is officially live on Google Play! This is a huge milestone for SouMoster, and we couldn't be more excited to share it with the world.
+**Road Hopper** is currently in **Beta Test** on Google Play! We're inviting players to download, play, and share feedback as we polish the game ahead of full release.
 
 ## What is Road Hopper?
 
 Road Hopper is a fast-paced arcade runner where you hop across lanes, dodge obstacles, and chase high scores on an endless highway. Simple one-tap controls make it easy to pick up, but mastering the game takes skill and reflexes.
 
-## Launch Features
+## Current Version: v8.1.3
 
-- Endless procedurally generated roads
-- 5 unique road themes
-- Global leaderboard integration
-- Offline play support
-- Smooth 60fps gameplay
+The latest beta build includes Revive, unique character names & sounds, a cleaner launch screen, crash fixes, and performance improvements.
 
-## Thank You
+## Join the Beta
 
-To everyone who tested early builds and provided feedback — thank you! Your input shaped Road Hopper into the game it is today.
+Be among the first to play and help us improve Road Hopper before launch.
 
-[Download Road Hopper on Google Play →](https://play.google.com/store/apps/details?id=com.soumoster.roadhopper)
+[Join the Road Hopper Beta on Google Play →](https://play.google.com/apps/testing/com.roadohopper.game)
