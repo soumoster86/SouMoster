@@ -6,10 +6,36 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const timeline = [
-  { year: "2023", title: "The Beginning", description: "Started learning Android development and game design." },
-  { year: "2024", title: "First Prototypes", description: "Built multiple game prototypes and refined development skills." },
-  { year: "2025", title: "Road Hopper Launch", description: "Released Road Hopper on Google Play — our first published game." },
-  { year: "2026", title: "Growing Portfolio", description: "Expanding the game library with new titles and features." },
+  {
+    period: "2024",
+    title: "The Beginning",
+    description:
+      "Started the journey into Android development and game design, learning the fundamentals of mobile app development, game mechanics, and modern development tools.",
+  },
+  {
+    period: "2025",
+    title: "First Prototypes",
+    description:
+      "Developed multiple game prototypes, explored different gameplay concepts, and strengthened skills in Android development, UI/UX design, and game optimization.",
+  },
+  {
+    period: "Early 2026",
+    title: "First Release",
+    description:
+      "Successfully launched Road Hopper on Google Play, marking SouMoster's first published Android game and the beginning of its public journey.",
+  },
+  {
+    period: "July 2026",
+    title: "Building the Future",
+    description:
+      "Expanding the SouMoster portfolio with new Android games, introducing fresh gameplay ideas, enhancing existing titles, and continuously improving the player experience based on community feedback.",
+  },
+  {
+    period: "Looking Ahead",
+    title: "The Vision",
+    description:
+      "The vision for SouMoster is to grow into a recognizable indie game studio, releasing a diverse collection of high-quality Android games that entertain players around the world.",
+  },
 ];
 
 const goals = [
@@ -60,17 +86,31 @@ export default function AboutPage() {
         </div>
 
         <SectionHeading title="Developer Story" align="left" />
-        <div className="mb-20 max-w-3xl space-y-4 text-muted leading-relaxed">
+        <div className="mb-20 max-w-3xl space-y-4 leading-relaxed text-muted">
           <p>
-            SouMoster started as a solo developer&apos;s passion project — a dream to build mobile
-            games that are as fun to play as they are to create. What began with late-night coding
-            sessions and countless iterations has grown into a brand dedicated to quality Android
-            gaming.
+            SouMoster is an independent Android game studio founded by a solo developer with a
+            passion for creating fun, accessible, and engaging mobile games. What began as a personal
+            journey to learn Android development has evolved into a commitment to building polished
+            gaming experiences that players can enjoy anytime, anywhere.
           </p>
           <p>
-            Our first release, Road Hopper, embodies everything we stand for: simple controls,
-            addictive gameplay, and a polished user experience. Every game we build follows the same
-            philosophy — player enjoyment comes first.
+            Every project is driven by a simple philosophy:{" "}
+            <strong className="text-text">
+              great games don&apos;t have to be complicated
+            </strong>
+            . By focusing on intuitive controls, satisfying gameplay, and continuous improvement,
+            SouMoster aims to deliver games that are easy to pick up, difficult to put down, and
+            enjoyable for players of all ages.
+          </p>
+          <p>
+            Our debut title, <strong className="text-text">Road Hopper</strong>, represents this
+            vision—combining fast-paced arcade gameplay with clean design and an offline-friendly
+            experience. Each new release builds on the lessons learned from the last, with player
+            feedback playing a key role in shaping future updates and games.
+          </p>
+          <p>
+            As SouMoster grows, the mission remains the same: to create high-quality Android games
+            that are fun, polished, and memorable.
           </p>
         </div>
 
@@ -78,7 +118,7 @@ export default function AboutPage() {
         <div className="relative mb-20 space-y-8 border-l-2 border-primary/30 pl-8">
           {timeline.map((item, index) => (
             <motion.div
-              key={item.year}
+              key={`${item.period}-${item.title}`}
               initial={{ opacity: 0, x: -10 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -86,7 +126,7 @@ export default function AboutPage() {
               className="relative"
             >
               <div className="absolute -left-[41px] h-4 w-4 rounded-full bg-primary" />
-              <span className="text-sm font-bold text-primary">{item.year}</span>
+              <span className="text-sm font-bold text-primary">{item.period}</span>
               <h3 className="text-lg font-semibold text-text">{item.title}</h3>
               <p className="text-muted">{item.description}</p>
             </motion.div>
