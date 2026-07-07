@@ -5,6 +5,7 @@ import { Menu, Moon, Sun, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { BrandIcon } from "@/components/shared/BrandIcon";
 import { NAV_LINKS } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { useTheme } from "@/hooks/useTheme";
@@ -27,10 +28,8 @@ export function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
         aria-label="Main navigation"
       >
-        <Link href="/" className="flex items-center gap-2" aria-label="SouMoster Home">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary font-bold text-white">
-            S
-          </div>
+        <Link href="/" className="flex items-center gap-2.5" aria-label="SouMoster Home">
+          <BrandIcon size={40} className="rounded-xl shadow-lg shadow-primary/20" />
           <span className="font-heading text-xl font-bold text-text">SouMoster</span>
         </Link>
 

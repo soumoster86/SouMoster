@@ -1,5 +1,6 @@
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
+import { BrandIcon } from "@/components/shared/BrandIcon";
 import { FOOTER_LINKS, NAV_LINKS, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
 
 export function Footer() {
@@ -10,10 +11,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary font-bold text-white">
-                S
-              </div>
+            <div className="flex items-center gap-2.5">
+              <BrandIcon size={40} className="rounded-xl" />
               <span className="font-heading text-xl font-bold">{SITE_NAME}</span>
             </div>
             <p className="text-sm leading-relaxed text-muted">

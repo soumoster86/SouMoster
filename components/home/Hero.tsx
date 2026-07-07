@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Download, Gamepad2 } from "lucide-react";
+import { BrandIcon } from "@/components/shared/BrandIcon";
 import { Button } from "@/components/ui/Button";
 import { PLAY_STORE_DEV_URL } from "@/lib/constants";
 
@@ -31,6 +32,28 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
+          <motion.div
+            className="mb-8 flex justify-center"
+            initial={{ opacity: 0, scale: 0.7 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.7, type: "spring", stiffness: 120 }}
+          >
+            <motion.div
+              className="relative"
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+            >
+              <div
+                className="absolute inset-0 scale-110 rounded-[2rem] bg-primary/25 blur-2xl"
+                aria-hidden="true"
+              />
+              <BrandIcon
+                size={148}
+                className="relative rounded-[2rem] shadow-2xl shadow-primary/40 ring-1 ring-white/10"
+              />
+            </motion.div>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
