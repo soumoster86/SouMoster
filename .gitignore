@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local tooling / editor
+.mcps/
+mcps/
+terminals/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# project prompts & notes (not part of the site)
+Prompt to Build Website.txt
