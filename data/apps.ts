@@ -14,13 +14,13 @@ export const apps: App[] = [
     version: "1.2.0",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.soumoster.roadhopper",
-    icon: "/images/road-hopper-icon.svg",
-    banner: "/images/road-hopper-banner.svg",
+    icon: "/images/screenshots/roadhopper_icon_1024.png",
+    banner: "/images/screenshots/Screenshot_20260704_103339.png",
     screenshots: [
-      "/images/screenshots/rh-1.svg",
-      "/images/screenshots/rh-2.svg",
-      "/images/screenshots/rh-3.svg",
-      "/images/screenshots/rh-4.svg",
+      "/images/screenshots/Screenshot_20260704_103339.png",
+      "/images/screenshots/Screenshot_20260704_103428.png",
+      "/images/screenshots/Screenshot_20260704_103448.png",
+      "/images/screenshots/Screenshot_20260704_103506.png",
     ],
     features: [
       "One-tap intuitive controls",

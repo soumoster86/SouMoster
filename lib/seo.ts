@@ -69,7 +69,7 @@ export function generateOrganizationSchema() {
     description: SITE_DESCRIPTION,
     sameAs: [
       "https://play.google.com/store/apps/developer?id=SouMoster",
-      "https://github.com/soumoster",
+      "https://github.com/soumoster86",
       "https://linkedin.com/in/soumoster",
     ],
   };

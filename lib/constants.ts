@@ -2,12 +2,12 @@ import type { NavLink, SocialLink } from "@/types";
 
 export const SITE_NAME = "SouMoster";
 export const SITE_TAGLINE = "Building fun, addictive and high-quality Android games.";
-export const SITE_URL = "https://soumoster.com";
+export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
   "SouMoster is an independent Android game developer creating fun, addictive, and high-quality mobile games. Download Road Hopper and more on Google Play.";
 export const PLAY_STORE_DEV_URL =
-  "https://play.google.com/store/apps/developer?id=SouMoster";
-export const SUPPORT_EMAIL = "support@soumoster.com";
+  "https://play.google.com/apps/testing/com.roadohopper.game";
+export const SUPPORT_EMAIL = "soumoster@gmail.com";
 export const RESPONSE_TIME = "24–48 hours";
 
 export const NAV_LINKS: NavLink[] = [
@@ -27,7 +27,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     name: "GitHub",
-    href: "https://github.com/soumoster",
+    href: "https://github.com/soumoster86",
     icon: "github",
   },
   {
