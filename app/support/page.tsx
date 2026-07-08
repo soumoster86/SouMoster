@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Textarea } from "@/components/ui/Textarea";
+import { submitSupport } from "@/lib/api";
 import { supportFAQ } from "@/data/faq";
 import { RESPONSE_TIME, SUPPORT_EMAIL } from "@/lib/constants";
 
@@ -16,17 +17,45 @@ export default function SupportPage() {
   const { addToast } = useToastContext();
   const [bugForm, setBugForm] = useState({ email: "", app: "", description: "" });
   const [featureForm, setFeatureForm] = useState({ email: "", app: "", description: "" });
+  const [submittingBug, setSubmittingBug] = useState(false);
+  const [submittingFeature, setSubmittingFeature] = useState(false);
 
-  const handleBugSubmit = (e: React.FormEvent) => {
+  const handleBugSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    addToast("Bug report submitted! We'll look into it.", "success");
-    setBugForm({ email: "", app: "", description: "" });
+    setSubmittingBug(true);
+
+    try {
+      await submitSupport({ type: "bug", ...bugForm });
+      addToast("Bug report submitted! We'll look into it.", "success");
+      setBugForm({ email: "", app: "", description: "" });
+    } catch (error) {
+      addToast(
+        error instanceof Error ? error.message : "Failed to submit bug report. Please try again.",
+        "error",
+      );
+    } finally {
+      setSubmittingBug(false);
+    }
   };
 
-  const handleFeatureSubmit = (e: React.FormEvent) => {
+  const handleFeatureSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    addToast("Feature request submitted! Thank you for your feedback.", "success");
-    setFeatureForm({ email: "", app: "", description: "" });
+    setSubmittingFeature(true);
+
+    try {
+      await submitSupport({ type: "feature", ...featureForm });
+      addToast("Feature request submitted! Thank you for your feedback.", "success");
+      setFeatureForm({ email: "", app: "", description: "" });
+    } catch (error) {
+      addToast(
+        error instanceof Error
+          ? error.message
+          : "Failed to submit feature request. Please try again.",
+        "error",
+      );
+    } finally {
+      setSubmittingFeature(false);
+    }
   };
 
   return (
@@ -55,6 +84,14 @@ export default function SupportPage() {
           <Accordion items={supportFAQ} />
         </section>
 
+        <p className="mb-8 text-sm text-muted">
+          Submissions are forwarded to{" "}
+          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
+            {SUPPORT_EMAIL}
+          </a>
+          . The first submission triggers a one-time confirmation email to activate forwarding.
+        </p>
+
         <div className="grid gap-8 lg:grid-cols-2">
           <section>
             <div className="mb-6 flex items-center gap-3">
@@ -68,12 +105,14 @@ export default function SupportPage() {
                 required
                 value={bugForm.email}
                 onChange={(e) => setBugForm({ ...bugForm, email: e.target.value })}
+                disabled={submittingBug}
               />
               <Input
                 label="App Name"
                 required
                 value={bugForm.app}
                 onChange={(e) => setBugForm({ ...bugForm, app: e.target.value })}
+                disabled={submittingBug}
               />
               <Textarea
                 label="Bug Description"
@@ -81,8 +120,11 @@ export default function SupportPage() {
                 placeholder="Describe the bug, steps to reproduce, and your device info..."
                 value={bugForm.description}
                 onChange={(e) => setBugForm({ ...bugForm, description: e.target.value })}
+                disabled={submittingBug}
               />
-              <Button type="submit">Submit Bug Report</Button>
+              <Button type="submit" disabled={submittingBug}>
+                {submittingBug ? "Submitting..." : "Submit Bug Report"}
+              </Button>
             </form>
           </section>
 
@@ -98,12 +140,14 @@ export default function SupportPage() {
                 required
                 value={featureForm.email}
                 onChange={(e) => setFeatureForm({ ...featureForm, email: e.target.value })}
+                disabled={submittingFeature}
               />
               <Input
                 label="App Name"
                 required
                 value={featureForm.app}
                 onChange={(e) => setFeatureForm({ ...featureForm, app: e.target.value })}
+                disabled={submittingFeature}
               />
               <Textarea
                 label="Feature Description"
@@ -111,9 +155,10 @@ export default function SupportPage() {
                 placeholder="Describe the feature you'd like to see..."
                 value={featureForm.description}
                 onChange={(e) => setFeatureForm({ ...featureForm, description: e.target.value })}
+                disabled={submittingFeature}
               />
-              <Button type="submit" variant="secondary">
-                Submit Feature Request
+              <Button type="submit" variant="secondary" disabled={submittingFeature}>
+                {submittingFeature ? "Submitting..." : "Submit Feature Request"}
               </Button>
             </form>
           </section>

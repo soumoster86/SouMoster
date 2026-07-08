@@ -14,7 +14,7 @@ export const supportFAQ: FAQItem[] = [
   {
     question: "How can I report a bug?",
     answer:
-      "Use the bug report form on our Support page or email us at support@soumoster.com with a description and screenshots.",
+      "Use the bug report form on our Support page or email us at soumoster@gmail.com with a description and screenshots.",
   },
   {
     question: "Can I request a new feature?",

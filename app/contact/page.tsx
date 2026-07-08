@@ -8,16 +8,30 @@ import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Textarea } from "@/components/ui/Textarea";
+import { submitContact } from "@/lib/api";
 import { PLAY_STORE_DEV_URL, SOCIAL_LINKS, SUPPORT_EMAIL } from "@/lib/constants";
 
 export default function ContactPage() {
   const { addToast } = useToastContext();
   const [form, setForm] = useState({ name: "", email: "", subject: "", message: "" });
+  const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    addToast("Message sent! We'll get back to you soon.", "success");
-    setForm({ name: "", email: "", subject: "", message: "" });
+    setSubmitting(true);
+
+    try {
+      await submitContact(form);
+      addToast("Message sent! We'll get back to you soon.", "success");
+      setForm({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      addToast(
+        error instanceof Error ? error.message : "Failed to send message. Please try again.",
+        "error",
+      );
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -28,6 +42,14 @@ export default function ContactPage() {
           subtitle="Have a question or want to collaborate? We'd love to hear from you."
         />
 
+        <p className="mb-8 text-center text-sm text-muted">
+          Messages are forwarded to{" "}
+          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
+            {SUPPORT_EMAIL}
+          </a>
+          .
+        </p>
+
         <div className="grid gap-12 lg:grid-cols-2">
           <form onSubmit={handleSubmit} className="glass space-y-4 rounded-2xl p-8">
             <Input
@@ -35,6 +57,7 @@ export default function ContactPage() {
               required
               value={form.name}
               onChange={(e) => setForm({ ...form, name: e.target.value })}
+              disabled={submitting}
             />
             <Input
               label="Email"
@@ -42,22 +65,25 @@ export default function ContactPage() {
               required
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
+              disabled={submitting}
             />
             <Input
               label="Subject"
               required
               value={form.subject}
               onChange={(e) => setForm({ ...form, subject: e.target.value })}
+              disabled={submitting}
             />
             <Textarea
               label="Message"
               required
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
+              disabled={submitting}
             />
-            <Button type="submit">
+            <Button type="submit" disabled={submitting}>
               <Send className="h-4 w-4" />
-              Send Message
+              {submitting ? "Sending..." : "Send Message"}
             </Button>
           </form>
 
