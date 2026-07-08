@@ -11,6 +11,8 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Textarea } from "@/components/ui/Textarea";
 import { submitSupport } from "@/lib/api";
 import { supportFAQ } from "@/data/faq";
+import { getFormErrorMessage } from "@/lib/form-errors";
+import { openBugReportMailto, openFeatureRequestMailto } from "@/lib/mailto";
 import { RESPONSE_TIME, SUPPORT_EMAIL } from "@/lib/constants";
 
 export default function SupportPage() {
@@ -26,13 +28,11 @@ export default function SupportPage() {
 
     try {
       await submitSupport({ type: "bug", ...bugForm });
-      addToast("Bug report submitted! We'll look into it.", "success");
+      addToast("Bug report sent! We'll look into it.", "success");
       setBugForm({ email: "", app: "", description: "" });
     } catch (error) {
-      addToast(
-        error instanceof Error ? error.message : "Failed to submit bug report. Please try again.",
-        "error",
-      );
+      const result = getFormErrorMessage(error, "Failed to submit bug report. Please try again.");
+      addToast(result.message, result.type);
     } finally {
       setSubmittingBug(false);
     }
@@ -44,15 +44,14 @@ export default function SupportPage() {
 
     try {
       await submitSupport({ type: "feature", ...featureForm });
-      addToast("Feature request submitted! Thank you for your feedback.", "success");
+      addToast("Feature request sent! Thank you for your feedback.", "success");
       setFeatureForm({ email: "", app: "", description: "" });
     } catch (error) {
-      addToast(
-        error instanceof Error
-          ? error.message
-          : "Failed to submit feature request. Please try again.",
-        "error",
+      const result = getFormErrorMessage(
+        error,
+        "Failed to submit feature request. Please try again.",
       );
+      addToast(result.message, result.type);
     } finally {
       setSubmittingFeature(false);
     }
@@ -84,13 +83,17 @@ export default function SupportPage() {
           <Accordion items={supportFAQ} />
         </section>
 
-        <p className="mb-8 text-sm text-muted">
-          Submissions are forwarded to{" "}
-          <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
-            {SUPPORT_EMAIL}
-          </a>
-          . The first submission triggers a one-time confirmation email to activate forwarding.
-        </p>
+        <div className="mb-8 rounded-2xl border border-primary/20 bg-primary/5 p-4 text-sm text-muted">
+          <p>
+            Form submissions are sent to{" "}
+            <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
+              {SUPPORT_EMAIL}
+            </a>
+            . The <strong className="text-text">first submission</strong> sends an activation email
+            to that inbox — check spam if you don&apos;t see it. Or use{" "}
+            <strong className="text-text">Open in email app</strong> below for instant delivery.
+          </p>
+        </div>
 
         <div className="grid gap-8 lg:grid-cols-2">
           <section>
@@ -122,9 +125,26 @@ export default function SupportPage() {
                 onChange={(e) => setBugForm({ ...bugForm, description: e.target.value })}
                 disabled={submittingBug}
               />
-              <Button type="submit" disabled={submittingBug}>
-                {submittingBug ? "Submitting..." : "Submit Bug Report"}
-              </Button>
+              <div className="flex flex-col gap-2 sm:flex-row">
+                <Button type="submit" disabled={submittingBug} className="flex-1">
+                  {submittingBug ? "Submitting..." : "Submit Bug Report"}
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="flex-1"
+                  onClick={() => {
+                    if (!bugForm.email || !bugForm.app || !bugForm.description) {
+                      addToast("Please fill in all fields first.", "error");
+                      return;
+                    }
+                    openBugReportMailto(bugForm);
+                    addToast("Your email app will open — press Send to deliver the report.", "info");
+                  }}
+                >
+                  Open in email app
+                </Button>
+              </div>
             </form>
           </section>
 
@@ -157,9 +177,26 @@ export default function SupportPage() {
                 onChange={(e) => setFeatureForm({ ...featureForm, description: e.target.value })}
                 disabled={submittingFeature}
               />
-              <Button type="submit" variant="secondary" disabled={submittingFeature}>
-                {submittingFeature ? "Submitting..." : "Submit Feature Request"}
-              </Button>
+              <div className="flex flex-col gap-2 sm:flex-row">
+                <Button type="submit" variant="secondary" disabled={submittingFeature} className="flex-1">
+                  {submittingFeature ? "Submitting..." : "Submit Feature Request"}
+                </Button>
+                <Button
+                  type="button"
+                  variant="outline"
+                  className="flex-1"
+                  onClick={() => {
+                    if (!featureForm.email || !featureForm.app || !featureForm.description) {
+                      addToast("Please fill in all fields first.", "error");
+                      return;
+                    }
+                    openFeatureRequestMailto(featureForm);
+                    addToast("Your email app will open — press Send to deliver the request.", "info");
+                  }}
+                >
+                  Open in email app
+                </Button>
+              </div>
             </form>
           </section>
         </div>

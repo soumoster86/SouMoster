@@ -1,31 +1,42 @@
-import { SUPPORT_EMAIL } from "@/lib/constants";
+function getErrorMessage(payload: unknown, fallback: string) {
+  if (
+    payload &&
+    typeof payload === "object" &&
+    "error" in payload &&
+    typeof payload.error === "string"
+  ) {
+    return payload.error;
+  }
+  return fallback;
+}
 
-const FORM_ENDPOINT = `https://formsubmit.co/ajax/${encodeURIComponent(SUPPORT_EMAIL)}`;
+function needsActivation(payload: unknown): boolean {
+  return (
+    !!payload &&
+    typeof payload === "object" &&
+    "needsActivation" in payload &&
+    (payload as { needsActivation?: boolean }).needsActivation === true
+  );
+}
 
-async function forwardToInbox(fields: Record<string, string>) {
-  const response = await fetch(FORM_ENDPOINT, {
+async function postJson<T>(url: string, data: T) {
+  const response = await fetch(url, {
     method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify({
-      _template: "table",
-      _captcha: "false",
-      ...fields,
-    }),
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
   });
 
+  const payload = await response.json().catch(() => null);
+
   if (!response.ok) {
-    const payload = await response.json().catch(() => null);
-    const message =
-      payload && typeof payload === "object" && "message" in payload && typeof payload.message === "string"
-        ? payload.message
-        : "Failed to send. Please email us directly.";
-    throw new Error(message);
+    const error = new Error(getErrorMessage(payload, "Request failed")) as Error & {
+      needsActivation?: boolean;
+    };
+    error.needsActivation = needsActivation(payload);
+    throw error;
   }
 
-  return response.json().catch(() => ({ success: true }));
+  return payload;
 }
 
 export async function submitContact(data: {
@@ -34,14 +45,7 @@ export async function submitContact(data: {
   subject: string;
   message: string;
 }) {
-  return forwardToInbox({
-    _subject: `[Contact] ${data.subject}`,
-    _replyto: data.email,
-    Name: data.name,
-    Email: data.email,
-    Subject: data.subject,
-    Message: data.message,
-  });
+  return postJson("/api/contact", data);
 }
 
 export async function submitSupport(data: {
@@ -50,14 +54,5 @@ export async function submitSupport(data: {
   app: string;
   description: string;
 }) {
-  const label = data.type === "bug" ? "Bug Report" : "Feature Request";
-
-  return forwardToInbox({
-    _subject: `[${label}] ${data.app}`,
-    _replyto: data.email,
-    Type: label,
-    Email: data.email,
-    App: data.app,
-    Description: data.description,
-  });
+  return postJson("/api/support", data);
 }

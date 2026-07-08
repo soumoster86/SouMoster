@@ -9,6 +9,8 @@ import { Input } from "@/components/ui/Input";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Textarea } from "@/components/ui/Textarea";
 import { submitContact } from "@/lib/api";
+import { getFormErrorMessage } from "@/lib/form-errors";
+import { openContactMailto } from "@/lib/mailto";
 import { PLAY_STORE_DEV_URL, SOCIAL_LINKS, SUPPORT_EMAIL } from "@/lib/constants";
 
 export default function ContactPage() {
@@ -25,10 +27,8 @@ export default function ContactPage() {
       addToast("Message sent! We'll get back to you soon.", "success");
       setForm({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
-      addToast(
-        error instanceof Error ? error.message : "Failed to send message. Please try again.",
-        "error",
-      );
+      const result = getFormErrorMessage(error, "Failed to send message. Please try again.");
+      addToast(result.message, result.type);
     } finally {
       setSubmitting(false);
     }
@@ -43,11 +43,12 @@ export default function ContactPage() {
         />
 
         <p className="mb-8 text-center text-sm text-muted">
-          Messages are forwarded to{" "}
+          Messages go to{" "}
           <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
             {SUPPORT_EMAIL}
           </a>
-          .
+          . First web submission requires a one-time activation email (check spam), or use Open in
+          email app below.
         </p>
 
         <div className="grid gap-12 lg:grid-cols-2">
@@ -81,10 +82,27 @@ export default function ContactPage() {
               onChange={(e) => setForm({ ...form, message: e.target.value })}
               disabled={submitting}
             />
-            <Button type="submit" disabled={submitting}>
-              <Send className="h-4 w-4" />
-              {submitting ? "Sending..." : "Send Message"}
-            </Button>
+            <div className="flex flex-col gap-2 sm:flex-row">
+              <Button type="submit" disabled={submitting} className="flex-1">
+                <Send className="h-4 w-4" />
+                {submitting ? "Sending..." : "Send Message"}
+              </Button>
+              <Button
+                type="button"
+                variant="outline"
+                className="flex-1"
+                onClick={() => {
+                  if (!form.name || !form.email || !form.subject || !form.message) {
+                    addToast("Please fill in all fields first.", "error");
+                    return;
+                  }
+                  openContactMailto(form);
+                  addToast("Your email app will open — press Send to deliver the message.", "info");
+                }}
+              >
+                Open in email app
+              </Button>
+            </div>
           </form>
 
           <div className="space-y-8">
