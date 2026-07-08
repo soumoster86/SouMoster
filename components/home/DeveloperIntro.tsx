@@ -24,9 +24,10 @@ const values = [
 
 export function DeveloperIntro() {
   return (
-    <section className="py-20" aria-label="Developer introduction">
+    <section className="section-muted py-20" aria-label="Developer introduction">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
+          eyebrow="About"
           title="Meet SouMoster"
           subtitle="An independent Android developer passionate about creating memorable gaming experiences"
         />

@@ -179,3 +179,38 @@ h6 {
     background-position: -200% 0;
   }
 }
+
+.section-muted {
+  background: color-mix(in srgb, var(--card) 45%, transparent);
+  border-block: 1px solid var(--border);
+}
+
+.section-gradient {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(108, 99, 255, 0.1) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 50%, rgba(255, 183, 3, 0.07) 0%, transparent 55%);
+}
+
+.section-accent {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(108, 99, 255, 0.14) 0%, transparent 65%),
+    color-mix(in srgb, var(--card) 30%, transparent);
+  border-block: 1px solid var(--border);
+}
+
+:root.light .section-muted {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+:root.light .section-gradient {
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(108, 99, 255, 0.08) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 50%, rgba(255, 183, 3, 0.06) 0%, transparent 55%),
+    linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+:root.light .section-accent {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(108, 99, 255, 0.1) 0%, transparent 65%),
+    rgba(255, 255, 255, 0.85);
+}

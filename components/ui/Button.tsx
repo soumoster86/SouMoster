@@ -17,7 +17,8 @@ interface ButtonProps {
 }
 
 const variants = {
-  primary: "bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25",
+  primary:
+    "bg-primary text-white hover:bg-primary/90 shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/40",
   secondary: "bg-secondary text-slate-900 hover:bg-secondary/90 shadow-lg shadow-secondary/25",
   outline: "border border-border text-text hover:bg-card hover:border-primary/50",
   ghost: "text-muted hover:text-text hover-surface",

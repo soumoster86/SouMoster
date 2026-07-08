@@ -1,13 +1,20 @@
 import { Github, Linkedin } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { BrandIcon } from "@/components/shared/BrandIcon";
-import { FOOTER_LINKS, NAV_LINKS, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
+import { apps } from "@/data/apps";
+import { FOOTER_LINKS, NAV_LINKS, PLAY_STORE_DEV_URL, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-card/50" role="contentinfo">
+    <footer className="relative border-t border-border bg-card/50" role="contentinfo">
+      <div
+        className="absolute top-0 right-0 left-0 h-px bg-gradient-to-r from-transparent via-primary/60 to-transparent"
+        aria-hidden="true"
+      />
+
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
@@ -83,17 +90,38 @@ export function Footer() {
 
           <div>
             <h3 className="mb-4 font-heading text-sm font-semibold uppercase tracking-wider text-text">
-              Stay Updated
+              Our Games
             </h3>
-            <p className="mb-4 text-sm text-muted">
-              Get notified about new releases and updates.
-            </p>
-            <Link
-              href="/blog"
-              className="inline-flex items-center text-sm font-medium text-primary hover:underline"
+            <div className="mb-4 flex flex-wrap gap-3">
+              {apps.map((app) => (
+                <Link
+                  key={app.slug}
+                  href={`/apps/${app.slug}`}
+                  className="hover-surface rounded-xl p-1 transition-transform hover:scale-105"
+                  aria-label={app.name}
+                >
+                  <Image
+                    src={app.icon}
+                    alt=""
+                    width={44}
+                    height={44}
+                    className="rounded-xl"
+                    aria-hidden="true"
+                  />
+                </Link>
+              ))}
+            </div>
+            <a
+              href={PLAY_STORE_DEV_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
             >
-              Read our Blog →
-            </Link>
+              <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M3.609 1.814L13.792 12 3.61 22.186a1.003 1.003 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
+              </svg>
+              View on Google Play
+            </a>
           </div>
         </div>
 

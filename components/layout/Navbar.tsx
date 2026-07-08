@@ -1,12 +1,13 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, Moon, Sun, X } from "lucide-react";
+import { Download, Menu, Moon, Sun, X } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { BrandIcon } from "@/components/shared/BrandIcon";
-import { NAV_LINKS } from "@/lib/constants";
+import { Button } from "@/components/ui/Button";
+import { NAV_LINKS, PLAY_STORE_DEV_URL } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { useTheme } from "@/hooks/useTheme";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
@@ -34,23 +35,41 @@ export function Navbar() {
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={cn(
-                "rounded-lg px-4 py-2 text-sm font-medium transition-colors",
-                pathname === link.href
-                  ? "bg-primary/20 text-primary"
-                  : "text-muted hover:text-text hover-surface",
-              )}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={cn(
+                  "relative rounded-lg px-4 py-2 text-sm font-medium transition-colors",
+                  isActive ? "text-primary" : "text-muted hover:text-text hover-surface",
+                )}
+              >
+                {link.label}
+                {isActive && (
+                  <motion.span
+                    layoutId="nav-underline"
+                    className="absolute right-4 bottom-1 left-4 h-0.5 rounded-full bg-primary"
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
+              </Link>
+            );
+          })}
         </div>
 
         <div className="flex items-center gap-2">
+          <Button
+            href={PLAY_STORE_DEV_URL}
+            size="sm"
+            className="hidden lg:inline-flex"
+            ariaLabel="Download on Google Play"
+          >
+            <Download className="h-4 w-4" />
+            Download
+          </Button>
+
           {mounted && (
             <button
               onClick={toggleTheme}
@@ -81,6 +100,10 @@ export function Navbar() {
             className="glass border-t border-border md:hidden"
           >
             <div className="flex flex-col gap-1 px-4 py-4">
+              <Button href={PLAY_STORE_DEV_URL} size="sm" className="mb-2 w-full lg:hidden">
+                <Download className="h-4 w-4" />
+                Download on Google Play
+              </Button>
               {NAV_LINKS.map((link) => (
                 <Link
                   key={link.href}

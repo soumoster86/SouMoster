@@ -5,10 +5,16 @@ import { motion } from "framer-motion";
 interface SectionHeadingProps {
   title: string;
   subtitle?: string;
+  eyebrow?: string;
   align?: "left" | "center";
 }
 
-export function SectionHeading({ title, subtitle, align = "center" }: SectionHeadingProps) {
+export function SectionHeading({
+  title,
+  subtitle,
+  eyebrow,
+  align = "center",
+}: SectionHeadingProps) {
   return (
     <motion.div
       className={`mb-12 ${align === "center" ? "text-center" : "text-left"}`}
@@ -17,6 +23,11 @@ export function SectionHeading({ title, subtitle, align = "center" }: SectionHea
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
+      {eyebrow && (
+        <p className="mb-3 text-sm font-semibold tracking-wider text-primary uppercase">
+          {eyebrow}
+        </p>
+      )}
       <h2 className="text-3xl font-bold tracking-tight text-text md:text-4xl">{title}</h2>
       {subtitle && <p className="mt-3 text-lg text-muted">{subtitle}</p>}
     </motion.div>

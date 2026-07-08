@@ -14,38 +14,51 @@ interface AppCardProps {
 
 export function AppCard({ app }: AppCardProps) {
   return (
-    <Card className="flex flex-col">
-      <div className="mb-4 flex items-start gap-4">
+    <Card className="group flex flex-col overflow-hidden p-0">
+      <div className="relative aspect-[16/9] overflow-hidden">
         <Image
-          src={app.icon}
-          alt={`${app.name} icon`}
-          width={56}
-          height={56}
-          className="rounded-xl"
+          src={app.banner}
+          alt={`${app.name} preview`}
+          fill
+          className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
-        <div className="flex-1">
-          <h3 className="text-lg font-semibold text-text">{app.name}</h3>
-          <p className="text-sm text-muted">{app.genre}</p>
+        <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent" />
+        <div className="absolute bottom-3 left-3 flex items-center gap-3">
+          <Image
+            src={app.icon}
+            alt=""
+            width={40}
+            height={40}
+            className="rounded-xl shadow-lg ring-2 ring-white/20"
+            aria-hidden="true"
+          />
+          <div>
+            <h3 className="text-base font-semibold text-text drop-shadow-sm">{app.name}</h3>
+            <p className="text-xs text-muted/90">{app.genre}</p>
+          </div>
         </div>
       </div>
 
-      <p className="mb-4 flex-1 text-sm leading-relaxed text-muted">{app.description}</p>
+      <div className="flex flex-1 flex-col p-6">
+        <p className="mb-4 flex-1 text-sm leading-relaxed text-muted">{app.description}</p>
 
-      <div className="mb-4 flex flex-wrap gap-2">
-        <Badge variant="primary">{app.category}</Badge>
-        <Badge>v{app.version}</Badge>
-      </div>
+        <div className="mb-4 flex flex-wrap gap-2">
+          <Badge variant="primary">{app.category}</Badge>
+          <Badge>v{app.version}</Badge>
+        </div>
 
-      <div className="flex gap-2">
-        <Button href={app.playStoreUrl} size="sm" className="flex-1">
-          <ExternalLink className="h-4 w-4" />
-          Play Store
-        </Button>
-        <Link href={`/apps/${app.slug}`} className="flex-1">
-          <Button variant="outline" size="sm" className="w-full">
-            Learn More
+        <div className="flex gap-2">
+          <Button href={app.playStoreUrl} size="sm" className="flex-1">
+            <ExternalLink className="h-4 w-4" />
+            Play Store
           </Button>
-        </Link>
+          <Link href={`/apps/${app.slug}`} className="flex-1">
+            <Button variant="outline" size="sm" className="w-full">
+              Learn More
+            </Button>
+          </Link>
+        </div>
       </div>
     </Card>
   );

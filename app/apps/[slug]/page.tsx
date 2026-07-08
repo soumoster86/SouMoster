@@ -1,7 +1,9 @@
-import { CheckCircle, AlertTriangle } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 import { notFound } from "next/navigation";
 import { AppCard } from "@/components/apps/AppCard";
 import { AppDetailHero } from "@/components/apps/AppDetailHero";
+import { AppDownloadBar } from "@/components/apps/AppDownloadBar";
+import { FeatureGrid } from "@/components/apps/FeatureGrid";
 import { GameplayVideo } from "@/components/apps/GameplayVideo";
 import { ScreenshotCarousel } from "@/components/apps/ScreenshotCarousel";
 import { PageTransition } from "@/components/shared/PageTransition";
@@ -48,8 +50,9 @@ export default async function AppPage({ params }: AppPageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <AppDetailHero app={app} />
+      <AppDownloadBar app={app} />
 
-      <div className="mx-auto max-w-7xl space-y-20 px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl space-y-20 px-4 py-16 pb-28 sm:px-6 lg:px-8">
         <section>
           <SectionHeading title="Gameplay Screenshots" align="left" />
           <ScreenshotCarousel screenshots={app.screenshots} appName={app.name} />
@@ -81,15 +84,8 @@ export default async function AppPage({ params }: AppPageProps) {
         </section>
 
         <section>
-          <SectionHeading title="Game Features" align="left" />
-          <div className="grid gap-3 sm:grid-cols-2">
-            {app.features.map((feature) => (
-              <div key={feature} className="flex items-start gap-3 text-muted">
-                <CheckCircle className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
-                {feature}
-              </div>
-            ))}
-          </div>
+          <SectionHeading eyebrow="Highlights" title="Game Features" align="left" />
+          <FeatureGrid features={app.features} />
         </section>
 
         <section>

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink, Star } from "lucide-react";
 import Image from "next/image";
+import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -13,9 +14,13 @@ export function FeaturedApp() {
   if (!app) return null;
 
   return (
-    <section className="py-20" aria-label="Featured app">
+    <section className="section-gradient py-20" aria-label="Featured app">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Featured App" subtitle="Our latest and greatest release" />
+        <SectionHeading
+          eyebrow="Spotlight"
+          title="Featured App"
+          subtitle="Our latest and greatest release"
+        />
 
         <motion.div
           className="glass overflow-hidden rounded-3xl"
@@ -25,12 +30,11 @@ export function FeaturedApp() {
           transition={{ duration: 0.5 }}
         >
           <div className="grid items-center gap-8 lg:grid-cols-2">
-            <div className="relative aspect-video lg:aspect-square">
-              <Image
-                src={app.banner}
-                alt={`${app.name} banner`}
-                fill
-                className="object-cover"
+            <div className="flex items-center justify-center bg-background/30 py-8 lg:py-12">
+              <PhoneFrame
+                src={app.screenshots[0] ?? app.banner}
+                alt={`${app.name} gameplay screenshot`}
+                size="lg"
                 priority
               />
             </div>

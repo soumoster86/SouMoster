@@ -17,6 +17,7 @@ export default function BlogPage() {
     <PageTransition>
       <div className="mx-auto max-w-7xl px-4 pt-28 pb-20 sm:px-6 lg:px-8">
         <SectionHeading
+          eyebrow="News & Updates"
           title="Blog"
           subtitle="Developer diaries, release notes, and announcements"
         />

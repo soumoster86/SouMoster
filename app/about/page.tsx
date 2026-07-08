@@ -2,41 +2,9 @@
 
 import { motion } from "framer-motion";
 import { Eye, Rocket, Target } from "lucide-react";
+import { Timeline } from "@/components/about/Timeline";
 import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-
-const timeline = [
-  {
-    period: "2024",
-    title: "The Beginning",
-    description:
-      "Started the journey into Android development and game design, learning the fundamentals of mobile app development, game mechanics, and modern development tools.",
-  },
-  {
-    period: "2025",
-    title: "First Prototypes",
-    description:
-      "Developed multiple game prototypes, explored different gameplay concepts, and strengthened skills in Android development, UI/UX design, and game optimization.",
-  },
-  {
-    period: "Early 2026",
-    title: "First Release",
-    description:
-      "Successfully launched Road Hopper on Google Play, marking SouMoster's first published Android game and the beginning of its public journey.",
-  },
-  {
-    period: "July 2026",
-    title: "Building the Future",
-    description:
-      "Expanding the SouMoster portfolio with new Android games, introducing fresh gameplay ideas, enhancing existing titles, and continuously improving the player experience based on community feedback.",
-  },
-  {
-    period: "Looking Ahead",
-    title: "The Vision",
-    description:
-      "The vision for SouMoster is to grow into a recognizable indie game studio, releasing a diverse collection of high-quality Android games that entertain players around the world.",
-  },
-];
 
 const goals = [
   "Release 3+ new Android games by 2027",
@@ -114,29 +82,13 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <SectionHeading title="Timeline" align="left" />
-        <div className="relative mb-20 space-y-8 border-l-2 border-primary/30 pl-8">
-          {timeline.map((item, index) => (
-            <motion.div
-              key={`${item.period}-${item.title}`}
-              initial={{ opacity: 0, x: -10 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
-              className="relative"
-            >
-              <div className="absolute -left-[41px] h-4 w-4 rounded-full bg-primary" />
-              <span className="text-sm font-bold text-primary">{item.period}</span>
-              <h3 className="text-lg font-semibold text-text">{item.title}</h3>
-              <p className="text-muted">{item.description}</p>
-            </motion.div>
-          ))}
-        </div>
+        <SectionHeading eyebrow="Journey" title="Timeline" align="left" />
+        <Timeline />
 
-        <SectionHeading title="Future Goals" align="left" />
+        <SectionHeading eyebrow="Roadmap" title="Future Goals" align="left" />
         <div className="grid gap-4 sm:grid-cols-2">
           {goals.map((goal) => (
-            <div key={goal} className="flex items-start gap-3 text-muted">
+            <div key={goal} className="glass flex items-start gap-3 rounded-xl p-5 text-muted">
               <Rocket className="mt-0.5 h-5 w-5 shrink-0 text-accent" />
               {goal}
             </div>

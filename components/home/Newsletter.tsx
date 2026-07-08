@@ -19,7 +19,7 @@ export function Newsletter() {
   };
 
   return (
-    <section className="py-20" aria-label="Newsletter">
+    <section className="section-accent py-20" aria-label="Newsletter">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           className="glass mx-auto max-w-2xl rounded-3xl p-8 text-center sm:p-12"

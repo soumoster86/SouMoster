@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Code, Download, RefreshCw, Smartphone } from "lucide-react";
+import { AnimatedStatValue } from "@/components/home/AnimatedStatValue";
 import { stats } from "@/data/stats";
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -13,7 +14,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
 
 export function Stats() {
   return (
-    <section className="py-20" aria-label="Statistics">
+    <section id="stats" className="section-muted py-12 sm:py-16" aria-label="Statistics">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
           {stats.map((stat, index) => {
@@ -28,7 +29,9 @@ export function Stats() {
                 transition={{ duration: 0.4, delay: index * 0.1 }}
               >
                 <Icon className="mx-auto mb-3 h-8 w-8 text-primary" />
-                <p className="text-3xl font-bold text-text">{stat.value}</p>
+                <p className="text-3xl font-bold text-text">
+                  <AnimatedStatValue value={stat.value} />
+                </p>
                 <p className="mt-1 text-sm text-muted">{stat.label}</p>
               </motion.div>
             );
