@@ -49,3 +49,6 @@ Prompt to Build Website.txt
 
 # raw screen recordings (served copy lives in public/videos/)
 Screen_recording_*.webm
+
+# local agent tooling
+agent-tools/
