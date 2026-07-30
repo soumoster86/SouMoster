@@ -1,25 +1,32 @@
 ---
-title: "Road Hopper is in Beta Test!"
-excerpt: "Road Hopper is now available for beta testing on Google Play. Hop in and help us shape the game!"
-date: "2026-07-07"
+title: "Road Hopper v9.2.9 Is Now Live on Google Play!"
+excerpt: "Road Hopper has left beta — version 9.2.9 is live on Google Play for everyone. Download free and hop in!"
+date: "2026-07-08"
 category: "Announcement"
 author: "SouMoster Team"
 ---
 
-## Beta Test Now Open
+## Now Available Worldwide
 
-**Road Hopper** is currently in **Beta Test** on Google Play! We're inviting players to download, play, and share feedback as we polish the game ahead of full release.
+**Road Hopper v9.2.9** is **live on Google Play**! After open beta testing and polish, our debut arcade hopper is ready for players everywhere.
 
-## What is Road Hopper?
+No invite required — download free, hop across the lanes, dodge traffic, and chase your high score.
 
-Road Hopper is a fast-paced arcade runner where you hop across lanes, dodge obstacles, and chase high scores on an endless highway. Simple one-tap controls make it easy to pick up, but mastering the game takes skill and reflexes.
+## What's Included in v9.2.9
 
-## Current Version: v8.1.3
+- Official public release on Google Play
+- Stable, polished arcade gameplay from our beta iterations
+- Character names & hop sounds, Revive, and the cleaner launch screen
+- Performance and stability improvements for launch day
 
-The latest beta build includes Revive, unique character names & sounds, a cleaner launch screen, crash fixes, and performance improvements.
+## Download Now
 
-## Join the Beta
+[Get Road Hopper on Google Play →](https://play.google.com/store/apps/details?id=com.roadohopper.game)
 
-Be among the first to play and help us improve Road Hopper before launch.
+## What's Next: Space Hopper
 
-[Join the Road Hopper Beta on Google Play →](https://play.google.com/apps/testing/com.roadohopper.game)
+While Road Hopper continues to grow with your feedback, we're already hard at work on our next title: **Space Hopper**. Expect the same pick-up-and-play hop fun — this time among the stars.
+
+Stay tuned on our [blog](/blog) for development updates.
+
+Thank you to every beta tester who helped shape Road Hopper. This is only the beginning.

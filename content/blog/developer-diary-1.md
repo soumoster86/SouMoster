@@ -47,9 +47,9 @@ Every update is an opportunity to make the experience better.
 
 ## Looking Ahead
 
-Road Hopper is only the beginning.
+Road Hopper is only the beginning — and **v9.2.9 is now live on Google Play**.
 
-Several new game ideas are already in development, each exploring different gameplay styles while staying true to the same philosophy that inspired SouMoster from day one:
+We're currently working on **Space Hopper**, the next title in the Hopper series, while exploring more ideas that stay true to the same philosophy that inspired SouMoster from day one:
 
 **Build games that are fun to play, enjoyable to revisit, and crafted with care.**
 

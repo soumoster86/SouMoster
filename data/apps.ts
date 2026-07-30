@@ -11,8 +11,8 @@ export const apps: App[] = [
       "Road Hopper is a fast-paced arcade runner that puts your reflexes to the test. Navigate through busy highways, dodge speeding vehicles, collect power-ups, and compete for the highest score. With simple one-tap controls and increasingly challenging gameplay, Road Hopper delivers the perfect pick-up-and-play experience for casual and hardcore gamers alike.",
     genre: "Arcade Runner",
     category: "Arcade",
-    version: "8.1.3",
-    playStoreUrl: "https://play.google.com/apps/testing/com.roadohopper.game",
+    version: "9.2.9",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     icon: "/images/screenshots/roadhopper_icon_1024.png",
     banner: "/images/screenshots/Screenshot_20260704_103339.png",
     screenshots: [
@@ -41,6 +41,16 @@ export const apps: App[] = [
       "Beat your high score and climb the leaderboard",
     ],
     versionHistory: [
+      {
+        version: "9.2.9",
+        date: "2026-07-08",
+        changes: [
+          "Now live on Google Play for everyone",
+          "Official public release following open beta",
+          "Stability and performance improvements for launch",
+          "Polished arcade experience ready for players worldwide",
+        ],
+      },
       {
         version: "8.1.3",
         date: "2026-07-07",

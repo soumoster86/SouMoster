@@ -7,10 +7,10 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const goals = [
+  "Ship Space Hopper as our next Hopper title",
+  "Continue Road Hopper updates from player feedback",
   "Release 3+ new Android games by 2027",
   "Build a community of 100K+ players",
-  "Implement cross-platform leaderboards",
-  "Explore multiplayer game modes",
 ];
 
 export default function AboutPage() {
@@ -71,14 +71,16 @@ export default function AboutPage() {
             enjoyable for players of all ages.
           </p>
           <p>
-            Our debut title, <strong className="text-text">Road Hopper</strong>, represents this
+            Our debut title, <strong className="text-text">Road Hopper</strong> (now live at{" "}
+            <strong className="text-text">v9.2.9</strong> on Google Play), represents this
             vision—combining fast-paced arcade gameplay with clean design and an offline-friendly
             experience. Each new release builds on the lessons learned from the last, with player
             feedback playing a key role in shaping future updates and games.
           </p>
           <p>
-            As SouMoster grows, the mission remains the same: to create high-quality Android games
-            that are fun, polished, and memorable.
+            We are currently developing <strong className="text-text">Space Hopper</strong>, the
+            next game in the Hopper lineup. As SouMoster grows, the mission remains the same: to
+            create high-quality Android games that are fun, polished, and memorable.
           </p>
         </div>
 

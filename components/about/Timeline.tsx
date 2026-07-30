@@ -31,9 +31,17 @@ const timeline = [
   },
   {
     period: "July 2026",
-    title: "Building the Future",
+    title: "Road Hopper Goes Live",
     description:
-      "Expanding the SouMoster portfolio with new Android games, introducing fresh gameplay ideas, enhancing existing titles, and continuously improving the player experience based on community feedback.",
+      "Road Hopper v9.2.9 launched publicly on Google Play after open beta. The debut Hopper game is available free for players worldwide.",
+    icon: Rocket,
+    milestone: true,
+  },
+  {
+    period: "Now",
+    title: "Space Hopper in Development",
+    description:
+      "SouMoster is actively building Space Hopper — the next hop-and-dodge adventure, set in space — while continuing to improve Road Hopper based on player feedback.",
     icon: TrendingUp,
     milestone: false,
   },
@@ -41,7 +49,7 @@ const timeline = [
     period: "Looking Ahead",
     title: "The Vision",
     description:
-      "The vision for SouMoster is to grow into a recognizable indie game studio, releasing a diverse collection of high-quality Android games that entertain players around the world.",
+      "Grow into a recognizable indie game studio with a diverse collection of high-quality Android games — including more titles in the Hopper series — that entertain players around the world.",
     icon: Star,
     milestone: false,
   },
