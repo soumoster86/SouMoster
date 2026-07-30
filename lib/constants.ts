@@ -4,10 +4,15 @@ export const SITE_NAME = "SouMoster";
 export const SITE_TAGLINE = "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer creating fun, addictive, and high-quality mobile games. Download Road Hopper v9.2.9 on Google Play — Space Hopper is in development.";
-export const PLAY_STORE_DEV_URL =
+  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play — hop across roads, rivers and rails. Space Hopper is in development.";
+export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
+/** @deprecated Use PLAY_STORE_APP_URL — kept as alias for existing imports */
+export const PLAY_STORE_DEV_URL = PLAY_STORE_APP_URL;
+export const PLAY_STORE_DEVELOPER_URL =
+  "https://play.google.com/store/apps/dev?id=9220341090582575849";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";
+export const SUPPORT_PHONE = "+918981495361";
 export const RESPONSE_TIME = "24–48 hours";
 
 export const NAV_LINKS: NavLink[] = [
@@ -22,7 +27,7 @@ export const NAV_LINKS: NavLink[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "Google Play",
-    href: PLAY_STORE_DEV_URL,
+    href: PLAY_STORE_DEVELOPER_URL,
     icon: "play",
   },
   {

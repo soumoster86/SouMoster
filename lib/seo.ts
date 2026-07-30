@@ -68,9 +68,9 @@ export function generateOrganizationSchema() {
     logo: `${SITE_URL}/logo.svg`,
     description: SITE_DESCRIPTION,
     sameAs: [
-      "https://play.google.com/store/apps/developer?id=SouMoster",
+      "https://play.google.com/store/apps/dev?id=9220341090582575849",
+      "https://play.google.com/store/apps/details?id=com.roadohopper.game",
       "https://github.com/soumoster86",
-      "https://linkedin.com/in/soumoster",
     ],
   };
 }

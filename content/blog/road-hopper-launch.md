@@ -1,32 +1,35 @@
 ---
-title: "Road Hopper v9.2.9 Is Now Live on Google Play!"
-excerpt: "Road Hopper has left beta — version 9.2.9 is live on Google Play for everyone. Download free and hop in!"
-date: "2026-07-08"
+title: "Road Hopper Is Live on Google Play!"
+excerpt: "Hop across busy roads, rivers and rails. Five modes, heroes, biomes, worlds — free on Google Play from SouMoster."
+date: "2026-07-27"
 category: "Announcement"
 author: "SouMoster Team"
 ---
 
-## Now Available Worldwide
+## How far can you hop?
 
-**Road Hopper v9.2.9** is **live on Google Play**! After open beta testing and polish, our debut arcade hopper is ready for players everywhere.
+**Road Hopper** is **live on Google Play** — free to play, rated 3+, with optional in-app purchases.
 
-No invite required — download free, hop across the lanes, dodge traffic, and chase your high score.
+Tap or swipe across busy roads, rivers and rails. Dodge cars and trains, ride logs, grab HCoins. Easy to learn, hard to master.
 
-## What's Included in v9.2.9
+## Five ways to play
 
-- Official public release on Google Play
-- Stable, polished arcade gameplay from our beta iterations
-- Character names & hop sounds, Revive, and the cleaner launch screen
-- Performance and stability improvements for launch day
+1. **Adventure** — The Lost Litter: a full story campaign with 9 chapters
+2. **Endless** — a new random world every run
+3. **Biomes** — classic lands and treasure hunting
+4. **Worlds** — exclusive lands and exclusive hazards
+5. **Sprint** — race the clock for Velocity Tokens
 
-## Download Now
+Unlock heroes (Hopper, Cluck Norris, Neil Hopstrong, and more), skins, hop trails, daily gifts, and 60+ achievements. Play **offline**; internet is only needed for optional purchases.
+
+## Latest: v9.2.9
+
+GPU-powered performance for smoother 60fps on budget devices, UI fixes for Worlds/Biomes screens, and less mid-run memory churn.
+
+## Download free
 
 [Get Road Hopper on Google Play →](https://play.google.com/store/apps/details?id=com.roadohopper.game)
 
-## What's Next: Space Hopper
+## What's next
 
-While Road Hopper continues to grow with your feedback, we're already hard at work on our next title: **Space Hopper**. Expect the same pick-up-and-play hop fun — this time among the stars.
-
-Stay tuned on our [blog](/blog) for development updates.
-
-Thank you to every beta tester who helped shape Road Hopper. This is only the beginning.
+We're working on **Space Hopper** — the next hop adventure. Stay tuned on this blog.
