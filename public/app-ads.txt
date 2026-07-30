@@ -1,0 +1,10 @@
+# app-ads.txt for SouMoster (https://sou-moster.vercel.app)
+# Authorized digital sellers for our Android apps (IAB app-ads.txt).
+# Update the publisher ID below with your AdMob / network account ID.
+#
+# Format: domain, publisher_account_id, relationship, certification_authority_id
+# Relationship: DIRECT (you own the account) or RESELLER
+#
+# Google AdMob — replace pub-XXXXXXXXXXXXXXXX with your real AdMob publisher ID
+# (AdMob → Account → Account information)
+google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
