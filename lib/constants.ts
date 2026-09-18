@@ -8,10 +8,16 @@ export const SITE_DESCRIPTION =
   "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play. Space Hopper and Bank Hopper are in active development.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
+export const BANK_HOPPER_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.bankhopper";
 /** @deprecated Use PLAY_STORE_APP_URL — kept as alias for existing imports */
 export const PLAY_STORE_DEV_URL = PLAY_STORE_APP_URL;
 export const PLAY_STORE_DEVELOPER_URL =
   "https://play.google.com/store/apps/dev?id=9220341090582575849";
+export const BANK_HOPPER_GOOGLE_GROUP_URL =
+  "https://groups.google.com/g/bank-hopper-game";
+export const BANK_HOPPER_GOOGLE_GROUP_EMAIL =
+  "bank-hopper-game@googlegroups.com";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";
 export const SUPPORT_PHONE = "+918981495361";
 export const RESPONSE_TIME = "24–48 hours";
@@ -20,6 +26,7 @@ export const NAV_LINKS: NavLink[] = [
   { href: "/", label: "Home" },
   { href: "/apps", label: "Apps" },
   { href: "/about", label: "About" },
+  { href: "/beta", label: "Beta" },
   { href: "/support", label: "Support" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
@@ -49,6 +56,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const FOOTER_LINKS = [
+  { href: "/beta", label: "Join Closed Beta" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms & Conditions" },
   { href: "/contact", label: "Contact" },

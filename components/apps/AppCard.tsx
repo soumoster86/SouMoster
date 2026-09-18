@@ -1,6 +1,6 @@
 "use client";
 
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
@@ -59,13 +59,13 @@ export function AppCard({ app }: AppCardProps) {
         <div className="flex gap-2">
           {app.status === "in-development" ? (
             <Button
-              href={app.playStoreUrl}
+              href={`/beta?game=${app.slug}`}
               size="sm"
-              variant="secondary"
+              variant="primary"
               className="flex-1"
             >
-              <ExternalLink className="h-4 w-4" />
-              Dev Page
+              <Users className="h-4 w-4" />
+              Join Beta
             </Button>
           ) : (
             <Button href={app.playStoreUrl} size="sm" className="flex-1">

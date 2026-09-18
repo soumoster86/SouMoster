@@ -129,7 +129,7 @@ export const apps: App[] = [
     version: "0.7.4",
     status: "in-development",
     playStoreUrl:
-      "https://play.google.com/store/apps/dev?id=9220341090582575849",
+      "https://play.google.com/store/apps/details?id=com.bankhopper",
     icon: "/images/bank-hopper-icon.png",
     banner: "/images/bank-hopper-banner.png",
     screenshots: [

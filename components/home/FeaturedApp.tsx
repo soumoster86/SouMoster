@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import Image from "next/image";
+import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -30,7 +31,7 @@ export function FeaturedApp() {
           transition={{ duration: 0.5 }}
         >
           <div className="grid items-center gap-8 lg:grid-cols-2">
-            <div className="flex items-center justify-center bg-background/30 py-8 lg:py-12">
+            <div className="bg-background/30 flex items-center justify-center py-8 lg:py-12">
               <PhoneFrame
                 src={app.screenshots[0] ?? app.banner}
                 alt={`${app.name} gameplay screenshot`}
@@ -48,12 +49,12 @@ export function FeaturedApp() {
                   className="rounded-2xl"
                 />
                 <div>
-                  <h3 className="text-2xl font-bold text-text">{app.name}</h3>
+                  <h3 className="text-text text-2xl font-bold">{app.name}</h3>
                   <p className="text-muted">{app.tagline}</p>
                 </div>
               </div>
 
-              <p className="leading-relaxed text-muted">{app.description}</p>
+              <p className="text-muted leading-relaxed">{app.description}</p>
 
               <div className="flex flex-wrap gap-2">
                 <Badge variant="primary">{app.genre}</Badge>
@@ -66,12 +67,13 @@ export function FeaturedApp() {
                 )}
               </div>
 
-              <div className="flex flex-wrap gap-3">
-                <Button href={app.playStoreUrl}>
-                  <ExternalLink className="h-4 w-4" />
-                  Google Play
-                </Button>
-                <Button href={`/apps/${app.slug}`} variant="outline">
+              <div className="flex flex-wrap items-center gap-3">
+                <GooglePlayBadge
+                  href={app.playStoreUrl}
+                  size="md"
+                  ariaLabel={`Download ${app.name} on Google Play`}
+                />
+                <Button href={`/apps/${app.slug}`} variant="outline" size="md">
                   Learn More
                 </Button>
               </div>

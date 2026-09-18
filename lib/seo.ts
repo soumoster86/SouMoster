@@ -14,11 +14,13 @@ export function generateSEO({
   title,
   description = SITE_DESCRIPTION,
   path = "",
-  image = "/og-image.svg",
+  image = "/opengraph-image",
   type = "website",
   publishedTime,
 }: SEOProps = {}): Metadata {
-  const pageTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Android Game Developer`;
+  const pageTitle = title
+    ? `${title} | ${SITE_NAME}`
+    : `${SITE_NAME} — Android Game Developer`;
   const url = `${SITE_URL}${path}`;
   const imageUrl = image.startsWith("http") ? image : `${SITE_URL}${image}`;
 

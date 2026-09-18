@@ -1,9 +1,10 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { Download } from "lucide-react";
+import { Users } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
 import type { App } from "@/types";
 
@@ -50,20 +51,21 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
             </div>
             {app.status === "in-development" ? (
               <Button
-                href={app.playStoreUrl}
+                href={`/beta?game=${app.slug}`}
                 size="sm"
-                variant="secondary"
-                className="shrink-0"
+                className="shadow-primary/20 shrink-0 shadow-md"
               >
-                <span className="hidden sm:inline">In Development</span>
-                <span className="sm:hidden">In Dev</span>
+                <Users className="h-4 w-4" />
+                <span className="hidden sm:inline">Join Closed Beta</span>
+                <span className="sm:hidden">Join Beta</span>
               </Button>
             ) : (
-              <Button href={app.playStoreUrl} size="sm" className="shrink-0">
-                <Download className="h-4 w-4" />
-                <span className="hidden sm:inline">Download</span>
-                <span className="sm:hidden">Get</span>
-              </Button>
+              <GooglePlayBadge
+                href={app.playStoreUrl}
+                size="sm"
+                className="shrink-0"
+                ariaLabel={`Download ${app.name} on Google Play`}
+              />
             )}
           </div>
         </motion.div>

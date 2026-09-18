@@ -1,9 +1,10 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ChevronDown, Download, Gamepad2 } from "lucide-react";
+import { ChevronDown, Gamepad2 } from "lucide-react";
 import Image from "next/image";
 import { BrandIcon } from "@/components/shared/BrandIcon";
+import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { getFeaturedApp } from "@/data/apps";
@@ -29,9 +30,19 @@ export function Hero() {
         <motion.div
           key={i}
           className={`absolute rounded-full ${shape.color} blur-sm`}
-          style={{ width: shape.size, height: shape.size, left: shape.x, top: shape.y }}
+          style={{
+            width: shape.size,
+            height: shape.size,
+            left: shape.x,
+            top: shape.y,
+          }}
           animate={{ y: [0, -20, 0], x: [0, 10, 0] }}
-          transition={{ duration: 6, repeat: Infinity, delay: shape.delay, ease: "easeInOut" }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            delay: shape.delay,
+            ease: "easeInOut",
+          }}
           aria-hidden="true"
         />
       ))}
@@ -47,7 +58,7 @@ export function Hero() {
             >
               <BrandIcon
                 size={72}
-                className="rounded-2xl shadow-xl shadow-primary/30 ring-1 ring-white/10"
+                className="shadow-primary/30 rounded-2xl shadow-xl ring-1 ring-white/10"
               />
             </motion.div>
 
@@ -56,7 +67,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <span className="mb-4 inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
+              <span className="border-primary/30 bg-primary/10 text-primary mb-4 inline-block rounded-full border px-4 py-1.5 text-sm font-medium">
                 Android Game Developer
               </span>
             </motion.div>
@@ -71,7 +82,7 @@ export function Hero() {
             </motion.h1>
 
             <motion.p
-              className="mt-6 text-xl text-muted sm:text-2xl"
+              className="text-muted mt-6 text-xl sm:text-2xl"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -85,11 +96,19 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <Button href={PLAY_STORE_DEV_URL} size="lg">
-                <Download className="h-5 w-5" />
-                Download on Google Play
-              </Button>
-              <Button href="/apps" variant="outline" size="lg">
+              <GooglePlayBadge
+                href={PLAY_STORE_DEV_URL}
+                size="lg"
+                subtext="GET IT ON"
+                title="Google Play"
+                ariaLabel="Download SouMoster games on Google Play"
+              />
+              <Button
+                href="/apps"
+                variant="outline"
+                size="lg"
+                className="min-h-[54px]"
+              >
                 <Gamepad2 className="h-5 w-5" />
                 Explore Apps
               </Button>
@@ -101,15 +120,24 @@ export function Hero() {
               className="relative flex justify-center lg:justify-end"
               initial={{ opacity: 0, y: 40, scale: 0.9 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2, type: "spring", stiffness: 80 }}
+              transition={{
+                duration: 0.8,
+                delay: 0.2,
+                type: "spring",
+                stiffness: 80,
+              }}
             >
               <motion.div
                 className="relative"
                 animate={{ y: [0, -12, 0] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                transition={{
+                  duration: 5,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
               >
                 <div
-                  className="absolute inset-0 scale-110 rounded-[3rem] bg-primary/20 blur-3xl"
+                  className="bg-primary/20 absolute inset-0 scale-110 rounded-[3rem] blur-3xl"
                   aria-hidden="true"
                 />
                 <PhoneFrame
@@ -121,7 +149,7 @@ export function Hero() {
                   priority
                 />
                 <motion.div
-                  className="absolute -right-2 -bottom-2 flex items-center gap-2 rounded-2xl border border-border bg-card/90 px-3 py-2 shadow-lg backdrop-blur-sm sm:-right-4 sm:-bottom-4"
+                  className="border-border bg-card/90 absolute -right-2 -bottom-2 flex items-center gap-2 rounded-2xl border px-3 py-2 shadow-lg backdrop-blur-sm sm:-right-4 sm:-bottom-4"
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.5, delay: 0.6 }}
@@ -135,8 +163,10 @@ export function Hero() {
                     aria-hidden="true"
                   />
                   <div className="text-left">
-                    <p className="text-xs font-semibold text-text">{featuredApp.name}</p>
-                    <p className="text-xs text-muted">Available now</p>
+                    <p className="text-text text-xs font-semibold">
+                      {featuredApp.name}
+                    </p>
+                    <p className="text-muted text-xs">Available now</p>
                   </div>
                 </motion.div>
               </motion.div>
@@ -146,13 +176,15 @@ export function Hero() {
 
         <motion.a
           href="#stats"
-          className="mt-16 flex flex-col items-center gap-1 text-muted transition-colors hover:text-primary lg:mt-20"
+          className="text-muted hover:text-primary mt-16 flex flex-col items-center gap-1 transition-colors lg:mt-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
           aria-label="Scroll to explore"
         >
-          <span className="text-xs font-medium tracking-wider uppercase">Explore</span>
+          <span className="text-xs font-medium tracking-wider uppercase">
+            Explore
+          </span>
           <ChevronDown className="h-5 w-5 animate-bounce" />
         </motion.a>
       </div>

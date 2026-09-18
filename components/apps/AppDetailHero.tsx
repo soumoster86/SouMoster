@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, Sparkles, Star } from "lucide-react";
+import { Star, Users } from "lucide-react";
 import Image from "next/image";
+import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import type { App } from "@/types";
@@ -55,21 +56,44 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                 <Badge variant="accent">{app.downloads} downloads</Badge>
               )}
             </div>
-            <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
+            <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
               {app.status === "in-development" ? (
-                <Button href={app.playStoreUrl} size="lg" variant="secondary">
-                  <Sparkles className="h-5 w-5" />
-                  Google Play Developer Page
-                </Button>
+                <>
+                  <Button
+                    href={`/beta?game=${app.slug}`}
+                    size="lg"
+                    className="shadow-primary/20 min-h-[54px] shadow-lg"
+                  >
+                    <Users className="h-5 w-5" />
+                    Join Closed Beta
+                  </Button>
+                  <GooglePlayBadge
+                    href={app.playStoreUrl}
+                    size="lg"
+                    subtext="CLOSED TESTING ON"
+                    title="Google Play"
+                    ariaLabel={`Download ${app.name} Closed Testing Build on Google Play`}
+                  />
+                </>
               ) : (
-                <Button href={app.playStoreUrl} size="lg">
-                  <Download className="h-5 w-5" />
-                  Download on Google Play
-                </Button>
+                <>
+                  <GooglePlayBadge
+                    href={app.playStoreUrl}
+                    size="lg"
+                    subtext="GET IT ON"
+                    title="Google Play"
+                    ariaLabel={`Download ${app.name} on Google Play`}
+                  />
+                  <Button
+                    href="/support"
+                    variant="outline"
+                    size="lg"
+                    className="min-h-[54px]"
+                  >
+                    Get Support
+                  </Button>
+                </>
               )}
-              <Button href="/support" variant="outline" size="lg">
-                Get Support
-              </Button>
             </div>
           </div>
         </motion.div>
