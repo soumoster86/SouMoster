@@ -18,6 +18,7 @@ export interface App {
   knownIssues: string[];
   faq: FAQItem[];
   featured?: boolean;
+  status?: "live" | "in-development" | "coming-soon";
   releaseDate: string;
   downloads?: string;
   rating?: number;
@@ -39,7 +40,8 @@ export interface BlogPost {
   title: string;
   excerpt: string;
   date: string;
-  category: "Developer Diary" | "Release Notes" | "Patch Notes" | "Announcement";
+  category:
+    "Developer Diary" | "Release Notes" | "Patch Notes" | "Announcement";
   content: string;
   author: string;
 }

@@ -22,12 +22,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1 : 0.8,
   }));
 
-  const appPages = apps.map((app) => ({
-    url: `${SITE_URL}/apps/${app.slug}`,
-    lastModified: new Date(app.releaseDate),
-    changeFrequency: "weekly" as const,
-    priority: 0.9,
-  }));
+  const appPages = apps.map((app) => {
+    const parsedDate = new Date(app.releaseDate);
+    return {
+      url: `${SITE_URL}/apps/${app.slug}`,
+      lastModified: Number.isNaN(parsedDate.getTime())
+        ? new Date()
+        : parsedDate,
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+    };
+  });
 
   const blogPages = posts.map((post) => ({
     url: `${SITE_URL}/blog/${post.slug}`,

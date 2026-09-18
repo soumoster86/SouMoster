@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download, Star } from "lucide-react";
+import { Download, Sparkles, Star } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
@@ -27,29 +27,46 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
             alt={`${app.name} logo`}
             width={120}
             height={120}
-            className="rounded-3xl shadow-2xl shadow-primary/20"
+            className="shadow-primary/20 rounded-3xl shadow-2xl"
             priority
           />
           <div className="flex-1 space-y-4">
-            <h1 className="text-4xl font-bold text-text sm:text-5xl">{app.name}</h1>
-            <p className="text-xl text-muted">{app.tagline}</p>
-            <p className="max-w-2xl leading-relaxed text-muted">{app.longDescription}</p>
+            <h1 className="text-text text-4xl font-bold sm:text-5xl">
+              {app.name}
+            </h1>
+            <p className="text-muted text-xl">{app.tagline}</p>
+            <p className="text-muted max-w-2xl leading-relaxed">
+              {app.longDescription}
+            </p>
             <div className="flex flex-wrap justify-center gap-2 lg:justify-start">
               <Badge variant="primary">{app.genre}</Badge>
-              <Badge>v{app.version}</Badge>
+              {app.status === "in-development" ? (
+                <Badge variant="secondary">In Development</Badge>
+              ) : (
+                <Badge>v{app.version}</Badge>
+              )}
               {app.rating && (
                 <Badge variant="secondary">
                   <Star className="mr-1 h-3 w-3" />
                   {app.rating}
                 </Badge>
               )}
-              {app.downloads && <Badge variant="accent">{app.downloads} downloads</Badge>}
+              {app.downloads && (
+                <Badge variant="accent">{app.downloads} downloads</Badge>
+              )}
             </div>
             <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
-              <Button href={app.playStoreUrl} size="lg">
-                <Download className="h-5 w-5" />
-                Download on Google Play
-              </Button>
+              {app.status === "in-development" ? (
+                <Button href={app.playStoreUrl} size="lg" variant="secondary">
+                  <Sparkles className="h-5 w-5" />
+                  Google Play Developer Page
+                </Button>
+              ) : (
+                <Button href={app.playStoreUrl} size="lg">
+                  <Download className="h-5 w-5" />
+                  Download on Google Play
+                </Button>
+              )}
               <Button href="/support" variant="outline" size="lg">
                 Get Support
               </Button>

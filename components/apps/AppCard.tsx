@@ -23,7 +23,7 @@ export function AppCard({ app }: AppCardProps) {
           className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent" />
+        <div className="from-card via-card/20 absolute inset-0 bg-gradient-to-t to-transparent" />
         <div className="absolute bottom-3 left-3 flex items-center gap-3">
           <Image
             src={app.icon}
@@ -34,25 +34,45 @@ export function AppCard({ app }: AppCardProps) {
             aria-hidden="true"
           />
           <div>
-            <h3 className="text-base font-semibold text-text drop-shadow-sm">{app.name}</h3>
-            <p className="text-xs text-muted/90">{app.genre}</p>
+            <h3 className="text-text text-base font-semibold drop-shadow-sm">
+              {app.name}
+            </h3>
+            <p className="text-muted/90 text-xs">{app.genre}</p>
           </div>
         </div>
       </div>
 
       <div className="flex flex-1 flex-col p-6">
-        <p className="mb-4 flex-1 text-sm leading-relaxed text-muted">{app.description}</p>
+        <p className="text-muted mb-4 flex-1 text-sm leading-relaxed">
+          {app.description}
+        </p>
 
         <div className="mb-4 flex flex-wrap gap-2">
           <Badge variant="primary">{app.category}</Badge>
-          <Badge>v{app.version}</Badge>
+          {app.status === "in-development" ? (
+            <Badge variant="secondary">In Development</Badge>
+          ) : (
+            <Badge>v{app.version}</Badge>
+          )}
         </div>
 
         <div className="flex gap-2">
-          <Button href={app.playStoreUrl} size="sm" className="flex-1">
-            <ExternalLink className="h-4 w-4" />
-            Play Store
-          </Button>
+          {app.status === "in-development" ? (
+            <Button
+              href={app.playStoreUrl}
+              size="sm"
+              variant="secondary"
+              className="flex-1"
+            >
+              <ExternalLink className="h-4 w-4" />
+              Dev Page
+            </Button>
+          ) : (
+            <Button href={app.playStoreUrl} size="sm" className="flex-1">
+              <ExternalLink className="h-4 w-4" />
+              Play Store
+            </Button>
+          )}
           <Link href={`/apps/${app.slug}`} className="flex-1">
             <Button variant="outline" size="sm" className="w-full">
               Learn More

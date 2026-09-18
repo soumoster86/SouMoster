@@ -39,9 +39,9 @@ const timeline = [
   },
   {
     period: "Now",
-    title: "Space Hopper in Development",
+    title: "Expanding the Hopper Universe",
     description:
-      "SouMoster is actively building Space Hopper — the next hop-and-dodge adventure, set in space — while continuing to improve Road Hopper based on player feedback.",
+      "SouMoster is actively developing both Space Hopper (our cosmic hop adventure) and Bank Hopper (a high-stakes cyber vault heist arcade game), while continuing to optimize Road Hopper.",
     icon: TrendingUp,
     milestone: false,
   },
@@ -59,7 +59,7 @@ export function Timeline() {
   return (
     <div className="relative mb-20">
       <div
-        className="absolute top-0 left-4 h-full w-0.5 bg-gradient-to-b from-primary/50 via-primary/20 to-transparent md:left-1/2 md:-translate-x-px"
+        className="from-primary/50 via-primary/20 absolute top-0 left-4 h-full w-0.5 bg-gradient-to-b to-transparent md:left-1/2 md:-translate-x-px"
         aria-hidden="true"
       />
 
@@ -90,8 +90,8 @@ export function Timeline() {
                   className={cn(
                     "absolute top-5 left-0 flex h-8 w-8 items-center justify-center rounded-full md:top-6",
                     item.milestone
-                      ? "bg-primary text-white shadow-lg shadow-primary/40 ring-4 ring-primary/20"
-                      : "border-2 border-primary/40 bg-card text-primary",
+                      ? "bg-primary shadow-primary/40 ring-primary/20 text-white shadow-lg ring-4"
+                      : "border-primary/40 bg-card text-primary border-2",
                     isEven ? "md:-right-4 md:left-auto" : "md:-left-4",
                   )}
                   aria-hidden="true"
@@ -103,18 +103,24 @@ export function Timeline() {
                   className={cn(
                     "rounded-2xl p-6",
                     item.milestone
-                      ? "border border-primary/30 bg-primary/10 shadow-lg shadow-primary/10"
+                      ? "border-primary/30 bg-primary/10 shadow-primary/10 border shadow-lg"
                       : "glass",
                   )}
                 >
                   {item.milestone && (
-                    <span className="mb-2 inline-block rounded-full bg-primary/20 px-2.5 py-0.5 text-xs font-semibold text-primary">
+                    <span className="bg-primary/20 text-primary mb-2 inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold">
                       Milestone
                     </span>
                   )}
-                  <span className="text-sm font-bold text-primary">{item.period}</span>
-                  <h3 className="mt-1 text-lg font-semibold text-text">{item.title}</h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">{item.description}</p>
+                  <span className="text-primary text-sm font-bold">
+                    {item.period}
+                  </span>
+                  <h3 className="text-text mt-1 text-lg font-semibold">
+                    {item.title}
+                  </h3>
+                  <p className="text-muted mt-2 text-sm leading-relaxed">
+                    {item.description}
+                  </p>
                 </div>
               </div>
             </motion.div>

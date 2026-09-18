@@ -29,7 +29,7 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 24 }}
           transition={{ duration: 0.25 }}
-          className="fixed right-0 bottom-0 left-0 z-50 border-t border-border glass px-4 py-3 shadow-2xl shadow-black/20"
+          className="border-border glass fixed right-0 bottom-0 left-0 z-50 border-t px-4 py-3 shadow-2xl shadow-black/20"
           role="complementary"
           aria-label={`Download ${app.name}`}
         >
@@ -43,14 +43,28 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
               aria-hidden="true"
             />
             <div className="min-w-0 flex-1">
-              <p className="truncate text-sm font-semibold text-text">{app.name}</p>
-              <p className="truncate text-xs text-muted">{app.tagline}</p>
+              <p className="text-text truncate text-sm font-semibold">
+                {app.name}
+              </p>
+              <p className="text-muted truncate text-xs">{app.tagline}</p>
             </div>
-            <Button href={app.playStoreUrl} size="sm" className="shrink-0">
-              <Download className="h-4 w-4" />
-              <span className="hidden sm:inline">Download</span>
-              <span className="sm:hidden">Get</span>
-            </Button>
+            {app.status === "in-development" ? (
+              <Button
+                href={app.playStoreUrl}
+                size="sm"
+                variant="secondary"
+                className="shrink-0"
+              >
+                <span className="hidden sm:inline">In Development</span>
+                <span className="sm:hidden">In Dev</span>
+              </Button>
+            ) : (
+              <Button href={app.playStoreUrl} size="sm" className="shrink-0">
+                <Download className="h-4 w-4" />
+                <span className="hidden sm:inline">Download</span>
+                <span className="sm:hidden">Get</span>
+              </Button>
+            )}
           </div>
         </motion.div>
       )}

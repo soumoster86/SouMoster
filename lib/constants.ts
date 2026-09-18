@@ -1,10 +1,11 @@
 import type { NavLink, SocialLink } from "@/types";
 
 export const SITE_NAME = "SouMoster";
-export const SITE_TAGLINE = "Building fun, addictive and high-quality Android games.";
+export const SITE_TAGLINE =
+  "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play — hop across roads, rivers and rails. Space Hopper is in development.";
+  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play. Space Hopper and Bank Hopper are in active development.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
 /** @deprecated Use PLAY_STORE_APP_URL — kept as alias for existing imports */

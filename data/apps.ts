@@ -13,7 +13,8 @@ export const apps: App[] = [
     genre: "Arcade",
     category: "Arcade",
     version: "9.2.9",
-    playStoreUrl: "https://play.google.com/store/apps/details?id=com.roadohopper.game",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     icon: "https://play-lh.googleusercontent.com/UnIrrHBIzWHySNG_6hXgWrAdo17IrLWBpMlW_buHCyfcYA2m01a4bIPD0JMDNqq-g797I10zO3snKINKrICfng=w240-h480",
     banner:
       "https://play-lh.googleusercontent.com/hwEaMMOpzk-E8K1EGPnanel4dKxtheibLZa96Tsd8-vK9O6_tPoGZjrp0JCumUW2oQqySWF5ju5MMdiaJh_zIg=w526-h296",
@@ -101,8 +102,85 @@ export const apps: App[] = [
       },
     ],
     featured: true,
+    status: "live",
     releaseDate: "2026-07-08",
     downloads: "10+",
+  },
+  {
+    slug: "bank-hopper",
+    name: "Bank Hopper",
+    tagline: "High-stakes vault heist arcade hopper!",
+    description:
+      "Dodge criss-crossing security lasers, moving alarm tiles, and patrol drones. Leap across high-tech vaults, crack electronic safes, and grab the ultimate diamond loot!",
+    longDescription:
+      "Bank Hopper is an upcoming high-stakes arcade vault heist game from SouMoster. Put on your burglar mask and infiltrate state-of-the-art security complexes. Time your hops to dodge moving infrared lasers, bypass pressure-sensitive alarm floor tiles, slip past patrol drones and security cameras, and crack impenetrable steel vault doors. Collect stacks of gold bullion, bags of cold hard cash, and legendary diamond relics. Bank Hopper takes the signature intuitive one-tap hop controls of Road Hopper and thrusts them into a fast-paced, heart-pounding cyber heist arcade adventure!",
+    genre: "Arcade",
+    category: "Arcade",
+    version: "In Dev (Alpha)",
+    status: "in-development",
+    playStoreUrl:
+      "https://play.google.com/store/apps/dev?id=9220341090582575849",
+    icon: "/images/bank-hopper-icon.jpg",
+    banner: "/images/bank-hopper-banner.jpg",
+    screenshots: [
+      "/images/screenshots/bank-hopper-1.jpg",
+      "/images/screenshots/bank-hopper-2.jpg",
+      "/images/bank-hopper-banner.jpg",
+    ],
+    features: [
+      "High-stakes cyber vault heist mechanics with timing-based hops",
+      "Dynamic laser tripwires, rotating security cameras & alert grids",
+      "Patrol bots and guard drones with real-time detection cones",
+      "Cracking massive bank vaults to grab gold bullion, cash & gems",
+      "Unlockable heist specialists, stealth trails & gadgets",
+      "Offline-ready single player arcade runs & endless heist challenges",
+      "Global leaderboards and achievements via Google Play Games",
+    ],
+    howToPlay: [
+      "Tap or swipe to hop across vault security grids and corridors",
+      "Watch laser timing cycles — don't touch active tripwires!",
+      "Avoid red alert tiles and slip outside security camera cones",
+      "Crack vault terminals to unlock bonus vaults and diamond loot",
+      "Collect gold bullion to unlock new heist characters and trails",
+    ],
+    versionHistory: [
+      {
+        version: "0.1.0-alpha",
+        date: "2026-09-18",
+        changes: [
+          "Core heist mechanics & laser tripwire prototype implemented",
+          "Vault level generator with dynamic alert sensors",
+          "Sound effects and cyber arcade soundtrack in production",
+        ],
+      },
+    ],
+    knownIssues: [
+      "In active development — pre-registration and closed beta coming soon",
+    ],
+    faq: [
+      {
+        question: "When will Bank Hopper be released?",
+        answer:
+          "Bank Hopper is currently in active development. Closed alpha testing will begin soon on Google Play, followed by a public launch.",
+      },
+      {
+        question: "What platforms will Bank Hopper support?",
+        answer:
+          "Bank Hopper is being developed for Android smartphones and tablets via Google Play, optimized for smooth 60fps performance on all devices.",
+      },
+      {
+        question: "Is Bank Hopper free to play?",
+        answer:
+          "Yes! Like Road Hopper, Bank Hopper will be 100% free to download and play with fully earnable rewards and optional cosmetic unlocks.",
+      },
+      {
+        question: "Will it work offline?",
+        answer:
+          "Yes. Bank Hopper will feature full offline play so you can pull off vault heists anytime, anywhere.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-09-18",
   },
 ];
 

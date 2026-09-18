@@ -336,8 +336,9 @@ Thank you.`;
                 <code className="text-primary font-mono font-semibold">
                   com.roadohopper.game
                 </code>
-                ), upcoming projects such as <strong>Space Hopper</strong>, and
-                our official website located at{" "}
+                ), upcoming projects such as <strong>Space Hopper</strong> and{" "}
+                <strong>Bank Hopper</strong>, and our official website located
+                at{" "}
                 <a
                   href={SITE_URL}
                   target="_blank"
