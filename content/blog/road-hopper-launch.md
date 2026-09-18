@@ -22,9 +22,9 @@ Tap or swipe across busy roads, rivers and rails. Dodge cars and trains, ride lo
 
 Unlock heroes (Hopper, Cluck Norris, Neil Hopstrong, and more), skins, hop trails, daily gifts, and 60+ achievements. Play **offline**; internet is only needed for optional purchases.
 
-## Latest: v9.2.9
+## Latest: v9.4.7
 
-GPU-powered performance for smoother 60fps on budget devices, UI fixes for Worlds/Biomes screens, and less mid-run memory churn.
+Now updated with refined touch controls, enhanced performance stability across more devices, and leaderboard synchronization.
 
 ## Download free
 

@@ -8,7 +8,7 @@ author: "SouMoster Team"
 
 ## Introducing Space Hopper
 
-With **Road Hopper v9.2.9** now live on Google Play, SouMoster is turning its focus to the next title: **Space Hopper**.
+With **Road Hopper v9.4.7** now live on Google Play, SouMoster is turning its focus to the next title: **Space Hopper**.
 
 We're currently working on Space Hopper — a new hop-and-dodge experience set in space, carrying forward the same philosophy that shaped Road Hopper: simple controls, addictive runs, and polished feel.
 

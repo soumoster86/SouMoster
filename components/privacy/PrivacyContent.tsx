@@ -584,7 +584,7 @@ Thank you.`;
                   <li>
                     <strong>Diagnostic Crash Logs:</strong> Stack traces, ANR
                     (Application Not Responding) timestamps, memory footprint at
-                    time of crash, and app version (e.g. Road Hopper v9.2.9).
+                    time of crash, and app version (e.g. Road Hopper v9.4.7).
                   </li>
                 </ul>
               </div>

@@ -12,7 +12,7 @@ export const apps: App[] = [
       "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (The Lost Litter campaign with 9 chapters), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Offline play is fully supported; internet is only needed for optional purchases.",
     genre: "Arcade",
     category: "Arcade",
-    version: "9.2.9",
+    version: "9.4.7",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     icon: "https://play-lh.googleusercontent.com/UnIrrHBIzWHySNG_6hXgWrAdo17IrLWBpMlW_buHCyfcYA2m01a4bIPD0JMDNqq-g797I10zO3snKINKrICfng=w240-h480",
@@ -52,6 +52,16 @@ export const apps: App[] = [
       "Climb personal bests and Google Play Games leaderboards",
     ],
     versionHistory: [
+      {
+        version: "9.4.7",
+        date: "2026-09-15",
+        changes: [
+          "Performance and stability enhancements across all game modes",
+          "Refined touch responsiveness and hop sensitivity tuning",
+          "Bug fixes for Google Play Games leaderboards and achievement tracking",
+          "Live on Google Play Store for all players worldwide",
+        ],
+      },
       {
         version: "9.2.9",
         date: "2026-07-27",
@@ -109,74 +119,78 @@ export const apps: App[] = [
   {
     slug: "bank-hopper",
     name: "Bank Hopper",
-    tagline: "High-stakes vault heist arcade hopper!",
+    tagline: "Hop. Grab Cash. Escape the Bank.",
     description:
-      "Dodge criss-crossing security lasers, moving alarm tiles, and patrol drones. Leap across high-tech vaults, crack electronic safes, and grab the ultimate diamond loot!",
+      "One-thumb portrait arcade bank heist! Hop lane-by-lane out of the bank with your cash. Balance greed versus safety before the security meter catches you!",
     longDescription:
-      "Bank Hopper is an upcoming high-stakes arcade vault heist game from SouMoster. Put on your burglar mask and infiltrate state-of-the-art security complexes. Time your hops to dodge moving infrared lasers, bypass pressure-sensitive alarm floor tiles, slip past patrol drones and security cameras, and crack impenetrable steel vault doors. Collect stacks of gold bullion, bags of cold hard cash, and legendary diamond relics. Bank Hopper takes the signature intuitive one-tap hop controls of Road Hopper and thrusts them into a fast-paced, heart-pounding cyber heist arcade adventure!",
+      "Bank Hopper is an upcoming one-thumb portrait arcade game from SouMoster. Infiltrate high-security banks and hop lane-by-lane out of the complex after a daring heist! Tap to hop forward, swipe left or right, and hold to unleash character abilities. Balance risk and reward: cash in at safe extract points or push deeper into the vault for multi-x greed multipliers while the Security meter escalates the pursuit. Built natively in Kotlin with buttery 60 FPS gameplay, ethical ads, offline saves, and zero pay-to-win mechanics.",
     genre: "Arcade",
     category: "Arcade",
-    version: "In Dev (Alpha)",
+    version: "0.7.4",
     status: "in-development",
     playStoreUrl:
       "https://play.google.com/store/apps/dev?id=9220341090582575849",
-    icon: "/images/bank-hopper-icon.jpg",
-    banner: "/images/bank-hopper-banner.jpg",
+    icon: "/images/bank-hopper-icon.png",
+    banner: "/images/bank-hopper-banner.png",
     screenshots: [
-      "/images/screenshots/bank-hopper-1.jpg",
-      "/images/screenshots/bank-hopper-2.jpg",
-      "/images/bank-hopper-banner.jpg",
+      "/images/screenshots/bank-hopper-1.png",
+      "/images/screenshots/bank-hopper-2.png",
+      "/images/screenshots/bank-hopper-3.png",
+      "/images/screenshots/bank-hopper-4.png",
+      "/images/screenshots/bank-hopper-5.png",
     ],
     features: [
-      "High-stakes cyber vault heist mechanics with timing-based hops",
-      "Dynamic laser tripwires, rotating security cameras & alert grids",
-      "Patrol bots and guard drones with real-time detection cones",
-      "Cracking massive bank vaults to grab gold bullion, cash & gems",
-      "Unlockable heist specialists, stealth trails & gadgets",
-      "Offline-ready single player arcade runs & endless heist challenges",
-      "Global leaderboards and achievements via Google Play Games",
+      "One-thumb portrait arcade controls — tap forward, swipe lateral, hold for ability",
+      "Risk vs. reward 'Bank now or push deeper' Greed and Security meter escalation",
+      "Multiple heist environments: Vault, Security Floor, Lobby, and Escape Zones",
+      "Power-ups: Smoke screen, Speed surge, Shield bubble, and Cash Magnet",
+      "Multi-character roster with unique hop timing and distinct stats",
+      "100% offline gameplay support — pull off heists anywhere without internet",
+      "Silky smooth 60 FPS dedicated SurfaceView game loop",
     ],
     howToPlay: [
-      "Tap or swipe to hop across vault security grids and corridors",
-      "Watch laser timing cycles — don't touch active tripwires!",
-      "Avoid red alert tiles and slip outside security camera cones",
-      "Crack vault terminals to unlock bonus vaults and diamond loot",
-      "Collect gold bullion to unlock new heist characters and trails",
+      "Tap to hop forward lane-by-lane out of the bank",
+      "Swipe left or right to switch lanes, dodge lasers, and avoid guards",
+      "Hold to activate your character's special stealth ability",
+      "Pick up Cash Bags to build your score and trigger Greed Multipliers",
+      "Watch the Security meter — the greedier you get, the faster pursuit closes in!",
+      "Reach the Extraction Zone to secure your loot or push your luck further",
     ],
     versionHistory: [
       {
-        version: "0.1.0-alpha",
-        date: "2026-09-18",
+        version: "0.7.4",
+        date: "2026-09-17",
         changes: [
-          "Core heist mechanics & laser tripwire prototype implemented",
-          "Vault level generator with dynamic alert sensors",
-          "Sound effects and cyber arcade soundtrack in production",
+          "Native Kotlin 60 FPS SurfaceView loop with kinematic hop physics",
+          "Complete Security / Greed escalation meter and pursuit leash mechanics",
+          "Three environments, full power-up suite (Smoke, Speed, Shield, Magnet)",
+          "Play Store release assets and builds finalized",
         ],
       },
     ],
     knownIssues: [
-      "In active development — pre-registration and closed beta coming soon",
+      "In active development — pre-registration and closed beta coming soon on Google Play",
     ],
     faq: [
       {
         question: "When will Bank Hopper be released?",
         answer:
-          "Bank Hopper is currently in active development. Closed alpha testing will begin soon on Google Play, followed by a public launch.",
+          "Bank Hopper is currently at version 0.7.4 in active preparation for closed testing on Google Play, followed by a worldwide public launch.",
       },
       {
         question: "What platforms will Bank Hopper support?",
         answer:
-          "Bank Hopper is being developed for Android smartphones and tablets via Google Play, optimized for smooth 60fps performance on all devices.",
+          "Bank Hopper is developed natively in Kotlin for Android 8.0+ devices, optimized for buttery 60 FPS performance on both phones and tablets.",
       },
       {
         question: "Is Bank Hopper free to play?",
         answer:
-          "Yes! Like Road Hopper, Bank Hopper will be 100% free to download and play with fully earnable rewards and optional cosmetic unlocks.",
+          "Yes! Bank Hopper is free to play with 100% earnable rewards, ethical ads, and cosmetic-only in-app purchases.",
       },
       {
         question: "Will it work offline?",
         answer:
-          "Yes. Bank Hopper will feature full offline play so you can pull off vault heists anytime, anywhere.",
+          "Yes. Bank Hopper features offline-first local saves so you can pull off bank heists anytime without an internet connection.",
       },
     ],
     featured: false,

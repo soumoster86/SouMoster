@@ -33,7 +33,7 @@ const timeline = [
     period: "July 2026",
     title: "Road Hopper Goes Live",
     description:
-      "Road Hopper v9.2.9 launched publicly on Google Play after open beta. The debut Hopper game is available free for players worldwide.",
+      "Road Hopper launched publicly on Google Play after open beta, now updated to v9.4.7 with enhanced performance and stability for players worldwide.",
     icon: Rocket,
     milestone: true,
   },
