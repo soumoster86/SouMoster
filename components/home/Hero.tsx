@@ -1,14 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ChevronDown, Gamepad2 } from "lucide-react";
+import { ChevronDown, Gamepad2, Users, Youtube } from "lucide-react";
 import Image from "next/image";
 import { BrandIcon } from "@/components/shared/BrandIcon";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { getFeaturedApp } from "@/data/apps";
-import { PLAY_STORE_DEV_URL } from "@/lib/constants";
+import {
+  BANK_HOPPER_GOOGLE_GROUP_URL,
+  PLAY_STORE_DEV_URL,
+  YOUTUBE_URL,
+} from "@/lib/constants";
 
 const floatingShapes = [
   { size: 60, x: "10%", y: "20%", delay: 0, color: "bg-primary/20" },
@@ -112,6 +116,32 @@ export function Hero() {
                 <Gamepad2 className="h-5 w-5" />
                 Explore Apps
               </Button>
+            </motion.div>
+
+            <motion.div
+              className="mt-6 flex flex-col items-center gap-3 sm:flex-row lg:justify-start"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <Button
+                href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                variant="secondary"
+                size="md"
+                className="min-h-[44px]"
+              >
+                <Users className="h-4 w-4" />
+                Join Bank Hopper Google Group
+              </Button>
+              <a
+                href={YOUTUBE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted hover:text-primary inline-flex items-center gap-2 text-sm font-medium transition-colors"
+              >
+                <Youtube className="h-4 w-4" />
+                Watch trailers on YouTube
+              </a>
             </motion.div>
           </div>
 

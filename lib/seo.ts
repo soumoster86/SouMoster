@@ -72,6 +72,8 @@ export function generateOrganizationSchema() {
     sameAs: [
       "https://play.google.com/store/apps/dev?id=9220341090582575849",
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
+      "https://play.google.com/store/apps/details?id=com.bankhopper",
+      "https://www.youtube.com/@SouMosterGames",
       "https://github.com/soumoster86",
     ],
   };

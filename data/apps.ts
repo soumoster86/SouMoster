@@ -1,4 +1,5 @@
 import type { App } from "@/types";
+import { BANK_HOPPER_GOOGLE_GROUP_URL } from "@/lib/constants";
 
 /** Live listing: https://play.google.com/store/apps/details?id=com.roadohopper.game */
 export const apps: App[] = [
@@ -15,6 +16,7 @@ export const apps: App[] = [
     version: "9.4.7",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "https://play-lh.googleusercontent.com/UnIrrHBIzWHySNG_6hXgWrAdo17IrLWBpMlW_buHCyfcYA2m01a4bIPD0JMDNqq-g797I10zO3snKINKrICfng=w240-h480",
     banner:
       "https://play-lh.googleusercontent.com/hwEaMMOpzk-E8K1EGPnanel4dKxtheibLZa96Tsd8-vK9O6_tPoGZjrp0JCumUW2oQqySWF5ju5MMdiaJh_zIg=w526-h296",
@@ -110,6 +112,11 @@ export const apps: App[] = [
         answer:
           "Use our Support page or email soumoster@gmail.com with details about the issue.",
       },
+      {
+        question: "Where can I watch Road Hopper trailers?",
+        answer:
+          "Gameplay and trailers are on the SouMosterGames YouTube channel at youtube.com/@SouMosterGames.",
+      },
     ],
     featured: true,
     status: "live",
@@ -123,13 +130,15 @@ export const apps: App[] = [
     description:
       "One-thumb portrait arcade bank heist! Hop lane-by-lane out of the bank with your cash. Balance greed versus safety before the security meter catches you!",
     longDescription:
-      "Bank Hopper is an upcoming one-thumb portrait arcade game from SouMoster. Infiltrate high-security banks and hop lane-by-lane out of the complex after a daring heist! Tap to hop forward, swipe left or right, and hold to unleash character abilities. Balance risk and reward: cash in at safe extract points or push deeper into the vault for multi-x greed multipliers while the Security meter escalates the pursuit. Built natively in Kotlin with buttery 60 FPS gameplay, ethical ads, offline saves, and zero pay-to-win mechanics.",
+      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, now in Google Play Closed Testing at v0.8.0. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Full Heist across eight floors, chase global Play Games leaderboards, and unlock bag styles, getaways, and characters like Rookie, Grabber, Insurance, and Black Limo. Built natively in Kotlin at 60 FPS, with ethical ads, offline saves, and zero pay-to-win.",
     genre: "Arcade",
     category: "Arcade",
-    version: "0.7.4",
-    status: "in-development",
+    version: "0.8.0",
+    status: "closed-testing",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.bankhopper",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    googleGroupUrl: BANK_HOPPER_GOOGLE_GROUP_URL,
     icon: "/images/bank-hopper-icon.png",
     banner: "/images/bank-hopper-banner.png",
     screenshots: [
@@ -138,65 +147,113 @@ export const apps: App[] = [
       "/images/screenshots/bank-hopper-3.png",
       "/images/screenshots/bank-hopper-4.png",
       "/images/screenshots/bank-hopper-5.png",
+      "/images/screenshots/bank-hopper-6.png",
     ],
+    gameplayVideo: "/videos/bank-hopper-promo.mp4",
     features: [
-      "One-thumb portrait arcade controls — tap forward, swipe lateral, hold for ability",
-      "Risk vs. reward 'Bank now or push deeper' Greed and Security meter escalation",
-      "Multiple heist environments: Vault, Security Floor, Lobby, and Escape Zones",
-      "Power-ups: Smoke screen, Speed surge, Shield bubble, and Cash Magnet",
-      "Multi-character roster with unique hop timing and distinct stats",
-      "100% offline gameplay support — pull off heists anywhere without internet",
-      "Silky smooth 60 FPS dedicated SurfaceView game loop",
+      "Now in Google Play Closed Testing — join https://groups.google.com/g/bank-hopper-game then install from Play",
+      "One-thumb portrait controls — tap forward, swipe lateral, hold for ability",
+      "Tap to bank: booths light up as you near them; lock cash in or run past",
+      "Risk vs. reward Greed and Security meter that escalates the pursuit",
+      "Full Heist mode: all eight floors in one run as security rises",
+      "Heist Rush combos, power-ups, and environments including Security Floor, Subway, and Escape Zone",
+      "Characters: Rookie, Grabber, Insurance, and Black Limo",
+      "Bag cosmetics, Pickup and Crew Van getaways, and themed menus",
+      "Global Google Play Games leaderboards: Best Score, Full Heist, Fastest Escape, Lifetime Loot",
+      "100% offline saves — pull off heists anywhere without internet",
+      "Native Kotlin 60 FPS SurfaceView loop",
     ],
     howToPlay: [
       "Tap to hop forward lane-by-lane out of the bank",
       "Swipe left or right to switch lanes, dodge lasers, and avoid guards",
       "Hold to activate your character's special stealth ability",
       "Pick up Cash Bags to build your score and trigger Greed Multipliers",
-      "Watch the Security meter — the greedier you get, the faster pursuit closes in!",
-      "Reach the Extraction Zone to secure your loot or push your luck further",
+      "When a booth lights up, tap to bank your cash — or run past and push your luck",
+      "Watch the Security meter — the greedier you get, the faster pursuit closes in",
+      "Reach the Extraction Zone to secure your loot, or chain Full Heist floors for a bigger haul",
     ],
     versionHistory: [
       {
-        version: "0.7.4",
-        date: "2026-09-17",
+        version: "0.8.0",
+        date: "2026-09-20",
         changes: [
-          "Native Kotlin 60 FPS SurfaceView loop with kinematic hop physics",
-          "Complete Security / Greed escalation meter and pursuit leash mechanics",
-          "Three environments, full power-up suite (Smoke, Speed, Shield, Magnet)",
-          "Play Store release assets and builds finalized",
+          "Closed Testing build on Google Play",
+          "Shorter start: two coached runs instead of four; the rest is taught in play",
+          "Global leaderboards sign-in on Play Store installs",
+          "Relic cards now show CONQUERED and count each conquest",
+          "Fixes for first-result copy, relic forged spam, tutorial forks, and electric fence art",
+        ],
+      },
+      {
+        version: "0.7.9",
+        date: "2026-09-19",
+        changes: [
+          "Tap to bank: booths light up as you near them",
+          "Six bag styles, Pickup and Crew Van getaways, new hazard art",
+          "Equipped themes colour the menus; shop items drawn as in play",
+          "Global Play Games leaderboards on Boards",
+          "Startup crash and Large UI HEIST-button fixes",
+        ],
+      },
+      {
+        version: "0.7.4",
+        date: "2026-09-18",
+        changes: [
+          "Full Heist mode: all eight floors in one run",
+          "Heist Rush combos, beat pulse, and aerial crosshair telegraphs",
+          "Rookie's Cool Head passive; Shop Remove Ads and HCoin packs",
+          "Native Kotlin 60 FPS SurfaceView loop with Security / Greed escalation",
         ],
       },
     ],
     knownIssues: [
-      "In active development — pre-registration and closed beta coming soon on Google Play",
+      "Invite-only Google Play Closed Testing — join https://groups.google.com/g/bank-hopper-game then opt in on Play to install",
+      "Onboarding and relic copy are still being tuned from tester feedback",
     ],
     faq: [
       {
-        question: "When will Bank Hopper be released?",
+        question: "How do I play Bank Hopper right now?",
         answer:
-          "Bank Hopper is currently at version 0.7.4 in active preparation for closed testing on Google Play, followed by a worldwide public launch.",
+          "Bank Hopper is in Google Play Closed Testing at v0.8.0. Join the tester Google Group at https://groups.google.com/g/bank-hopper-game, opt in on Play, then install from the Play Store listing.",
+      },
+      {
+        question: "When will Bank Hopper be released publicly?",
+        answer:
+          "A worldwide public launch follows Closed Testing. Testers help us polish onboarding, leaderboards, and heist balance before that launch.",
       },
       {
         question: "What platforms will Bank Hopper support?",
         answer:
-          "Bank Hopper is developed natively in Kotlin for Android 8.0+ devices, optimized for buttery 60 FPS performance on both phones and tablets.",
+          "Bank Hopper is developed natively in Kotlin for Android 8.0+ devices, optimized for 60 FPS on phones and tablets.",
       },
       {
         question: "Is Bank Hopper free to play?",
         answer:
-          "Yes! Bank Hopper is free to play with 100% earnable rewards, ethical ads, and cosmetic-only in-app purchases.",
+          "Yes. Bank Hopper is free to play with earnable rewards, ethical ads, and cosmetic-only in-app purchases.",
       },
       {
         question: "Will it work offline?",
         answer:
-          "Yes. Bank Hopper features offline-first local saves so you can pull off bank heists anytime without an internet connection.",
+          "Yes. Bank Hopper features offline-first local saves so you can pull off bank heists without an internet connection. Leaderboards and purchases need Play when you use them.",
+      },
+      {
+        question: "Where can I watch Bank Hopper trailers?",
+        answer:
+          "Gameplay and trailers are on the SouMosterGames YouTube channel at youtube.com/@SouMosterGames.",
       },
     ],
     featured: false,
-    releaseDate: "2026-09-18",
+    releaseDate: "2026-09-20",
   },
 ];
+
+export function isInviteOnly(app: App): boolean {
+  return app.status === "closed-testing" || app.status === "in-development";
+}
+
+export function closedTestingJoinUrl(app: App): string {
+  return app.googleGroupUrl ?? `/beta?game=${app.slug}`;
+}
 
 export function getAppBySlug(slug: string): App | undefined {
   return apps.find((app) => app.slug === slug);

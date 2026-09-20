@@ -12,6 +12,7 @@ import {
   Rocket,
   Sparkles,
   Users,
+  Youtube,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,6 +29,8 @@ import {
   BANK_HOPPER_GOOGLE_GROUP_URL,
   BANK_HOPPER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
+  YOUTUBE_HANDLE,
+  YOUTUBE_URL,
 } from "@/lib/constants";
 
 interface GameOption {
@@ -44,7 +47,7 @@ const GAME_OPTIONS: GameOption[] = [
   {
     id: "bank-hopper",
     name: "Bank Hopper",
-    version: "v0.7.4",
+    version: "v0.8.0",
     tagline: "One-thumb portrait bank heist arcade",
     icon: "/images/bank-hopper-icon.png",
     status: "active-testing",
@@ -563,9 +566,19 @@ export function BetaContent() {
             Join the <span className="gradient-text">Closed Beta</span>
           </h1>
           <p className="text-muted mx-auto mt-4 max-w-2xl text-base sm:text-lg">
-            Help us test, polish, and shape the next generation of SouMoster
-            arcade games before they launch worldwide on Google Play.
+            Bank Hopper v0.8.0 is live on the Google Play Closed Testing track.
+            Help us polish heists, leaderboards, and onboarding before worldwide
+            launch.
           </p>
+          <a
+            href={YOUTUBE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary mt-4 inline-flex items-center gap-2 text-sm font-medium hover:underline"
+          >
+            <Youtube className="h-4 w-4" />
+            Watch trailers on YouTube {YOUTUBE_HANDLE}
+          </a>
         </motion.div>
       </div>
 
@@ -584,7 +597,7 @@ export function BetaContent() {
             Exclusive Early Builds
           </h3>
           <p className="text-muted mt-2 text-xs leading-relaxed">
-            Play unreleased builds of <strong>Bank Hopper (v0.7.4)</strong> and
+            Play <strong>Bank Hopper v0.8.0</strong> Closed Testing builds and
             future titles directly through Google Play before public release.
           </p>
         </motion.div>
@@ -724,6 +737,45 @@ export function BetaContent() {
             <p className="text-muted mt-2 text-sm leading-relaxed">
               Bank Hopper supports Android 8.0 (API 26) and newer devices with
               60 FPS SurfaceView support. Road Hopper supports Android 7.0+.
+              Space Hopper is still in development.
+            </p>
+          </div>
+
+          <div className="glass rounded-2xl p-6">
+            <h3 className="font-heading text-text text-base font-semibold">
+              Is Bank Hopper Closed Testing open now?
+            </h3>
+            <p className="text-muted mt-2 text-sm leading-relaxed">
+              Yes. Bank Hopper v0.8.0 is on the Google Play Closed Testing
+              track. Join{" "}
+              <a
+                href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-medium hover:underline"
+              >
+                groups.google.com/g/bank-hopper-game
+              </a>
+              , opt in on Play, then install from the listing. Public launch
+              follows this testing phase.
+            </p>
+          </div>
+
+          <div className="glass rounded-2xl p-6">
+            <h3 className="font-heading text-text text-base font-semibold">
+              Where can I watch gameplay and trailers?
+            </h3>
+            <p className="text-muted mt-2 text-sm leading-relaxed">
+              Trailers and gameplay live on{" "}
+              <a
+                href={YOUTUBE_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-medium hover:underline"
+              >
+                YouTube {YOUTUBE_HANDLE}
+              </a>
+              .
             </p>
           </div>
 

@@ -13,6 +13,12 @@ export function formatDate(date: string): string {
   });
 }
 
+export function videoMimeType(src: string): string {
+  if (src.endsWith(".webm")) return "video/webm";
+  if (src.endsWith(".ogg") || src.endsWith(".ogv")) return "video/ogg";
+  return "video/mp4";
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()

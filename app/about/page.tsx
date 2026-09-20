@@ -7,9 +7,10 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const goals = [
+  "Take Bank Hopper from Closed Testing to a worldwide Google Play launch",
   "Ship Space Hopper as our cosmic hop adventure",
-  "Develop Bank Hopper — high-stakes cyber vault heist arcade game",
   "Continue Road Hopper updates from player feedback",
+  "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
   "Release 3+ new Android games by 2027",
   "Build a community of 100K+ players",
 ];
@@ -86,11 +87,32 @@ export default function AboutPage() {
             feedback playing a key role in shaping future updates and games.
           </p>
           <p>
-            We are currently developing{" "}
-            <strong className="text-text">Space Hopper</strong> and{" "}
-            <strong className="text-text">Bank Hopper</strong>, expanding the
-            Hopper universe with exciting new themes, hazards, and mechanics. As
-            SouMoster grows, the mission remains the same: to create
+            <strong className="text-text">Bank Hopper</strong> is now in{" "}
+            <strong className="text-text">Google Play Closed Testing</strong> at
+            v0.8.0 — testers can hop through eight-floor heists, tap to bank,
+            and climb global leaderboards before the public launch. Join the
+            tester group at{" "}
+            <a
+              href="https://groups.google.com/g/bank-hopper-game"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-medium hover:underline"
+            >
+              groups.google.com/g/bank-hopper-game
+            </a>
+            .{" "}
+            <strong className="text-text">Space Hopper</strong> continues in
+            development as our cosmic hop adventure. Follow trailers, gameplay,
+            and behind-the-scenes videos on YouTube at{" "}
+            <a
+              href="https://www.youtube.com/@SouMosterGames"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-medium hover:underline"
+            >
+              @SouMosterGames
+            </a>
+            . As SouMoster grows, the mission remains the same: to create
             high-quality Android games that are fun, polished, and memorable.
           </p>
         </div>

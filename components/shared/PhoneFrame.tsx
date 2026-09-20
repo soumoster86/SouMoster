@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { cn, videoMimeType } from "@/lib/utils";
 
 interface PhoneFrameProps {
   src?: string;
@@ -44,7 +44,7 @@ export function PhoneFrame({
               className="h-full w-full object-cover object-top"
               aria-label={alt}
             >
-              <source src={videoSrc} type="video/webm" />
+              <source src={videoSrc} type={videoMimeType(videoSrc)} />
             </video>
           ) : src ? (
             <Image

@@ -3,7 +3,8 @@ import { generateSEO } from "@/lib/seo";
 
 export const metadata: Metadata = generateSEO({
   title: "Apps",
-  description: "Browse all SouMoster Android games. Download Road Hopper and more on Google Play.",
+  description:
+    "Browse SouMoster Android games. Download Road Hopper, join Bank Hopper Closed Testing on Google Play, and follow trailers on YouTube.",
   path: "/apps",
 });
 

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
+import { closedTestingJoinUrl, isInviteOnly } from "@/data/apps";
 import type { App } from "@/types";
 
 interface AppDownloadBarProps {
@@ -49,15 +50,17 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
               </p>
               <p className="text-muted truncate text-xs">{app.tagline}</p>
             </div>
-            {app.status === "in-development" ? (
+            {isInviteOnly(app) ? (
               <Button
-                href={`/beta?game=${app.slug}`}
+                href={closedTestingJoinUrl(app)}
                 size="sm"
                 className="shadow-primary/20 shrink-0 shadow-md"
               >
                 <Users className="h-4 w-4" />
-                <span className="hidden sm:inline">Join Closed Beta</span>
-                <span className="sm:hidden">Join Beta</span>
+                <span className="hidden sm:inline">
+                  {app.googleGroupUrl ? "Join Google Group" : "Join Closed Testing"}
+                </span>
+                <span className="sm:hidden">Join Group</span>
               </Button>
             ) : (
               <GooglePlayBadge

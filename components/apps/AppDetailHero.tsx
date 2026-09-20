@@ -1,11 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star, Users } from "lucide-react";
+import { Star, Users, Youtube } from "lucide-react";
 import Image from "next/image";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
+import { closedTestingJoinUrl, isInviteOnly } from "@/data/apps";
+import { YOUTUBE_URL } from "@/lib/constants";
 import type { App } from "@/types";
 
 interface AppDetailHeroProps {
@@ -41,11 +43,14 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
             </p>
             <div className="flex flex-wrap justify-center gap-2 lg:justify-start">
               <Badge variant="primary">{app.genre}</Badge>
-              {app.status === "in-development" ? (
+              {app.status === "closed-testing" ? (
+                <Badge variant="secondary">Closed Testing</Badge>
+              ) : app.status === "in-development" ? (
                 <Badge variant="secondary">In Development</Badge>
-              ) : (
-                <Badge>v{app.version}</Badge>
-              )}
+              ) : app.status === "coming-soon" ? (
+                <Badge variant="secondary">Coming Soon</Badge>
+              ) : null}
+              <Badge>v{app.version}</Badge>
               {app.rating && (
                 <Badge variant="secondary">
                   <Star className="mr-1 h-3 w-3" />
@@ -57,15 +62,17 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
               )}
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
-              {app.status === "in-development" ? (
+              {isInviteOnly(app) ? (
                 <>
                   <Button
-                    href={`/beta?game=${app.slug}`}
+                    href={closedTestingJoinUrl(app)}
                     size="lg"
                     className="shadow-primary/20 min-h-[54px] shadow-lg"
                   >
                     <Users className="h-5 w-5" />
-                    Join Closed Beta
+                    {app.googleGroupUrl
+                      ? "Join Google Group"
+                      : "Join Closed Testing"}
                   </Button>
                   <GooglePlayBadge
                     href={app.playStoreUrl}
@@ -74,6 +81,15 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     title="Google Play"
                     ariaLabel={`Download ${app.name} Closed Testing Build on Google Play`}
                   />
+                  <Button
+                    href={app.youtubeUrl ?? YOUTUBE_URL}
+                    size="lg"
+                    variant="outline"
+                    className="min-h-[54px]"
+                  >
+                    <Youtube className="h-5 w-5" />
+                    Watch on YouTube
+                  </Button>
                 </>
               ) : (
                 <>
@@ -91,6 +107,15 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     className="min-h-[54px]"
                   >
                     Get Support
+                  </Button>
+                  <Button
+                    href={app.youtubeUrl ?? YOUTUBE_URL}
+                    variant="outline"
+                    size="lg"
+                    className="min-h-[54px]"
+                  >
+                    <Youtube className="h-5 w-5" />
+                    Watch on YouTube
                   </Button>
                 </>
               )}

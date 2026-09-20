@@ -2,7 +2,7 @@
 
 import { Pause, Play } from "lucide-react";
 import { useRef, useState } from "react";
-import { cn } from "@/lib/utils";
+import { cn, videoMimeType } from "@/lib/utils";
 
 interface GameplayVideoProps {
   src: string;
@@ -41,7 +41,7 @@ export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
         onPause={() => setPlaying(false)}
         onEnded={() => setPlaying(false)}
       >
-        <source src={src} type="video/webm" />
+        <source src={src} type={videoMimeType(src)} />
         Your browser does not support video playback.
       </video>
 

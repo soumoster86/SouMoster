@@ -1,4 +1,4 @@
-import { AlertTriangle, ExternalLink, Users } from "lucide-react";
+import { AlertTriangle, ExternalLink, Users, Youtube } from "lucide-react";
 import { notFound } from "next/navigation";
 import { AppCard } from "@/components/apps/AppCard";
 import { AppDetailHero } from "@/components/apps/AppDetailHero";
@@ -10,8 +10,12 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { getAppBySlug, getRelatedApps } from "@/data/apps";
-import { BANK_HOPPER_GOOGLE_GROUP_URL } from "@/lib/constants";
+import { getAppBySlug, getRelatedApps, isInviteOnly } from "@/data/apps";
+import {
+  BANK_HOPPER_GOOGLE_GROUP_URL,
+  YOUTUBE_HANDLE,
+  YOUTUBE_URL,
+} from "@/lib/constants";
 import { formatDate } from "@/lib/utils";
 import { generateSEO, generateSoftwareAppSchema } from "@/lib/seo";
 
@@ -55,7 +59,7 @@ export default async function AppPage({ params }: AppPageProps) {
       <AppDownloadBar app={app} />
 
       <div className="mx-auto max-w-7xl space-y-20 px-4 py-16 pb-28 sm:px-6 lg:px-8">
-        {app.status === "in-development" && (
+        {isInviteOnly(app) && (
           <div className="glass border-primary/40 from-primary/15 via-card to-accent/15 shadow-primary/10 relative overflow-hidden rounded-3xl border bg-gradient-to-r p-8 shadow-xl">
             <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
               <div className="space-y-2">
@@ -64,31 +68,41 @@ export default async function AppPage({ params }: AppPageProps) {
                   Google Play Closed Testing Open
                 </span>
                 <h2 className="font-heading text-text text-2xl font-bold sm:text-3xl">
-                  Want to play {app.name} before everyone else?
+                  {app.name} is in Closed Testing
                 </h2>
                 <p className="text-muted max-w-xl text-sm leading-relaxed">
-                  Join our closed beta testing team on Google Play. Receive
-                  pre-release APK builds, test new levels and mechanics, and get
-                  your name in the game credits!
+                  Version {app.version} is live on the Google Play Closed
+                  Testing track. Join the tester Google Group, opt in on Play,
+                  and install. Trailers and gameplay are on YouTube{" "}
+                  {YOUTUBE_HANDLE}.
                 </p>
               </div>
               <div className="flex shrink-0 flex-wrap items-center gap-3">
                 <Button
-                  href={`/beta?game=${app.slug}`}
+                  href={app.googleGroupUrl ?? BANK_HOPPER_GOOGLE_GROUP_URL}
                   size="lg"
                   className="shadow-primary/30 min-h-[50px] shadow-lg"
                 >
                   <Users className="mr-2 h-5 w-5" />
-                  Join Closed Beta
+                  Join Google Group
+                  <ExternalLink className="ml-2 h-4 w-4" />
                 </Button>
                 <Button
-                  href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                  href={`/beta?game=${app.slug}`}
                   size="lg"
                   variant="outline"
                   className="min-h-[50px]"
                 >
-                  <span>Google Group</span>
-                  <ExternalLink className="ml-2 h-4 w-4" />
+                  Request invite
+                </Button>
+                <Button
+                  href={app.youtubeUrl ?? YOUTUBE_URL}
+                  size="lg"
+                  variant="outline"
+                  className="min-h-[50px]"
+                >
+                  <Youtube className="mr-2 h-4 w-4" />
+                  YouTube
                 </Button>
               </div>
             </div>

@@ -12,13 +12,15 @@ export interface App {
   banner: string;
   screenshots: string[];
   gameplayVideo?: string;
+  youtubeUrl?: string;
+  googleGroupUrl?: string;
   features: string[];
   howToPlay: string[];
   versionHistory: VersionEntry[];
   knownIssues: string[];
   faq: FAQItem[];
   featured?: boolean;
-  status?: "live" | "in-development" | "coming-soon";
+  status?: "live" | "closed-testing" | "in-development" | "coming-soon";
   releaseDate: string;
   downloads?: string;
   rating?: number;

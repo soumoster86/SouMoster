@@ -38,10 +38,18 @@ const timeline = [
     milestone: true,
   },
   {
+    period: "September 2026",
+    title: "Bank Hopper Closed Testing",
+    description:
+      "Bank Hopper entered Google Play Closed Testing at v0.8.0 — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards. Testers join https://groups.google.com/g/bank-hopper-game, then opt in on Play.",
+    icon: Rocket,
+    milestone: true,
+  },
+  {
     period: "Now",
     title: "Expanding the Hopper Universe",
     description:
-      "SouMoster is actively developing both Space Hopper (our cosmic hop adventure) and Bank Hopper (a high-stakes cyber vault heist arcade game), while continuing to optimize Road Hopper.",
+      "Road Hopper stays live on Google Play. Bank Hopper is in Closed Testing. Space Hopper continues in Unity development. Trailers and gameplay live on YouTube @SouMosterGames.",
     icon: TrendingUp,
     milestone: false,
   },

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
+import { closedTestingJoinUrl, isInviteOnly } from "@/data/apps";
 import type { App } from "@/types";
 
 interface AppCardProps {
@@ -49,23 +50,28 @@ export function AppCard({ app }: AppCardProps) {
 
         <div className="mb-4 flex flex-wrap gap-2">
           <Badge variant="primary">{app.category}</Badge>
-          {app.status === "in-development" ? (
+          {app.status === "closed-testing" ? (
+            <Badge variant="secondary">Closed Testing</Badge>
+          ) : app.status === "in-development" ? (
             <Badge variant="secondary">In Development</Badge>
+          ) : app.status === "coming-soon" ? (
+            <Badge variant="secondary">Coming Soon</Badge>
           ) : (
             <Badge>v{app.version}</Badge>
           )}
+          {isInviteOnly(app) && <Badge>v{app.version}</Badge>}
         </div>
 
         <div className="flex gap-2">
-          {app.status === "in-development" ? (
+          {isInviteOnly(app) ? (
             <Button
-              href={`/beta?game=${app.slug}`}
+              href={closedTestingJoinUrl(app)}
               size="sm"
               variant="primary"
               className="flex-1"
             >
               <Users className="h-4 w-4" />
-              Join Beta
+              {app.googleGroupUrl ? "Join Google Group" : "Join Closed Testing"}
             </Button>
           ) : (
             <Button href={app.playStoreUrl} size="sm" className="flex-1">

@@ -5,7 +5,7 @@ import { generateSEO } from "@/lib/seo";
 export const metadata = generateSEO({
   title: "Join Closed Beta",
   description:
-    "Sign up for the SouMoster Android Closed Beta testing track on Google Play. Get exclusive pre-release access to Bank Hopper, test new mechanics, and earn tester perks.",
+    "Bank Hopper v0.8.0 is in Google Play Closed Testing. Sign up for the SouMoster tester track, install from Play, and watch trailers on YouTube @SouMosterGames.",
   path: "/beta",
 });
 

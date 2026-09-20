@@ -3,7 +3,8 @@ import { generateSEO } from "@/lib/seo";
 
 export const metadata: Metadata = generateSEO({
   title: "Contact",
-  description: "Get in touch with SouMoster. Send us a message or connect on social media.",
+  description:
+    "Get in touch with SouMoster. Email, Google Play, YouTube @SouMosterGames, and socials.",
   path: "/contact",
 });
 

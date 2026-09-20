@@ -189,7 +189,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#FFB703" }} />
-          <span>Bank Hopper Closed Beta (v0.7.4)</span>
+          <span>Bank Hopper Closed Testing (v0.8.0)</span>
         </div>
 
         <div
