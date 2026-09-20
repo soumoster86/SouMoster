@@ -103,7 +103,7 @@ Dear SouMoster Legal & Support Team,
 I am writing to submit an official notice / inquiry regarding the Terms & Conditions for your games and services.
 
 Details:
-- App / Game Name: Road Hopper / Bank Hopper (or other title)
+- App / Game Name: [Insert game title]
 - Device Operating System: Android
 - Google Play Gamer Tag or Order Number (if applicable): [Insert Here or N/A]
 - Detailed Description of Issue / Dispute: [Describe details here]
@@ -148,7 +148,7 @@ Thank you for your review and response within the standard resolution timeframe.
           </span>
           <span>•</span>
           <span>
-            <strong>Last Updated:</strong> September 18, 2026
+            <strong>Last Updated:</strong> September 20, 2026
           </span>
           <span>•</span>
           <span>
@@ -339,37 +339,21 @@ Thank you for your review and response within the standard resolution timeframe.
                 , and related developer services (collectively, the
                 &quot;Services&quot;).
               </p>
-              <p>Our gaming portfolio includes, without limitation:</p>
-              <ul className="list-disc space-y-1 pl-5 text-xs sm:text-sm">
-                <li>
-                  <strong>Road Hopper</strong> (Google Play Package ID:{" "}
-                  <code className="text-primary font-mono font-semibold">
-                    com.roadohopper.game
-                  </code>
-                  ) — our live flagship arcade hopper.
-                </li>
-                <li>
-                  <strong>Bank Hopper</strong> (Google Play Package ID:{" "}
-                  <code className="text-primary font-mono font-semibold">
-                    com.bankhopper
-                  </code>
-                  ) — our upcoming cyber vault heist arcade game.
-                </li>
-                <li>
-                  <strong>Space Hopper</strong> and all future titles, betas,
-                  updates, patches, and downloadable content published under our
-                  Google Play Developer account (ID:{" "}
-                  <a
-                    href={PLAY_STORE_DEVELOPER_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary font-mono hover:underline"
-                  >
-                    9220341090582575849
-                  </a>
-                  ).
-                </li>
-              </ul>
+              <p>
+                These Terms apply to all of our current and future games,
+                applications, betas, updates, patches, and downloadable content
+                published under our Google Play Developer account (ID:{" "}
+                <a
+                  href={PLAY_STORE_DEVELOPER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary font-mono hover:underline"
+                >
+                  9220341090582575849
+                </a>
+                ), as well as our official website and related developer
+                services.
+              </p>
               <div className="border-primary/20 bg-primary/5 text-text space-y-2 rounded-xl border p-4 text-xs">
                 <strong>Express Acceptance:</strong> By downloading, installing,
                 launching, or playing any of our games, or by browsing our
@@ -559,9 +543,9 @@ Thank you for your review and response within the standard resolution timeframe.
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                Our games may feature virtual currencies (such as HCoins, gems,
-                cash bags, or velocity tokens) and digital cosmetic items (such
-                as hero skins, hop trails, or ad-removal upgrades):
+                Our games may feature virtual currencies (such as coins, gems,
+                or similar in-game currencies) and digital cosmetic items (such
+                as character skins, trails, or ad-removal upgrades):
               </p>
               <div className="space-y-3 text-xs sm:text-sm">
                 <div className="border-border bg-card/40 space-y-1 rounded-xl border p-4">
@@ -722,8 +706,8 @@ Thank you for your review and response within the standard resolution timeframe.
               <ul className="list-disc space-y-1.5 pl-5 text-xs sm:text-sm">
                 <li>
                   <strong>Local Device Saves:</strong> By default, your campaign
-                  progress, star ratings, unlocked heroes, and coin balances are
-                  stored in your device&apos;s private sandbox storage. If you
+                  progress, star ratings, unlocked characters, and coin balances
+                  are stored in your device&apos;s private sandbox storage. If you
                   clear app storage or uninstall the game without a backup, your
                   local progress will be permanently reset.
                 </li>
@@ -754,12 +738,10 @@ Thank you for your review and response within the standard resolution timeframe.
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
                 All rights, title, and interest in and to our Services—including
-                but not limited to game titles (<em>Road Hopper</em>,{" "}
-                <em>Bank Hopper</em>, <em>Space Hopper</em>), studio logos,
-                computer software, Kotlin and Jetpack Compose code, graphics,
-                character designs (Hopper, Cluck Norris, Neil Hopstrong, Bank
-                Hopper characters), animation trails, sound effects, musical
-                compositions, UI design, and website copy—are the exclusive
+                but not limited to game titles, studio logos, computer software,
+                Kotlin and Jetpack Compose code, graphics, character designs,
+                animation trails, sound effects, musical compositions, UI
+                design, and website copy—are the exclusive
                 intellectual property of <strong>{SITE_NAME}</strong> and are
                 protected by international copyright, trademark, and trade
                 secret laws.
@@ -829,8 +811,8 @@ Thank you for your review and response within the standard resolution timeframe.
               <ul className="list-disc space-y-1.5 pl-5 text-xs sm:text-sm">
                 <li>
                   <strong>Rewarded Video Ads:</strong> Watching rewarded ads
-                  (such as to revive a character after an obstacle hit in Road
-                  Hopper or Bank Hopper) is entirely voluntary.
+                  (such as to revive a character, claim a bonus, or continue a
+                  run) is entirely voluntary.
                 </li>
                 <li>
                   <strong>Third-Party Advertisers:</strong> Advertised products
@@ -867,8 +849,8 @@ Thank you for your review and response within the standard resolution timeframe.
                 </li>
                 <li>
                   <strong>Gameplay Balancing:</strong> We reserve the right to
-                  tune game attributes, score thresholds, hero abilities, and
-                  economy balances to ensure fairness and longevity.
+                  tune game attributes, score thresholds, character abilities,
+                  and economy balances to ensure fairness and longevity.
                 </li>
                 <li>
                   <strong>Offline Play Continuity:</strong> While third-party

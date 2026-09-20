@@ -107,7 +107,7 @@ Dear SouMoster Privacy Team,
 I am requesting the permanent deletion of all personal data associated with my use of your apps/games under Article 17 of the GDPR and Google Play Data Safety policies.
 
 Details:
-- App / Game Name: Road Hopper (or other title)
+- App / Game Name: [Insert game title]
 - Device Operating System: Android
 - My Google Play Gamer Tag or Anonymous Device/Ad ID (if known): [Insert Here or N/A]
 - Contact Email: [Insert Your Email]
@@ -154,7 +154,7 @@ Thank you.`;
           </span>
           <span>•</span>
           <span>
-            <strong>Last Updated:</strong> September 18, 2026
+            <strong>Last Updated:</strong> September 20, 2026
           </span>
           <span>•</span>
           <span>
@@ -331,14 +331,9 @@ Thank you.`;
                 &quot;our&quot;, or &quot;us&quot;). We build enjoyable,
                 accessible, and high-quality mobile games and applications
                 published worldwide on the Google Play Store and related
-                platforms, including our flagship arcade title{" "}
-                <strong>Road Hopper</strong> (Package ID:{" "}
-                <code className="text-primary font-mono font-semibold">
-                  com.roadohopper.game
-                </code>
-                ), upcoming projects such as <strong>Space Hopper</strong> and{" "}
-                <strong>Bank Hopper</strong>, and our official website located
-                at{" "}
+                platforms. This Privacy Policy applies to all of our current
+                and future games, applications, betas, updates, and our
+                official website located at{" "}
                 <a
                   href={SITE_URL}
                   target="_blank"
@@ -584,7 +579,7 @@ Thank you.`;
                   <li>
                     <strong>Diagnostic Crash Logs:</strong> Stack traces, ANR
                     (Application Not Responding) timestamps, memory footprint at
-                    time of crash, and app version (e.g. Road Hopper v9.4.7).
+                    time of crash, and app version number.
                   </li>
                 </ul>
               </div>
@@ -601,16 +596,15 @@ Thank you.`;
                 <ul className="list-disc space-y-1 pl-5 text-xs sm:text-sm">
                   <li>
                     <strong>Local Save Files:</strong> High scores, unlocked
-                    characters (e.g. Hopper, Cluck Norris, Neil Hopstrong),
-                    collected HCoins, gems, velocity tokens, hop trails, and
-                    campaign star progression are stored locally on your device
-                    storage by default.
+                    characters and cosmetics, virtual currencies, collectibles,
+                    and campaign or mode progression are stored locally on your
+                    device storage by default.
                   </li>
                   <li>
                     <strong>Google Play Games Services:</strong> If you choose
                     to link your Google Play Games account, your public Gamer
                     ID, avatar, and high score entries are transmitted to Google
-                    Play Games servers to power global leaderboards and 60+
+                    Play Games servers to power global leaderboards and
                     achievements.
                   </li>
                 </ul>
@@ -704,7 +698,8 @@ Thank you.`;
                         saving
                       </td>
                       <td className="p-3">
-                        Gameplay stats, score, unlocked skins, HCoins
+                        Gameplay stats, score, unlocked cosmetics, virtual
+                        currencies
                       </td>
                       <td className="p-3">
                         <span className="bg-primary/20 text-primary inline-block rounded px-2 py-0.5 font-mono font-medium">
@@ -717,7 +712,8 @@ Thank you.`;
                     </tr>
                     <tr className="hover:bg-card/30">
                       <td className="text-text p-3 font-medium">
-                        In-app purchases (HCoin packs, skins, ad-free upgrades)
+                        In-app purchases (virtual currency packs, cosmetics,
+                        ad-free upgrades)
                       </td>
                       <td className="p-3">
                         Google Play purchase token, order ID, product SKU
@@ -812,8 +808,8 @@ Thank you.`;
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                To keep games such as <strong>Road Hopper</strong> free to
-                download and play for everyone, we incorporate digital
+                To keep our games free to download and play for everyone, we
+                incorporate digital
                 advertising provided by certified third-party ad networks,
                 primarily <strong>Google AdMob</strong> (Google LLC).
               </p>
@@ -823,10 +819,9 @@ Thank you.`;
                     Rewarded Video Ads (Player Initiated)
                   </h4>
                   <p className="text-muted mt-1">
-                    In Road Hopper, players can voluntarily watch a short video
-                    ad to revive a character after being hit and continue their
-                    run. Watching rewarded ads is 100% optional and is never
-                    forced.
+                    Players can voluntarily watch a short video ad to revive a
+                    character, claim a bonus, or continue a run. Watching
+                    rewarded ads is 100% optional and is never forced.
                   </p>
                 </div>
                 <div className="border-border bg-card/40 rounded-xl border p-4">
@@ -926,8 +921,8 @@ Thank you.`;
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                Our games may offer optional in-app purchases (such as HCoin
-                bundles, gem packs, cosmetic skins, or ad-removal packages).
+                Our games may offer optional in-app purchases (such as virtual
+                currency bundles, cosmetic items, or ad-removal packages).
               </p>
               <div className="border-accent/20 bg-accent/5 space-y-2 rounded-xl border p-4">
                 <div className="text-accent flex items-center gap-2 text-xs font-semibold sm:text-sm">
@@ -1179,8 +1174,8 @@ Thank you.`;
                     Google Play Rating 3+ / PEGI 3 / General Audience
                   </h3>
                   <p className="text-muted text-xs">
-                    Our games, including Road Hopper, are designed to be fun,
-                    safe, and suitable for players of all ages.
+                    Our games are designed to be fun, safe, and suitable for
+                    players of all ages.
                   </p>
                 </div>
               </div>
@@ -1319,13 +1314,12 @@ Thank you.`;
                     Method 1: Instant Local Device Data Deletion
                   </h4>
                   <p className="text-muted">
-                    Because Road Hopper and our games store your progress and
-                    currency locally:
+                    Because our games store your progress and currency locally:
                   </p>
                   <ol className="text-muted list-decimal space-y-1 pl-5 text-xs">
                     <li>
                       Open device <strong>Settings</strong> &rarr;{" "}
-                      <strong>Apps</strong> &rarr; <strong>Road Hopper</strong>.
+                      <strong>Apps</strong> &rarr; the relevant game.
                     </li>
                     <li>
                       Tap <strong>Storage & cache</strong>.
@@ -1361,9 +1355,8 @@ Thank you.`;
                       Tap <strong>Delete Play Games account & data</strong>.
                     </li>
                     <li>
-                      Under &quot;Delete individual game data&quot;, locate{" "}
-                      <strong>Road Hopper</strong> and tap{" "}
-                      <strong>Delete</strong>.
+                      Under &quot;Delete individual game data&quot;, locate the
+                      relevant game and tap <strong>Delete</strong>.
                     </li>
                   </ol>
                 </div>
@@ -1402,7 +1395,7 @@ Thank you.`;
                     <Button
                       size="sm"
                       variant="primary"
-                      href={`mailto:${SUPPORT_EMAIL}?subject=Data%20Deletion%20Request%20under%20GDPR%20%2F%20Google%20Play&body=Dear%20SouMoster%20Privacy%20Team%2C%0A%0AI%20am%20requesting%20the%20permanent%20deletion%20of%20all%20personal%20data%20associated%20with%20my%20use%20of%20your%20apps%2Fgames.%0A%0AApp%20Name%3A%20Road%20Hopper%0AEmail%3A%20%0A%0AThank%20you.`}
+                      href={`mailto:${SUPPORT_EMAIL}?subject=Data%20Deletion%20Request%20under%20GDPR%20%2F%20Google%20Play&body=Dear%20SouMoster%20Privacy%20Team%2C%0A%0AI%20am%20requesting%20the%20permanent%20deletion%20of%20all%20personal%20data%20associated%20with%20my%20use%20of%20your%20apps%2Fgames.%0A%0AApp%20Name%3A%20%5BInsert%20game%20title%5D%0AEmail%3A%20%0A%0AThank%20you.`}
                       className="text-xs"
                     >
                       <Mail className="h-3.5 w-3.5" />
