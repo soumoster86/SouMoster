@@ -162,10 +162,7 @@ export default async function AppPage({ params }: AppPageProps) {
 
         {app.screenshots.length > 0 && (
           <section>
-            <SectionHeading
-              title={app.screenshotsTitle ?? "Gameplay Screenshots"}
-              align="left"
-            />
+            <SectionHeading title="Gameplay Screenshots" align="left" />
             <ScreenshotCarousel
               screenshots={app.screenshots}
               appName={app.name}

@@ -11,8 +11,6 @@ export interface App {
   icon: string;
   banner: string;
   screenshots: string[];
-  /** Heading for the screenshot carousel; defaults to "Gameplay Screenshots". */
-  screenshotsTitle?: string;
   gameplayVideo?: string;
   youtubeUrl?: string;
   googleGroupUrl?: string;
