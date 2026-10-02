@@ -4,7 +4,7 @@ export const supportFAQ: FAQItem[] = [
   {
     question: "How do I download your games?",
     answer:
-      "Road Hopper is live on Google Play. Bank Hopper is in Google Play Closed Testing — join the tester Google Group at https://groups.google.com/g/bank-hopper-game, then opt in and install from Play. Visit our Apps page or search 'SouMoster' on the Play Store.",
+      "Road Hopper is live on Google Play. Bank Hopper is in Google Play Closed Testing (production access application in progress) — join the tester Google Group at https://groups.google.com/g/bank-hopper-game, then opt in and install from Play. Visit our Apps page or search 'SouMoster' on the Play Store.",
   },
   {
     question: "How do I join Bank Hopper Closed Testing?",

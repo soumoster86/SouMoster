@@ -7,8 +7,8 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const goals = [
-  "Take Bank Hopper from Closed Testing to a worldwide Google Play launch",
-  "Ship Space Hopper as our cosmic hop adventure",
+  "Take Bank Hopper from Closed Testing to production on Google Play (access application in progress)",
+  "Ship Time Hopper, our newest Hopper adventure, and Space Hopper, our cosmic hop adventure",
   "Continue Road Hopper updates from player feedback",
   "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
   "Release 3+ new Android games by 2027",
@@ -80,7 +80,7 @@ export default function AboutPage() {
           </p>
           <p>
             Our debut title, <strong className="text-text">Road Hopper</strong>{" "}
-            (now live at <strong className="text-text">v9.4.7</strong> on Google
+            (now live at <strong className="text-text">v9.4.9</strong> on Google
             Play), represents this vision—combining fast-paced arcade gameplay
             with clean design and an offline-friendly experience. Each new
             release builds on the lessons learned from the last, with player
@@ -89,8 +89,8 @@ export default function AboutPage() {
           <p>
             <strong className="text-text">Bank Hopper</strong> is now in{" "}
             <strong className="text-text">Google Play Closed Testing</strong> at
-            v0.8.0 — testers can hop through eight-floor heists, tap to bank,
-            and climb global leaderboards before the public launch. Join the
+            v0.8.0 — Closed Testing is complete and we are applying for Google
+            Play production access ahead of the public launch. Join the
             tester group at{" "}
             <a
               href="https://groups.google.com/g/bank-hopper-game"
@@ -101,6 +101,8 @@ export default function AboutPage() {
               groups.google.com/g/bank-hopper-game
             </a>
             .{" "}
+            <strong className="text-text">Time Hopper</strong> is our newest
+            game, now in development, and{" "}
             <strong className="text-text">Space Hopper</strong> continues in
             development as our cosmic hop adventure. Follow trailers, gameplay,
             and behind-the-scenes videos on YouTube at{" "}

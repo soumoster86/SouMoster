@@ -10,7 +10,7 @@ author: "SouMoster Team"
 
 **Bank Hopper v0.8.0** is now on the **Google Play Closed Testing** track. Invited testers can install the heist hopper from the Play Store, send feedback, and help us polish the game before a worldwide public launch.
 
-Road Hopper remains live on Google Play. Space Hopper continues in development.
+Road Hopper remains live on Google Play at v9.4.9. Time Hopper and Space Hopper are in development.
 
 ## What testers can play
 

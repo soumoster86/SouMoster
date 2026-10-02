@@ -54,6 +54,14 @@ const GAME_OPTIONS: GameOption[] = [
     recommended: true,
   },
   {
+    id: "time-hopper",
+    name: "Time Hopper",
+    version: "In Development",
+    tagline: "Hop through time in our newest arcade adventure",
+    icon: "/icon.svg",
+    status: "coming-soon",
+  },
+  {
     id: "space-hopper",
     name: "Space Hopper",
     version: "Pre-Alpha",
@@ -78,6 +86,7 @@ function BetaForm() {
 
   const [selectedGames, setSelectedGames] = useState<string[]>(() => {
     if (initialGameParam === "space-hopper") return ["space-hopper"];
+    if (initialGameParam === "time-hopper") return ["time-hopper"];
     if (initialGameParam === "bank-hopper") return ["bank-hopper"];
     return ["bank-hopper"];
   });
@@ -567,8 +576,8 @@ export function BetaContent() {
           </h1>
           <p className="text-muted mx-auto mt-4 max-w-2xl text-base sm:text-lg">
             Bank Hopper v0.8.0 is live on the Google Play Closed Testing track.
-            Help us polish heists, leaderboards, and onboarding before worldwide
-            launch.
+            Closed Testing is wrapping up and we are applying for Google Play
+            production access. Join now to help with final polish.
           </p>
           <a
             href={YOUTUBE_URL}
@@ -737,7 +746,7 @@ export function BetaContent() {
             <p className="text-muted mt-2 text-sm leading-relaxed">
               Bank Hopper supports Android 8.0 (API 26) and newer devices with
               60 FPS SurfaceView support. Road Hopper supports Android 7.0+.
-              Space Hopper is still in development.
+              Time Hopper and Space Hopper are still in development.
             </p>
           </div>
 

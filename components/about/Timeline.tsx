@@ -33,7 +33,7 @@ const timeline = [
     period: "July 2026",
     title: "Road Hopper Goes Live",
     description:
-      "Road Hopper launched publicly on Google Play after open beta, now updated to v9.4.7 with enhanced performance and stability for players worldwide.",
+      "Road Hopper launched publicly on Google Play after open beta, now updated to v9.4.9 with enhanced performance and stability for players worldwide.",
     icon: Rocket,
     milestone: true,
   },
@@ -41,7 +41,7 @@ const timeline = [
     period: "September 2026",
     title: "Bank Hopper Closed Testing",
     description:
-      "Bank Hopper entered Google Play Closed Testing at v0.8.0 — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards. Testers join https://groups.google.com/g/bank-hopper-game, then opt in on Play.",
+      "Bank Hopper entered Google Play Closed Testing at v0.8.0 and is now ready to apply for production access — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards. Testers join https://groups.google.com/g/bank-hopper-game, then opt in on Play.",
     icon: Rocket,
     milestone: true,
   },
@@ -49,7 +49,7 @@ const timeline = [
     period: "Now",
     title: "Expanding the Hopper Universe",
     description:
-      "Road Hopper stays live on Google Play. Bank Hopper is in Closed Testing. Space Hopper continues in Unity development. Trailers and gameplay live on YouTube @SouMosterGames.",
+      "Road Hopper stays live on Google Play. Bank Hopper is applying for production access. Time Hopper is newly in development and Space Hopper continues in Unity development. Trailers and gameplay live on YouTube @SouMosterGames.",
     icon: TrendingUp,
     milestone: false,
   },

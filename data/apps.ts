@@ -13,7 +13,7 @@ export const apps: App[] = [
       "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (The Lost Litter campaign with 9 chapters), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Offline play is fully supported; internet is only needed for optional purchases.",
     genre: "Arcade",
     category: "Arcade",
-    version: "9.4.7",
+    version: "9.4.9",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
@@ -54,6 +54,14 @@ export const apps: App[] = [
       "Climb personal bests and Google Play Games leaderboards",
     ],
     versionHistory: [
+      {
+        version: "9.4.9",
+        date: "2026-09-23",
+        changes: [
+          "Latest stable update, live on Google Play for all players worldwide",
+          "Continued performance, stability, and polish improvements",
+        ],
+      },
       {
         version: "9.4.7",
         date: "2026-09-15",
@@ -130,7 +138,7 @@ export const apps: App[] = [
     description:
       "One-thumb portrait arcade bank heist! Hop lane-by-lane out of the bank with your cash. Balance greed versus safety before the security meter catches you!",
     longDescription:
-      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, now in Google Play Closed Testing at v0.8.0. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Full Heist across eight floors, chase global Play Games leaderboards, and unlock bag styles, getaways, and characters like Rookie, Grabber, Insurance, and Black Limo. Built natively in Kotlin at 60 FPS, with ethical ads, offline saves, and zero pay-to-win.",
+      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, in Google Play Closed Testing at v0.8.0 and preparing to apply for production access. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Full Heist across eight floors, chase global Play Games leaderboards, and unlock bag styles, getaways, and characters like Rookie, Grabber, Insurance, and Black Limo. Built natively in Kotlin at 60 FPS, with ethical ads, offline saves, and zero pay-to-win.",
     genre: "Arcade",
     category: "Arcade",
     version: "0.8.0",
@@ -208,7 +216,7 @@ export const apps: App[] = [
     ],
     knownIssues: [
       "Invite-only Google Play Closed Testing — join https://groups.google.com/g/bank-hopper-game then opt in on Play to install",
-      "Onboarding and relic copy are still being tuned from tester feedback",
+      "Production access application to Google Play is in progress; the public launch date depends on Google's review",
     ],
     faq: [
       {
@@ -219,7 +227,7 @@ export const apps: App[] = [
       {
         question: "When will Bank Hopper be released publicly?",
         answer:
-          "A worldwide public launch follows Closed Testing. Testers help us polish onboarding, leaderboards, and heist balance before that launch.",
+          "Closed Testing is complete and we are applying to Google Play for production access. A worldwide public launch follows once Google approves the application.",
       },
       {
         question: "What platforms will Bank Hopper support?",

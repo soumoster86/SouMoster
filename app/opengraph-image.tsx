@@ -171,7 +171,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#22C55E" }} />
-          <span>Road Hopper Live (v9.4.7)</span>
+          <span>Road Hopper Live (v9.4.9)</span>
         </div>
 
         <div
@@ -189,7 +189,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#FFB703" }} />
-          <span>Bank Hopper Closed Testing (v0.8.0)</span>
+          <span>Bank Hopper v0.8.0 · Going to Production</span>
         </div>
 
         <div

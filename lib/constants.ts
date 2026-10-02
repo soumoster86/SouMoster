@@ -5,7 +5,7 @@ export const SITE_TAGLINE =
   "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play. Bank Hopper is in Google Play Closed Testing. Space Hopper is in development. Watch trailers on YouTube @SouMosterGames.";
+  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play. Bank Hopper is applying for Google Play production access after Closed Testing. Time Hopper and Space Hopper are in development. Watch trailers on YouTube @SouMosterGames.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
 export const BANK_HOPPER_PLAY_STORE_URL =
