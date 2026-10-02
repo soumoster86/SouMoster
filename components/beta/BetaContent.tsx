@@ -64,9 +64,9 @@ const GAME_OPTIONS: GameOption[] = [
   {
     id: "space-hopper",
     name: "Space Hopper",
-    version: "Pre-Alpha",
-    tagline: "Cosmic hop-and-dodge arcade amongst the stars",
-    icon: "/icon.svg",
+    version: "Dev build 1.0.0",
+    tagline: "Hop across eight planets to restore the Warp Gates",
+    icon: "/images/space-hopper/icon.png",
     status: "coming-soon",
   },
   {

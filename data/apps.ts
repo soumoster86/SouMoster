@@ -381,33 +381,79 @@ export const apps: App[] = [
   {
     slug: "space-hopper",
     name: "Space Hopper",
-    tagline: "Take the hop into space.",
+    tagline: "The Warp Gates are damaged. Hop across the galaxy to restore them.",
     description:
-      "A hop-and-dodge adventure among the stars, in development in Unity. Sign up to hear first when testing opens.",
+      "A tap-to-hop arcade adventure across eight planets. Collect Star Cores, dodge drones and collapsing tiles, and restore the galaxy's Warp Gates.",
     longDescription:
-      "Space Hopper is a new hop-and-dodge experience set in space, in development in Unity. It carries forward the philosophy that shaped Road Hopper: simple controls, addictive runs, and a polished feel. Details, screenshots, and a release window will follow as the game takes shape.",
+      "Space Hopper is a casual arcade hopper from SouMoster, built in Unity 6 and now in development. The galaxy's Warp Gates are damaged: hop lane by lane across eight planets, from Terra Prime and the Moon to Volcanis, Gaia, the Asteroid Belt, Cyber Nexus, Nebula X and the Black Hole, collecting Star Cores to bring them back online. Each world adds its own twist, from lava vents and spring pads to drone traffic, conveyors, fog and gravity pulls. Play Endless Orbit, Adventure Journey with bosses, Speed Run or Galaxy Explorer, with seven heroes and five pets that each bring a real ability. Progress is saved on your device.",
     genre: "Arcade",
     category: "Arcade",
-    version: "In development",
+    version: "1.0.0",
     status: "in-development",
     playStoreUrl: "",
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
-    icon: "/images/space-hopper-icon.svg",
-    banner: "/images/space-hopper-banner.svg",
-    screenshots: [],
-    features: [
-      "Familiar hop fun — easy to start, hard to master",
-      "A new setting: leave the highway and hop into space",
-      "Player-first design — fair, polished, and fun to revisit",
+    icon: "/images/space-hopper/icon.png",
+    banner: "/images/space-hopper/banner.webp",
+    screenshots: [
+      "/images/space-hopper/screen-combo.webp",
+      "/images/space-hopper/screen-collapse.webp",
+      "/images/space-hopper/screen-main-menu.webp",
+      "/images/space-hopper/screen-worlds.webp",
+      "/images/space-hopper/screen-tap-to-hop.webp",
+      "/images/space-hopper/screen-results.webp",
     ],
-    howToPlay: [],
-    versionHistory: [],
-    knownIssues: [],
+    features: [
+      "Four modes: Endless Orbit, Adventure Journey, Speed Run and Galaxy Explorer",
+      "Eight planets, each with its own hazards: long void hops, lava vents, spring pads, drone traffic, conveyors, fog and a black hole's pull",
+      "Adventure Journey: restore Warp Gates and face mini-bosses and world bosses",
+      "Seven heroes with one ability each: Comet, Talon, Ember, Dash, Rivet, Zix and Frost",
+      "Five companion pets: Bolt, Blip, Kit, Goo and Nebula",
+      "Collect Star Cores and Star Shards; earn Velocity Tokens in Speed Run",
+      "Combos, near-miss bonuses and a collapse that chases you from behind",
+      "Museum of treasures and relics, quests, ranks, upgrades and suit skins",
+      "Progress saved on your device; no account needed",
+    ],
+    howToPlay: [
+      "Tap to hop forward",
+      "Swipe left or right to change lane",
+      "Keep moving: the track collapses behind you",
+      "Collect Star Cores and shards, and chain hops for combos",
+      "Dodge drones and avoid open void",
+      "Clear a planet in Adventure Journey to unlock the next one",
+    ],
+    versionHistory: [
+      {
+        version: "1.0.0",
+        date: "2026-09-27",
+        changes: [
+          "Development build with all four modes and eight planets",
+          "Seven heroes and five pets",
+          "Being prepared for Google Play Closed Testing",
+        ],
+      },
+    ],
+    knownIssues: [
+      "Development build: not yet on Google Play",
+    ],
     faq: [
       {
         question: "When will Space Hopper be available?",
         answer:
-          "Space Hopper is in development. There is no release date yet. Sign up on our Beta page to hear first when testing opens.",
+          "Space Hopper is being prepared for Google Play Closed Testing. There is no public release date yet. Sign up on our Beta page to be invited when testing opens.",
+      },
+      {
+        question: "How is it different from Road Hopper?",
+        answer:
+          "Space Hopper keeps the simple tap-to-hop controls but moves to space: eight planets with their own hazards, Warp Gates to restore, bosses, and heroes and pets with unique abilities.",
+      },
+      {
+        question: "Will it be free?",
+        answer:
+          "Yes. Space Hopper will be free to play. Purchases, if added, are cosmetic or convenience only, never extra power.",
+      },
+      {
+        question: "What devices will it support?",
+        answer: "Android 7.0 (API 24) and newer, in portrait.",
       },
     ],
     featured: false,

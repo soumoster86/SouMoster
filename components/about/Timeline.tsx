@@ -49,7 +49,7 @@ const timeline = [
     period: "Now",
     title: "Expanding the Hopper Universe",
     description:
-      "Road Hopper stays live on Google Play. Bank Hopper is applying for production access. Time Hopper, a seven-era time-travel runner, is a playable development build and Space Hopper continues in Unity development. Trailers and gameplay live on YouTube @SouMosterGames.",
+      "Road Hopper stays live on Google Play. Bank Hopper is applying for production access. Time Hopper, a seven-era time-travel runner, is a playable development build and Space Hopper, an eight-planet galaxy hopper built in Unity, is being prepared for Closed Testing. Trailers and gameplay live on YouTube @SouMosterGames.",
     icon: TrendingUp,
     milestone: false,
   },

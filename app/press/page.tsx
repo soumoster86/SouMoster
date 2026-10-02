@@ -84,7 +84,8 @@ export default function PressPage() {
                 Two more titles are in development:{" "}
                 <strong className="text-text">Time Hopper</strong>, a seven-era
                 time-travel runner, and{" "}
-                <strong className="text-text">Space Hopper</strong>. Trailers,
+                <strong className="text-text">Space Hopper</strong>, an eight-planet
+                hop across the galaxy. Trailers,
                 gameplay, and developer videos are on YouTube at{" "}
                 <a
                   href={YOUTUBE_URL}

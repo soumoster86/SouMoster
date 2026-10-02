@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const goals = [
   "Take Bank Hopper from Closed Testing to production on Google Play (access application in progress)",
-  "Take Time Hopper from development build to Google Play testing, and ship Space Hopper",
+  "Bring Space Hopper and Time Hopper to Google Play Closed Testing",
   "Continue Road Hopper updates from player feedback",
   "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
   "Release 3+ new Android games by 2027",
@@ -104,8 +104,9 @@ export default function AboutPage() {
             <strong className="text-text">Time Hopper</strong>, a seven-era
             time-travel runner built around the Time Hop, is a playable
             development build, and{" "}
-            <strong className="text-text">Space Hopper</strong> continues in
-            development as our cosmic hop adventure. Follow trailers, gameplay,
+            <strong className="text-text">Space Hopper</strong>, an eight-planet
+            hop across the galaxy built in Unity, is being prepared for Google
+            Play Closed Testing. Follow trailers, gameplay,
             and behind-the-scenes videos on YouTube at{" "}
             <a
               href="https://www.youtube.com/@SouMosterGames"
