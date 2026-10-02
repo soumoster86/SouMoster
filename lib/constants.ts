@@ -67,6 +67,8 @@ export const FOOTER_LINKS = [
   { href: "/beta", label: "Closed Testing Signup" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms & Conditions" },
+  { href: "/delete-data", label: "Delete Your Data" },
+  { href: "/press", label: "Press Kit" },
   { href: "/contact", label: "Contact" },
   { href: "/support", label: "Support" },
 ];

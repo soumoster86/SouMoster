@@ -1,12 +1,17 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Star, Users, Youtube } from "lucide-react";
+import { Bell, Star, Users, Youtube } from "lucide-react";
 import Image from "next/image";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
-import { closedTestingJoinUrl, isInviteOnly } from "@/data/apps";
+import {
+  closedTestingJoinUrl,
+  hasBuildVersion,
+  isInDevelopment,
+  isInviteOnly,
+} from "@/data/apps";
 import { YOUTUBE_URL } from "@/lib/constants";
 import type { App } from "@/types";
 
@@ -50,7 +55,11 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
               ) : app.status === "coming-soon" ? (
                 <Badge variant="secondary">Coming Soon</Badge>
               ) : null}
-              <Badge>v{app.version}</Badge>
+              {isInDevelopment(app) ? (
+                hasBuildVersion(app) && <Badge>Dev build v{app.version}</Badge>
+              ) : (
+                <Badge>v{app.version}</Badge>
+              )}
               {app.rating && (
                 <Badge variant="secondary">
                   <Star className="mr-1 h-3 w-3" />
@@ -62,7 +71,27 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
               )}
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
-              {isInviteOnly(app) ? (
+              {isInDevelopment(app) ? (
+                <>
+                  <Button
+                    href={`/beta?game=${app.slug}`}
+                    size="lg"
+                    className="shadow-primary/20 min-h-[54px] shadow-lg"
+                  >
+                    <Bell className="h-5 w-5" />
+                    Get Notified
+                  </Button>
+                  <Button
+                    href={app.youtubeUrl ?? YOUTUBE_URL}
+                    size="lg"
+                    variant="outline"
+                    className="min-h-[54px]"
+                  >
+                    <Youtube className="h-5 w-5" />
+                    Follow on YouTube
+                  </Button>
+                </>
+              ) : isInviteOnly(app) ? (
                 <>
                   <Button
                     href={closedTestingJoinUrl(app)}

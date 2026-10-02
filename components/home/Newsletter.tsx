@@ -6,16 +6,29 @@ import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { useToastContext } from "@/components/shared/Providers";
+import { submitNewsletter } from "@/lib/api";
+import { getFormErrorMessage } from "@/lib/form-errors";
 
 export function Newsletter() {
   const [email, setEmail] = useState("");
+  const [submitting, setSubmitting] = useState(false);
   const { addToast } = useToastContext();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
-    addToast("Thanks for subscribing! We'll keep you updated.", "success");
-    setEmail("");
+    setSubmitting(true);
+
+    try {
+      await submitNewsletter({ email });
+      addToast("Thanks for subscribing! We'll keep you updated.", "success");
+      setEmail("");
+    } catch (error) {
+      const result = getFormErrorMessage(error, "Failed to subscribe. Please try again.");
+      addToast(result.message, result.type);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -39,10 +52,13 @@ export function Newsletter() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
+              disabled={submitting}
               aria-label="Email address"
               className="flex-1"
             />
-            <Button type="submit">Subscribe</Button>
+            <Button type="submit" disabled={submitting}>
+              {submitting ? "Subscribing..." : "Subscribe"}
+            </Button>
           </form>
         </motion.div>
       </div>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { App } from "@/types";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./constants";
 
 interface SEOProps {
@@ -79,35 +80,41 @@ export function generateOrganizationSchema() {
   };
 }
 
-export function generateSoftwareAppSchema(app: {
-  name: string;
-  description: string;
-  version: string;
-  playStoreUrl: string;
-  icon: string;
-  rating?: number;
-}) {
+export function generateSoftwareAppSchema(app: App) {
+  const isReleased = app.status === "live" || app.status === "closed-testing";
+  const image = app.icon.startsWith("http") ? app.icon : `${SITE_URL}${app.icon}`;
+
   return {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": ["VideoGame", "MobileApplication"],
     name: app.name,
-    description: app.description,
-    applicationCategory: "GameApplication",
+    description: app.longDescription,
+    url: `${SITE_URL}/apps/${app.slug}`,
+    image,
+    genre: app.genre,
+    gamePlatform: "Android",
     operatingSystem: "Android",
-    softwareVersion: app.version,
-    url: app.playStoreUrl,
-    image: app.icon,
+    applicationCategory: "GameApplication",
     author: {
       "@type": "Organization",
       name: SITE_NAME,
+      url: SITE_URL,
     },
-    ...(app.rating && {
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: app.rating,
-        ratingCount: 100,
+    ...(isReleased && {
+      softwareVersion: app.version,
+      installUrl: app.playStoreUrl,
+      datePublished: app.releaseDate,
+      offers: {
+        "@type": "Offer",
+        price: "0",
+        priceCurrency: "USD",
+        availability:
+          app.status === "live"
+            ? "https://schema.org/InStock"
+            : "https://schema.org/LimitedAvailability",
       },
     }),
+    ...(app.youtubeUrl && { sameAs: [app.youtubeUrl] }),
   };
 }
 
@@ -120,20 +127,23 @@ export function generateArticleSchema(post: {
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
+    dateModified: post.date,
+    image: `${SITE_URL}/opengraph-image`,
     author: {
-      "@type": "Person",
+      "@type": "Organization",
       name: post.author,
+      url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
+        url: `${SITE_URL}/logo.svg`,
       },
     },
     mainEntityOfPage: {

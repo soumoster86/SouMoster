@@ -253,10 +253,180 @@ export const apps: App[] = [
     featured: false,
     releaseDate: "2026-09-20",
   },
+  {
+    slug: "time-hopper",
+    name: "Time Hopper",
+    tagline: "Hop Through Time. Break History. Fix the Timeline.",
+    description:
+      "A portrait three-lane runner across seven eras of history. Dodge what's ahead, or Time Hop into an alternate timeline where the hazards are different.",
+    longDescription:
+      "Time Hopper is a native Kotlin arcade runner from SouMoster, now in development. A traveller with a damaged time device sprints through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. The signature move is the Time Hop: spend energy to slip into an alternate timeline for three seconds, where the obstacle in front of you may vanish or something worse may wait. Purple echoes show what's on the other side. Every hop raises Paradox, and the higher it climbs, the more unstable the run becomes. Outrun a T-Rex, a collapsing temple, siege fire and a runaway train, collect relics for your museum, and at every Time Gate choose to bank your haul or push deeper into time. Fully offline.",
+    genre: "Arcade",
+    category: "Arcade",
+    version: "1.1.3",
+    status: "in-development",
+    playStoreUrl: "",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    icon: "/images/time-hopper/icon.png",
+    banner: "/images/time-hopper/banner.webp",
+    screenshotsTitle: "The Seven Eras",
+    screenshots: [
+      "/images/time-hopper/era-prehistoric.webp",
+      "/images/time-hopper/era-ancient-kingdom.webp",
+      "/images/time-hopper/era-medieval.webp",
+      "/images/time-hopper/era-industrial-age.webp",
+      "/images/time-hopper/era-modern-city.webp",
+      "/images/time-hopper/era-cyber-future.webp",
+      "/images/time-hopper/era-chrono-void.webp",
+    ],
+    features: [
+      "Time Hop: three seconds in an alternate timeline, with purple echoes showing what's waiting there",
+      "Seven eras, each with its own pursuit: T-Rex, temple collapse, siege fire, runaway train, highway collapse, hunter drones and a time storm",
+      "Paradox meter: echoes drift above 60%, hazards destabilise above 80%, and a Chrono Guardian hunts you at 100%",
+      "Bank or continue: extract at every Time Gate to keep your haul, or risk the next era for more",
+      "Timeline junctions: choose the Stable, Relic or Paradox portal",
+      "Seven characters with unique abilities: Max Tempo, Dr. Nova, Rex, Lady Epoch, Glitch, Captain Clock and Zero",
+      "Six gadgets, including Chrono Shield, Artifact Scanner, Phase Boots and Emergency Portal",
+      "Six modes: Classic, Daily Timeline, Endless, Paradox, Relic Hunt and Hardcore",
+      "Relic museum, daily and weekly missions, Chrono Rank and a cosmetic shop",
+      "Original soundtrack, fully offline, left-handed and high-contrast options",
+    ],
+    howToPlay: [
+      "Swipe left or right to change lanes",
+      "Tap or swipe up to jump low rocks and gaps; swipe down to slide under beams",
+      "Hold the screen to Temporal Brake and slow the world, at an energy cost",
+      "Press Time Hop to spend 35 energy and spend three seconds in the alternate timeline",
+      "Read the purple echoes first: the other timeline has hazards of its own",
+      "Collect Chrono Shards to refill energy, and grab relics for your museum",
+      "Use Time Hop to escape each era's pursuit; its debris only exists in your original timeline",
+      "At each Time Gate, extract to bank everything, or continue to the next era for bigger rewards",
+    ],
+    versionHistory: [
+      {
+        version: "1.1.3",
+        changes: [
+          "Animated pursuers chase you down the middle lane",
+          "Rift gaps illustrated as broken-stone chasms",
+        ],
+      },
+      {
+        version: "1.1.2",
+        changes: ["Unique jump and slide animations for all seven characters"],
+      },
+      {
+        version: "1.1.1",
+        changes: [
+          "Eight-frame run animations for every character",
+          "Illustrated pursuit threats and a clockwork Time Hop button",
+          "Original soundtrack: Museum Afterglow and Through the Rift",
+        ],
+      },
+      {
+        version: "1.1.0",
+        changes: [
+          "Reworked pursuits, combo and Paradox",
+          "In-world junction portals, input buffering and slide fast-fall",
+          "Rotating daily and weekly missions",
+        ],
+      },
+      {
+        version: "1.0.0",
+        changes: [
+          "All seven eras, seven characters and six gadgets",
+          "Endless, Paradox, Relic Hunt and Hardcore modes",
+          "Catalog collections, Chrono Rank, weekly goals and a cosmetic shop",
+        ],
+      },
+      {
+        version: "0.2.0",
+        changes: ["Daily Timeline: one shared seeded run per day, daily missions and achievements"],
+      },
+      {
+        version: "0.1.0",
+        changes: ["First playable build: three eras, Time Hop, Paradox, pursuits and Time Gates"],
+      },
+    ],
+    knownIssues: [
+      "Development build: not yet on Google Play. Play Games leaderboards, cloud save, purchases and ads are not in this build",
+    ],
+    faq: [
+      {
+        question: "When will Time Hopper be available?",
+        answer:
+          "Time Hopper is a playable development build (v1.1.3) and is not on Google Play yet. Sign up on our Beta page to hear first when testing opens.",
+      },
+      {
+        question: "What is a Time Hop?",
+        answer:
+          "Time Hop spends 35 energy to move you into an alternate version of the timeline for three seconds. Hazards there are different, and purple echoes show them before you hop, so you choose whether dodging or hopping is safer.",
+      },
+      {
+        question: "What is Paradox?",
+        answer:
+          "Bending time raises Paradox. Above 60% echoes start to drift, above 80% some hazards exist in both timelines, and at 100% a Chrono Guardian gives chase. Escaping it drops Paradox back to 70%.",
+      },
+      {
+        question: "Does it work offline?",
+        answer:
+          "Yes. Time Hopper is built to play fully offline, with progress saved on your device.",
+      },
+      {
+        question: "What devices will it support?",
+        answer:
+          "Android 8.0 (API 26) and newer, in portrait.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-10-02",
+  },
+  {
+    slug: "space-hopper",
+    name: "Space Hopper",
+    tagline: "Take the hop into space.",
+    description:
+      "A hop-and-dodge adventure among the stars, in development in Unity. Sign up to hear first when testing opens.",
+    longDescription:
+      "Space Hopper is a new hop-and-dodge experience set in space, in development in Unity. It carries forward the philosophy that shaped Road Hopper: simple controls, addictive runs, and a polished feel. Details, screenshots, and a release window will follow as the game takes shape.",
+    genre: "Arcade",
+    category: "Arcade",
+    version: "In development",
+    status: "in-development",
+    playStoreUrl: "",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    icon: "/images/space-hopper-icon.svg",
+    banner: "/images/space-hopper-banner.svg",
+    screenshots: [],
+    features: [
+      "Familiar hop fun — easy to start, hard to master",
+      "A new setting: leave the highway and hop into space",
+      "Player-first design — fair, polished, and fun to revisit",
+    ],
+    howToPlay: [],
+    versionHistory: [],
+    knownIssues: [],
+    faq: [
+      {
+        question: "When will Space Hopper be available?",
+        answer:
+          "Space Hopper is in development. There is no release date yet. Sign up on our Beta page to hear first when testing opens.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-07-08",
+  },
 ];
 
 export function isInviteOnly(app: App): boolean {
   return app.status === "closed-testing" || app.status === "in-development";
+}
+
+export function isInDevelopment(app: App): boolean {
+  return app.status === "in-development" || app.status === "coming-soon";
+}
+
+/** True when `version` is a real build number rather than a label like "In development". */
+export function hasBuildVersion(app: App): boolean {
+  return /^\d/.test(app.version);
 }
 
 export function closedTestingJoinUrl(app: App): string {

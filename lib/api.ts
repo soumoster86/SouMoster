@@ -48,6 +48,10 @@ export async function submitContact(data: {
   return postJson("/api/contact", data);
 }
 
+export async function submitNewsletter(data: { email: string }) {
+  return postJson("/api/newsletter", data);
+}
+
 export async function submitSupport(data: {
   type: "bug" | "feature";
   email: string;

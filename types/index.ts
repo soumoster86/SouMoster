@@ -11,6 +11,8 @@ export interface App {
   icon: string;
   banner: string;
   screenshots: string[];
+  /** Heading for the screenshot carousel; defaults to "Gameplay Screenshots". */
+  screenshotsTitle?: string;
   gameplayVideo?: string;
   youtubeUrl?: string;
   googleGroupUrl?: string;
@@ -28,7 +30,7 @@ export interface App {
 
 export interface VersionEntry {
   version: string;
-  date: string;
+  date?: string;
   changes: string[];
 }
 
@@ -52,14 +54,6 @@ export interface Stat {
   label: string;
   value: string;
   icon: string;
-}
-
-export interface Testimonial {
-  name: string;
-  role: string;
-  content: string;
-  rating?: number;
-  avatar?: string;
 }
 
 export interface NavLink {

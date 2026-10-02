@@ -56,9 +56,9 @@ const GAME_OPTIONS: GameOption[] = [
   {
     id: "time-hopper",
     name: "Time Hopper",
-    version: "In Development",
-    tagline: "Hop through time in our newest arcade adventure",
-    icon: "/icon.svg",
+    version: "Dev build 1.1.3",
+    tagline: "Seven-era time-travel runner built around the Time Hop",
+    icon: "/images/time-hopper/icon.png",
     status: "coming-soon",
   },
   {

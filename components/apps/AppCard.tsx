@@ -1,12 +1,17 @@
 "use client";
 
-import { ExternalLink, Users } from "lucide-react";
+import { Bell, ExternalLink, Users } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
-import { closedTestingJoinUrl, isInviteOnly } from "@/data/apps";
+import {
+  closedTestingJoinUrl,
+  hasBuildVersion,
+  isInDevelopment,
+  isInviteOnly,
+} from "@/data/apps";
 import type { App } from "@/types";
 
 interface AppCardProps {
@@ -59,11 +64,26 @@ export function AppCard({ app }: AppCardProps) {
           ) : (
             <Badge>v{app.version}</Badge>
           )}
-          {isInviteOnly(app) && <Badge>v{app.version}</Badge>}
+          {isInDevelopment(app) && hasBuildVersion(app) && (
+            <Badge>Dev build v{app.version}</Badge>
+          )}
+          {isInviteOnly(app) && !isInDevelopment(app) && (
+            <Badge>v{app.version}</Badge>
+          )}
         </div>
 
         <div className="flex gap-2">
-          {isInviteOnly(app) ? (
+          {isInDevelopment(app) ? (
+            <Button
+              href={`/beta?game=${app.slug}`}
+              size="sm"
+              variant="primary"
+              className="flex-1"
+            >
+              <Bell className="h-4 w-4" />
+              Get Notified
+            </Button>
+          ) : isInviteOnly(app) ? (
             <Button
               href={closedTestingJoinUrl(app)}
               size="sm"

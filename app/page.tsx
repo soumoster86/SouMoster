@@ -4,7 +4,6 @@ import { Hero } from "@/components/home/Hero";
 import { LatestApps } from "@/components/home/LatestApps";
 import { Newsletter } from "@/components/home/Newsletter";
 import { Stats } from "@/components/home/Stats";
-import { Testimonials } from "@/components/home/Testimonials";
 import { PageTransition } from "@/components/shared/PageTransition";
 
 export default function HomePage() {
@@ -15,7 +14,6 @@ export default function HomePage() {
       <LatestApps />
       <FeaturedApp />
       <DeveloperIntro />
-      <Testimonials />
       <Newsletter />
     </PageTransition>
   );
