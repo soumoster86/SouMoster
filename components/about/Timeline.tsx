@@ -1,7 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Rocket, Sparkles, Star, TrendingUp } from "lucide-react";
+import {
+  Code2,
+  Rocket,
+  Sparkles,
+  Star,
+  Swords,
+  TrendingUp,
+  Users,
+} from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const timeline = [
@@ -22,18 +30,10 @@ const timeline = [
     milestone: false,
   },
   {
-    period: "Early 2026",
-    title: "First Release",
-    description:
-      "Successfully launched Road Hopper on Google Play, marking SouMoster's first published Android game and the beginning of its public journey.",
-    icon: Rocket,
-    milestone: true,
-  },
-  {
     period: "July 2026",
-    title: "Road Hopper Goes Live",
+    title: "First Release: Road Hopper",
     description:
-      "Road Hopper launched publicly on Google Play after open beta, now updated to v9.4.9 with enhanced performance and stability for players worldwide.",
+      "Road Hopper launched on Google Play after an open beta, SouMoster's first published game. It has kept improving since, and is now at v9.4.9.",
     icon: Rocket,
     milestone: true,
   },
@@ -41,15 +41,39 @@ const timeline = [
     period: "September 2026",
     title: "Bank Hopper Closed Testing",
     description:
-      "Bank Hopper entered Google Play Closed Testing at v0.8.0 — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards — with testers from the bank-hopper-game Google Group.",
+      "Bank Hopper entered Google Play Closed Testing at v0.8.0, with tap-to-bank heists, eight-floor Full Heist runs and Play Games leaderboards, tested by players from the bank-hopper-game Google Group.",
+    icon: Users,
+    milestone: false,
+  },
+  {
+    period: "October 2026",
+    title: "Bank Hopper Goes Live",
+    description:
+      "Bank Hopper v1.0.0 launched on Google Play on 6 October, SouMoster's second published game.",
     icon: Rocket,
     milestone: true,
   },
   {
-    period: "Now",
-    title: "Expanding the Hopper Universe",
+    period: "October 2026",
+    title: "Time Hopper Closed Testing",
     description:
-      "Road Hopper and Bank Hopper are live on Google Play. Time Hopper is in Closed Testing, Space Hopper is being prepared for testing, and Arena Legends, our first action game, is in development. Trailers and gameplay live on YouTube @SouMosterGames.",
+      "Time Hopper, a seven-era time-travel runner built around the Time Hop, moved to Google Play Closed Testing at v1.13.2. Testers join through the timehoppergame Google Group.",
+    icon: Users,
+    milestone: false,
+  },
+  {
+    period: "October 2026",
+    title: "Arena Legends Begins",
+    description:
+      "Work started on Arena Legends: Gladiator Wars, SouMoster's first action game: a gladiator brawler with combos, parries, four weapon classes and a five-chapter campaign.",
+    icon: Swords,
+    milestone: false,
+  },
+  {
+    period: "Now",
+    title: "Growing the Studio",
+    description:
+      "Two games are live on Google Play, Time Hopper is in Closed Testing, Space Hopper is being prepared for testing, and Arena Legends is in development. Trailers and gameplay are on YouTube @SouMosterGames.",
     icon: TrendingUp,
     milestone: false,
   },
@@ -57,7 +81,7 @@ const timeline = [
     period: "Looking Ahead",
     title: "The Vision",
     description:
-      "Grow into a recognizable indie game studio with a diverse collection of high-quality Android games — including more titles in the Hopper series — that entertain players around the world.",
+      "Grow into a recognizable indie game studio with a diverse collection of high-quality Android games, from more Hopper titles to new genres like Arena Legends, that entertain players around the world.",
     icon: Star,
     milestone: false,
   },

@@ -2,15 +2,27 @@
 
 import { motion } from "framer-motion";
 import { Eye, Rocket, Target } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import { Timeline } from "@/components/about/Timeline";
 import { PageTransition } from "@/components/shared/PageTransition";
+import { Badge } from "@/components/ui/Badge";
 import { SectionHeading } from "@/components/ui/SectionHeading";
+import { apps, hasBuildVersion } from "@/data/apps";
+import type { App } from "@/types";
+
+const STATUS_LABEL: Record<NonNullable<App["status"]>, string> = {
+  live: "Live on Google Play",
+  "closed-testing": "Closed Testing",
+  "in-development": "In development",
+  "coming-soon": "Coming soon",
+};
 
 const goals = [
   "Take Time Hopper from Closed Testing to a worldwide Google Play launch",
   "Bring Space Hopper to Google Play Closed Testing",
-  "Build Arena Legends, our first action game, into a full release",
-  "Continue Road Hopper updates from player feedback",
+  "Take Arena Legends, our first action game, from first playable build to testing",
+  "Keep improving Road Hopper and Bank Hopper with player feedback",
   "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
   "Release 3+ new Android games by 2027",
   "Build a community of 100K+ players",
@@ -80,36 +92,26 @@ export default function AboutPage() {
             all ages.
           </p>
           <p>
-            Our debut title, <strong className="text-text">Road Hopper</strong>{" "}
-            (now live at <strong className="text-text">v9.4.9</strong> on Google
-            Play), represents this vision—combining fast-paced arcade gameplay
-            with clean design and an offline-friendly experience. Each new
-            release builds on the lessons learned from the last, with player
-            feedback playing a key role in shaping future updates and games.
+            Our debut title, <strong className="text-text">Road Hopper</strong>,
+            launched on Google Play in July 2026, combining fast-paced arcade
+            gameplay with clean design and offline play. It was followed in
+            October 2026 by <strong className="text-text">Bank Hopper</strong>,
+            a one-thumb bank heist that went live after a Closed Test with
+            players from our community.
           </p>
           <p>
-            <strong className="text-text">Bank Hopper</strong>, our one-thumb
-            bank heist, is now <strong className="text-text">live on Google
-            Play</strong> at v1.0.0.{" "}
             <strong className="text-text">Time Hopper</strong>, a seven-era
-            time-travel runner built around the Time Hop, is in{" "}
-            <strong className="text-text">Google Play Closed Testing</strong> at
-            v1.13.2. Join the tester group at{" "}
-            <a
-              href="https://groups.google.com/g/timehoppergame"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary font-medium hover:underline"
-            >
-              groups.google.com/g/timehoppergame
-            </a>
-            .{" "}
+            time-travel runner built around the Time Hop, is now in Google Play
+            Closed Testing. <strong className="text-text">Space Hopper</strong>{" "}
+            is being prepared for testing, and{" "}
             <strong className="text-text">Arena Legends</strong>, our first
-            action game, is a gladiator brawler now in development, and{" "}
-            <strong className="text-text">Space Hopper</strong>, an eight-planet
-            hop across the galaxy built in Unity, is being prepared for Google
-            Play Closed Testing. Follow trailers, gameplay,
-            and behind-the-scenes videos on YouTube at{" "}
+            action game, takes SouMoster beyond the Hopper series into real-time
+            gladiator combat. Each release builds on the lessons of the last,
+            with player feedback shaping every update.
+          </p>
+          <p>
+            Follow trailers, gameplay, and behind-the-scenes videos on YouTube
+            at{" "}
             <a
               href="https://www.youtube.com/@SouMosterGames"
               target="_blank"
@@ -118,9 +120,45 @@ export default function AboutPage() {
             >
               @SouMosterGames
             </a>
-            . As SouMoster grows, the mission remains the same: to create
+            . As SouMoster grows, the mission stays the same: to create
             high-quality Android games that are fun, polished, and memorable.
           </p>
+        </div>
+
+        <SectionHeading
+          eyebrow="Our Games"
+          title="Where Every Game Stands"
+          align="left"
+        />
+        <div className="mb-20 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {apps.map((app) => (
+            <Link
+              key={app.slug}
+              href={`/apps/${app.slug}`}
+              className="glass hover:border-primary/40 flex items-center gap-4 rounded-xl border border-transparent p-4 transition-colors"
+            >
+              <Image
+                src={app.icon}
+                alt=""
+                width={56}
+                height={56}
+                className="h-14 w-14 shrink-0 rounded-xl"
+                aria-hidden="true"
+              />
+              <div className="min-w-0">
+                <h3 className="text-text font-semibold">{app.name}</h3>
+                <p className="text-muted truncate text-xs">{app.genre}</p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
+                  <Badge
+                    variant={app.status === "live" ? "accent" : "secondary"}
+                  >
+                    {STATUS_LABEL[app.status ?? "live"]}
+                  </Badge>
+                  {hasBuildVersion(app) && <Badge>v{app.version}</Badge>}
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
 
         <SectionHeading eyebrow="Journey" title="Timeline" align="left" />
