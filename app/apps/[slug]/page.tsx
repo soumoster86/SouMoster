@@ -17,16 +17,13 @@ import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import {
+  closedTestingJoinUrl,
   getAppBySlug,
   getRelatedApps,
   isInDevelopment,
   isInviteOnly,
 } from "@/data/apps";
-import {
-  BANK_HOPPER_GOOGLE_GROUP_URL,
-  YOUTUBE_HANDLE,
-  YOUTUBE_URL,
-} from "@/lib/constants";
+import { YOUTUBE_HANDLE, YOUTUBE_URL } from "@/lib/constants";
 import { formatDate } from "@/lib/utils";
 import { generateSEO, generateSoftwareAppSchema } from "@/lib/seo";
 
@@ -130,7 +127,7 @@ export default async function AppPage({ params }: AppPageProps) {
               </div>
               <div className="flex shrink-0 flex-wrap items-center gap-3">
                 <Button
-                  href={app.googleGroupUrl ?? BANK_HOPPER_GOOGLE_GROUP_URL}
+                  href={closedTestingJoinUrl(app)}
                   size="lg"
                   className="shadow-primary/30 min-h-[50px] shadow-lg"
                 >
@@ -166,6 +163,7 @@ export default async function AppPage({ params }: AppPageProps) {
             <ScreenshotCarousel
               screenshots={app.screenshots}
               appName={app.name}
+              orientation={app.screenshotOrientation}
             />
           </section>
         )}

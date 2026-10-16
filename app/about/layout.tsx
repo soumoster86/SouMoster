@@ -4,7 +4,7 @@ import { generateSEO } from "@/lib/seo";
 export const metadata: Metadata = generateSEO({
   title: "About",
   description:
-    "Learn about SouMoster — independent Android games including Road Hopper (live), Bank Hopper (Google Play Closed Testing), Time Hopper and Space Hopper (in development). YouTube @SouMosterGames.",
+    "Learn about SouMoster — independent Android games including Road Hopper and Bank Hopper (live), Time Hopper (Google Play Closed Testing), Space Hopper and Arena Legends (in development). YouTube @SouMosterGames.",
   path: "/about",
 });
 

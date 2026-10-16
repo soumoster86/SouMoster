@@ -25,10 +25,11 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { useToastContext } from "@/components/shared/Providers";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import {
-  BANK_HOPPER_GOOGLE_GROUP_EMAIL,
-  BANK_HOPPER_GOOGLE_GROUP_URL,
   BANK_HOPPER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
+  TIME_HOPPER_GOOGLE_GROUP_EMAIL,
+  TIME_HOPPER_GOOGLE_GROUP_URL,
+  TIME_HOPPER_PLAY_STORE_URL,
   YOUTUBE_HANDLE,
   YOUTUBE_URL,
 } from "@/lib/constants";
@@ -45,20 +46,20 @@ interface GameOption {
 
 const GAME_OPTIONS: GameOption[] = [
   {
-    id: "bank-hopper",
-    name: "Bank Hopper",
-    version: "v0.8.0",
-    tagline: "One-thumb portrait bank heist arcade",
-    icon: "/images/bank-hopper-icon.png",
+    id: "time-hopper",
+    name: "Time Hopper",
+    version: "v1.13.2",
+    tagline: "Seven-era time-travel runner built around the Time Hop",
+    icon: "/images/time-hopper/icon.png",
     status: "active-testing",
     recommended: true,
   },
   {
-    id: "time-hopper",
-    name: "Time Hopper",
-    version: "Dev build 1.1.3",
-    tagline: "Seven-era time-travel runner built around the Time Hop",
-    icon: "/images/time-hopper/icon.png",
+    id: "arena-legends",
+    name: "Arena Legends",
+    version: "Dev build 0.1.0",
+    tagline: "Our first action game: gladiator combat and boss fights",
+    icon: "/images/arena-legends/icon.svg",
     status: "coming-soon",
   },
   {
@@ -85,10 +86,13 @@ function BetaForm() {
   const { addToast } = useToastContext();
 
   const [selectedGames, setSelectedGames] = useState<string[]>(() => {
-    if (initialGameParam === "space-hopper") return ["space-hopper"];
-    if (initialGameParam === "time-hopper") return ["time-hopper"];
-    if (initialGameParam === "bank-hopper") return ["bank-hopper"];
-    return ["bank-hopper"];
+    if (
+      initialGameParam &&
+      GAME_OPTIONS.some((g) => g.id === initialGameParam)
+    ) {
+      return [initialGameParam];
+    }
+    return ["time-hopper"];
   });
 
   const [formData, setFormData] = useState({
@@ -241,12 +245,12 @@ function BetaForm() {
                 Download exclusive pre-release builds directly from the Google
                 Play Store on your device:{" "}
                 <a
-                  href={BANK_HOPPER_PLAY_STORE_URL}
+                  href={TIME_HOPPER_PLAY_STORE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
                 >
-                  <span>Bank Hopper on Google Play</span>
+                  <span>Time Hopper on Google Play</span>
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </span>
@@ -270,18 +274,18 @@ function BetaForm() {
               </p>
               <div className="mt-2 flex flex-wrap items-center gap-2">
                 <a
-                  href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                  href={TIME_HOPPER_GOOGLE_GROUP_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border-primary/40 bg-primary/20 text-primary hover:bg-primary inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors hover:text-white"
                 >
-                  <span>Join bank-hopper-game Google Group</span>
+                  <span>Join timehoppergame Google Group</span>
                   <ExternalLink className="h-3.5 w-3.5" />
                 </a>
                 <span className="text-muted text-[11px]">
                   (
                   <code className="text-text font-mono">
-                    {BANK_HOPPER_GOOGLE_GROUP_EMAIL}
+                    {TIME_HOPPER_GOOGLE_GROUP_EMAIL}
                   </code>
                   )
                 </span>
@@ -292,16 +296,23 @@ function BetaForm() {
 
         <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <GooglePlayBadge
-            href={BANK_HOPPER_PLAY_STORE_URL}
+            href={TIME_HOPPER_PLAY_STORE_URL}
             size="md"
             subtext="TEST BUILD ON"
             title="Google Play"
-            ariaLabel="Download Bank Hopper Closed Beta on Google Play"
+            ariaLabel="Download the Time Hopper Closed Testing build on Google Play"
+          />
+          <GooglePlayBadge
+            href={BANK_HOPPER_PLAY_STORE_URL}
+            size="md"
+            subtext="NOW LIVE"
+            title="Bank Hopper"
+            ariaLabel="Download Bank Hopper on Google Play"
           />
           <GooglePlayBadge
             href={PLAY_STORE_APP_URL}
             size="md"
-            subtext="PLAY OUR LIVE TITLE"
+            subtext="NOW LIVE"
             title="Road Hopper"
             ariaLabel="Download Road Hopper on Google Play"
           />
@@ -575,9 +586,10 @@ export function BetaContent() {
             Join the <span className="gradient-text">Closed Beta</span>
           </h1>
           <p className="text-muted mx-auto mt-4 max-w-2xl text-base sm:text-lg">
-            Bank Hopper v0.8.0 is live on the Google Play Closed Testing track.
-            Closed Testing is wrapping up and we are applying for Google Play
-            production access. Join now to help with final polish.
+            Time Hopper v1.13.2 is on the Google Play Closed Testing track.
+            Help us tune its seven eras, Chronicle campaign and modes before
+            the worldwide launch. Bank Hopper, our last beta, is now live on
+            Google Play.
           </p>
           <a
             href={YOUTUBE_URL}
@@ -606,8 +618,9 @@ export function BetaContent() {
             Exclusive Early Builds
           </h3>
           <p className="text-muted mt-2 text-xs leading-relaxed">
-            Play <strong>Bank Hopper v0.8.0</strong> Closed Testing builds and
-            future titles directly through Google Play before public release.
+            Play <strong>Time Hopper v1.13.2</strong> Closed Testing builds and
+            future titles, like Arena Legends, through Google Play before public
+            release.
           </p>
         </motion.div>
 
@@ -667,7 +680,7 @@ export function BetaContent() {
               </p>
             </div>
             <a
-              href={BANK_HOPPER_GOOGLE_GROUP_URL}
+              href={TIME_HOPPER_GOOGLE_GROUP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="border-primary/50 bg-primary/10 text-primary hover:bg-primary inline-flex shrink-0 items-center gap-2 rounded-xl border px-4 py-2.5 text-xs font-semibold shadow-sm transition-all hover:text-white"
@@ -683,15 +696,16 @@ export function BetaContent() {
             <span>
               <strong>Tip:</strong> Joining the official{" "}
               <a
-                href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                href={TIME_HOPPER_GOOGLE_GROUP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary font-semibold hover:underline"
               >
-                bank-hopper-game Google Group
+                timehoppergame Google Group
               </a>{" "}
-              (<code>{BANK_HOPPER_GOOGLE_GROUP_EMAIL}</code>) grants instant
-              automated closed testing authorization via Google Play Console!
+              (<code>{TIME_HOPPER_GOOGLE_GROUP_EMAIL}</code>) with your Google
+              Play account gives you access to the Time Hopper closed testing
+              track.
             </span>
           </div>
         </div>
@@ -744,29 +758,29 @@ export function BetaContent() {
               What Android version is required?
             </h3>
             <p className="text-muted mt-2 text-sm leading-relaxed">
-              Bank Hopper supports Android 8.0 (API 26) and newer devices with
-              60 FPS SurfaceView support. Road Hopper supports Android 7.0+.
-              Time Hopper and Space Hopper are still in development.
+              Time Hopper and Bank Hopper support Android 8.0 (API 26) and
+              newer. Road Hopper supports Android 7.0+. Space Hopper and Arena
+              Legends are still in development.
             </p>
           </div>
 
           <div className="glass rounded-2xl p-6">
             <h3 className="font-heading text-text text-base font-semibold">
-              Is Bank Hopper Closed Testing open now?
+              Is Time Hopper Closed Testing open now?
             </h3>
             <p className="text-muted mt-2 text-sm leading-relaxed">
-              Yes. Bank Hopper v0.8.0 is on the Google Play Closed Testing
+              Yes. Time Hopper v1.13.2 is on the Google Play Closed Testing
               track. Join{" "}
               <a
-                href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                href={TIME_HOPPER_GOOGLE_GROUP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary font-medium hover:underline"
               >
-                groups.google.com/g/bank-hopper-game
+                groups.google.com/g/timehoppergame
               </a>
-              , opt in on Play, then install from the listing. Public launch
-              follows this testing phase.
+              , opt in on Play, then install from the listing. Bank Hopper has
+              finished testing and is live on Google Play.
             </p>
           </div>
 

@@ -41,7 +41,7 @@ const timeline = [
     period: "September 2026",
     title: "Bank Hopper Closed Testing",
     description:
-      "Bank Hopper entered Google Play Closed Testing at v0.8.0 and is now ready to apply for production access — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards. Testers join https://groups.google.com/g/bank-hopper-game, then opt in on Play.",
+      "Bank Hopper entered Google Play Closed Testing at v0.8.0 — tap-to-bank heists, Full Heist eight-floor runs, and global Play Games leaderboards — with testers from the bank-hopper-game Google Group.",
     icon: Rocket,
     milestone: true,
   },
@@ -49,7 +49,7 @@ const timeline = [
     period: "Now",
     title: "Expanding the Hopper Universe",
     description:
-      "Road Hopper stays live on Google Play. Bank Hopper is applying for production access. Time Hopper, a seven-era time-travel runner, is a playable development build and Space Hopper, an eight-planet galaxy hopper built in Unity, is being prepared for Closed Testing. Trailers and gameplay live on YouTube @SouMosterGames.",
+      "Road Hopper and Bank Hopper are live on Google Play. Time Hopper is in Closed Testing, Space Hopper is being prepared for testing, and Arena Legends, our first action game, is in development. Trailers and gameplay live on YouTube @SouMosterGames.",
     icon: TrendingUp,
     milestone: false,
   },

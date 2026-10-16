@@ -8,6 +8,7 @@ interface PhoneFrameProps {
   poster?: string;
   className?: string;
   size?: "sm" | "md" | "lg";
+  orientation?: "portrait" | "landscape";
   priority?: boolean;
 }
 
@@ -17,6 +18,12 @@ const sizeClasses = {
   lg: "w-[220px] sm:w-[260px] lg:w-[280px]",
 };
 
+const landscapeSizeClasses = {
+  sm: "w-[280px] sm:w-[360px]",
+  md: "w-full max-w-[640px]",
+  lg: "w-full max-w-[760px]",
+};
+
 export function PhoneFrame({
   src,
   alt,
@@ -24,16 +31,42 @@ export function PhoneFrame({
   poster,
   className,
   size = "md",
+  orientation = "portrait",
   priority = false,
 }: PhoneFrameProps) {
+  const landscape = orientation === "landscape";
+
   return (
-    <div className={cn("relative mx-auto", sizeClasses[size], className)}>
-      <div className="rounded-[2.5rem] border-[3px] border-border/80 bg-card p-2 shadow-2xl shadow-primary/25 ring-1 ring-white/10">
+    <div
+      className={cn(
+        "relative mx-auto",
+        landscape ? landscapeSizeClasses[size] : sizeClasses[size],
+        className,
+      )}
+    >
+      <div
+        className={cn(
+          "border-[3px] border-border/80 bg-card shadow-2xl shadow-primary/25 ring-1 ring-white/10",
+          landscape ? "rounded-[2rem] p-2 sm:p-3" : "rounded-[2.5rem] p-2",
+        )}
+      >
         <div
-          className="pointer-events-none absolute top-4 left-1/2 z-10 h-5 w-20 -translate-x-1/2 rounded-full bg-card"
+          className={cn(
+            "pointer-events-none absolute z-10 rounded-full bg-card",
+            landscape
+              ? "top-1/2 left-4 h-14 w-3 -translate-y-1/2 sm:left-5"
+              : "top-4 left-1/2 h-5 w-20 -translate-x-1/2",
+          )}
           aria-hidden="true"
         />
-        <div className="relative aspect-[9/19.5] overflow-hidden rounded-[2rem] bg-black">
+        <div
+          className={cn(
+            "relative overflow-hidden bg-black",
+            landscape
+              ? "aspect-video rounded-[1.5rem]"
+              : "aspect-[9/19.5] rounded-[2rem]",
+          )}
+        >
           {videoSrc ? (
             <video
               autoPlay
@@ -53,14 +86,20 @@ export function PhoneFrame({
               fill
               className="object-cover object-top"
               priority={priority}
-              sizes="(max-width: 640px) 220px, 280px"
+              sizes={
+                landscape
+                  ? "(max-width: 768px) 100vw, 760px"
+                  : "(max-width: 640px) 220px, 280px"
+              }
             />
           ) : null}
         </div>
-        <div
-          className="mx-auto mt-2 h-1 w-1/3 rounded-full bg-muted/50"
-          aria-hidden="true"
-        />
+        {!landscape && (
+          <div
+            className="mx-auto mt-2 h-1 w-1/3 rounded-full bg-muted/50"
+            aria-hidden="true"
+          />
+        )}
       </div>
     </div>
   );

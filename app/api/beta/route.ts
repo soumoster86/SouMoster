@@ -23,7 +23,7 @@ export async function POST(request: Request) {
     }
 
     if (gamesList.length === 0) {
-      gamesList = ["Bank Hopper"];
+      gamesList = ["Time Hopper"];
     }
 
     if (!email) {

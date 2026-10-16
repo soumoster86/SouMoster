@@ -7,8 +7,9 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const goals = [
-  "Take Bank Hopper from Closed Testing to production on Google Play (access application in progress)",
-  "Bring Space Hopper and Time Hopper to Google Play Closed Testing",
+  "Take Time Hopper from Closed Testing to a worldwide Google Play launch",
+  "Bring Space Hopper to Google Play Closed Testing",
+  "Build Arena Legends, our first action game, into a full release",
   "Continue Road Hopper updates from player feedback",
   "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
   "Release 3+ new Android games by 2027",
@@ -87,23 +88,24 @@ export default function AboutPage() {
             feedback playing a key role in shaping future updates and games.
           </p>
           <p>
-            <strong className="text-text">Bank Hopper</strong> is now in{" "}
+            <strong className="text-text">Bank Hopper</strong>, our one-thumb
+            bank heist, is now <strong className="text-text">live on Google
+            Play</strong> at v1.0.0.{" "}
+            <strong className="text-text">Time Hopper</strong>, a seven-era
+            time-travel runner built around the Time Hop, is in{" "}
             <strong className="text-text">Google Play Closed Testing</strong> at
-            v0.8.0 — Closed Testing is complete and we are applying for Google
-            Play production access ahead of the public launch. Join the
-            tester group at{" "}
+            v1.13.2. Join the tester group at{" "}
             <a
-              href="https://groups.google.com/g/bank-hopper-game"
+              href="https://groups.google.com/g/timehoppergame"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary font-medium hover:underline"
             >
-              groups.google.com/g/bank-hopper-game
+              groups.google.com/g/timehoppergame
             </a>
             .{" "}
-            <strong className="text-text">Time Hopper</strong>, a seven-era
-            time-travel runner built around the Time Hop, is a playable
-            development build, and{" "}
+            <strong className="text-text">Arena Legends</strong>, our first
+            action game, is a gladiator brawler now in development, and{" "}
             <strong className="text-text">Space Hopper</strong>, an eight-planet
             hop across the galaxy built in Unity, is being prepared for Google
             Play Closed Testing. Follow trailers, gameplay,

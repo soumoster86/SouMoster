@@ -9,7 +9,7 @@ import { generateSEO } from "@/lib/seo";
 
 export const metadata = generateSEO({
   title: "Delete Your Data",
-  description: `How to request deletion of your data from ${SITE_NAME} games, including Road Hopper and Bank Hopper. Covers on-device saves, Google Play Games data, and support records.`,
+  description: `How to request deletion of your data from ${SITE_NAME} games, including Road Hopper, Bank Hopper and Time Hopper. Covers on-device saves, Google Play Games data, and support records.`,
   path: "/delete-data",
 });
 

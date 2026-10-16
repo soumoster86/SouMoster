@@ -10,9 +10,15 @@ import { cn } from "@/lib/utils";
 interface ScreenshotCarouselProps {
   screenshots: string[];
   appName: string;
+  orientation?: "portrait" | "landscape";
 }
 
-export function ScreenshotCarousel({ screenshots, appName }: ScreenshotCarouselProps) {
+export function ScreenshotCarousel({
+  screenshots,
+  appName,
+  orientation = "portrait",
+}: ScreenshotCarouselProps) {
+  const landscape = orientation === "landscape";
   const [current, setCurrent] = useState(0);
 
   const prev = () => setCurrent((c) => (c === 0 ? screenshots.length - 1 : c - 1));
@@ -20,7 +26,12 @@ export function ScreenshotCarousel({ screenshots, appName }: ScreenshotCarouselP
 
   return (
     <div className="relative" aria-label="Gameplay screenshots">
-      <div className="relative mx-auto max-w-xs sm:max-w-sm">
+      <div
+        className={cn(
+          "relative mx-auto",
+          landscape ? "max-w-3xl px-6 sm:px-0" : "max-w-xs sm:max-w-sm",
+        )}
+      >
         <AnimatePresence mode="wait">
           <motion.div
             key={current}
@@ -33,6 +44,7 @@ export function ScreenshotCarousel({ screenshots, appName }: ScreenshotCarouselP
               src={screenshots[current]}
               alt={`${appName} screenshot ${current + 1}`}
               size="md"
+              orientation={orientation}
             />
           </motion.div>
         </AnimatePresence>
@@ -53,13 +65,14 @@ export function ScreenshotCarousel({ screenshots, appName }: ScreenshotCarouselP
         </button>
       </div>
 
-      <div className="mt-6 flex justify-center gap-2">
+      <div className="mt-6 flex flex-wrap justify-center gap-2">
         {screenshots.map((screenshot, i) => (
           <button
             key={i}
             onClick={() => setCurrent(i)}
             className={cn(
-              "relative h-16 w-9 overflow-hidden rounded-lg border-2 transition-all sm:h-20 sm:w-11",
+              "relative overflow-hidden rounded-lg border-2 transition-all",
+              landscape ? "h-9 w-16 sm:h-11 sm:w-20" : "h-16 w-9 sm:h-20 sm:w-11",
               i === current
                 ? "border-primary shadow-lg shadow-primary/25"
                 : "border-border opacity-60 hover:opacity-100",
@@ -72,7 +85,7 @@ export function ScreenshotCarousel({ screenshots, appName }: ScreenshotCarouselP
               alt=""
               fill
               className="object-cover object-top"
-              sizes="44px"
+              sizes={landscape ? "80px" : "44px"}
               aria-hidden="true"
             />
           </button>

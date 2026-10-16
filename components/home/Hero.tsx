@@ -9,7 +9,7 @@ import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { getFeaturedApp } from "@/data/apps";
 import {
-  BANK_HOPPER_GOOGLE_GROUP_URL,
+  TIME_HOPPER_GOOGLE_GROUP_URL,
   PLAY_STORE_DEV_URL,
   YOUTUBE_URL,
 } from "@/lib/constants";
@@ -125,13 +125,13 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
             >
               <Button
-                href={BANK_HOPPER_GOOGLE_GROUP_URL}
+                href={TIME_HOPPER_GOOGLE_GROUP_URL}
                 variant="secondary"
                 size="md"
                 className="min-h-[44px]"
               >
                 <Users className="h-4 w-4" />
-                Join Bank Hopper Google Group
+                Join Time Hopper Closed Testing
               </Button>
               <a
                 href={YOUTUBE_URL}

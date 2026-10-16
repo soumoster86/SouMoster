@@ -11,6 +11,8 @@ export interface App {
   icon: string;
   banner: string;
   screenshots: string[];
+  /** Landscape games show their screenshots in a sideways phone frame. */
+  screenshotOrientation?: "portrait" | "landscape";
   gameplayVideo?: string;
   youtubeUrl?: string;
   googleGroupUrl?: string;

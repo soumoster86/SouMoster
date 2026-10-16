@@ -1,5 +1,8 @@
 import type { App } from "@/types";
-import { BANK_HOPPER_GOOGLE_GROUP_URL } from "@/lib/constants";
+import {
+  TIME_HOPPER_GOOGLE_GROUP_URL,
+  TIME_HOPPER_PLAY_STORE_URL,
+} from "@/lib/constants";
 
 /** Live listing: https://play.google.com/store/apps/details?id=com.roadohopper.game */
 export const apps: App[] = [
@@ -136,17 +139,16 @@ export const apps: App[] = [
     name: "Bank Hopper",
     tagline: "Hop. Grab Cash. Escape the Bank.",
     description:
-      "One-thumb portrait arcade bank heist! Hop lane-by-lane out of the bank with your cash. Balance greed versus safety before the security meter catches you!",
+      "One-thumb portrait arcade bank heist, now live on Google Play! Hop lane-by-lane out of the bank with your cash and balance greed against the security meter.",
     longDescription:
-      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, in Google Play Closed Testing at v0.8.0 and preparing to apply for production access. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Full Heist across eight floors, chase global Play Games leaderboards, and unlock bag styles, getaways, and characters like Rookie, Grabber, Insurance, and Black Limo. Built natively in Kotlin at 60 FPS, with ethical ads, offline saves, and zero pay-to-win.",
+      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, now live on Google Play. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Dodge laser grids and patrolling security drones, tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Endless, handcrafted heists and Full Heist runs across eight floors, unlock characters, gadgets, perks and getaway rides, and climb the leaderboards. No account needed, and it plays offline.",
     genre: "Arcade",
     category: "Arcade",
-    version: "0.8.0",
-    status: "closed-testing",
+    version: "1.0.0",
+    status: "live",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.bankhopper",
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
-    googleGroupUrl: BANK_HOPPER_GOOGLE_GROUP_URL,
     icon: "/images/bank-hopper-icon.png",
     banner: "/images/bank-hopper-banner.png",
     screenshots: [
@@ -159,17 +161,17 @@ export const apps: App[] = [
     ],
     gameplayVideo: "/videos/bank-hopper-promo.mp4",
     features: [
-      "Now in Google Play Closed Testing — join https://groups.google.com/g/bank-hopper-game then install from Play",
-      "One-thumb portrait controls — tap forward, swipe lateral, hold for ability",
+      "Live on Google Play: free to download, rated 7+",
+      "One-thumb portrait controls: tap forward, swipe lateral, hold for ability",
       "Tap to bank: booths light up as you near them; lock cash in or run past",
       "Risk vs. reward Greed and Security meter that escalates the pursuit",
       "Full Heist mode: all eight floors in one run as security rises",
-      "Heist Rush combos, power-ups, and environments including Security Floor, Subway, and Escape Zone",
-      "Characters: Rookie, Grabber, Insurance, and Black Limo",
-      "Bag cosmetics, Pickup and Crew Van getaways, and themed menus",
-      "Global Google Play Games leaderboards: Best Score, Full Heist, Fastest Escape, Lifetime Loot",
-      "100% offline saves — pull off heists anywhere without internet",
-      "Native Kotlin 60 FPS SurfaceView loop",
+      "Endless mode, handcrafted heists and special challenge runs",
+      "Heist Rush combos, laser grids, security drones and environments including Security Floor, Subway and Escape Zone",
+      "Characters: Rookie, Grabber, Insurance and Black Limo",
+      "Gadgets, perks, bag cosmetics and getaway rides",
+      "Vault of Honors: relics, mastery crests, badges and reputation titles",
+      "No account required; play offline anywhere",
     ],
     howToPlay: [
       "Tap to hop forward lane-by-lane out of the bank",
@@ -182,14 +184,30 @@ export const apps: App[] = [
     ],
     versionHistory: [
       {
+        version: "1.0.0",
+        date: "2026-10-06",
+        changes: [
+          "Public release: Bank Hopper is live on Google Play",
+          "Endless, handcrafted heists and challenge runs",
+          "Thank you to every Closed Testing tester who helped polish it",
+        ],
+      },
+      {
+        version: "0.8.7",
+        date: "2026-10-02",
+        changes: [
+          "Painted icons across the Vault of Honors: relics, crests, badges and street rep",
+          "Reputation titles get their own marks, from a hood up to a crown",
+          "A painted icon for each Daily mutator",
+        ],
+      },
+      {
         version: "0.8.0",
         date: "2026-09-20",
         changes: [
           "Closed Testing build on Google Play",
           "Shorter start: two coached runs instead of four; the rest is taught in play",
           "Global leaderboards sign-in on Play Store installs",
-          "Relic cards now show CONQUERED and count each conquest",
-          "Fixes for first-result copy, relic forged spam, tutorial forks, and electric fence art",
         ],
       },
       {
@@ -198,51 +216,35 @@ export const apps: App[] = [
         changes: [
           "Tap to bank: booths light up as you near them",
           "Six bag styles, Pickup and Crew Van getaways, new hazard art",
-          "Equipped themes colour the menus; shop items drawn as in play",
           "Global Play Games leaderboards on Boards",
-          "Startup crash and Large UI HEIST-button fixes",
-        ],
-      },
-      {
-        version: "0.7.4",
-        date: "2026-09-18",
-        changes: [
-          "Full Heist mode: all eight floors in one run",
-          "Heist Rush combos, beat pulse, and aerial crosshair telegraphs",
-          "Rookie's Cool Head passive; Shop Remove Ads and HCoin packs",
-          "Native Kotlin 60 FPS SurfaceView loop with Security / Greed escalation",
         ],
       },
     ],
-    knownIssues: [
-      "Invite-only Google Play Closed Testing — join https://groups.google.com/g/bank-hopper-game then opt in on Play to install",
-      "Production access application to Google Play is in progress; the public launch date depends on Google's review",
-    ],
+    knownIssues: [],
     faq: [
-      {
-        question: "How do I play Bank Hopper right now?",
-        answer:
-          "Bank Hopper is in Google Play Closed Testing at v0.8.0. Join the tester Google Group at https://groups.google.com/g/bank-hopper-game, opt in on Play, then install from the Play Store listing.",
-      },
-      {
-        question: "When will Bank Hopper be released publicly?",
-        answer:
-          "Closed Testing is complete and we are applying to Google Play for production access. A worldwide public launch follows once Google approves the application.",
-      },
-      {
-        question: "What platforms will Bank Hopper support?",
-        answer:
-          "Bank Hopper is developed natively in Kotlin for Android 8.0+ devices, optimized for 60 FPS on phones and tablets.",
-      },
       {
         question: "Is Bank Hopper free to play?",
         answer:
-          "Yes. Bank Hopper is free to play with earnable rewards, ethical ads, and cosmetic-only in-app purchases.",
+          "Yes. Bank Hopper is free to download on Google Play. It contains ads and optional in-app purchases, and everything that affects gameplay can be earned by playing.",
       },
       {
-        question: "Will it work offline?",
+        question: "Does it work offline?",
         answer:
-          "Yes. Bank Hopper features offline-first local saves so you can pull off bank heists without an internet connection. Leaderboards and purchases need Play when you use them.",
+          "Yes. No account is needed and heists save on your device. Leaderboards and purchases need an internet connection when you use them.",
+      },
+      {
+        question: "What age rating is it?",
+        answer: "Rated 7+ on Google Play.",
+      },
+      {
+        question: "What devices does it support?",
+        answer:
+          "Bank Hopper is built natively in Kotlin for Android 8.0 and newer, optimized for 60 FPS on phones and tablets.",
+      },
+      {
+        question: "How do I report a bug?",
+        answer:
+          "Use our Support page or email soumoster@gmail.com with details about the issue.",
       },
       {
         question: "Where can I watch Bank Hopper trailers?",
@@ -251,25 +253,29 @@ export const apps: App[] = [
       },
     ],
     featured: false,
-    releaseDate: "2026-09-20",
+    releaseDate: "2026-10-06",
+    downloads: "10+",
   },
   {
     slug: "time-hopper",
     name: "Time Hopper",
     tagline: "Hop Through Time. Break History. Fix the Timeline.",
     description:
-      "A portrait three-lane runner across seven eras of history. Dodge what's ahead, or Time Hop into an alternate timeline where the hazards are different.",
+      "A time-travel runner across seven eras, each with two worlds. Dodge what's ahead, or Time Hop into the alternate timeline. Now in Google Play Closed Testing.",
     longDescription:
-      "Time Hopper is a native Kotlin arcade runner from SouMoster, now in development. A traveller with a damaged time device sprints through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. The signature move is the Time Hop: spend energy to slip into an alternate timeline for three seconds, where the obstacle in front of you may vanish or something worse may wait. Purple echoes show what's on the other side. Every hop raises Paradox, and the higher it climbs, the more unstable the run becomes. Outrun a T-Rex, a collapsing temple, siege fire and a runaway train, collect relics for your museum, and at every Time Gate choose to bank your haul or push deeper into time. Fully offline.",
+      "Time Hopper is a native Kotlin time-travel runner from SouMoster, now in Google Play Closed Testing. Sprint through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. Every era has two worlds. When the road closes in, spend energy to Time Hop into the alternate timeline, where purple echoes show what's waiting, then prepare for your return. Pick Stable, Relic or Paradox portals, outrun each era's pursuit, and at every Chrono Gate extract with your discoveries or go deeper. Play the 21-level Chronicle story campaign, Classic and Endless runs, Paradox, Relic Hunt and Hardcore twists, Boss Gauntlet, Timeline Puzzles, weekly events and a Daily Timeline with a ghost to race. Unlock travelers with active abilities and recover 65 illustrated artifacts for your museum.",
     genre: "Arcade",
     category: "Arcade",
-    version: "1.1.3",
-    status: "in-development",
-    playStoreUrl: "",
+    version: "1.13.2",
+    status: "closed-testing",
+    playStoreUrl: TIME_HOPPER_PLAY_STORE_URL,
+    googleGroupUrl: TIME_HOPPER_GOOGLE_GROUP_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/time-hopper/icon.png",
     banner: "/images/time-hopper/banner.webp",
     screenshots: [
+      "/images/time-hopper/screen-echo-world.webp",
+      "/images/time-hopper/screen-chrono-gate.webp",
       "/images/time-hopper/screen-time-hop.webp",
       "/images/time-hopper/screen-junction.webp",
       "/images/time-hopper/screen-perfect-jump.webp",
@@ -279,16 +285,17 @@ export const apps: App[] = [
       "/images/time-hopper/screen-loadout.webp",
     ],
     features: [
-      "Time Hop: three seconds in an alternate timeline, with purple echoes showing what's waiting there",
-      "Seven eras, each with its own pursuit: T-Rex, temple collapse, siege fire, runaway train, highway collapse, hunter drones and a time storm",
-      "Paradox meter: echoes drift above 60%, hazards destabilise above 80%, and a Chrono Guardian hunts you at 100%",
-      "Bank or continue: extract at every Time Gate to keep your haul, or risk the next era for more",
-      "Timeline junctions: choose the Stable, Relic or Paradox portal",
-      "Seven characters with unique abilities: Max Tempo, Dr. Nova, Rex, Lady Epoch, Glitch, Captain Clock and Zero",
-      "Six gadgets, including Chrono Shield, Artifact Scanner, Phase Boots and Emergency Portal",
-      "Six modes: Classic, Daily Timeline, Endless, Paradox, Relic Hunt and Hardcore",
-      "Relic museum, daily and weekly missions, Chrono Rank and a cosmetic shop",
-      "Original soundtrack, fully offline, left-handed and high-contrast options",
+      "Now in Google Play Closed Testing: join the tester Google Group, then opt in on Play",
+      "Time Hop: every era has two worlds; slip into the alternate timeline when the road closes in",
+      "Seven eras, each with its own scenery, hazards and pursuit",
+      "Chronicle: a 21-level story campaign with three star goals per level",
+      "Score runs, twists and challenges: Classic, Endless, Paradox, Relic Hunt, Hardcore, Boss Gauntlet, Timeline Puzzles and weekly events",
+      "Daily Timeline with a daily twist, a streak and a ghost of your best run to race",
+      "Stable, Relic and Paradox portals, and gate anomalies when you go deeper",
+      "Seven travelers, each with an active ability, plus gadgets and trait upgrades",
+      "Museum of 65 illustrated artifacts across nine rooms",
+      "Google Play Games sign-in, leaderboards and cloud save backup",
+      "Swipe and tap or on-screen buttons; handedness, contrast and effects settings",
     ],
     howToPlay: [
       "Swipe left or right to change lanes",
@@ -302,81 +309,97 @@ export const apps: App[] = [
     ],
     versionHistory: [
       {
-        version: "1.1.3",
+        version: "1.13.2",
+        changes: ["Closed Testing build on Google Play"],
+      },
+      {
+        version: "1.13.0",
+        date: "2026-10-09",
         changes: [
-          "Animated pursuers chase you down the middle lane",
-          "Rift gaps illustrated as broken-stone chasms",
+          "Google Play Games sign-in and leaderboards",
+          "Manual cloud save backup and restore",
+          "Optional Remove Ads and shard packs; shard cosmetics in the shop (1.13.1)",
         ],
       },
       {
-        version: "1.1.2",
-        changes: ["Unique jump and slide animations for all seven characters"],
-      },
-      {
-        version: "1.1.1",
+        version: "1.12.0",
+        date: "2026-10-07",
         changes: [
-          "Eight-frame run animations for every character",
-          "Illustrated pursuit threats and a clockwork Time Hop button",
-          "Original soundtrack: Museum Afterglow and Through the Rift",
+          "Ghost time trial, Boss Gauntlet, Timeline Puzzles and weekly events",
+          "Daily twist and streak, the Chrono Pass and the time machine",
+          "First internal test on Google Play",
         ],
       },
       {
-        version: "1.1.0",
+        version: "1.11.0",
+        changes: ["Every runner gets an active ability on a charge meter"],
+      },
+      {
+        version: "1.10.0",
+        changes: ["Chronicle: a 21-level story campaign with star goals"],
+      },
+      {
+        version: "1.9.0",
+        changes: ["Gate anomalies: stacking rule changes when you go deeper"],
+      },
+      {
+        version: "1.8.0",
         changes: [
-          "Reworked pursuits, combo and Paradox",
-          "In-world junction portals, input buffering and slide fast-fall",
-          "Rotating daily and weekly missions",
+          "Nine museum rooms with lore for all 65 artifacts",
+          "Illustrated artifacts on shelves and as gameplay pickups (1.8.1–1.8.2)",
         ],
       },
       {
-        version: "1.0.0",
+        version: "1.2–1.7",
         changes: [
-          "All seven eras, seven characters and six gadgets",
-          "Endless, Paradox, Relic Hunt and Hardcore modes",
-          "Catalog collections, Chrono Rank, weekly goals and a cosmetic shop",
+          "Long-jump ramps, alternate worlds for every era, trait upgrades",
+          "Staged pursuits, era mastery goals, illustrated obstacles and moving hazards",
         ],
       },
       {
-        version: "0.2.0",
-        changes: ["Daily Timeline: one shared seeded run per day, daily missions and achievements"],
-      },
-      {
-        version: "0.1.0",
-        changes: ["First playable build: three eras, Time Hop, Paradox, pursuits and Time Gates"],
+        version: "1.0–1.1",
+        changes: [
+          "All seven eras, seven characters, six gadgets and the core modes",
+          "Animated characters and pursuers, and an original soundtrack",
+        ],
       },
     ],
     knownIssues: [
-      "Development build: not yet on Google Play. Play Games leaderboards, cloud save, purchases and ads are not in this build",
+      "Invite-only Google Play Closed Testing: join https://groups.google.com/g/timehoppergame, then opt in on Play to install",
     ],
     faq: [
       {
-        question: "When will Time Hopper be available?",
+        question: "How do I play Time Hopper right now?",
         answer:
-          "Time Hopper is a playable development build (v1.1.3) and is not on Google Play yet. Sign up on our Beta page to hear first when testing opens.",
+          "Time Hopper is in Google Play Closed Testing. Join the tester Google Group at https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) with your Google Play account, opt in on Play, then install from the Play Store listing.",
       },
       {
         question: "What is a Time Hop?",
         answer:
-          "Time Hop spends 35 energy to move you into an alternate version of the timeline for three seconds. Hazards there are different, and purple echoes show them before you hop, so you choose whether dodging or hopping is safer.",
+          "Every era has two worlds. Time Hop spends energy to move you into the alternate timeline for a few seconds. Hazards there are different, and purple echoes show them before you hop, so you choose whether dodging or hopping is safer.",
       },
       {
-        question: "What is Paradox?",
+        question: "When will Time Hopper launch publicly?",
         answer:
-          "Bending time raises Paradox. Above 60% echoes start to drift, above 80% some hazards exist in both timelines, and at 100% a Chrono Guardian gives chase. Escaping it drops Paradox back to 70%.",
+          "A worldwide launch follows Closed Testing and Google Play's production review. Testers help us tune difficulty, ads and performance before that.",
+      },
+      {
+        question: "Is Time Hopper free?",
+        answer:
+          "Yes. It's free to play with ads. Optional purchases (Remove Ads and shard packs) never sell exclusive characters or gameplay powers, and shards can be earned by playing.",
       },
       {
         question: "Does it work offline?",
         answer:
-          "Yes. Time Hopper is built to play fully offline, with progress saved on your device.",
+          "Core gameplay and local progression work offline. Ads, leaderboards and cloud save need an internet connection.",
       },
       {
-        question: "What devices will it support?",
-        answer:
-          "Android 8.0 (API 26) and newer, in portrait.",
+        question: "What devices does it support?",
+        answer: "Android 8.0 (API 26) and newer, in portrait.",
       },
     ],
     featured: false,
-    releaseDate: "2026-10-02",
+    releaseDate: "2026-10-16",
   },
   {
     slug: "space-hopper",
@@ -458,6 +481,94 @@ export const apps: App[] = [
     ],
     featured: false,
     releaseDate: "2026-07-08",
+  },
+  {
+    slug: "arena-legends",
+    name: "Arena Legends",
+    tagline: "Gladiator Wars. Fight, and earn your freedom.",
+    description:
+      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now in development.",
+    longDescription:
+      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX and now in development. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Chain directional combos, charge heavy attacks, block, parry and counter, dodge, and break shields and armor. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, and upgrade your gear in the Armory. Survival, Training and a timed Boss Rush round it out. Plays in landscape, fully offline.",
+    genre: "Action",
+    category: "Action",
+    version: "0.1.0",
+    status: "in-development",
+    playStoreUrl: "",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    icon: "/images/arena-legends/icon.svg",
+    banner: "/images/arena-legends/banner.webp",
+    screenshotOrientation: "landscape",
+    screenshots: [
+      "/images/arena-legends/screen-boss-brutus.webp",
+      "/images/arena-legends/screen-combo.webp",
+      "/images/arena-legends/screen-inferno-champion.webp",
+      "/images/arena-legends/screen-imperial-champion.webp",
+      "/images/arena-legends/screen-beast-master.webp",
+      "/images/arena-legends/screen-shield-bash.webp",
+      "/images/arena-legends/screen-weapons.webp",
+      "/images/arena-legends/screen-campaign.webp",
+      "/images/arena-legends/screen-modes.webp",
+      "/images/arena-legends/screen-chapter-intro.webp",
+      "/images/arena-legends/screen-title.webp",
+    ],
+    features: [
+      "SouMoster's first action game: real-time gladiator combat in landscape",
+      "Five-chapter campaign: the Blood Pits, the Coliseum, the Wild Trials, the Ashen Arena and the Hall of Champions",
+      "Five bosses: Brutus the Iron Wall, Vex, the Beast Master, the Inferno Champion and the three-stance Imperial Champion",
+      "Directional combos, charged heavy attacks, block, parry and counter, dodge and finishers, all on a shared stamina bar",
+      "Four weapon classes with their own combos and skills: Sword & Shield (Shield Bash), Spear (Piercing Thrust), Dual Blades (Cross Cut) and Great Axe (Whirlwind)",
+      "Raiders, lancers, brutes, shield guardians, berserkers, net fighters and pouncing lions",
+      "Break enemy shields and armor; avoid spinning blades, snares and fire vents",
+      "Survival waves, hands-on Training lessons and a timed Boss Rush",
+      "Armory upgrades, talents, gold, XP and reputation unlocks",
+      "Painted arenas, animated fighters, hit-stop, impact sound and adjustable screen shake",
+      "Offline play; options for automatic facing, large text and controls, and reduced motion",
+    ],
+    howToPlay: [
+      "Move with the floating joystick on the left",
+      "Tap Strike to chain a three-hit combo; hold Strike to charge a heavy attack",
+      "Hold Block to guard your front, or block just before impact to parry and open a counter",
+      "Tap Dodge to roll out of marked attack zones",
+      "Use your weapon's skill, like Shield Bash, to stagger enemies",
+      "Watch your stamina: attacks, guard and dodge all share it",
+      "Break shields and armor with heavy attacks, then punish the opening",
+      "Clear every trial to face the chapter's boss and earn your freedom",
+    ],
+    versionHistory: [
+      {
+        version: "0.1.0",
+        date: "2026-10-15",
+        changes: [
+          "Five-chapter campaign playable through the Imperial Champion",
+          "Wild Trials, Ashen Arena and Hall of Champions with beasts, snares and fire vents",
+          "Boss Rush, Survival and Training modes; four weapon classes",
+        ],
+      },
+    ],
+    knownIssues: ["Development build: not yet on Google Play"],
+    faq: [
+      {
+        question: "When will Arena Legends be available?",
+        answer:
+          "Arena Legends is in development and has no release date yet. Sign up on our Beta page to hear first when testing opens.",
+      },
+      {
+        question: "Is it different from the Hopper games?",
+        answer:
+          "Yes. Arena Legends is SouMoster's first action game: real-time melee combat with combos, parries, stamina and boss fights, played in landscape with a joystick and action buttons.",
+      },
+      {
+        question: "Will it work offline?",
+        answer: "Yes. Arena Legends is built for offline play, with progress saved on your device.",
+      },
+      {
+        question: "What devices will it support?",
+        answer: "Android 6.0 (API 23) and newer, in landscape.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-10-16",
   },
 ];
 

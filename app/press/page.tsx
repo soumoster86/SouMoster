@@ -19,7 +19,7 @@ import type { App } from "@/types";
 
 export const metadata = generateSEO({
   title: "Press Kit",
-  description: `${SITE_NAME} press kit: studio fact sheet, game fact sheets, logos, icons, banners, screenshots, and trailer links for Road Hopper, Bank Hopper, Time Hopper, and Space Hopper.`,
+  description: `${SITE_NAME} press kit: studio fact sheet, game fact sheets, logos, icons, banners, screenshots, and trailer links for Road Hopper, Bank Hopper, Time Hopper, Space Hopper, and Arena Legends.`,
   path: "/press",
 });
 
@@ -77,15 +77,15 @@ export default function PressPage() {
                 with <strong className="text-text">Road Hopper</strong>, live
                 on Google Play, followed by{" "}
                 <strong className="text-text">Bank Hopper</strong>, a one-thumb
-                bank heist arcade game that has finished Google Play Closed
-                Testing.
+                bank heist arcade game, also live on Google Play.
               </p>
               <p>
-                Two more titles are in development:{" "}
                 <strong className="text-text">Time Hopper</strong>, a seven-era
-                time-travel runner, and{" "}
+                time-travel runner, is in Google Play Closed Testing.{" "}
                 <strong className="text-text">Space Hopper</strong>, an eight-planet
-                hop across the galaxy. Trailers,
+                hop across the galaxy, and{" "}
+                <strong className="text-text">Arena Legends</strong>, the
+                studio&apos;s first action game, are in development. Trailers,
                 gameplay, and developer videos are on YouTube at{" "}
                 <a
                   href={YOUTUBE_URL}

@@ -5,7 +5,7 @@ export const SITE_TAGLINE =
   "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer. Download Road Hopper free on Google Play. Bank Hopper is applying for Google Play production access after Closed Testing. Time Hopper and Space Hopper are in development. Watch trailers on YouTube @SouMosterGames.";
+  "SouMoster is an independent Android game developer. Download Road Hopper and Bank Hopper free on Google Play. Time Hopper is in Google Play Closed Testing. Space Hopper and Arena Legends, our first action game, are in development. Watch trailers on YouTube @SouMosterGames.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
 export const BANK_HOPPER_PLAY_STORE_URL =
@@ -14,10 +14,11 @@ export const BANK_HOPPER_PLAY_STORE_URL =
 export const PLAY_STORE_DEV_URL = PLAY_STORE_APP_URL;
 export const PLAY_STORE_DEVELOPER_URL =
   "https://play.google.com/store/apps/dev?id=9220341090582575849";
-export const BANK_HOPPER_GOOGLE_GROUP_URL =
-  "https://groups.google.com/g/bank-hopper-game";
-export const BANK_HOPPER_GOOGLE_GROUP_EMAIL =
-  "bank-hopper-game@googlegroups.com";
+export const TIME_HOPPER_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.soumster.timehopper";
+export const TIME_HOPPER_GOOGLE_GROUP_URL =
+  "https://groups.google.com/g/timehoppergame";
+export const TIME_HOPPER_GOOGLE_GROUP_EMAIL = "timehoppergame@googlegroups.com";
 export const YOUTUBE_URL = "https://www.youtube.com/@SouMosterGames";
 export const YOUTUBE_HANDLE = "@SouMosterGames";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";
@@ -63,7 +64,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
 ];
 
 export const FOOTER_LINKS = [
-  { href: BANK_HOPPER_GOOGLE_GROUP_URL, label: "Join Tester Google Group" },
+  { href: TIME_HOPPER_GOOGLE_GROUP_URL, label: "Join Tester Google Group" },
   { href: "/beta", label: "Closed Testing Signup" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms & Conditions" },

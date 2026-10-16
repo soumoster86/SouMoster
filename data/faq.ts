@@ -4,12 +4,12 @@ export const supportFAQ: FAQItem[] = [
   {
     question: "How do I download your games?",
     answer:
-      "Road Hopper is live on Google Play. Bank Hopper is in Google Play Closed Testing (production access application in progress) — join the tester Google Group at https://groups.google.com/g/bank-hopper-game, then opt in and install from Play. Visit our Apps page or search 'SouMoster' on the Play Store.",
+      "Road Hopper and Bank Hopper are live on Google Play. Time Hopper is in Google Play Closed Testing: join the tester Google Group at https://groups.google.com/g/timehoppergame, then opt in and install from Play. Visit our Apps page or search 'SouMoster' on the Play Store.",
   },
   {
-    question: "How do I join Bank Hopper Closed Testing?",
+    question: "How do I join Time Hopper Closed Testing?",
     answer:
-      "Join the official tester Google Group at https://groups.google.com/g/bank-hopper-game. Then open the Bank Hopper Play Store listing, opt in to become a tester, and install v0.8.0. You can also submit your Google Play email on our Beta page.",
+      "Join the official tester Google Group at https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) with your Google Play account. Then open the Time Hopper Play Store listing, opt in to become a tester, and install. You can also submit your Google Play email on our Beta page.",
   },
   {
     question: "Where can I watch trailers and gameplay?",
