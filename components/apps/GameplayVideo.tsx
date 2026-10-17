@@ -1,6 +1,7 @@
 "use client";
 
 import { Pause, Play } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useRef, useState } from "react";
 import { cn, videoMimeType } from "@/lib/utils";
 
@@ -11,6 +12,7 @@ interface GameplayVideoProps {
 }
 
 export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
+  const t = useTranslations("common.a11y");
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
 
@@ -36,13 +38,13 @@ export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
         playsInline
         preload="metadata"
         poster={poster}
-        aria-label={`${title} gameplay video`}
+        aria-label={t("videoLabel", { name: title })}
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
         onEnded={() => setPlaying(false)}
       >
         <source src={src} type={videoMimeType(src)} />
-        Your browser does not support video playback.
+        {t("videoUnsupported")}
       </video>
 
       <button
@@ -52,7 +54,7 @@ export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
           "absolute inset-0 flex items-center justify-center bg-black/50 transition-opacity",
           playing ? "pointer-events-none opacity-0" : "opacity-100",
         )}
-        aria-label={`Play ${title} gameplay video`}
+        aria-label={t("playVideo", { name: title })}
       >
         <span className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-white shadow-2xl shadow-primary/40 transition-transform group-hover:scale-110">
           <Play className="ml-1 h-7 w-7" fill="currentColor" />
@@ -64,7 +66,7 @@ export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
           type="button"
           onClick={togglePlayback}
           className="absolute top-4 right-4 rounded-full bg-background/80 p-2 text-text opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100"
-          aria-label="Pause gameplay video"
+          aria-label={t("pauseVideo")}
         >
           <Pause className="h-4 w-4" />
         </button>

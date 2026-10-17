@@ -1,6 +1,7 @@
 "use client";
 
 import { Search } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { APP_CATEGORIES } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
@@ -12,17 +13,18 @@ interface AppFilterProps {
 }
 
 export function AppFilter({ search, onSearchChange, category, onCategoryChange }: AppFilterProps) {
+  const t = useTranslations();
   return (
     <div className="mb-8 space-y-4">
       <div className="relative">
         <Search className="absolute top-1/2 left-4 h-5 w-5 -translate-y-1/2 text-muted" />
         <input
           type="search"
-          placeholder="Search apps..."
+          placeholder={t("apps.list.searchPlaceholder")}
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           className="w-full rounded-xl border border-border bg-card py-3 pr-4 pl-12 text-text placeholder:text-muted/60 focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20"
-          aria-label="Search apps"
+          aria-label={t("common.a11y.searchApps")}
         />
       </div>
 
@@ -39,7 +41,7 @@ export function AppFilter({ search, onSearchChange, category, onCategoryChange }
             )}
             aria-pressed={category === cat}
           >
-            {cat}
+            {t(`common.genre.${cat}`)}
           </button>
         ))}
       </div>

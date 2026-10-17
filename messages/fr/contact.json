@@ -1,0 +1,19 @@
+{
+  "title": "Nous contacter",
+  "subtitle": "Une question ou une envie de collaborer ? Écrivez-nous.",
+  "note": "Les messages sont envoyés à <email>{address}</email>. Le premier envoi depuis le site nécessite un e-mail d’activation unique (vérifiez les spams), ou utilisez « Ouvrir dans l’application e-mail » ci-dessous.",
+  "name": "Nom",
+  "email": "E-mail",
+  "subject": "Objet",
+  "message": "Message",
+  "send": "Envoyer le message",
+  "sending": "Envoi...",
+  "openInEmailApp": "Ouvrir dans l’application e-mail",
+  "sent": "Message envoyé ! Nous vous répondrons rapidement.",
+  "failed": "L’envoi du message a échoué. Veuillez réessayer.",
+  "fillAllFields": "Veuillez d’abord remplir tous les champs.",
+  "mailtoOpening": "Votre application e-mail va s’ouvrir : appuyez sur Envoyer pour transmettre le message.",
+  "emailCard": "E-mail",
+  "connect": "Suivez-nous",
+  "playDeveloperPage": "Page développeur Google Play"
+}

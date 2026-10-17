@@ -1,0 +1,15 @@
+{
+  "eyebrow": "News & Updates",
+  "title": "Blog",
+  "subtitle": "Developer diaries, release notes, and announcements",
+  "noPosts": "No blog posts yet. Check back soon!",
+  "englishNote": "Blog posts are published in English.",
+  "back": "Back to Blog",
+  "by": "by {author}",
+  "category": {
+    "Developer Diary": "Developer Diary",
+    "Release Notes": "Release Notes",
+    "Patch Notes": "Patch Notes",
+    "Announcement": "Announcement"
+  }
+}

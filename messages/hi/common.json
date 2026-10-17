@@ -1,0 +1,121 @@
+{
+  "siteTagline": "मज़ेदार, लत लगाने वाले और बेहतरीन क्वालिटी के Android गेम बना रहे हैं।",
+  "nav": {
+    "home": "होम",
+    "apps": "गेम्स",
+    "about": "हमारे बारे में",
+    "beta": "बीटा",
+    "support": "सहायता",
+    "blog": "ब्लॉग",
+    "contact": "संपर्क",
+    "mainNavigation": "मुख्य नेविगेशन",
+    "homeLink": "SouMoster होम",
+    "download": "डाउनलोड",
+    "downloadOnPlay": "Google Play पर डाउनलोड करें",
+    "openMenu": "मेन्यू खोलें",
+    "closeMenu": "मेन्यू बंद करें",
+    "switchToLight": "लाइट मोड पर जाएँ",
+    "switchToDark": "डार्क मोड पर जाएँ"
+  },
+  "language": {
+    "label": "भाषा",
+    "choose": "भाषा चुनें"
+  },
+  "footer": {
+    "quickLinks": "क्विक लिंक",
+    "legal": "कानूनी",
+    "ourGames": "हमारे गेम्स",
+    "viewOnPlay": "Google Play पर देखें",
+    "rights": "© {year} {site}. सर्वाधिकार सुरक्षित।",
+    "links": {
+      "testerGroup": "टेस्टर Google Group से जुड़ें",
+      "betaSignup": "क्लोज़्ड टेस्टिंग के लिए साइन अप",
+      "privacy": "प्राइवेसी पॉलिसी",
+      "terms": "नियम और शर्तें",
+      "deleteData": "अपना डेटा हटाएँ",
+      "press": "प्रेस किट",
+      "contact": "संपर्क",
+      "support": "सहायता"
+    }
+  },
+  "status": {
+    "live": "Google Play पर उपलब्ध",
+    "closedTesting": "क्लोज़्ड टेस्टिंग",
+    "inDevelopment": "डेवलपमेंट में",
+    "comingSoon": "जल्द आ रहा है"
+  },
+  "genre": {
+    "Arcade": "आर्केड",
+    "Action": "एक्शन",
+    "Puzzle": "पज़ल",
+    "Casual": "कैज़ुअल",
+    "Racing": "रेसिंग",
+    "All": "सभी"
+  },
+  "badge": {
+    "version": "v{version}",
+    "devBuild": "डेव बिल्ड v{version}",
+    "downloads": "{count} डाउनलोड"
+  },
+  "playBadge": {
+    "getItOn": "डाउनलोड करें",
+    "closedTestingOn": "क्लोज़्ड टेस्टिंग",
+    "testBuildOn": "टेस्ट बिल्ड",
+    "nowLive": "अब उपलब्ध",
+    "downloadApp": "{name} को Google Play पर डाउनलोड करें",
+    "downloadTestBuild": "{name} का क्लोज़्ड टेस्टिंग बिल्ड Google Play पर डाउनलोड करें",
+    "downloadOurGames": "SouMoster के गेम्स Google Play पर डाउनलोड करें"
+  },
+  "actions": {
+    "learnMore": "और जानें",
+    "getNotified": "सूचना पाएँ",
+    "joinGoogleGroup": "Google Group से जुड़ें",
+    "joinClosedTesting": "क्लोज़्ड टेस्टिंग से जुड़ें",
+    "joinGroupShort": "जुड़ें",
+    "playStore": "Play Store",
+    "watchOnYouTube": "YouTube पर देखें",
+    "followOnYouTube": "YouTube पर फ़ॉलो करें",
+    "getSupport": "सहायता पाएँ",
+    "requestInvite": "इनवाइट माँगें",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "dialogLabel": "कुकी सहमति",
+    "message": "हम आपके अनुभव को बेहतर बनाने और साइट ट्रैफ़िक समझने के लिए कुकीज़ का इस्तेमाल करते हैं। साइट का इस्तेमाल जारी रखकर आप कुकीज़ के इस्तेमाल के लिए सहमति देते हैं।",
+    "accept": "स्वीकार करें",
+    "learnMore": "और जानें"
+  },
+  "notFound": {
+    "title": "पेज नहीं मिला",
+    "message": "आप जो पेज ढूँढ रहे हैं, वह मौजूद नहीं है या कहीं और ले जाया गया है।",
+    "goHome": "होम पर जाएँ",
+    "browseApps": "गेम्स देखें"
+  },
+  "a11y": {
+    "scrollToTop": "ऊपर जाएँ",
+    "previousScreenshot": "पिछला स्क्रीनशॉट",
+    "nextScreenshot": "अगला स्क्रीनशॉट",
+    "goToScreenshot": "स्क्रीनशॉट {number} पर जाएँ",
+    "screenshotAlt": "{name} स्क्रीनशॉट {number}",
+    "screenshots": "गेमप्ले स्क्रीनशॉट",
+    "playVideo": "{name} का गेमप्ले वीडियो चलाएँ",
+    "pauseVideo": "गेमप्ले वीडियो रोकें",
+    "videoLabel": "{name} गेमप्ले वीडियो",
+    "videoUnsupported": "आपका ब्राउज़र वीडियो प्लेबैक सपोर्ट नहीं करता।",
+    "appPreview": "{name} प्रीव्यू",
+    "appLogo": "{name} लोगो",
+    "appIcon": "{name} आइकन",
+    "downloadBar": "{name} डाउनलोड करें",
+    "searchApps": "गेम्स खोजें"
+  },
+  "englishOnly": {
+    "title": "यह पेज सिर्फ़ अंग्रेज़ी में उपलब्ध है",
+    "message": "सटीकता बनाए रखने के लिए यह पेज अंग्रेज़ी में दिया गया है, और अंग्रेज़ी संस्करण ही आधिकारिक है। इसे अपनी भाषा में पढ़ने के लिए आप अपने ब्राउज़र की अनुवाद सुविधा का इस्तेमाल कर सकते हैं।"
+  },
+  "toast": {
+    "dismiss": "सूचना बंद करें"
+  },
+  "forms": {
+    "activationNeeded": "बस एक कदम बाकी! FormSubmit के एक्टिवेशन ईमेल के लिए soumoster@gmail.com (स्पैम समेत) देखें। Activate Form पर क्लिक करें, फिर दोबारा सबमिट करें।"
+  }
+}

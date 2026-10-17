@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Bell, Star, Users, Youtube } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
@@ -20,6 +21,7 @@ interface AppDetailHeroProps {
 }
 
 export function AppDetailHero({ app }: AppDetailHeroProps) {
+  const t = useTranslations("common");
   return (
     <section className="relative overflow-hidden pt-28 pb-16">
       <div className="hero-gradient absolute inset-0" />
@@ -32,7 +34,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
         >
           <Image
             src={app.icon}
-            alt={`${app.name} logo`}
+            alt={t("a11y.appLogo", { name: app.name })}
             width={120}
             height={120}
             className="shadow-primary/20 rounded-3xl shadow-2xl"
@@ -47,18 +49,20 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
               {app.longDescription}
             </p>
             <div className="flex flex-wrap justify-center gap-2 lg:justify-start">
-              <Badge variant="primary">{app.genre}</Badge>
+              <Badge variant="primary">{t(`genre.${app.genre}`)}</Badge>
               {app.status === "closed-testing" ? (
-                <Badge variant="secondary">Closed Testing</Badge>
+                <Badge variant="secondary">{t("status.closedTesting")}</Badge>
               ) : app.status === "in-development" ? (
-                <Badge variant="secondary">In Development</Badge>
+                <Badge variant="secondary">{t("status.inDevelopment")}</Badge>
               ) : app.status === "coming-soon" ? (
-                <Badge variant="secondary">Coming Soon</Badge>
+                <Badge variant="secondary">{t("status.comingSoon")}</Badge>
               ) : null}
               {isInDevelopment(app) ? (
-                hasBuildVersion(app) && <Badge>Dev build v{app.version}</Badge>
+                hasBuildVersion(app) && (
+                  <Badge>{t("badge.devBuild", { version: app.version })}</Badge>
+                )
               ) : (
-                <Badge>v{app.version}</Badge>
+                <Badge>{t("badge.version", { version: app.version })}</Badge>
               )}
               {app.rating && (
                 <Badge variant="secondary">
@@ -67,7 +71,9 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                 </Badge>
               )}
               {app.downloads && (
-                <Badge variant="accent">{app.downloads} downloads</Badge>
+                <Badge variant="accent">
+                  {t("badge.downloads", { count: app.downloads })}
+                </Badge>
               )}
             </div>
             <div className="flex flex-wrap items-center justify-center gap-3 lg:justify-start">
@@ -79,7 +85,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     className="shadow-primary/20 min-h-[54px] shadow-lg"
                   >
                     <Bell className="h-5 w-5" />
-                    Get Notified
+                    {t("actions.getNotified")}
                   </Button>
                   <Button
                     href={app.youtubeUrl ?? YOUTUBE_URL}
@@ -88,7 +94,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     className="min-h-[54px]"
                   >
                     <Youtube className="h-5 w-5" />
-                    Follow on YouTube
+                    {t("actions.followOnYouTube")}
                   </Button>
                 </>
               ) : isInviteOnly(app) ? (
@@ -100,15 +106,15 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                   >
                     <Users className="h-5 w-5" />
                     {app.googleGroupUrl
-                      ? "Join Google Group"
-                      : "Join Closed Testing"}
+                      ? t("actions.joinGoogleGroup")
+                      : t("actions.joinClosedTesting")}
                   </Button>
                   <GooglePlayBadge
                     href={app.playStoreUrl}
                     size="lg"
-                    subtext="CLOSED TESTING ON"
+                    subtext={t("playBadge.closedTestingOn")}
                     title="Google Play"
-                    ariaLabel={`Download ${app.name} Closed Testing Build on Google Play`}
+                    ariaLabel={t("playBadge.downloadTestBuild", { name: app.name })}
                   />
                   <Button
                     href={app.youtubeUrl ?? YOUTUBE_URL}
@@ -117,7 +123,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     className="min-h-[54px]"
                   >
                     <Youtube className="h-5 w-5" />
-                    Watch on YouTube
+                    {t("actions.watchOnYouTube")}
                   </Button>
                 </>
               ) : (
@@ -125,9 +131,8 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                   <GooglePlayBadge
                     href={app.playStoreUrl}
                     size="lg"
-                    subtext="GET IT ON"
                     title="Google Play"
-                    ariaLabel={`Download ${app.name} on Google Play`}
+                    ariaLabel={t("playBadge.downloadApp", { name: app.name })}
                   />
                   <Button
                     href="/support"
@@ -135,7 +140,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     size="lg"
                     className="min-h-[54px]"
                   >
-                    Get Support
+                    {t("actions.getSupport")}
                   </Button>
                   <Button
                     href={app.youtubeUrl ?? YOUTUBE_URL}
@@ -144,7 +149,7 @@ export function AppDetailHero({ app }: AppDetailHeroProps) {
                     className="min-h-[54px]"
                   >
                     <Youtube className="h-5 w-5" />
-                    Watch on YouTube
+                    {t("actions.watchOnYouTube")}
                   </Button>
                 </>
               )}

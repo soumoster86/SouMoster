@@ -14,19 +14,21 @@ import {
   Users,
   Youtube,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
 import { Textarea } from "@/components/ui/Textarea";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { useToastContext } from "@/components/shared/Providers";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
+import { Link } from "@/i18n/navigation";
 import {
   BANK_HOPPER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
+  SUPPORT_EMAIL,
   TIME_HOPPER_GOOGLE_GROUP_EMAIL,
   TIME_HOPPER_GOOGLE_GROUP_URL,
   TIME_HOPPER_PLAY_STORE_URL,
@@ -38,7 +40,8 @@ interface GameOption {
   id: string;
   name: string;
   version: string;
-  tagline: string;
+  /** Translation key under beta.games for the tagline. */
+  taglineKey: string;
   icon: string;
   status: "active-testing" | "coming-soon";
   recommended?: boolean;
@@ -49,7 +52,7 @@ const GAME_OPTIONS: GameOption[] = [
     id: "time-hopper",
     name: "Time Hopper",
     version: "v1.13.2",
-    tagline: "Seven-era time-travel runner built around the Time Hop",
+    taglineKey: "timeHopper",
     icon: "/images/time-hopper/icon.png",
     status: "active-testing",
     recommended: true,
@@ -58,7 +61,7 @@ const GAME_OPTIONS: GameOption[] = [
     id: "arena-legends",
     name: "Arena Legends",
     version: "Dev build 0.1.0",
-    tagline: "Our first action game: gladiator combat and boss fights",
+    taglineKey: "arenaLegends",
     icon: "/images/arena-legends/icon.svg",
     status: "coming-soon",
   },
@@ -66,7 +69,7 @@ const GAME_OPTIONS: GameOption[] = [
     id: "space-hopper",
     name: "Space Hopper",
     version: "Dev build 1.0.0",
-    tagline: "Hop across eight planets to restore the Warp Gates",
+    taglineKey: "spaceHopper",
     icon: "/images/space-hopper/icon.png",
     status: "coming-soon",
   },
@@ -74,16 +77,32 @@ const GAME_OPTIONS: GameOption[] = [
     id: "all-upcoming",
     name: "All Upcoming Games",
     version: "VIP Access",
-    tagline: "Invites to all future prototypes and experimental builds",
+    taglineKey: "allUpcoming.tagline",
     icon: "/icon.svg",
     status: "active-testing",
   },
 ];
 
+const externalLink = (href: string, className: string) =>
+  function ExternalChunk(chunks: ReactNode) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+        {chunks}
+      </a>
+    );
+  };
+
 function BetaForm() {
+  const t = useTranslations("beta");
+  const tc = useTranslations("common.playBadge");
   const searchParams = useSearchParams();
   const initialGameParam = searchParams.get("game");
   const { addToast } = useToastContext();
+
+  const gameName = (game: GameOption) =>
+    game.id === "all-upcoming" ? t("games.allUpcoming.name") : game.name;
+  const gameVersion = (game: GameOption) =>
+    game.id === "all-upcoming" ? t("games.allUpcoming.version") : game.version;
 
   const [selectedGames, setSelectedGames] = useState<string[]>(() => {
     if (
@@ -132,21 +151,19 @@ function BetaForm() {
     e.preventDefault();
 
     if (!formData.email.trim()) {
-      addToast("Please enter your Google Play account email.", "error");
+      addToast(t("form.emailRequired"), "error");
       return;
     }
 
     if (!agreedToTerms) {
-      addToast(
-        "Please confirm agreement to receive testing invitations.",
-        "error",
-      );
+      addToast(t("form.consentRequired"), "error");
       return;
     }
 
     setSubmitting(true);
 
     try {
+      // Game names are sent in English so the signup email reads the same in every language.
       const selectedGameNames = selectedGames.map(
         (id) => GAME_OPTIONS.find((g) => g.id === id)?.name || id,
       );
@@ -167,19 +184,13 @@ function BetaForm() {
       const data = await response.json();
 
       if (!response.ok) {
-        throw new Error(data.error || "Failed to submit application.");
+        throw new Error(data.error || t("form.failed"));
       }
 
       setSubmittedEmail(formData.email);
-      addToast(
-        data.message || "Beta application received! Check your inbox soon.",
-        "success",
-      );
+      addToast(t("form.success"), "success");
     } catch (err: unknown) {
-      const msg =
-        err instanceof Error
-          ? err.message
-          : "Submission failed. Please try again.";
+      const msg = err instanceof Error ? err.message : t("form.failed");
       addToast(msg, "error");
     } finally {
       setSubmitting(false);
@@ -199,62 +210,51 @@ function BetaForm() {
 
         <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400">
           <Sparkles className="h-3.5 w-3.5" />
-          Application Confirmed
+          {t("success.badge")}
         </span>
 
         <h2 className="font-heading text-text mt-4 text-3xl font-bold sm:text-4xl">
-          Welcome to the Test Track!
+          {t("success.title")}
         </h2>
 
         <p className="text-muted mx-auto mt-3 max-w-xl text-base">
-          We have registered{" "}
-          <strong className="text-text font-semibold">{submittedEmail}</strong>{" "}
-          for the SouMoster Google Play Closed Testing track.
+          {t.rich("success.registered", {
+            email: submittedEmail,
+            strong: (chunks) => (
+              <strong className="text-text font-semibold">{chunks}</strong>
+            ),
+          })}
         </p>
 
         <div className="border-border bg-card/60 mx-auto mt-8 max-w-lg rounded-2xl border p-6 text-left">
           <h3 className="font-heading text-text flex items-center gap-2 text-base font-semibold">
             <HelpCircle className="text-primary h-4 w-4" />
-            What happens next?
+            {t("success.nextTitle")}
           </h3>
           <ol className="text-muted mt-3 space-y-3 text-sm">
-            <li className="flex items-start gap-2.5">
-              <span className="bg-primary/20 text-primary flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">
-                1
-              </span>
-              <span>
-                Our developer console adds your email to the authorized Google
-                Play Closed Testers list.
-              </span>
-            </li>
-            <li className="flex items-start gap-2.5">
-              <span className="bg-primary/20 text-primary flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">
-                2
-              </span>
-              <span>
-                You’ll receive an opt-in web link (or email invite). Click{" "}
-                <em>&quot;Join on the web / Join on Android&quot;</em> to
-                accept.
-              </span>
-            </li>
-            <li className="flex items-start gap-2.5">
-              <span className="bg-primary/20 text-primary flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">
-                3
-              </span>
-              <span>
-                Download exclusive pre-release builds directly from the Google
-                Play Store on your device:{" "}
-                <a
-                  href={TIME_HOPPER_PLAY_STORE_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
-                >
-                  <span>Time Hopper on Google Play</span>
-                  <ExternalLink className="h-3 w-3" />
-                </a>
-              </span>
-            </li>
+            {(["step1", "step2", "step3"] as const).map((step, index) => (
+              <li key={step} className="flex items-start gap-2.5">
+                <span className="bg-primary/20 text-primary flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-xs font-bold">
+                  {index + 1}
+                </span>
+                <span>
+                  {t.rich(`success.${step}`, {
+                    em: (chunks) => <em>{chunks}</em>,
+                    play: (chunks) => (
+                      <a
+                        href={TIME_HOPPER_PLAY_STORE_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
+                      >
+                        <span>{chunks}</span>
+                        <ExternalLink className="h-3 w-3" />
+                      </a>
+                    ),
+                  })}
+                </span>
+              </li>
+            ))}
           </ol>
         </div>
 
@@ -266,11 +266,10 @@ function BetaForm() {
             </div>
             <div className="flex-1 space-y-1">
               <h4 className="font-heading text-text text-sm font-bold">
-                Instant Google Play Authorization
+                {t("success.instantTitle")}
               </h4>
               <p className="text-muted text-xs leading-relaxed">
-                Join our official Google Group to be automatically synced to the
-                Play Store closed testing track:
+                {t("success.instantText")}
               </p>
               <div className="mt-2 flex flex-wrap items-center gap-2">
                 <a
@@ -279,7 +278,7 @@ function BetaForm() {
                   rel="noopener noreferrer"
                   className="border-primary/40 bg-primary/20 text-primary hover:bg-primary inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors hover:text-white"
                 >
-                  <span>Join timehoppergame Google Group</span>
+                  <span>{t("success.joinGroup")}</span>
                   <ExternalLink className="h-3.5 w-3.5" />
                 </a>
                 <span className="text-muted text-[11px]">
@@ -298,23 +297,23 @@ function BetaForm() {
           <GooglePlayBadge
             href={TIME_HOPPER_PLAY_STORE_URL}
             size="md"
-            subtext="TEST BUILD ON"
+            subtext={tc("testBuildOn")}
             title="Google Play"
-            ariaLabel="Download the Time Hopper Closed Testing build on Google Play"
+            ariaLabel={tc("downloadTestBuild", { name: "Time Hopper" })}
           />
           <GooglePlayBadge
             href={BANK_HOPPER_PLAY_STORE_URL}
             size="md"
-            subtext="NOW LIVE"
+            subtext={tc("nowLive")}
             title="Bank Hopper"
-            ariaLabel="Download Bank Hopper on Google Play"
+            ariaLabel={tc("downloadApp", { name: "Bank Hopper" })}
           />
           <GooglePlayBadge
             href={PLAY_STORE_APP_URL}
             size="md"
-            subtext="NOW LIVE"
+            subtext={tc("nowLive")}
             title="Road Hopper"
-            ariaLabel="Download Road Hopper on Google Play"
+            ariaLabel={tc("downloadApp", { name: "Road Hopper" })}
           />
           <Button
             variant="outline"
@@ -329,25 +328,23 @@ function BetaForm() {
               });
             }}
           >
-            Register Another Device
+            {t("success.registerAnother")}
           </Button>
         </div>
       </motion.div>
     );
   }
 
+  const optional = <span className="text-muted text-xs">{t("form.optional")}</span>;
+
   return (
     <form onSubmit={handleSubmit} className="space-y-8">
       {/* Game Selection */}
       <div>
         <label className="text-text mb-2 block text-sm font-semibold">
-          1. Select the Games You Want to Test{" "}
-          <span className="text-primary">*</span>
+          {t("form.step1")} <span className="text-primary">*</span>
         </label>
-        <p className="text-muted mb-4 text-xs">
-          Select one or multiple games to receive Google Play test track
-          invitations.
-        </p>
+        <p className="text-muted mb-4 text-xs">{t("form.step1Hint")}</p>
 
         <div className="grid gap-4 sm:grid-cols-3">
           {GAME_OPTIONS.map((game) => {
@@ -365,29 +362,29 @@ function BetaForm() {
               >
                 {game.recommended && (
                   <span className="from-primary to-accent absolute -top-2.5 right-3 rounded-full bg-gradient-to-r px-2 py-0.5 text-[10px] font-bold tracking-wider text-white uppercase shadow-sm">
-                    Active Testing
+                    {t("form.activeTesting")}
                   </span>
                 )}
                 <div className="mb-3 flex items-center gap-3">
                   <div className="bg-background/50 relative h-10 w-10 shrink-0 overflow-hidden rounded-xl border border-white/10">
                     <Image
                       src={game.icon}
-                      alt={`${game.name} icon`}
+                      alt={t("form.gameIcon", { name: gameName(game) })}
                       fill
                       className="object-cover"
                     />
                   </div>
                   <div>
                     <h4 className="font-heading text-text text-sm font-bold">
-                      {game.name}
+                      {gameName(game)}
                     </h4>
                     <span className="text-muted rounded-full bg-white/10 px-2 py-0.5 text-[10px] font-medium">
-                      {game.version}
+                      {gameVersion(game)}
                     </span>
                   </div>
                 </div>
                 <p className="text-muted mt-auto text-xs leading-relaxed">
-                  {game.tagline}
+                  {t(`games.${game.taglineKey}`)}
                 </p>
 
                 <div className="mt-3 flex items-center gap-2 pt-2 text-xs font-semibold">
@@ -401,7 +398,7 @@ function BetaForm() {
                     ✓
                   </span>
                   <span className={isSelected ? "text-primary" : "text-muted"}>
-                    {isSelected ? "Selected" : "Click to add"}
+                    {isSelected ? t("form.selected") : t("form.clickToAdd")}
                   </span>
                 </div>
               </button>
@@ -416,8 +413,7 @@ function BetaForm() {
           htmlFor="beta-email"
           className="text-text block text-sm font-semibold"
         >
-          2. Your Google Play Account Email{" "}
-          <span className="text-primary">*</span>
+          {t("form.step2")} <span className="text-primary">*</span>
         </label>
         <Input
           id="beta-email"
@@ -430,10 +426,7 @@ function BetaForm() {
         />
         <p className="text-muted flex items-center gap-1.5 text-xs">
           <AlertCircle className="text-secondary h-3.5 w-3.5 shrink-0" />
-          <span>
-            Must match the email logged into Google Play on your Android
-            phone/tablet so Google can grant access.
-          </span>
+          <span>{t("form.emailHint")}</span>
         </p>
       </div>
 
@@ -444,18 +437,15 @@ function BetaForm() {
             htmlFor="beta-name"
             className="text-text block text-sm font-medium"
           >
-            Gamer Tag / Name{" "}
-            <span className="text-muted text-xs">(Optional)</span>
+            {t("form.name")} {optional}
           </label>
           <Input
             id="beta-name"
-            placeholder="e.g. HopperChampion"
+            placeholder={t("form.namePlaceholder")}
             value={formData.name}
             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           />
-          <p className="text-muted text-xs">
-            To credit you in tester acknowledgments.
-          </p>
+          <p className="text-muted text-xs">{t("form.nameHint")}</p>
         </div>
 
         <div className="space-y-2">
@@ -463,20 +453,17 @@ function BetaForm() {
             htmlFor="beta-device"
             className="text-text block text-sm font-medium"
           >
-            Android Device &amp; OS Version{" "}
-            <span className="text-muted text-xs">(Optional)</span>
+            {t("form.device")} {optional}
           </label>
           <Input
             id="beta-device"
-            placeholder="e.g. Pixel 8 (Android 14) or Galaxy S22"
+            placeholder={t("form.devicePlaceholder")}
             value={formData.device}
             onChange={(e) =>
               setFormData({ ...formData, device: e.target.value })
             }
           />
-          <p className="text-muted text-xs">
-            Helps optimize performance for your device model.
-          </p>
+          <p className="text-muted text-xs">{t("form.deviceHint")}</p>
         </div>
       </div>
 
@@ -485,20 +472,17 @@ function BetaForm() {
           htmlFor="beta-discord"
           className="text-text block text-sm font-medium"
         >
-          Discord / Reddit Username{" "}
-          <span className="text-muted text-xs">(Optional)</span>
+          {t("form.community")} {optional}
         </label>
         <Input
           id="beta-discord"
-          placeholder="e.g. username#1234 or u/username"
+          placeholder={t("form.communityPlaceholder")}
           value={formData.discord}
           onChange={(e) =>
             setFormData({ ...formData, discord: e.target.value })
           }
         />
-        <p className="text-muted text-xs">
-          For invitations to private tester chat rooms.
-        </p>
+        <p className="text-muted text-xs">{t("form.communityHint")}</p>
       </div>
 
       <div className="space-y-2">
@@ -506,13 +490,12 @@ function BetaForm() {
           htmlFor="beta-notes"
           className="text-text block text-sm font-medium"
         >
-          Tester Notes or Prior Arcade Experience{" "}
-          <span className="text-muted text-xs">(Optional)</span>
+          {t("form.notes")} {optional}
         </label>
         <Textarea
           id="beta-notes"
           rows={3}
-          placeholder="Let us know what games you enjoy or any specific mechanics you'd love to test..."
+          placeholder={t("form.notesPlaceholder")}
           value={formData.notes}
           onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
         />
@@ -531,17 +514,18 @@ function BetaForm() {
           htmlFor="beta-terms"
           className="text-muted cursor-pointer text-xs leading-relaxed select-none"
         >
-          I consent to SouMoster processing my email address strictly to deliver
-          Google Play Closed Testing invitations and pre-release communications,
-          in full compliance with the{" "}
-          <Link href="/privacy" className="text-primary hover:underline">
-            Privacy Policy
-          </Link>{" "}
-          and{" "}
-          <Link href="/terms" className="text-primary hover:underline">
-            Terms &amp; Conditions
-          </Link>
-          . You can opt out at any time.
+          {t.rich("form.consent", {
+            privacy: (chunks) => (
+              <Link href="/privacy" className="text-primary hover:underline">
+                {chunks}
+              </Link>
+            ),
+            terms: (chunks) => (
+              <Link href="/terms" className="text-primary hover:underline">
+                {chunks}
+              </Link>
+            ),
+          })}
         </label>
       </div>
 
@@ -555,12 +539,12 @@ function BetaForm() {
         {submitting ? (
           <>
             <span className="mr-2 h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />
-            Registering for Closed Beta...
+            {t("form.submitting")}
           </>
         ) : (
           <>
             <Rocket className="mr-2 h-5 w-5" />
-            Submit Closed Beta Application
+            {t("form.submit")}
           </>
         )}
       </Button>
@@ -569,6 +553,24 @@ function BetaForm() {
 }
 
 export function BetaContent() {
+  const t = useTranslations("beta");
+
+  const perks = [
+    { key: "earlyBuilds", icon: Gamepad2, iconClass: "bg-primary/20 text-primary" },
+    { key: "devAccess", icon: MessageSquare, iconClass: "bg-secondary/20 text-secondary" },
+    { key: "vip", icon: Gift, iconClass: "bg-emerald-500/20 text-emerald-400" },
+  ] as const;
+
+  const faqLink = "text-primary font-medium hover:underline";
+  const faqs = [
+    { key: "howWorks" },
+    { key: "isFree" },
+    { key: "android" },
+    { key: "isOpen" },
+    { key: "trailers" },
+    { key: "feedback" },
+  ] as const;
+
   return (
     <div className="mx-auto max-w-5xl px-4 pt-28 pb-20 sm:px-6 lg:px-8">
       {/* Header */}
@@ -580,16 +582,15 @@ export function BetaContent() {
         >
           <span className="border-primary/30 bg-primary/10 text-primary mb-4 inline-flex items-center gap-1.5 rounded-full border px-4 py-1.5 text-xs font-semibold">
             <Users className="h-4 w-4" />
-            Google Play Testing Program
+            {t("header.badge")}
           </span>
           <h1 className="font-heading text-text text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-            Join the <span className="gradient-text">Closed Beta</span>
+            {t.rich("header.title", {
+              highlight: (chunks) => <span className="gradient-text">{chunks}</span>,
+            })}
           </h1>
           <p className="text-muted mx-auto mt-4 max-w-2xl text-base sm:text-lg">
-            Time Hopper v1.13.2 is on the Google Play Closed Testing track.
-            Help us tune its seven eras, Chronicle campaign and modes before
-            the worldwide launch. Bank Hopper, our last beta, is now live on
-            Google Play.
+            {t("header.lead")}
           </p>
           <a
             href={YOUTUBE_URL}
@@ -598,67 +599,36 @@ export function BetaContent() {
             className="text-primary mt-4 inline-flex items-center gap-2 text-sm font-medium hover:underline"
           >
             <Youtube className="h-4 w-4" />
-            Watch trailers on YouTube {YOUTUBE_HANDLE}
+            {t("header.watchTrailers", { handle: YOUTUBE_HANDLE })}
           </a>
         </motion.div>
       </div>
 
       {/* Perks Grid */}
       <div className="mt-12 grid gap-6 sm:grid-cols-3">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="glass rounded-2xl p-6 text-center"
-        >
-          <div className="bg-primary/20 text-primary mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl">
-            <Gamepad2 className="h-6 w-6" />
-          </div>
-          <h3 className="font-heading text-text text-base font-bold">
-            Exclusive Early Builds
-          </h3>
-          <p className="text-muted mt-2 text-xs leading-relaxed">
-            Play <strong>Time Hopper v1.13.2</strong> Closed Testing builds and
-            future titles, like Arena Legends, through Google Play before public
-            release.
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-          className="glass rounded-2xl p-6 text-center"
-        >
-          <div className="bg-secondary/20 text-secondary mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl">
-            <MessageSquare className="h-6 w-6" />
-          </div>
-          <h3 className="font-heading text-text text-base font-bold">
-            Direct Developer Access
-          </h3>
-          <p className="text-muted mt-2 text-xs leading-relaxed">
-            Your feedback directly guides physics tuning, balance patches, bug
-            squashes, and feature additions.
-          </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="glass rounded-2xl p-6 text-center"
-        >
-          <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-emerald-500/20 text-emerald-400">
-            <Gift className="h-6 w-6" />
-          </div>
-          <h3 className="font-heading text-text text-base font-bold">
-            VIP Tester Perks
-          </h3>
-          <p className="text-muted mt-2 text-xs leading-relaxed">
-            Receive exclusive in-game cosmetic badges, bonus coin packs, and
-            tester credits in the final game release.
-          </p>
-        </motion.div>
+        {perks.map((perk, index) => (
+          <motion.div
+            key={perk.key}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 * (index + 1) }}
+            className="glass rounded-2xl p-6 text-center"
+          >
+            <div
+              className={`mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-xl ${perk.iconClass}`}
+            >
+              <perk.icon className="h-6 w-6" />
+            </div>
+            <h3 className="font-heading text-text text-base font-bold">
+              {t(`perks.${perk.key}.title`)}
+            </h3>
+            <p className="text-muted mt-2 text-xs leading-relaxed">
+              {t.rich(`perks.${perk.key}.text`, {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </motion.div>
+        ))}
       </div>
 
       {/* Main Form Container */}
@@ -672,12 +642,9 @@ export function BetaContent() {
           <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
             <div>
               <h2 className="font-heading text-text text-2xl font-bold">
-                Tester Application Form
+                {t("formCard.title")}
               </h2>
-              <p className="text-muted mt-1 text-sm">
-                Fill out the form below. Google Play will email you with your
-                opt-in confirmation link once your account is enrolled.
-              </p>
+              <p className="text-muted mt-1 text-sm">{t("formCard.subtitle")}</p>
             </div>
             <a
               href={TIME_HOPPER_GOOGLE_GROUP_URL}
@@ -686,7 +653,7 @@ export function BetaContent() {
               className="border-primary/50 bg-primary/10 text-primary hover:bg-primary inline-flex shrink-0 items-center gap-2 rounded-xl border px-4 py-2.5 text-xs font-semibold shadow-sm transition-all hover:text-white"
             >
               <Users className="h-4 w-4" />
-              <span>Join Google Group Directly</span>
+              <span>{t("formCard.joinDirect")}</span>
               <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </div>
@@ -694,18 +661,14 @@ export function BetaContent() {
           <div className="border-primary/20 bg-primary/5 text-muted mt-4 flex items-start gap-2.5 rounded-xl border px-4 py-3 text-xs">
             <Sparkles className="text-primary mt-0.5 h-4 w-4 shrink-0" />
             <span>
-              <strong>Tip:</strong> Joining the official{" "}
-              <a
-                href={TIME_HOPPER_GOOGLE_GROUP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary font-semibold hover:underline"
-              >
-                timehoppergame Google Group
-              </a>{" "}
-              (<code>{TIME_HOPPER_GOOGLE_GROUP_EMAIL}</code>) with your Google
-              Play account gives you access to the Time Hopper closed testing
-              track.
+              {t.rich("formCard.tip", {
+                email: TIME_HOPPER_GOOGLE_GROUP_EMAIL,
+                strong: (chunks) => <strong>{chunks}</strong>,
+                group: externalLink(
+                  TIME_HOPPER_GOOGLE_GROUP_URL,
+                  "text-primary font-semibold hover:underline",
+                ),
+              })}
             </span>
           </div>
         </div>
@@ -713,7 +676,7 @@ export function BetaContent() {
         <Suspense
           fallback={
             <div className="text-muted py-12 text-center">
-              Loading tester form...
+              {t("formCard.loading")}
             </div>
           }
         >
@@ -721,107 +684,39 @@ export function BetaContent() {
         </Suspense>
       </motion.div>
 
-      {/* FAQ Accordion */}
+      {/* FAQ */}
       <div className="mt-16">
         <SectionHeading
-          eyebrow="Need Help?"
-          title="Frequently Asked Questions"
-          subtitle="Everything you need to know about participating in the SouMoster closed beta program"
+          eyebrow={t("faq.eyebrow")}
+          title={t("faq.title")}
+          subtitle={t("faq.subtitle")}
         />
 
         <div className="mt-8 space-y-4">
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              How does Google Play Closed Testing work?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              Google Play requires developer accounts to invite trusted testers
-              through specific closed testing tracks. Once we add your Google
-              Play email, Google generates a private testing link allowing you
-              to install the test build through the official Play Store app.
-            </p>
-          </div>
-
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              Is testing free? Are there in-app purchases during the beta?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              Yes, testing is 100% free. Any in-app purchases enabled during
-              testing use Google Play Test Billing (sandbox mode), which does
-              not charge real currency.
-            </p>
-          </div>
-
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              What Android version is required?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              Time Hopper and Bank Hopper support Android 8.0 (API 26) and
-              newer. Road Hopper supports Android 7.0+. Space Hopper and Arena
-              Legends are still in development.
-            </p>
-          </div>
-
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              Is Time Hopper Closed Testing open now?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              Yes. Time Hopper v1.13.2 is on the Google Play Closed Testing
-              track. Join{" "}
-              <a
-                href={TIME_HOPPER_GOOGLE_GROUP_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary font-medium hover:underline"
-              >
-                groups.google.com/g/timehoppergame
-              </a>
-              , opt in on Play, then install from the listing. Bank Hopper has
-              finished testing and is live on Google Play.
-            </p>
-          </div>
-
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              Where can I watch gameplay and trailers?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              Trailers and gameplay live on{" "}
-              <a
-                href={YOUTUBE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-primary font-medium hover:underline"
-              >
-                YouTube {YOUTUBE_HANDLE}
-              </a>
-              .
-            </p>
-          </div>
-
-          <div className="glass rounded-2xl p-6">
-            <h3 className="font-heading text-text text-base font-semibold">
-              How do I submit bug reports and gameplay feedback?
-            </h3>
-            <p className="text-muted mt-2 text-sm leading-relaxed">
-              You can send feedback directly through the Google Play Store
-              private feedback form, visit our{" "}
-              <Link href="/support" className="text-primary hover:underline">
-                Support Page
-              </Link>
-              , or email us at{" "}
-              <a
-                href="mailto:soumoster@gmail.com"
-                className="text-primary hover:underline"
-              >
-                soumoster@gmail.com
-              </a>
-              .
-            </p>
-          </div>
+          {faqs.map(({ key }) => (
+            <div key={key} className="glass rounded-2xl p-6">
+              <h3 className="font-heading text-text text-base font-semibold">
+                {t(`faq.${key}.q`)}
+              </h3>
+              <p className="text-muted mt-2 text-sm leading-relaxed">
+                {t.rich(`faq.${key}.a`, {
+                  handle: YOUTUBE_HANDLE,
+                  group: externalLink(TIME_HOPPER_GOOGLE_GROUP_URL, faqLink),
+                  youtube: externalLink(YOUTUBE_URL, faqLink),
+                  support: (chunks) => (
+                    <Link href="/support" className="text-primary hover:underline">
+                      {chunks}
+                    </Link>
+                  ),
+                  mail: (chunks) => (
+                    <a href={`mailto:${SUPPORT_EMAIL}`} className="text-primary hover:underline">
+                      {chunks}
+                    </a>
+                  ),
+                })}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </div>

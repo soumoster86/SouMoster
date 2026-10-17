@@ -1,0 +1,15 @@
+{
+  "eyebrow": "新闻与动态",
+  "title": "博客",
+  "subtitle": "开发日志、版本说明和公告",
+  "noPosts": "暂无博客文章，敬请期待！",
+  "englishNote": "博客文章以英文发布。",
+  "back": "返回博客",
+  "by": "作者：{author}",
+  "category": {
+    "Developer Diary": "开发日志",
+    "Release Notes": "版本说明",
+    "Patch Notes": "更新说明",
+    "Announcement": "公告"
+  }
+}

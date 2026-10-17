@@ -2,17 +2,19 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { Download, Menu, Moon, Sun, X } from "lucide-react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
+import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 import { BrandIcon } from "@/components/shared/BrandIcon";
 import { Button } from "@/components/ui/Button";
+import { Link, usePathname } from "@/i18n/navigation";
 import { NAV_LINKS, PLAY_STORE_DEV_URL } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { useTheme } from "@/hooks/useTheme";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
 
 export function Navbar() {
+  const t = useTranslations("common.nav");
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const { theme, toggleTheme, mounted } = useTheme();
@@ -27,9 +29,9 @@ export function Navbar() {
     >
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8"
-        aria-label="Main navigation"
+        aria-label={t("mainNavigation")}
       >
-        <Link href="/" className="flex items-center gap-2.5" aria-label="SouMoster Home">
+        <Link href="/" className="flex items-center gap-2.5" aria-label={t("homeLink")}>
           <BrandIcon size={40} className="rounded-xl shadow-lg shadow-primary/20" />
           <span className="font-heading text-xl font-bold text-text">SouMoster</span>
         </Link>
@@ -46,7 +48,7 @@ export function Navbar() {
                   isActive ? "text-primary" : "text-muted hover:text-text hover-surface",
                 )}
               >
-                {link.label}
+                {t(link.key)}
                 {isActive && (
                   <motion.span
                     layoutId="nav-underline"
@@ -64,17 +66,19 @@ export function Navbar() {
             href={PLAY_STORE_DEV_URL}
             size="sm"
             className="hidden lg:inline-flex"
-            ariaLabel="Download on Google Play"
+            ariaLabel={t("downloadOnPlay")}
           >
             <Download className="h-4 w-4" />
-            Download
+            {t("download")}
           </Button>
+
+          <LanguageSwitcher />
 
           {mounted && (
             <button
               onClick={toggleTheme}
               className="hover-surface rounded-lg p-2 text-muted transition-colors hover:text-text"
-              aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+              aria-label={theme === "dark" ? t("switchToLight") : t("switchToDark")}
             >
               {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
             </button>
@@ -83,7 +87,7 @@ export function Navbar() {
           <button
             className="hover-surface rounded-lg p-2 text-muted transition-colors hover:text-text md:hidden"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label={mobileOpen ? "Close menu" : "Open menu"}
+            aria-label={mobileOpen ? t("closeMenu") : t("openMenu")}
             aria-expanded={mobileOpen}
           >
             {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -97,12 +101,12 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="glass border-t border-border md:hidden"
+            className="max-h-[calc(100dvh-4.5rem)] overflow-y-auto border-t border-border bg-card shadow-2xl md:hidden"
           >
             <div className="flex flex-col gap-1 px-4 py-4">
               <Button href={PLAY_STORE_DEV_URL} size="sm" className="mb-2 w-full lg:hidden">
                 <Download className="h-4 w-4" />
-                Download on Google Play
+                {t("downloadOnPlay")}
               </Button>
               {NAV_LINKS.map((link) => (
                 <Link
@@ -116,9 +120,12 @@ export function Navbar() {
                       : "text-muted hover:text-text",
                   )}
                 >
-                  {link.label}
+                  {t(link.key)}
                 </Link>
               ))}
+              <div className="mt-2 border-t border-border pt-2">
+                <LanguageSwitcher variant="list" onSelect={() => setMobileOpen(false)} />
+              </div>
             </div>
           </motion.div>
         )}

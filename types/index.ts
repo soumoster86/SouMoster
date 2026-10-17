@@ -51,14 +51,16 @@ export interface BlogPost {
 }
 
 export interface Stat {
-  label: string;
+  /** Translation key under home.stats. */
+  key: string;
   value: string;
   icon: string;
 }
 
 export interface NavLink {
   href: string;
-  label: string;
+  /** Translation key for the link text. */
+  key: string;
 }
 
 export interface SocialLink {

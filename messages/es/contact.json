@@ -1,0 +1,19 @@
+{
+  "title": "Contáctanos",
+  "subtitle": "¿Tienes una pregunta o quieres colaborar? Nos encantará saber de ti.",
+  "note": "Los mensajes llegan a <email>{address}</email>. El primer envío desde la web requiere un correo de activación único (revisa el spam), o usa «Abrir en la app de correo» más abajo.",
+  "name": "Nombre",
+  "email": "Correo",
+  "subject": "Asunto",
+  "message": "Mensaje",
+  "send": "Enviar mensaje",
+  "sending": "Enviando...",
+  "openInEmailApp": "Abrir en la app de correo",
+  "sent": "¡Mensaje enviado! Te responderemos pronto.",
+  "failed": "No se pudo enviar el mensaje. Inténtalo de nuevo.",
+  "fillAllFields": "Rellena primero todos los campos.",
+  "mailtoOpening": "Se abrirá tu app de correo: pulsa Enviar para mandar el mensaje.",
+  "emailCard": "Correo",
+  "connect": "Síguenos",
+  "playDeveloperPage": "Página de desarrollador en Google Play"
+}

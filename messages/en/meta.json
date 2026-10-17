@@ -1,0 +1,46 @@
+{
+  "home": {
+    "title": "SouMoster — Android Game Developer",
+    "description": "SouMoster is an independent Android game developer. Download Road Hopper and Bank Hopper free on Google Play. Time Hopper is in Google Play Closed Testing. Space Hopper and Arena Legends, our first action game, are in development. Watch trailers on YouTube @SouMosterGames."
+  },
+  "apps": {
+    "title": "Apps",
+    "description": "Browse SouMoster Android games. Download Road Hopper and Bank Hopper, join Time Hopper Closed Testing on Google Play, see Arena Legends, and follow trailers on YouTube."
+  },
+  "about": {
+    "title": "About",
+    "description": "Learn about SouMoster — independent Android games including Road Hopper and Bank Hopper (live), Time Hopper (Google Play Closed Testing), Space Hopper and Arena Legends (in development). YouTube @SouMosterGames."
+  },
+  "beta": {
+    "title": "Join Closed Beta",
+    "description": "Time Hopper v1.13.2 is in Google Play Closed Testing, and Bank Hopper is now live on Google Play. Sign up for the SouMoster tester track, install from Play, and watch trailers on YouTube @SouMosterGames."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Get in touch with SouMoster. Email, Google Play, YouTube @SouMosterGames, and socials."
+  },
+  "support": {
+    "title": "Support",
+    "description": "Get help with SouMoster games. Report bugs, request features, or browse our FAQ."
+  },
+  "press": {
+    "title": "Press Kit",
+    "description": "SouMoster press kit: studio fact sheet, game fact sheets, logos, icons, banners, screenshots, and trailer links for Road Hopper, Bank Hopper, Time Hopper, Space Hopper, and Arena Legends."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Developer diaries, release notes, patch notes, and announcements from SouMoster."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "description": "Privacy Policy for SouMoster Android games, mobile applications, and services. Compliant with EU GDPR, UK GDPR, Google Play Families, and international standards."
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "description": "Terms and Conditions and End User License Agreement (EULA) for SouMoster Android games, mobile applications, and services."
+  },
+  "deleteData": {
+    "title": "Delete Your Data",
+    "description": "How to request deletion of your data from SouMoster games, including Road Hopper, Bank Hopper and Time Hopper. Covers on-device saves, Google Play Games data, and support records."
+  }
+}

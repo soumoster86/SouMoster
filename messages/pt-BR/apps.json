@@ -1,0 +1,29 @@
+{
+  "list": {
+    "title": "Nossos jogos",
+    "subtitle": "Explore nossa coleção de jogos Android divertidos e viciantes",
+    "searchPlaceholder": "Buscar jogos...",
+    "noResults": "Nenhum jogo corresponde à sua busca."
+  },
+  "detail": {
+    "inDevelopment": {
+      "title": "{name} está em desenvolvimento",
+      "text": "Ainda não há data de lançamento. Inscreva-se para saber primeiro quando os testes abrirem e acompanhe o desenvolvimento no YouTube {handle}."
+    },
+    "closedTesting": {
+      "badge": "Teste fechado aberto no Google Play",
+      "title": "{name} está em teste fechado",
+      "text": "A versão {version} está disponível na faixa de teste fechado do Google Play. Entre no Grupo do Google de testadores, inscreva-se no Play e instale. Trailers e gameplay no YouTube {handle}."
+    },
+    "screenshots": "Capturas de tela",
+    "video": "Vídeo de gameplay",
+    "howToPlay": "Como jogar",
+    "highlights": "Destaques",
+    "features": "Recursos do jogo",
+    "devBuilds": "Versões de desenvolvimento",
+    "versionHistory": "Histórico de versões",
+    "knownIssues": "Problemas conhecidos",
+    "faq": "Perguntas frequentes",
+    "related": "Outros jogos"
+  }
+}

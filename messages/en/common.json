@@ -1,0 +1,121 @@
+{
+  "siteTagline": "Building fun, addictive and high-quality Android games.",
+  "nav": {
+    "home": "Home",
+    "apps": "Apps",
+    "about": "About",
+    "beta": "Beta",
+    "support": "Support",
+    "blog": "Blog",
+    "contact": "Contact",
+    "mainNavigation": "Main navigation",
+    "homeLink": "SouMoster home",
+    "download": "Download",
+    "downloadOnPlay": "Download on Google Play",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "language": {
+    "label": "Language",
+    "choose": "Choose language"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "ourGames": "Our Games",
+    "viewOnPlay": "View on Google Play",
+    "rights": "© {year} {site}. All rights reserved.",
+    "links": {
+      "testerGroup": "Join Tester Google Group",
+      "betaSignup": "Closed Testing Signup",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "deleteData": "Delete Your Data",
+      "press": "Press Kit",
+      "contact": "Contact",
+      "support": "Support"
+    }
+  },
+  "status": {
+    "live": "Live on Google Play",
+    "closedTesting": "Closed Testing",
+    "inDevelopment": "In Development",
+    "comingSoon": "Coming Soon"
+  },
+  "genre": {
+    "Arcade": "Arcade",
+    "Action": "Action",
+    "Puzzle": "Puzzle",
+    "Casual": "Casual",
+    "Racing": "Racing",
+    "All": "All"
+  },
+  "badge": {
+    "version": "v{version}",
+    "devBuild": "Dev build v{version}",
+    "downloads": "{count} downloads"
+  },
+  "playBadge": {
+    "getItOn": "GET IT ON",
+    "closedTestingOn": "CLOSED TESTING ON",
+    "testBuildOn": "TEST BUILD ON",
+    "nowLive": "NOW LIVE",
+    "downloadApp": "Download {name} on Google Play",
+    "downloadTestBuild": "Download the {name} Closed Testing build on Google Play",
+    "downloadOurGames": "Download SouMoster games on Google Play"
+  },
+  "actions": {
+    "learnMore": "Learn More",
+    "getNotified": "Get Notified",
+    "joinGoogleGroup": "Join Google Group",
+    "joinClosedTesting": "Join Closed Testing",
+    "joinGroupShort": "Join Group",
+    "playStore": "Play Store",
+    "watchOnYouTube": "Watch on YouTube",
+    "followOnYouTube": "Follow on YouTube",
+    "getSupport": "Get Support",
+    "requestInvite": "Request invite",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "dialogLabel": "Cookie consent",
+    "message": "We use cookies to improve your experience and analyze site traffic. By continuing, you agree to our use of cookies.",
+    "accept": "Accept",
+    "learnMore": "Learn More"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go Home",
+    "browseApps": "Browse Apps"
+  },
+  "a11y": {
+    "scrollToTop": "Scroll to top",
+    "previousScreenshot": "Previous screenshot",
+    "nextScreenshot": "Next screenshot",
+    "goToScreenshot": "Go to screenshot {number}",
+    "screenshotAlt": "{name} screenshot {number}",
+    "screenshots": "Gameplay screenshots",
+    "playVideo": "Play {name} gameplay video",
+    "pauseVideo": "Pause gameplay video",
+    "videoLabel": "{name} gameplay video",
+    "videoUnsupported": "Your browser does not support video playback.",
+    "appPreview": "{name} preview",
+    "appLogo": "{name} logo",
+    "appIcon": "{name} icon",
+    "downloadBar": "Download {name}",
+    "searchApps": "Search apps"
+  },
+  "englishOnly": {
+    "title": "This page is available in English only",
+    "message": "To make sure it is accurate, this page is provided in English, and the English version is the official one. You can use your browser's translation feature to read it in your language."
+  },
+  "toast": {
+    "dismiss": "Dismiss notification"
+  },
+  "forms": {
+    "activationNeeded": "Almost there! Check soumoster@gmail.com (including spam) for a FormSubmit activation email. Click Activate Form, then submit again."
+  }
+}

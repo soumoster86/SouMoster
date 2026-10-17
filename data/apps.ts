@@ -588,15 +588,3 @@ export function hasBuildVersion(app: App): boolean {
 export function closedTestingJoinUrl(app: App): string {
   return app.googleGroupUrl ?? `/beta?game=${app.slug}`;
 }
-
-export function getAppBySlug(slug: string): App | undefined {
-  return apps.find((app) => app.slug === slug);
-}
-
-export function getFeaturedApp(): App | undefined {
-  return apps.find((app) => app.featured);
-}
-
-export function getRelatedApps(currentSlug: string): App[] {
-  return apps.filter((app) => app.slug !== currentSlug).slice(0, 3);
-}

@@ -1,0 +1,42 @@
+{
+  "eyebrow": "媒体与创作者",
+  "title": "媒体资料",
+  "subtitle": "撰写 SouMoster 游戏报道或制作相关视频所需的一切。所有素材均可用于新闻报道、评测和实况视频。",
+  "aboutStudio": "关于工作室",
+  "aboutP1": "{site} 是一家独立 Android 游戏开发者，专注于打造操作简单、品质精良、有趣又令人上瘾的游戏。工作室的 Hopper 系列始于已在 Google Play 上线的 <strong>Road Hopper</strong>，随后推出了同样已在 Google Play 上线的单指操作银行劫案街机游戏 <strong>Bank Hopper</strong>。",
+  "aboutP2": "横跨七个时代的时空穿越跑酷游戏 <strong>Time Hopper</strong> 正在 Google Play 进行封闭测试。在八颗星球间跳跃冒险的 <strong>Space Hopper</strong>，以及工作室的首款动作游戏 <strong>Arena Legends</strong> 正在开发中。预告片、游戏实况和开发视频请见 YouTube：<youtube>{handle}</youtube>。",
+  "studioLogo": "工作室标志",
+  "logoAlt": "{site} 标志",
+  "logoSvg": "标志（SVG）",
+  "appIconSvg": "应用图标（SVG）",
+  "factSheet": "简介",
+  "facts": {
+    "studio": "工作室",
+    "type": "类型",
+    "typeValue": "独立 Android 游戏开发者",
+    "started": "成立",
+    "firstRelease": "首款作品",
+    "platform": "平台",
+    "website": "网站",
+    "pressContact": "媒体联系"
+  },
+  "emailPress": "联系媒体负责人",
+  "developerPage": "Google Play 开发者页面",
+  "trailers": "YouTube 预告片",
+  "games": "游戏",
+  "genre": "类型：",
+  "platform": "平台：",
+  "price": "价格：",
+  "freeToPlay": "免费",
+  "googlePlay": "Google Play：",
+  "storeListing": "商店页面",
+  "assets": {
+    "icon": "图标",
+    "banner": "横幅",
+    "screenshot": "截图 {number}",
+    "video": "游戏视频"
+  },
+  "fullPage": "查看游戏完整页面 →",
+  "needMore": "还需要其他内容？",
+  "needMoreText": "如需评测版本、采访、高分辨率素材或测试中游戏的抢先体验，请发送邮件至 <email>{address}</email>。"
+}

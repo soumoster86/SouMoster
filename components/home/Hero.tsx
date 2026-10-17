@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown, Gamepad2, Users, Youtube } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { BrandIcon } from "@/components/shared/BrandIcon";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
-import { getFeaturedApp } from "@/data/apps";
+import { useLocalizedApps } from "@/hooks/useLocalizedApps";
 import {
   TIME_HOPPER_GOOGLE_GROUP_URL,
   PLAY_STORE_DEV_URL,
@@ -23,7 +24,9 @@ const floatingShapes = [
 ];
 
 export function Hero() {
-  const featuredApp = getFeaturedApp();
+  const t = useTranslations("home.hero");
+  const tc = useTranslations("common.playBadge");
+  const featuredApp = useLocalizedApps().find((app) => app.featured);
   const heroScreenshot = featuredApp?.screenshots[0] ?? featuredApp?.banner;
 
   return (
@@ -72,7 +75,7 @@ export function Hero() {
               transition={{ duration: 0.6 }}
             >
               <span className="border-primary/30 bg-primary/10 text-primary mb-4 inline-block rounded-full border px-4 py-1.5 text-sm font-medium">
-                Android Game Developer
+                {t("badge")}
               </span>
             </motion.div>
 
@@ -91,7 +94,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              Building fun Android games.
+              {t("subtitle")}
             </motion.p>
 
             <motion.div
@@ -103,9 +106,8 @@ export function Hero() {
               <GooglePlayBadge
                 href={PLAY_STORE_DEV_URL}
                 size="lg"
-                subtext="GET IT ON"
                 title="Google Play"
-                ariaLabel="Download SouMoster games on Google Play"
+                ariaLabel={tc("downloadOurGames")}
               />
               <Button
                 href="/apps"
@@ -114,7 +116,7 @@ export function Hero() {
                 className="min-h-[54px]"
               >
                 <Gamepad2 className="h-5 w-5" />
-                Explore Apps
+                {t("exploreApps")}
               </Button>
             </motion.div>
 
@@ -131,7 +133,7 @@ export function Hero() {
                 className="min-h-[44px]"
               >
                 <Users className="h-4 w-4" />
-                Join Time Hopper Closed Testing
+                {t("joinTimeHopper")}
               </Button>
               <a
                 href={YOUTUBE_URL}
@@ -140,7 +142,7 @@ export function Hero() {
                 className="text-muted hover:text-primary inline-flex items-center gap-2 text-sm font-medium transition-colors"
               >
                 <Youtube className="h-4 w-4" />
-                Watch trailers on YouTube
+                {t("watchTrailers")}
               </a>
             </motion.div>
           </div>
@@ -174,7 +176,7 @@ export function Hero() {
                   src={featuredApp.gameplayVideo ? undefined : heroScreenshot}
                   videoSrc={featuredApp.gameplayVideo}
                   poster={heroScreenshot}
-                  alt={`${featuredApp.name} gameplay`}
+                  alt={t("gameplayAlt", { name: featuredApp.name })}
                   size="lg"
                   priority
                 />
@@ -196,7 +198,7 @@ export function Hero() {
                     <p className="text-text text-xs font-semibold">
                       {featuredApp.name}
                     </p>
-                    <p className="text-muted text-xs">Available now</p>
+                    <p className="text-muted text-xs">{t("availableNow")}</p>
                   </div>
                 </motion.div>
               </motion.div>
@@ -210,10 +212,10 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
-          aria-label="Scroll to explore"
+          aria-label={t("scrollToExplore")}
         >
           <span className="text-xs font-medium tracking-wider uppercase">
-            Explore
+            {t("explore")}
           </span>
           <ChevronDown className="h-5 w-5 animate-bounce" />
         </motion.a>

@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useLocale } from "next-intl";
+import { localizeHref } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 import type { ReactNode } from "react";
 
@@ -41,6 +43,7 @@ export function Button({
   disabled,
   ariaLabel,
 }: ButtonProps) {
+  const locale = useLocale();
   const classes = cn(
     "inline-flex items-center justify-center gap-2 rounded-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:opacity-50 disabled:pointer-events-none",
     variants[variant],
@@ -51,7 +54,7 @@ export function Button({
   if (href) {
     return (
       <motion.a
-        href={href}
+        href={localizeHref(locale, href)}
         target={href.startsWith("http") ? "_blank" : undefined}
         rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
         className={classes}

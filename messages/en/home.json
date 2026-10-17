@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Android Game Developer",
+    "subtitle": "Building fun Android games.",
+    "exploreApps": "Explore Apps",
+    "joinTimeHopper": "Join Time Hopper Closed Testing",
+    "watchTrailers": "Watch trailers on YouTube",
+    "availableNow": "Available now",
+    "gameplayAlt": "{name} gameplay",
+    "scrollToExplore": "Scroll to explore",
+    "explore": "Explore"
+  },
+  "stats": {
+    "sectionLabel": "Statistics",
+    "gamesOnPlay": "Games on Google Play",
+    "downloads": "Downloads",
+    "inTesting": "Games in Testing & Development",
+    "yearsDeveloping": "Years Developing"
+  },
+  "latest": {
+    "sectionLabel": "Latest apps",
+    "eyebrow": "Our Games",
+    "title": "Latest Apps",
+    "subtitle": "Discover our collection of Android games"
+  },
+  "featured": {
+    "sectionLabel": "Featured app",
+    "eyebrow": "Spotlight",
+    "title": "Featured App",
+    "subtitle": "Our latest and greatest release",
+    "screenshotAlt": "{name} gameplay screenshot"
+  },
+  "intro": {
+    "sectionLabel": "Developer introduction",
+    "eyebrow": "About",
+    "title": "Meet SouMoster",
+    "subtitle": "An independent Android developer passionate about creating memorable gaming experiences",
+    "playerFirst": {
+      "title": "Player First",
+      "description": "Every design decision starts with the player experience in mind."
+    },
+    "qualityCode": {
+      "title": "Quality Code",
+      "description": "Clean architecture and performance optimization in every release."
+    },
+    "alwaysImproving": {
+      "title": "Always Improving",
+      "description": "Regular updates, new features, and community-driven development."
+    }
+  },
+  "newsletter": {
+    "sectionLabel": "Newsletter",
+    "title": "Stay in the Loop",
+    "subtitle": "Get notified about new game releases, updates, and developer news.",
+    "placeholder": "Enter your email",
+    "emailLabel": "Email address",
+    "subscribe": "Subscribe",
+    "subscribing": "Subscribing...",
+    "success": "Thanks for subscribing! We'll keep you updated.",
+    "failed": "Failed to subscribe. Please try again."
+  }
+}

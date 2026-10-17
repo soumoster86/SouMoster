@@ -1,0 +1,356 @@
+{
+  "road-hopper": {
+    "tagline": "¿Hasta dónde llegarás saltando?",
+    "description": "Toca o desliza para cruzar carreteras, ríos y vías de tren. Esquiva coches y trenes, súbete a los troncos y recoge HCoins. ¡Fácil de aprender, difícil de dominar!",
+    "longDescription": "Road Hopper es un juego arcade gratuito de SouMoster. Cruza carreteras, ríos y vías: esquiva coches y trenes, súbete a los troncos y recoge HCoins. Cinco modos: Adventure (la campaña The Lost Litter de 9 capítulos), Endless (un mundo aleatorio nuevo en cada partida), Biomes (tierras clásicas y tesoros por descubrir), Worlds (tierras y peligros exclusivos) y Sprint (contrarreloj para ganar Velocity Tokens). Desbloquea héroes como Hopper, Cluck Norris y Neil Hopstrong, equipa estelas de salto, completa misiones diarias y más de 60 logros, y escala en las clasificaciones de Google Play Juegos. Se puede jugar totalmente sin conexión; internet solo hace falta para las compras opcionales.",
+    "features": [
+      "Cinco modos: Adventure, Endless, Biomes, Worlds y Sprint",
+      "Campaña Adventure: 9 capítulos, estrellas, regalos y rescates",
+      "Partidas Endless con biomas vivos, clima y récords personales",
+      "Tesoros de biomas (de Común a Mítico) y reliquias exclusivas de Worlds",
+      "Potenciadores: Shield, Magnet, Double Coins, Speed Boost, Extra Life, Long Jump",
+      "Héroes como Cluck Norris, Neil Hopstrong, Rexy y muchos más",
+      "Aspectos, estelas de salto, regalos diarios, misiones y más de 60 logros",
+      "Clasificaciones de Google Play Juegos y juego sin conexión",
+      "Accesibilidad: mano dominante, sensibilidad del deslizamiento, ahorro de batería y menos animaciones",
+      "Gratis: todo se gana jugando; paquetes opcionales de HCoins y gemas"
+    ],
+    "howToPlay": [
+      "Toca o desliza para saltar sobre carreteras, ríos y vías",
+      "Esquiva coches, trenes y obstáculos; súbete a los troncos cuando lo necesites",
+      "Recoge HCoins y potenciadores por el camino",
+      "Prueba Adventure para la campaña, o Endless para batir récords",
+      "Explora Biomes y Worlds para encontrar tesoros y peligros exclusivos",
+      "Corre en Sprint para ganar Velocity Tokens y héroes de Sprint",
+      "Desbloquea héroes, aspectos y estelas de salto en la tienda",
+      "Supera tus récords y sube en las clasificaciones de Google Play Juegos"
+    ],
+    "faq": [
+      {
+        "question": "¿Road Hopper es gratis?",
+        "answer": "Sí. Road Hopper es gratis para descargar y jugar. Hay compras opcionales (paquetes de HCoins, gemas y cosméticos), y todo se puede conseguir gratis jugando."
+      },
+      {
+        "question": "¿Funciona sin conexión?",
+        "answer": "Sí. Puedes jugar totalmente sin conexión. Internet solo es necesario para las compras opcionales."
+      },
+      {
+        "question": "¿Qué clasificación por edades tiene?",
+        "answer": "Clasificado 3+ en Google Play."
+      },
+      {
+        "question": "¿Qué modos hay?",
+        "answer": "Cinco modos: Adventure (campaña), Endless, Biomes, Worlds y Sprint, cada uno con sus propios objetivos, peligros y recompensas."
+      },
+      {
+        "question": "¿Cómo informo de un error?",
+        "answer": "Usa nuestra página de Soporte o escribe a soumoster@gmail.com con los detalles del problema."
+      },
+      {
+        "question": "¿Dónde puedo ver los tráileres de Road Hopper?",
+        "answer": "El gameplay y los tráileres están en el canal de YouTube de SouMosterGames: youtube.com/@SouMosterGames."
+      }
+    ],
+    "versionHistory": {
+      "9.4.9": [
+        "Última actualización estable, disponible en Google Play para jugadores de todo el mundo",
+        "Más mejoras de rendimiento, estabilidad y acabado"
+      ],
+      "9.4.7": [
+        "Mejoras de rendimiento y estabilidad en todos los modos",
+        "Respuesta táctil y sensibilidad de salto más precisas",
+        "Correcciones en las clasificaciones de Google Play Juegos y el seguimiento de logros",
+        "Disponible en Google Play Store para jugadores de todo el mundo"
+      ],
+      "9.2.9": [
+        "Gran mejora de rendimiento: renderizado por GPU para 60 fps más estables en dispositivos básicos y antiguos",
+        "Corregido el título NEW WORLDS / BIOMES que se solapaba con los botones Atrás y Guías",
+        "Menos picos de memoria durante las partidas",
+        "Disponible en Google Play para todos"
+      ],
+      "8.1.3": [
+        "¡Revive! Mira un anuncio corto tras un golpe para continuar tu partida",
+        "Corregido un cierre al iniciar: el juego ya es estable",
+        "Cada personaje tiene su propio nombre gracioso y sonido de salto",
+        "Pantalla de inicio arcade más limpia",
+        "Correcciones de rendimiento y acabado"
+      ]
+    }
+  },
+  "bank-hopper": {
+    "tagline": "Salta. Toma el dinero. Escapa del banco.",
+    "description": "¡Un atraco bancario arcade en vertical que se juega con un pulgar, ya disponible en Google Play! Salta de carril en carril para salir del banco con el botín y equilibra la codicia con el medidor de seguridad.",
+    "longDescription": "Bank Hopper es un arcade de atracos en vertical para jugar con un pulgar, creado por SouMoster y ya disponible en Google Play. Salta de carril en carril para salir del banco con tu botín: toca para avanzar, desliza a izquierda o derecha y mantén pulsado para usar las habilidades de los personajes. Esquiva rejillas láser y drones de seguridad, deposita el dinero en las ventanillas iluminadas o pasa de largo para conseguir multiplicadores de codicia mientras el medidor Security aumenta la persecución. Juega Endless, atracos diseñados a mano y recorridos Full Heist de ocho plantas, desbloquea personajes, gadgets, ventajas y vehículos de huida, y escala en las clasificaciones. No necesita cuenta y funciona sin conexión.",
+    "features": [
+      "Disponible en Google Play: descarga gratuita, clasificado 7+",
+      "Controles con un pulgar en vertical: toca para avanzar, desliza a los lados, mantén para la habilidad",
+      "Deposita en la ventanilla: se iluminan al acercarte; asegura el dinero o sigue corriendo",
+      "Medidores Greed y Security: más riesgo, más recompensa y una persecución cada vez más intensa",
+      "Modo Full Heist: las ocho plantas en una sola partida mientras sube la seguridad",
+      "Modo Endless, atracos diseñados a mano y desafíos especiales",
+      "Combos Heist Rush, rejillas láser, drones de seguridad y escenarios como Security Floor, Subway y Escape Zone",
+      "Personajes: Rookie, Grabber, Insurance y Black Limo",
+      "Gadgets, ventajas, bolsas cosméticas y vehículos de huida",
+      "Vault of Honors: reliquias, emblemas de maestría, insignias y títulos de reputación",
+      "No necesita cuenta; juega sin conexión en cualquier lugar"
+    ],
+    "howToPlay": [
+      "Toca para saltar de carril en carril hacia la salida del banco",
+      "Desliza a izquierda o derecha para cambiar de carril, esquivar láseres y evitar a los guardias",
+      "Mantén pulsado para activar la habilidad sigilosa especial de tu personaje",
+      "Recoge bolsas de dinero para sumar puntos y activar multiplicadores Greed",
+      "Cuando una ventanilla se ilumine, toca para depositar el dinero, o sigue y arriésgate",
+      "Vigila el medidor Security: cuanto más codicioso seas, más rápido te alcanzará la persecución",
+      "Llega a la Extraction Zone para asegurar el botín, o encadena plantas de Full Heist para un golpe mayor"
+    ],
+    "faq": [
+      {
+        "question": "¿Bank Hopper es gratis?",
+        "answer": "Sí. Bank Hopper se descarga gratis en Google Play. Incluye anuncios y compras opcionales, y todo lo que afecta a la jugabilidad se puede ganar jugando."
+      },
+      {
+        "question": "¿Funciona sin conexión?",
+        "answer": "Sí. No necesitas cuenta y los atracos se guardan en tu dispositivo. Las clasificaciones y las compras necesitan conexión a internet cuando las usas."
+      },
+      {
+        "question": "¿Qué clasificación por edades tiene?",
+        "answer": "Clasificado 7+ en Google Play."
+      },
+      {
+        "question": "¿En qué dispositivos funciona?",
+        "answer": "Bank Hopper está desarrollado de forma nativa en Kotlin para Android 8.0 o superior, optimizado para 60 fps en móviles y tablets."
+      },
+      {
+        "question": "¿Cómo informo de un error?",
+        "answer": "Usa nuestra página de Soporte o escribe a soumoster@gmail.com con los detalles del problema."
+      },
+      {
+        "question": "¿Dónde puedo ver los tráileres de Bank Hopper?",
+        "answer": "El gameplay y los tráileres están en el canal de YouTube de SouMosterGames: youtube.com/@SouMosterGames."
+      }
+    ],
+    "versionHistory": {
+      "1.0.0": [
+        "Lanzamiento público: Bank Hopper ya está disponible en Google Play",
+        "Endless, atracos diseñados a mano y desafíos",
+        "Gracias a todos los testers de la prueba cerrada que ayudaron a pulirlo"
+      ],
+      "0.8.7": [
+        "Iconos pintados en todo el Vault of Honors: reliquias, emblemas, insignias y reputación",
+        "Los títulos de reputación tienen sus propias marcas, de la capucha a la corona",
+        "Un icono pintado para cada modificador diario"
+      ],
+      "0.8.0": [
+        "Versión de prueba cerrada en Google Play",
+        "Inicio más corto: dos partidas guiadas en lugar de cuatro; el resto se aprende jugando",
+        "Inicio de sesión en las clasificaciones globales para instalaciones desde Play Store"
+      ],
+      "0.7.9": [
+        "Deposita en la ventanilla: se iluminan al acercarte",
+        "Seis estilos de bolsa, vehículos de huida Pickup y Crew Van y nuevos diseños de peligros",
+        "Clasificaciones globales de Play Juegos en Boards"
+      ]
+    }
+  },
+  "time-hopper": {
+    "tagline": "Salta en el tiempo. Rompe la historia. Repara la línea temporal.",
+    "description": "Un runner de viajes en el tiempo por siete épocas, cada una con dos mundos. Esquiva lo que tienes delante o haz un Time Hop a la línea temporal alternativa. En prueba cerrada en Google Play.",
+    "longDescription": "Time Hopper es un runner de viajes en el tiempo desarrollado de forma nativa en Kotlin por SouMoster, ahora en prueba cerrada en Google Play. Corre por siete épocas: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future y el Chrono Void. Cada época tiene dos mundos. Cuando el camino se cierra, gasta energía para hacer un Time Hop a la línea temporal alternativa, donde ecos morados muestran lo que te espera, y prepárate para volver. Elige portales Stable, Relic o Paradox, escapa de la persecución de cada época y, en cada Chrono Gate, sal con tus hallazgos o adéntrate más. Juega la campaña Chronicle de 21 niveles, partidas Classic y Endless, las variantes Paradox, Relic Hunt y Hardcore, el Boss Gauntlet, los Timeline Puzzles, eventos semanales y una Daily Timeline con un fantasma al que ganar. Desbloquea viajeros con habilidades activas y recupera 65 artefactos ilustrados para tu museo.",
+    "features": [
+      "En prueba cerrada en Google Play: únete al grupo de Google de testers e inscríbete en Play",
+      "Time Hop: cada época tiene dos mundos; pasa a la línea temporal alternativa cuando el camino se cierra",
+      "Siete épocas, cada una con sus escenarios, peligros y persecución",
+      "Chronicle: una campaña de 21 niveles con tres objetivos de estrella por nivel",
+      "Partidas por puntos, variantes y desafíos: Classic, Endless, Paradox, Relic Hunt, Hardcore, Boss Gauntlet, Timeline Puzzles y eventos semanales",
+      "Daily Timeline con una variante diaria, una racha y un fantasma de tu mejor partida",
+      "Portales Stable, Relic y Paradox, y anomalías de portal cuando te adentras más",
+      "Siete viajeros, cada uno con una habilidad activa, además de gadgets y mejoras",
+      "Un museo con 65 artefactos ilustrados repartidos en nueve salas",
+      "Inicio de sesión en Google Play Juegos, clasificaciones y copia de seguridad en la nube",
+      "Deslizar y tocar o botones en pantalla; ajustes de mano dominante, contraste y efectos"
+    ],
+    "howToPlay": [
+      "Desliza a izquierda o derecha para cambiar de carril",
+      "Toca o desliza hacia arriba para saltar rocas bajas y huecos; desliza hacia abajo para deslizarte bajo las vigas",
+      "Mantén pulsada la pantalla para el Temporal Brake y ralentizar el mundo a cambio de energía",
+      "Pulsa Time Hop para gastar 35 de energía y pasar tres segundos en la línea temporal alternativa",
+      "Lee primero los ecos morados: la otra línea temporal tiene sus propios peligros",
+      "Recoge Chrono Shards para recargar energía y reliquias para tu museo",
+      "Usa el Time Hop para escapar de las persecuciones: sus escombros solo existen en tu línea temporal original",
+      "En cada Time Gate, sal y asegura todo lo conseguido, o sigue a la siguiente época para obtener más recompensas"
+    ],
+    "knownIssues": [
+      "Prueba cerrada de Google Play solo con invitación: únete a https://groups.google.com/g/timehoppergame e inscríbete en Play para instalarlo"
+    ],
+    "faq": [
+      {
+        "question": "¿Cómo puedo jugar a Time Hopper ahora mismo?",
+        "answer": "Time Hopper está en prueba cerrada en Google Play. Únete al grupo de Google de testers en https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) con tu cuenta de Google Play, inscríbete en Play e instálalo desde su ficha de Play Store."
+      },
+      {
+        "question": "¿Qué es un Time Hop?",
+        "answer": "Cada época tiene dos mundos. El Time Hop gasta energía para llevarte unos segundos a la línea temporal alternativa. Allí los peligros son distintos, y unos ecos morados te los muestran antes de saltar, así que tú decides si es más seguro esquivar o saltar."
+      },
+      {
+        "question": "¿Cuándo saldrá Time Hopper para todos?",
+        "answer": "El lanzamiento mundial llegará después de la prueba cerrada y la revisión de producción de Google Play. Hasta entonces, los testers nos ayudan a ajustar la dificultad, los anuncios y el rendimiento."
+      },
+      {
+        "question": "¿Time Hopper es gratis?",
+        "answer": "Sí. Es gratis y tiene anuncios. Las compras opcionales (quitar anuncios y paquetes de fragmentos) nunca venden personajes exclusivos ni ventajas de juego, y los fragmentos se pueden ganar jugando."
+      },
+      {
+        "question": "¿Funciona sin conexión?",
+        "answer": "El juego y el progreso local funcionan sin conexión. Los anuncios, las clasificaciones y el guardado en la nube necesitan conexión a internet."
+      },
+      {
+        "question": "¿En qué dispositivos funciona?",
+        "answer": "Android 8.0 (API 26) o superior, en vertical."
+      }
+    ],
+    "versionHistory": {
+      "1.13.2": [
+        "Versión de prueba cerrada en Google Play"
+      ],
+      "1.13.0": [
+        "Inicio de sesión en Google Play Juegos y clasificaciones",
+        "Copia de seguridad y restauración manual en la nube",
+        "Opción de quitar anuncios y paquetes de fragmentos; cosméticos por fragmentos en la tienda (1.13.1)"
+      ],
+      "1.12.0": [
+        "Contrarreloj contra un fantasma, Boss Gauntlet, Timeline Puzzles y eventos semanales",
+        "Variante y racha diarias, el Chrono Pass y la máquina del tiempo",
+        "Primera prueba interna en Google Play"
+      ],
+      "1.11.0": [
+        "Cada corredor tiene una habilidad activa con un medidor de carga"
+      ],
+      "1.10.0": [
+        "Chronicle: una campaña de 21 niveles con objetivos de estrella"
+      ],
+      "1.9.0": [
+        "Anomalías de portal: reglas acumulables cuando te adentras más"
+      ],
+      "1.8.0": [
+        "Nueve salas de museo con la historia de los 65 artefactos",
+        "Artefactos ilustrados en las estanterías y como objetos del juego (1.8.1–1.8.2)"
+      ],
+      "1.2–1.7": [
+        "Rampas de salto largo, mundos alternativos para cada época y mejoras de rasgos",
+        "Persecuciones por fases, objetivos de maestría por época, obstáculos ilustrados y peligros móviles"
+      ],
+      "1.0–1.1": [
+        "Las siete épocas, siete personajes, seis gadgets y los modos principales",
+        "Personajes y perseguidores animados, y una banda sonora original"
+      ]
+    }
+  },
+  "space-hopper": {
+    "tagline": "Las Warp Gates están dañadas. Salta por la galaxia para repararlas.",
+    "description": "Una aventura arcade por ocho planetas en la que tocas para saltar. Recoge Star Cores, esquiva drones y baldosas que se derrumban, y repara las Warp Gates de la galaxia.",
+    "longDescription": "Space Hopper es un arcade casual de SouMoster, creado con Unity 6 y ahora en desarrollo. Las Warp Gates de la galaxia están dañadas: salta de carril en carril por ocho planetas, desde Terra Prime y la Luna hasta Volcanis, Gaia, el cinturón de asteroides, Cyber Nexus, Nebula X y el Agujero negro, recogiendo Star Cores para volver a activarlas. Cada mundo tiene su propio giro: chimeneas de lava, plataformas de salto, tráfico de drones, cintas transportadoras, niebla y tirones gravitatorios. Juega en Endless Orbit, Adventure Journey con jefes, Speed Run o Galaxy Explorer, con siete héroes y cinco mascotas que aportan habilidades reales. El progreso se guarda en tu dispositivo.",
+    "features": [
+      "Cuatro modos: Endless Orbit, Adventure Journey, Speed Run y Galaxy Explorer",
+      "Ocho planetas con sus propios peligros: largos saltos sobre el vacío, chimeneas de lava, plataformas de salto, tráfico de drones, cintas, niebla y la atracción de un agujero negro",
+      "Adventure Journey: repara las Warp Gates y enfréntate a minijefes y jefes de mundo",
+      "Siete héroes con una habilidad cada uno: Comet, Talon, Ember, Dash, Rivet, Zix y Frost",
+      "Cinco mascotas compañeras: Bolt, Blip, Kit, Goo y Nebula",
+      "Recoge Star Cores y Star Shards; gana Velocity Tokens en Speed Run",
+      "Combos, bonificaciones por esquivas al límite y un derrumbe que te persigue",
+      "Museo de tesoros y reliquias, misiones, rangos, mejoras y trajes",
+      "El progreso se guarda en tu dispositivo; no necesita cuenta"
+    ],
+    "howToPlay": [
+      "Toca para saltar hacia delante",
+      "Desliza a izquierda o derecha para cambiar de carril",
+      "No te detengas: la pista se derrumba detrás de ti",
+      "Recoge Star Cores y fragmentos, y encadena saltos para hacer combos",
+      "Esquiva los drones y evita el vacío",
+      "Completa un planeta en Adventure Journey para desbloquear el siguiente"
+    ],
+    "knownIssues": [
+      "Versión de desarrollo: todavía no está en Google Play"
+    ],
+    "faq": [
+      {
+        "question": "¿Cuándo estará disponible Space Hopper?",
+        "answer": "Space Hopper se está preparando para la prueba cerrada en Google Play. Todavía no hay fecha de lanzamiento público. Regístrate en nuestra página Beta para recibir una invitación cuando abran las pruebas."
+      },
+      {
+        "question": "¿En qué se diferencia de Road Hopper?",
+        "answer": "Space Hopper mantiene los controles sencillos de tocar para saltar, pero se va al espacio: ocho planetas con sus propios peligros, Warp Gates que reparar, jefes, y héroes y mascotas con habilidades únicas."
+      },
+      {
+        "question": "¿Será gratis?",
+        "answer": "Sí. Space Hopper será gratis. Si se añaden compras, serán cosméticas o de comodidad, nunca de poder extra."
+      },
+      {
+        "question": "¿En qué dispositivos funcionará?",
+        "answer": "Android 7.0 (API 24) o superior, en vertical."
+      }
+    ],
+    "versionHistory": {
+      "1.0.0": [
+        "Versión de desarrollo con los cuatro modos y los ocho planetas",
+        "Siete héroes y cinco mascotas",
+        "Preparándose para la prueba cerrada en Google Play"
+      ]
+    }
+  },
+  "arena-legends": {
+    "tagline": "Gladiator Wars. Lucha y gana tu libertad.",
+    "description": "El primer juego de acción de SouMoster: combates de gladiadores con combos, paradas y jefes a lo largo de una campaña de cinco capítulos. En desarrollo.",
+    "longDescription": "Arena Legends: Gladiator Wars es el primer juego de acción de SouMoster, creado en Kotlin con libGDX y ahora en desarrollo. Despiertas bajo la arena y el amo del foso te ofrece un trato: lucha y gana tu libertad. Recorre una campaña de cinco capítulos, desde los Blood Pits y el Coliseo hasta las Wild Trials, la Ashen Arena y el Hall of Champions, contra saqueadores, lanceros, brutos, guardianes con escudo, fieras y cinco jefes, hasta el Imperial Champion y sus tres posturas. Encadena combos direccionales, carga ataques pesados, bloquea, para y contraataca, esquiva y rompe escudos y armaduras. Elige Espada y escudo, Lanza, Espadas dobles o Gran hacha, cada una con sus golpes y su habilidad especial, y mejora tu equipo en la Armería. Los modos Supervivencia, Entrenamiento y un Boss Rush contrarreloj completan la experiencia. Se juega en horizontal y totalmente sin conexión.",
+    "features": [
+      "El primer juego de acción de SouMoster: combates de gladiadores en tiempo real, en horizontal",
+      "Campaña de cinco capítulos: los Blood Pits, el Coliseo, las Wild Trials, la Ashen Arena y el Hall of Champions",
+      "Cinco jefes: Brutus the Iron Wall, Vex, el Beast Master, el Inferno Champion y el Imperial Champion de tres posturas",
+      "Combos direccionales, ataques pesados cargados, bloqueo, parada y contraataque, esquivas y remates, con una barra de aguante compartida",
+      "Cuatro clases de armas con sus propios combos y habilidades: Espada y escudo (Shield Bash), Lanza (Piercing Thrust), Espadas dobles (Cross Cut) y Gran hacha (Whirlwind)",
+      "Saqueadores, lanceros, brutos, guardianes con escudo, berserkers, luchadores con red y leones que se abalanzan",
+      "Rompe escudos y armaduras enemigos; evita cuchillas giratorias, trampas y chimeneas de fuego",
+      "Oleadas de Supervivencia, lecciones prácticas de Entrenamiento y Boss Rush contrarreloj",
+      "Mejoras en la Armería, talentos, oro, XP y desbloqueos por reputación",
+      "Arenas pintadas, luchadores animados, impactos contundentes, sonido de golpes y temblor de pantalla ajustable",
+      "Juego sin conexión; opciones de orientación automática, texto y controles grandes, y menos animaciones"
+    ],
+    "howToPlay": [
+      "Muévete con el joystick flotante de la izquierda",
+      "Toca Strike para encadenar un combo de tres golpes; mantén Strike para cargar un ataque pesado",
+      "Mantén Block para cubrirte de frente, o bloquea justo antes del impacto para parar y contraatacar",
+      "Toca Dodge para rodar fuera de las zonas de ataque marcadas",
+      "Usa la habilidad de tu arma, como Shield Bash, para aturdir a los enemigos",
+      "Vigila tu aguante: ataques, guardia y esquivas lo comparten",
+      "Rompe escudos y armaduras con ataques pesados y aprovecha la apertura",
+      "Supera cada prueba para enfrentarte al jefe del capítulo y ganar tu libertad"
+    ],
+    "knownIssues": [
+      "Versión de desarrollo: todavía no está en Google Play"
+    ],
+    "faq": [
+      {
+        "question": "¿Cuándo estará disponible Arena Legends?",
+        "answer": "Arena Legends está en desarrollo y aún no tiene fecha de lanzamiento. Regístrate en nuestra página Beta para enterarte primero cuando abran las pruebas."
+      },
+      {
+        "question": "¿Es distinto de los juegos Hopper?",
+        "answer": "Sí. Arena Legends es el primer juego de acción de SouMoster: combate cuerpo a cuerpo en tiempo real con combos, paradas, aguante y jefes, que se juega en horizontal con un joystick y botones de acción."
+      },
+      {
+        "question": "¿Funcionará sin conexión?",
+        "answer": "Sí. Arena Legends está pensado para jugar sin conexión, con el progreso guardado en tu dispositivo."
+      },
+      {
+        "question": "¿En qué dispositivos funcionará?",
+        "answer": "Android 6.0 (API 23) o superior, en horizontal."
+      }
+    ],
+    "versionHistory": {
+      "0.1.0": [
+        "Campaña de cinco capítulos jugable hasta el Imperial Champion",
+        "Wild Trials, Ashen Arena y Hall of Champions con fieras, trampas y chimeneas de fuego",
+        "Modos Boss Rush, Supervivencia y Entrenamiento; cuatro clases de armas"
+      ]
+    }
+  }
+}

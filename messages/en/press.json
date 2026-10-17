@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Media & Creators",
+  "title": "Press Kit",
+  "subtitle": "Everything you need to write about or make videos of SouMoster games. All assets may be used for editorial coverage, reviews, and let's-play videos.",
+  "aboutStudio": "About the studio",
+  "aboutP1": "{site} is an independent Android game developer building fun, addictive, high-quality games with simple controls and a polished feel. The studio's Hopper series started with <strong>Road Hopper</strong>, live on Google Play, followed by <strong>Bank Hopper</strong>, a one-thumb bank heist arcade game, also live on Google Play.",
+  "aboutP2": "<strong>Time Hopper</strong>, a seven-era time-travel runner, is in Google Play Closed Testing. <strong>Space Hopper</strong>, an eight-planet hop across the galaxy, and <strong>Arena Legends</strong>, the studio's first action game, are in development. Trailers, gameplay, and developer videos are on YouTube at <youtube>{handle}</youtube>.",
+  "studioLogo": "Studio logo",
+  "logoAlt": "{site} logo",
+  "logoSvg": "Logo (SVG)",
+  "appIconSvg": "App icon (SVG)",
+  "factSheet": "Fact sheet",
+  "facts": {
+    "studio": "Studio",
+    "type": "Type",
+    "typeValue": "Independent Android game developer",
+    "started": "Started",
+    "firstRelease": "First release",
+    "platform": "Platform",
+    "website": "Website",
+    "pressContact": "Press contact"
+  },
+  "emailPress": "Email press contact",
+  "developerPage": "Developer page on Google Play",
+  "trailers": "Trailers on YouTube",
+  "games": "Games",
+  "genre": "Genre:",
+  "platform": "Platform:",
+  "price": "Price:",
+  "freeToPlay": "Free to play",
+  "googlePlay": "Google Play:",
+  "storeListing": "Store listing",
+  "assets": {
+    "icon": "Icon",
+    "banner": "Banner",
+    "screenshot": "Screenshot {number}",
+    "video": "Gameplay video"
+  },
+  "fullPage": "Full game page →",
+  "needMore": "Need something else?",
+  "needMoreText": "For review builds, interview requests, high-resolution assets, or early access to games in testing, email <email>{address}</email>."
+}

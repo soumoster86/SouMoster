@@ -1,0 +1,19 @@
+{
+  "title": "Contact Us",
+  "subtitle": "Have a question or want to collaborate? We'd love to hear from you.",
+  "note": "Messages go to <email>{address}</email>. The first web submission requires a one-time activation email (check spam), or use Open in email app below.",
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+  "send": "Send Message",
+  "sending": "Sending...",
+  "openInEmailApp": "Open in email app",
+  "sent": "Message sent! We'll get back to you soon.",
+  "failed": "Failed to send message. Please try again.",
+  "fillAllFields": "Please fill in all fields first.",
+  "mailtoOpening": "Your email app will open — press Send to deliver the message.",
+  "emailCard": "Email",
+  "connect": "Connect With Us",
+  "playDeveloperPage": "Google Play Developer Page"
+}

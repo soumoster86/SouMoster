@@ -1,0 +1,121 @@
+{
+  "siteTagline": "Creamos juegos Android divertidos, adictivos y de alta calidad.",
+  "nav": {
+    "home": "Inicio",
+    "apps": "Juegos",
+    "about": "Acerca de",
+    "beta": "Beta",
+    "support": "Soporte",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "mainNavigation": "Navegación principal",
+    "homeLink": "Inicio de SouMoster",
+    "download": "Descargar",
+    "downloadOnPlay": "Descargar en Google Play",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "label": "Idioma",
+    "choose": "Elegir idioma"
+  },
+  "footer": {
+    "quickLinks": "Enlaces rápidos",
+    "legal": "Legal",
+    "ourGames": "Nuestros juegos",
+    "viewOnPlay": "Ver en Google Play",
+    "rights": "© {year} {site}. Todos los derechos reservados.",
+    "links": {
+      "testerGroup": "Unirse al grupo de Google de testers",
+      "betaSignup": "Registro para la prueba cerrada",
+      "privacy": "Política de privacidad",
+      "terms": "Términos y condiciones",
+      "deleteData": "Eliminar tus datos",
+      "press": "Kit de prensa",
+      "contact": "Contacto",
+      "support": "Soporte"
+    }
+  },
+  "status": {
+    "live": "Disponible en Google Play",
+    "closedTesting": "Prueba cerrada",
+    "inDevelopment": "En desarrollo",
+    "comingSoon": "Próximamente"
+  },
+  "genre": {
+    "Arcade": "Arcade",
+    "Action": "Acción",
+    "Puzzle": "Puzle",
+    "Casual": "Casual",
+    "Racing": "Carreras",
+    "All": "Todos"
+  },
+  "badge": {
+    "version": "v{version}",
+    "devBuild": "Versión de desarrollo v{version}",
+    "downloads": "{count} descargas"
+  },
+  "playBadge": {
+    "getItOn": "DISPONIBLE EN",
+    "closedTestingOn": "PRUEBA CERRADA EN",
+    "testBuildOn": "VERSIÓN DE PRUEBA EN",
+    "nowLive": "YA DISPONIBLE",
+    "downloadApp": "Descargar {name} en Google Play",
+    "downloadTestBuild": "Descargar la versión de prueba cerrada de {name} en Google Play",
+    "downloadOurGames": "Descargar los juegos de SouMoster en Google Play"
+  },
+  "actions": {
+    "learnMore": "Más información",
+    "getNotified": "Avísame",
+    "joinGoogleGroup": "Unirse al grupo de Google",
+    "joinClosedTesting": "Unirse a la prueba cerrada",
+    "joinGroupShort": "Unirse",
+    "playStore": "Play Store",
+    "watchOnYouTube": "Ver en YouTube",
+    "followOnYouTube": "Seguir en YouTube",
+    "getSupport": "Obtener ayuda",
+    "requestInvite": "Solicitar invitación",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "dialogLabel": "Consentimiento de cookies",
+    "message": "Usamos cookies para mejorar tu experiencia y analizar el tráfico del sitio. Si continúas navegando, aceptas el uso de cookies.",
+    "accept": "Aceptar",
+    "learnMore": "Más información"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "message": "La página que buscas no existe o se ha movido.",
+    "goHome": "Ir al inicio",
+    "browseApps": "Ver juegos"
+  },
+  "a11y": {
+    "scrollToTop": "Volver arriba",
+    "previousScreenshot": "Captura anterior",
+    "nextScreenshot": "Captura siguiente",
+    "goToScreenshot": "Ir a la captura {number}",
+    "screenshotAlt": "Captura {number} de {name}",
+    "screenshots": "Capturas de pantalla del juego",
+    "playVideo": "Reproducir el vídeo de {name}",
+    "pauseVideo": "Pausar el vídeo",
+    "videoLabel": "Vídeo de juego de {name}",
+    "videoUnsupported": "Tu navegador no admite la reproducción de vídeo.",
+    "appPreview": "Vista previa de {name}",
+    "appLogo": "Logotipo de {name}",
+    "appIcon": "Icono de {name}",
+    "downloadBar": "Descargar {name}",
+    "searchApps": "Buscar juegos"
+  },
+  "englishOnly": {
+    "title": "Esta página solo está disponible en inglés",
+    "message": "Para garantizar su exactitud, esta página se ofrece en inglés y la versión en inglés es la oficial. Puedes usar la función de traducción de tu navegador para leerla en tu idioma."
+  },
+  "toast": {
+    "dismiss": "Cerrar notificación"
+  },
+  "forms": {
+    "activationNeeded": "¡Casi listo! Revisa soumoster@gmail.com (incluido el spam) para encontrar el correo de activación de FormSubmit. Pulsa Activate Form y vuelve a enviar el formulario."
+  }
+}

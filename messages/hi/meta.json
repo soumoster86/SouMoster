@@ -1,0 +1,46 @@
+{
+  "home": {
+    "title": "SouMoster — Android गेम डेवलपर",
+    "description": "SouMoster एक स्वतंत्र Android गेम डेवलपर है। Road Hopper और Bank Hopper को Google Play से मुफ़्त डाउनलोड करें। Time Hopper Google Play पर क्लोज़्ड टेस्टिंग में है। Space Hopper और हमारा पहला एक्शन गेम Arena Legends डेवलपमेंट में हैं। ट्रेलर YouTube @SouMosterGames पर देखें।"
+  },
+  "apps": {
+    "title": "गेम्स",
+    "description": "SouMoster के Android गेम्स देखें। Road Hopper और Bank Hopper डाउनलोड करें, Google Play पर Time Hopper की क्लोज़्ड टेस्टिंग से जुड़ें, Arena Legends देखें और YouTube पर ट्रेलर देखते रहें।"
+  },
+  "about": {
+    "title": "हमारे बारे में",
+    "description": "SouMoster के बारे में जानें — स्वतंत्र Android गेम्स: Road Hopper और Bank Hopper (उपलब्ध), Time Hopper (Google Play क्लोज़्ड टेस्टिंग), Space Hopper और Arena Legends (डेवलपमेंट में)। YouTube @SouMosterGames।"
+  },
+  "beta": {
+    "title": "क्लोज़्ड बीटा से जुड़ें",
+    "description": "Time Hopper v1.13.2 Google Play पर क्लोज़्ड टेस्टिंग में है, और Bank Hopper अब Google Play पर उपलब्ध है। SouMoster टेस्टर के रूप में साइन अप करें, Play से इंस्टॉल करें और YouTube @SouMosterGames पर ट्रेलर देखें।"
+  },
+  "contact": {
+    "title": "संपर्क",
+    "description": "SouMoster से संपर्क करें: ईमेल, Google Play, YouTube @SouMosterGames और सोशल मीडिया।"
+  },
+  "support": {
+    "title": "सहायता",
+    "description": "SouMoster गेम्स के लिए सहायता पाएँ। बग रिपोर्ट करें, नए फ़ीचर सुझाएँ या हमारे अक्सर पूछे जाने वाले सवाल देखें।"
+  },
+  "press": {
+    "title": "प्रेस किट",
+    "description": "SouMoster प्रेस किट: स्टूडियो फ़ैक्ट शीट, गेम फ़ैक्ट शीट, लोगो, आइकन, बैनर, स्क्रीनशॉट और Road Hopper, Bank Hopper, Time Hopper, Space Hopper और Arena Legends के ट्रेलर लिंक।"
+  },
+  "blog": {
+    "title": "ब्लॉग",
+    "description": "SouMoster की डेवलपर डायरी, रिलीज़ नोट्स, पैच नोट्स और घोषणाएँ।"
+  },
+  "privacy": {
+    "title": "प्राइवेसी पॉलिसी",
+    "description": "SouMoster के Android गेम्स, मोबाइल ऐप्स और सेवाओं की प्राइवेसी पॉलिसी (अंग्रेज़ी में)।"
+  },
+  "terms": {
+    "title": "नियम और शर्तें",
+    "description": "SouMoster के Android गेम्स, मोबाइल ऐप्स और सेवाओं के नियम और शर्तें तथा एंड यूज़र लाइसेंस एग्रीमेंट (EULA) (अंग्रेज़ी में)।"
+  },
+  "deleteData": {
+    "title": "अपना डेटा हटाएँ",
+    "description": "Road Hopper, Bank Hopper और Time Hopper समेत SouMoster गेम्स से अपना डेटा हटवाने का तरीका (अंग्रेज़ी में)।"
+  }
+}

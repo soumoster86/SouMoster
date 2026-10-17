@@ -1,0 +1,46 @@
+{
+  "home": {
+    "title": "SouMoster — Desenvolvedor de jogos Android",
+    "description": "A SouMoster é uma desenvolvedora independente de jogos Android. Baixe Road Hopper e Bank Hopper de graça no Google Play. Time Hopper está em teste fechado no Google Play. Space Hopper e Arena Legends, nosso primeiro jogo de ação, estão em desenvolvimento. Trailers no YouTube @SouMosterGames."
+  },
+  "apps": {
+    "title": "Jogos",
+    "description": "Conheça os jogos Android da SouMoster. Baixe Road Hopper e Bank Hopper, participe do teste fechado de Time Hopper no Google Play, veja Arena Legends e acompanhe os trailers no YouTube."
+  },
+  "about": {
+    "title": "Sobre",
+    "description": "Conheça a SouMoster, estúdio independente de jogos Android: Road Hopper e Bank Hopper (disponíveis), Time Hopper (teste fechado no Google Play), Space Hopper e Arena Legends (em desenvolvimento). YouTube @SouMosterGames."
+  },
+  "beta": {
+    "title": "Participe do beta fechado",
+    "description": "Time Hopper v1.13.2 está em teste fechado no Google Play, e Bank Hopper já está disponível no Google Play. Inscreva-se como testador da SouMoster, instale pelo Play e assista aos trailers no YouTube @SouMosterGames."
+  },
+  "contact": {
+    "title": "Contato",
+    "description": "Fale com a SouMoster: e-mail, Google Play, YouTube @SouMosterGames e redes sociais."
+  },
+  "support": {
+    "title": "Suporte",
+    "description": "Receba ajuda com os jogos da SouMoster. Relate bugs, sugira recursos ou confira nossas perguntas frequentes."
+  },
+  "press": {
+    "title": "Kit de imprensa",
+    "description": "Kit de imprensa da SouMoster: ficha do estúdio, fichas dos jogos, logotipos, ícones, banners, capturas de tela e trailers de Road Hopper, Bank Hopper, Time Hopper, Space Hopper e Arena Legends."
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Diários de desenvolvimento, notas de versão, atualizações e anúncios da SouMoster."
+  },
+  "privacy": {
+    "title": "Política de Privacidade",
+    "description": "Política de Privacidade dos jogos, aplicativos e serviços Android da SouMoster (em inglês)."
+  },
+  "terms": {
+    "title": "Termos e Condições",
+    "description": "Termos e Condições e Contrato de Licença de Usuário Final (EULA) dos jogos, aplicativos e serviços Android da SouMoster (em inglês)."
+  },
+  "deleteData": {
+    "title": "Excluir seus dados",
+    "description": "Como pedir a exclusão dos seus dados dos jogos da SouMoster, como Road Hopper, Bank Hopper e Time Hopper (em inglês)."
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "header": {
+    "badge": "Programme de test Google Play",
+    "title": "Rejoignez la <highlight>bêta fermée</highlight>",
+    "lead": "Time Hopper v1.13.2 est disponible sur la piste de test fermé de Google Play. Aidez-nous à peaufiner ses sept époques, sa campagne Chronicle et ses modes avant le lancement mondial. Bank Hopper, notre bêta précédente, est désormais disponible sur Google Play.",
+    "watchTrailers": "Voir les bandes-annonces sur YouTube {handle}"
+  },
+  "perks": {
+    "earlyBuilds": {
+      "title": "Versions exclusives en avant-première",
+      "text": "Jouez aux versions de test fermé de <strong>Time Hopper v1.13.2</strong> et à nos futurs jeux, comme Arena Legends, via Google Play avant leur sortie publique."
+    },
+    "devAccess": {
+      "title": "Contact direct avec le développeur",
+      "text": "Vos retours guident directement les réglages, les correctifs d’équilibrage, la chasse aux bugs et les nouvelles fonctionnalités."
+    },
+    "vip": {
+      "title": "Avantages testeur VIP",
+      "text": "Recevez des badges cosmétiques exclusifs en jeu, des packs de pièces bonus et votre nom dans les crédits des testeurs de la version finale."
+    }
+  },
+  "games": {
+    "timeHopper": "Runner temporel à travers sept époques, construit autour du Time Hop",
+    "arenaLegends": "Notre premier jeu d’action : combats de gladiateurs et boss",
+    "spaceHopper": "Sautez sur huit planètes pour réparer les Warp Gates",
+    "allUpcoming": {
+      "name": "Tous les jeux à venir",
+      "version": "Accès VIP",
+      "tagline": "Invitations à tous les futurs prototypes et versions expérimentales"
+    }
+  },
+  "formCard": {
+    "title": "Formulaire d’inscription testeur",
+    "subtitle": "Remplissez le formulaire ci-dessous. Google Play vous enverra par e-mail votre lien de confirmation dès que votre compte sera inscrit.",
+    "joinDirect": "Rejoindre directement le groupe Google",
+    "tip": "<strong>Astuce :</strong> rejoindre le <group>groupe Google timehoppergame</group> officiel ({email}) avec votre compte Google Play vous donne accès à la piste de test fermé de Time Hopper.",
+    "loading": "Chargement du formulaire..."
+  },
+  "form": {
+    "activeTesting": "Test en cours",
+    "selected": "Sélectionné",
+    "clickToAdd": "Cliquer pour ajouter",
+    "gameIcon": "Icône de {name}",
+    "step1": "1. Choisissez les jeux que vous voulez tester",
+    "step1Hint": "Sélectionnez un ou plusieurs jeux pour recevoir les invitations aux pistes de test Google Play.",
+    "step2": "2. L’adresse e-mail de votre compte Google Play",
+    "emailHint": "Elle doit correspondre au compte Google Play de votre téléphone ou tablette Android pour que Google puisse vous donner accès.",
+    "optional": "(facultatif)",
+    "name": "Pseudo / Nom",
+    "namePlaceholder": "ex. HopperChampion",
+    "nameHint": "Pour vous citer dans les remerciements aux testeurs.",
+    "device": "Appareil Android et version du système",
+    "devicePlaceholder": "ex. Pixel 8 (Android 14) ou Galaxy S22",
+    "deviceHint": "Nous aide à optimiser les performances pour votre modèle.",
+    "community": "Pseudo Discord / Reddit",
+    "communityPlaceholder": "ex. pseudo#1234 ou u/pseudo",
+    "communityHint": "Pour vous inviter dans les salons privés des testeurs.",
+    "notes": "Remarques ou expérience des jeux d’arcade",
+    "notesPlaceholder": "Dites-nous quels jeux vous aimez ou quelles mécaniques vous aimeriez tester...",
+    "consent": "J’accepte que SouMoster utilise mon adresse e-mail uniquement pour m’envoyer les invitations aux tests fermés Google Play et les communications avant sortie, conformément à la <privacy>politique de confidentialité</privacy> et aux <terms>conditions générales</terms>. Je peux me désinscrire à tout moment.",
+    "submit": "Envoyer ma candidature à la bêta fermée",
+    "submitting": "Inscription à la bêta fermée...",
+    "emailRequired": "Veuillez saisir l’adresse e-mail de votre compte Google Play.",
+    "consentRequired": "Veuillez accepter de recevoir les invitations aux tests.",
+    "success": "Vous êtes inscrit ! Nous inviterons bientôt votre adresse e-mail sur la piste de test fermé de Google Play.",
+    "failed": "L’envoi a échoué. Veuillez réessayer."
+  },
+  "success": {
+    "badge": "Candidature confirmée",
+    "title": "Bienvenue parmi les testeurs !",
+    "registered": "Nous avons inscrit <strong>{email}</strong> sur la piste de test fermé Google Play de SouMoster.",
+    "nextTitle": "Et maintenant ?",
+    "step1": "Nous ajoutons votre adresse e-mail à la liste des testeurs autorisés dans la console Google Play.",
+    "step2": "Vous recevrez un lien d’inscription (ou une invitation par e-mail). Cliquez sur <em>« Rejoindre sur le Web / Rejoindre sur Android »</em> pour accepter.",
+    "step3": "Téléchargez les versions exclusives avant leur sortie directement depuis le Google Play Store sur votre appareil : <play>Time Hopper sur Google Play</play>",
+    "instantTitle": "Accès Google Play immédiat",
+    "instantText": "Rejoignez notre groupe Google officiel pour être automatiquement ajouté à la piste de test fermé du Play Store :",
+    "joinGroup": "Rejoindre le groupe Google timehoppergame",
+    "registerAnother": "Inscrire un autre appareil"
+  },
+  "faq": {
+    "eyebrow": "Besoin d’aide ?",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu’il faut savoir pour participer à la bêta fermée de SouMoster",
+    "howWorks": {
+      "q": "Comment fonctionne le test fermé de Google Play ?",
+      "a": "Google Play demande aux développeurs d’inviter leurs testeurs via des pistes de test fermé. Une fois votre adresse Google Play ajoutée, Google génère un lien de test privé qui vous permet d’installer la version de test depuis l’application Play Store officielle."
+    },
+    "isFree": {
+      "q": "Le test est-il gratuit ? Y a-t-il des achats intégrés pendant la bêta ?",
+      "a": "Oui, le test est entièrement gratuit. Les achats intégrés activés pendant le test utilisent la facturation de test de Google Play (mode sandbox), qui ne débite pas d’argent réel."
+    },
+    "android": {
+      "q": "Quelle version d’Android faut-il ?",
+      "a": "Time Hopper et Bank Hopper fonctionnent sur Android 8.0 (API 26) et versions ultérieures. Road Hopper fonctionne sur Android 7.0 et plus. Space Hopper et Arena Legends sont encore en développement."
+    },
+    "isOpen": {
+      "q": "Le test fermé de Time Hopper est-il ouvert ?",
+      "a": "Oui. Time Hopper v1.13.2 est sur la piste de test fermé de Google Play. Rejoignez <group>groups.google.com/g/timehoppergame</group>, inscrivez-vous sur Play, puis installez le jeu depuis sa fiche. Bank Hopper a terminé ses tests et est disponible sur Google Play."
+    },
+    "trailers": {
+      "q": "Où voir le gameplay et les bandes-annonces ?",
+      "a": "Bandes-annonces et gameplay sont sur <youtube>YouTube {handle}</youtube>."
+    },
+    "feedback": {
+      "q": "Comment signaler un bug ou donner mon avis ?",
+      "a": "Vous pouvez envoyer vos retours via le formulaire privé du Google Play Store, passer par notre <support>page d’assistance</support> ou nous écrire à <mail>soumoster@gmail.com</mail>."
+    }
+  }
+}

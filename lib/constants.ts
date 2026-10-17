@@ -25,14 +25,15 @@ export const SUPPORT_EMAIL = "soumoster@gmail.com";
 export const SUPPORT_PHONE = "+918981495361";
 export const RESPONSE_TIME = "24–48 hours";
 
+/** `key` is a translation key under common.nav. */
 export const NAV_LINKS: NavLink[] = [
-  { href: "/", label: "Home" },
-  { href: "/apps", label: "Apps" },
-  { href: "/about", label: "About" },
-  { href: "/beta", label: "Beta" },
-  { href: "/support", label: "Support" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
+  { href: "/", key: "home" },
+  { href: "/apps", key: "apps" },
+  { href: "/about", key: "about" },
+  { href: "/beta", key: "beta" },
+  { href: "/support", key: "support" },
+  { href: "/blog", key: "blog" },
+  { href: "/contact", key: "contact" },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -63,15 +64,16 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
 ];
 
-export const FOOTER_LINKS = [
-  { href: TIME_HOPPER_GOOGLE_GROUP_URL, label: "Join Tester Google Group" },
-  { href: "/beta", label: "Closed Testing Signup" },
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms & Conditions" },
-  { href: "/delete-data", label: "Delete Your Data" },
-  { href: "/press", label: "Press Kit" },
-  { href: "/contact", label: "Contact" },
-  { href: "/support", label: "Support" },
+/** `key` is a translation key under common.footer.links. */
+export const FOOTER_LINKS: NavLink[] = [
+  { href: TIME_HOPPER_GOOGLE_GROUP_URL, key: "testerGroup" },
+  { href: "/beta", key: "betaSignup" },
+  { href: "/privacy", key: "privacy" },
+  { href: "/terms", key: "terms" },
+  { href: "/delete-data", key: "deleteData" },
+  { href: "/press", key: "press" },
+  { href: "/contact", key: "contact" },
+  { href: "/support", key: "support" },
 ];
 
 export const APP_CATEGORIES = [

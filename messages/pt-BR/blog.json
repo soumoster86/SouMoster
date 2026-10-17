@@ -1,0 +1,15 @@
+{
+  "eyebrow": "Notícias e novidades",
+  "title": "Blog",
+  "subtitle": "Diários de desenvolvimento, notas de versão e anúncios",
+  "noPosts": "Ainda não há posts. Volte em breve!",
+  "englishNote": "Os posts do blog são publicados em inglês.",
+  "back": "Voltar ao blog",
+  "by": "por {author}",
+  "category": {
+    "Developer Diary": "Diário de desenvolvimento",
+    "Release Notes": "Notas de versão",
+    "Patch Notes": "Notas de atualização",
+    "Announcement": "Anúncio"
+  }
+}

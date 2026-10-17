@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Mail } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
@@ -10,6 +11,8 @@ import { submitNewsletter } from "@/lib/api";
 import { getFormErrorMessage } from "@/lib/form-errors";
 
 export function Newsletter() {
+  const t = useTranslations("home.newsletter");
+  const tForms = useTranslations("common.forms");
   const [email, setEmail] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const { addToast } = useToastContext();
@@ -21,10 +24,10 @@ export function Newsletter() {
 
     try {
       await submitNewsletter({ email });
-      addToast("Thanks for subscribing! We'll keep you updated.", "success");
+      addToast(t("success"), "success");
       setEmail("");
     } catch (error) {
-      const result = getFormErrorMessage(error, "Failed to subscribe. Please try again.");
+      const result = getFormErrorMessage(error, t("failed"), tForms("activationNeeded"));
       addToast(result.message, result.type);
     } finally {
       setSubmitting(false);
@@ -32,7 +35,7 @@ export function Newsletter() {
   };
 
   return (
-    <section className="section-accent py-20" aria-label="Newsletter">
+    <section className="section-accent py-20" aria-label={t("sectionLabel")}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           className="glass mx-auto max-w-2xl rounded-3xl p-8 text-center sm:p-12"
@@ -41,23 +44,23 @@ export function Newsletter() {
           viewport={{ once: true }}
         >
           <Mail className="mx-auto mb-4 h-10 w-10 text-primary" />
-          <h2 className="text-2xl font-bold text-text">Stay in the Loop</h2>
+          <h2 className="text-2xl font-bold text-text">{t("title")}</h2>
           <p className="mt-2 text-muted">
-            Get notified about new game releases, updates, and developer news.
+            {t("subtitle")}
           </p>
           <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Input
               type="email"
-              placeholder="Enter your email"
+              placeholder={t("placeholder")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
               disabled={submitting}
-              aria-label="Email address"
+              aria-label={t("emailLabel")}
               className="flex-1"
             />
             <Button type="submit" disabled={submitting}>
-              {submitting ? "Subscribing..." : "Subscribe"}
+              {submitting ? t("subscribing") : t("subscribe")}
             </Button>
           </form>
         </motion.div>

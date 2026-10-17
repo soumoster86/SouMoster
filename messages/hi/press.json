@@ -1,0 +1,42 @@
+{
+  "eyebrow": "मीडिया और क्रिएटर्स",
+  "title": "प्रेस किट",
+  "subtitle": "SouMoster गेम्स के बारे में लिखने या वीडियो बनाने के लिए ज़रूरी सब कुछ। सभी एसेट्स का इस्तेमाल लेख, रिव्यू और लेट्स-प्ले वीडियो के लिए किया जा सकता है।",
+  "aboutStudio": "स्टूडियो के बारे में",
+  "aboutP1": "{site} एक स्वतंत्र Android गेम डेवलपर है, जो आसान कंट्रोल और शानदार फ़िनिश वाले मज़ेदार, लत लगाने वाले और बेहतरीन क्वालिटी के गेम बनाता है। स्टूडियो की Hopper सीरीज़ <strong>Road Hopper</strong> से शुरू हुई, जो Google Play पर उपलब्ध है; इसके बाद <strong>Bank Hopper</strong> आया, एक अंगूठे से खेला जाने वाला बैंक डकैती आर्केड गेम, जो भी Google Play पर उपलब्ध है।",
+  "aboutP2": "सात युगों का टाइम-ट्रैवल रनर <strong>Time Hopper</strong> Google Play की क्लोज़्ड टेस्टिंग में है। आठ ग्रहों पर कूदने वाला <strong>Space Hopper</strong> और स्टूडियो का पहला एक्शन गेम <strong>Arena Legends</strong> डेवलपमेंट में हैं। ट्रेलर, गेमप्ले और डेवलपर वीडियो YouTube पर हैं: <youtube>{handle}</youtube>।",
+  "studioLogo": "स्टूडियो लोगो",
+  "logoAlt": "{site} लोगो",
+  "logoSvg": "लोगो (SVG)",
+  "appIconSvg": "ऐप आइकन (SVG)",
+  "factSheet": "फ़ैक्ट शीट",
+  "facts": {
+    "studio": "स्टूडियो",
+    "type": "प्रकार",
+    "typeValue": "स्वतंत्र Android गेम डेवलपर",
+    "started": "शुरुआत",
+    "firstRelease": "पहली रिलीज़",
+    "platform": "प्लेटफ़ॉर्म",
+    "website": "वेबसाइट",
+    "pressContact": "प्रेस संपर्क"
+  },
+  "emailPress": "प्रेस संपर्क को ईमेल करें",
+  "developerPage": "Google Play पर डेवलपर पेज",
+  "trailers": "YouTube पर ट्रेलर",
+  "games": "गेम्स",
+  "genre": "जॉनर:",
+  "platform": "प्लेटफ़ॉर्म:",
+  "price": "कीमत:",
+  "freeToPlay": "मुफ़्त",
+  "googlePlay": "Google Play:",
+  "storeListing": "स्टोर लिस्टिंग",
+  "assets": {
+    "icon": "आइकन",
+    "banner": "बैनर",
+    "screenshot": "स्क्रीनशॉट {number}",
+    "video": "गेमप्ले वीडियो"
+  },
+  "fullPage": "गेम का पूरा पेज →",
+  "needMore": "कुछ और चाहिए?",
+  "needMoreText": "रिव्यू बिल्ड, इंटरव्यू, हाई-रेज़ोल्यूशन एसेट्स या टेस्टिंग में चल रहे गेम्स के अर्ली एक्सेस के लिए <email>{address}</email> पर ईमेल करें।"
+}

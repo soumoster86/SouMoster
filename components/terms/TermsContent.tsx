@@ -20,6 +20,7 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
+import { Link } from "@/i18n/navigation";
 import {
   PLAY_STORE_DEVELOPER_URL,
   RESPONSE_TIME,
@@ -359,12 +360,12 @@ Thank you for your review and response within the standard resolution timeframe.
                 launching, or playing any of our games, or by browsing our
                 website, you expressly confirm that you have read, understood,
                 and agree to be bound by these Terms and our{" "}
-                <a
+                <Link
                   href="/privacy"
                   className="text-primary font-medium underline"
                 >
                   Privacy Policy
-                </a>
+                </Link>
                 . If you do not agree with any part of these Terms, you must not
                 install, access, or use our Services, and you must promptly
                 delete any installed game files from your devices.

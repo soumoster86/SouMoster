@@ -1,0 +1,121 @@
+{
+  "siteTagline": "Nous créons des jeux Android amusants, addictifs et de grande qualité.",
+  "nav": {
+    "home": "Accueil",
+    "apps": "Jeux",
+    "about": "À propos",
+    "beta": "Bêta",
+    "support": "Assistance",
+    "blog": "Blog",
+    "contact": "Contact",
+    "mainNavigation": "Navigation principale",
+    "homeLink": "Accueil SouMoster",
+    "download": "Télécharger",
+    "downloadOnPlay": "Télécharger sur Google Play",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre"
+  },
+  "language": {
+    "label": "Langue",
+    "choose": "Choisir la langue"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "legal": "Mentions légales",
+    "ourGames": "Nos jeux",
+    "viewOnPlay": "Voir sur Google Play",
+    "rights": "© {year} {site}. Tous droits réservés.",
+    "links": {
+      "testerGroup": "Rejoindre le groupe Google des testeurs",
+      "betaSignup": "Inscription aux tests fermés",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales",
+      "deleteData": "Supprimer vos données",
+      "press": "Kit presse",
+      "contact": "Contact",
+      "support": "Assistance"
+    }
+  },
+  "status": {
+    "live": "Disponible sur Google Play",
+    "closedTesting": "Test fermé",
+    "inDevelopment": "En développement",
+    "comingSoon": "Bientôt disponible"
+  },
+  "genre": {
+    "Arcade": "Arcade",
+    "Action": "Action",
+    "Puzzle": "Réflexion",
+    "Casual": "Casual",
+    "Racing": "Course",
+    "All": "Tous"
+  },
+  "badge": {
+    "version": "v{version}",
+    "devBuild": "Version de dév. v{version}",
+    "downloads": "{count} téléchargements"
+  },
+  "playBadge": {
+    "getItOn": "DISPONIBLE SUR",
+    "closedTestingOn": "TEST FERMÉ SUR",
+    "testBuildOn": "VERSION TEST SUR",
+    "nowLive": "DISPONIBLE",
+    "downloadApp": "Télécharger {name} sur Google Play",
+    "downloadTestBuild": "Télécharger la version de test fermé de {name} sur Google Play",
+    "downloadOurGames": "Télécharger les jeux SouMoster sur Google Play"
+  },
+  "actions": {
+    "learnMore": "En savoir plus",
+    "getNotified": "Être averti",
+    "joinGoogleGroup": "Rejoindre le groupe Google",
+    "joinClosedTesting": "Rejoindre le test fermé",
+    "joinGroupShort": "Rejoindre",
+    "playStore": "Play Store",
+    "watchOnYouTube": "Voir sur YouTube",
+    "followOnYouTube": "Suivre sur YouTube",
+    "getSupport": "Obtenir de l’aide",
+    "requestInvite": "Demander une invitation",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "dialogLabel": "Consentement aux cookies",
+    "message": "Nous utilisons des cookies pour améliorer votre expérience et analyser la fréquentation du site. En poursuivant votre navigation, vous acceptez leur utilisation.",
+    "accept": "Accepter",
+    "learnMore": "En savoir plus"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "message": "La page que vous cherchez n’existe pas ou a été déplacée.",
+    "goHome": "Retour à l’accueil",
+    "browseApps": "Voir les jeux"
+  },
+  "a11y": {
+    "scrollToTop": "Remonter en haut",
+    "previousScreenshot": "Capture précédente",
+    "nextScreenshot": "Capture suivante",
+    "goToScreenshot": "Aller à la capture {number}",
+    "screenshotAlt": "Capture d’écran {number} de {name}",
+    "screenshots": "Captures d’écran du jeu",
+    "playVideo": "Lire la vidéo de gameplay de {name}",
+    "pauseVideo": "Mettre la vidéo en pause",
+    "videoLabel": "Vidéo de gameplay de {name}",
+    "videoUnsupported": "Votre navigateur ne prend pas en charge la lecture vidéo.",
+    "appPreview": "Aperçu de {name}",
+    "appLogo": "Logo de {name}",
+    "appIcon": "Icône de {name}",
+    "downloadBar": "Télécharger {name}",
+    "searchApps": "Rechercher des jeux"
+  },
+  "englishOnly": {
+    "title": "Cette page est disponible uniquement en anglais",
+    "message": "Pour garantir son exactitude, cette page est proposée en anglais, et la version anglaise fait foi. Vous pouvez utiliser la fonction de traduction de votre navigateur pour la lire dans votre langue."
+  },
+  "toast": {
+    "dismiss": "Fermer la notification"
+  },
+  "forms": {
+    "activationNeeded": "Presque terminé ! Vérifiez la boîte soumoster@gmail.com (y compris les spams) pour l’e-mail d’activation FormSubmit. Cliquez sur Activate Form, puis renvoyez le formulaire."
+  }
+}

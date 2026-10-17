@@ -2,6 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { Bell, Users } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
@@ -18,6 +19,7 @@ interface AppDownloadBarProps {
 }
 
 export function AppDownloadBar({ app }: AppDownloadBarProps) {
+  const t = useTranslations("common");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -37,7 +39,7 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
           transition={{ duration: 0.25 }}
           className="border-border glass fixed right-0 bottom-0 left-0 z-50 border-t px-4 py-3 shadow-2xl shadow-black/20"
           role="complementary"
-          aria-label={`Download ${app.name}`}
+          aria-label={t("a11y.downloadBar", { name: app.name })}
         >
           <div className="mx-auto flex max-w-7xl items-center gap-3 sm:gap-4">
             <Image
@@ -61,7 +63,7 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
                 className="shadow-primary/20 shrink-0 shadow-md"
               >
                 <Bell className="h-4 w-4" />
-                Get Notified
+                {t("actions.getNotified")}
               </Button>
             ) : isInviteOnly(app) ? (
               <Button
@@ -72,17 +74,17 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
                 <Users className="h-4 w-4" />
                 <span className="hidden sm:inline">
                   {app.googleGroupUrl
-                    ? "Join Google Group"
-                    : "Join Closed Testing"}
+                    ? t("actions.joinGoogleGroup")
+                    : t("actions.joinClosedTesting")}
                 </span>
-                <span className="sm:hidden">Join Group</span>
+                <span className="sm:hidden">{t("actions.joinGroupShort")}</span>
               </Button>
             ) : (
               <GooglePlayBadge
                 href={app.playStoreUrl}
                 size="sm"
                 className="shrink-0"
-                ariaLabel={`Download ${app.name} on Google Play`}
+                ariaLabel={t("playBadge.downloadApp", { name: app.name })}
               />
             )}
           </div>

@@ -1,0 +1,19 @@
+{
+  "title": "Fale conosco",
+  "subtitle": "Tem uma pergunta ou quer colaborar? Adoraríamos ouvir você.",
+  "note": "As mensagens vão para <email>{address}</email>. O primeiro envio pelo site exige um e-mail de ativação único (confira o spam), ou use “Abrir no app de e-mail” abaixo.",
+  "name": "Nome",
+  "email": "E-mail",
+  "subject": "Assunto",
+  "message": "Mensagem",
+  "send": "Enviar mensagem",
+  "sending": "Enviando...",
+  "openInEmailApp": "Abrir no app de e-mail",
+  "sent": "Mensagem enviada! Vamos responder em breve.",
+  "failed": "Não foi possível enviar a mensagem. Tente de novo.",
+  "fillAllFields": "Preencha todos os campos primeiro.",
+  "mailtoOpening": "Seu app de e-mail vai abrir: toque em Enviar para mandar a mensagem.",
+  "emailCard": "E-mail",
+  "connect": "Siga a gente",
+  "playDeveloperPage": "Página de desenvolvedor no Google Play"
+}

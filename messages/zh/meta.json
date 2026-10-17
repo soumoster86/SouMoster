@@ -1,0 +1,46 @@
+{
+  "home": {
+    "title": "SouMoster — Android 游戏开发者",
+    "description": "SouMoster 是一家独立 Android 游戏开发者。在 Google Play 免费下载 Road Hopper 和 Bank Hopper。Time Hopper 正在 Google Play 进行封闭测试。Space Hopper 和我们的首款动作游戏 Arena Legends 正在开发中。在 YouTube @SouMosterGames 观看预告片。"
+  },
+  "apps": {
+    "title": "游戏",
+    "description": "浏览 SouMoster 的 Android 游戏。下载 Road Hopper 和 Bank Hopper，在 Google Play 参加 Time Hopper 封闭测试，了解 Arena Legends，并在 YouTube 关注预告片。"
+  },
+  "about": {
+    "title": "关于",
+    "description": "了解 SouMoster —— 独立 Android 游戏：Road Hopper 和 Bank Hopper（已上线）、Time Hopper（Google Play 封闭测试中）、Space Hopper 和 Arena Legends（开发中）。YouTube @SouMosterGames。"
+  },
+  "beta": {
+    "title": "加入封闭测试",
+    "description": "Time Hopper v1.13.2 正在 Google Play 进行封闭测试，Bank Hopper 现已在 Google Play 上线。报名成为 SouMoster 测试者，从 Play 安装，并在 YouTube @SouMosterGames 观看预告片。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "description": "联系 SouMoster：电子邮件、Google Play、YouTube @SouMosterGames 和社交媒体。"
+  },
+  "support": {
+    "title": "支持",
+    "description": "获取 SouMoster 游戏的帮助。报告错误、提出功能建议或查看常见问题。"
+  },
+  "press": {
+    "title": "媒体资料",
+    "description": "SouMoster 媒体资料：工作室简介、游戏简介、标志、图标、横幅、截图，以及 Road Hopper、Bank Hopper、Time Hopper、Space Hopper 和 Arena Legends 的预告片链接。"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "SouMoster 的开发日志、版本说明、更新说明和公告。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "description": "SouMoster Android 游戏、移动应用和服务的隐私政策（英文）。"
+  },
+  "terms": {
+    "title": "条款和条件",
+    "description": "SouMoster Android 游戏、移动应用和服务的条款和条件及最终用户许可协议（EULA）（英文）。"
+  },
+  "deleteData": {
+    "title": "删除您的数据",
+    "description": "如何申请删除您在 SouMoster 游戏（包括 Road Hopper、Bank Hopper 和 Time Hopper）中的数据（英文）。"
+  }
+}

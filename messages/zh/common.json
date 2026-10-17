@@ -1,0 +1,121 @@
+{
+  "siteTagline": "打造有趣、令人上瘾的高品质 Android 游戏。",
+  "nav": {
+    "home": "首页",
+    "apps": "游戏",
+    "about": "关于",
+    "beta": "测试版",
+    "support": "支持",
+    "blog": "博客",
+    "contact": "联系我们",
+    "mainNavigation": "主导航",
+    "homeLink": "SouMoster 首页",
+    "download": "下载",
+    "downloadOnPlay": "在 Google Play 下载",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "switchToLight": "切换到浅色模式",
+    "switchToDark": "切换到深色模式"
+  },
+  "language": {
+    "label": "语言",
+    "choose": "选择语言"
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "legal": "法律信息",
+    "ourGames": "我们的游戏",
+    "viewOnPlay": "在 Google Play 查看",
+    "rights": "© {year} {site}。保留所有权利。",
+    "links": {
+      "testerGroup": "加入测试者 Google 群组",
+      "betaSignup": "报名封闭测试",
+      "privacy": "隐私政策",
+      "terms": "条款和条件",
+      "deleteData": "删除您的数据",
+      "press": "媒体资料",
+      "contact": "联系我们",
+      "support": "支持"
+    }
+  },
+  "status": {
+    "live": "已在 Google Play 上线",
+    "closedTesting": "封闭测试中",
+    "inDevelopment": "开发中",
+    "comingSoon": "即将推出"
+  },
+  "genre": {
+    "Arcade": "街机",
+    "Action": "动作",
+    "Puzzle": "益智",
+    "Casual": "休闲",
+    "Racing": "竞速",
+    "All": "全部"
+  },
+  "badge": {
+    "version": "v{version}",
+    "devBuild": "开发版 v{version}",
+    "downloads": "{count} 次下载"
+  },
+  "playBadge": {
+    "getItOn": "立即下载",
+    "closedTestingOn": "封闭测试",
+    "testBuildOn": "测试版",
+    "nowLive": "现已上线",
+    "downloadApp": "在 Google Play 下载 {name}",
+    "downloadTestBuild": "在 Google Play 下载 {name} 封闭测试版",
+    "downloadOurGames": "在 Google Play 下载 SouMoster 的游戏"
+  },
+  "actions": {
+    "learnMore": "了解更多",
+    "getNotified": "获取通知",
+    "joinGoogleGroup": "加入 Google 群组",
+    "joinClosedTesting": "参加封闭测试",
+    "joinGroupShort": "加入",
+    "playStore": "Play 商店",
+    "watchOnYouTube": "在 YouTube 观看",
+    "followOnYouTube": "在 YouTube 关注",
+    "getSupport": "获取支持",
+    "requestInvite": "申请邀请",
+    "youtube": "YouTube"
+  },
+  "cookie": {
+    "dialogLabel": "Cookie 同意",
+    "message": "我们使用 Cookie 来改善您的体验并分析网站流量。继续浏览即表示您同意我们使用 Cookie。",
+    "accept": "接受",
+    "learnMore": "了解更多"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "您要找的页面不存在或已被移动。",
+    "goHome": "返回首页",
+    "browseApps": "浏览游戏"
+  },
+  "a11y": {
+    "scrollToTop": "回到顶部",
+    "previousScreenshot": "上一张截图",
+    "nextScreenshot": "下一张截图",
+    "goToScreenshot": "查看第 {number} 张截图",
+    "screenshotAlt": "{name} 截图 {number}",
+    "screenshots": "游戏截图",
+    "playVideo": "播放 {name} 游戏视频",
+    "pauseVideo": "暂停游戏视频",
+    "videoLabel": "{name} 游戏视频",
+    "videoUnsupported": "您的浏览器不支持视频播放。",
+    "appPreview": "{name} 预览",
+    "appLogo": "{name} 标志",
+    "appIcon": "{name} 图标",
+    "downloadBar": "下载 {name}",
+    "searchApps": "搜索游戏"
+  },
+  "englishOnly": {
+    "title": "此页面仅提供英文版",
+    "message": "为确保内容准确，此页面以英文提供，并以英文版本为准。您可以使用浏览器的翻译功能以您的语言阅读。"
+  },
+  "toast": {
+    "dismiss": "关闭通知"
+  },
+  "forms": {
+    "activationNeeded": "快完成了！请在 soumoster@gmail.com（包括垃圾邮件）中查找 FormSubmit 激活邮件，点击 Activate Form 后重新提交。"
+  }
+}

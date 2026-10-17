@@ -2,25 +2,28 @@
 
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { getFeaturedApp } from "@/data/apps";
+import { useLocalizedApps } from "@/hooks/useLocalizedApps";
 
 export function FeaturedApp() {
-  const app = getFeaturedApp();
+  const t = useTranslations("home.featured");
+  const tc = useTranslations("common");
+  const app = useLocalizedApps().find((item) => item.featured);
   if (!app) return null;
 
   return (
-    <section className="section-gradient py-20" aria-label="Featured app">
+    <section className="section-gradient py-20" aria-label={t("sectionLabel")}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Spotlight"
-          title="Featured App"
-          subtitle="Our latest and greatest release"
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
         />
 
         <motion.div
@@ -34,7 +37,7 @@ export function FeaturedApp() {
             <div className="bg-background/30 flex items-center justify-center py-8 lg:py-12">
               <PhoneFrame
                 src={app.screenshots[0] ?? app.banner}
-                alt={`${app.name} gameplay screenshot`}
+                alt={t("screenshotAlt", { name: app.name })}
                 size="lg"
                 priority
               />
@@ -43,7 +46,7 @@ export function FeaturedApp() {
               <div className="flex items-center gap-4">
                 <Image
                   src={app.icon}
-                  alt={`${app.name} icon`}
+                  alt={tc("a11y.appIcon", { name: app.name })}
                   width={64}
                   height={64}
                   className="rounded-2xl"
@@ -57,8 +60,8 @@ export function FeaturedApp() {
               <p className="text-muted leading-relaxed">{app.description}</p>
 
               <div className="flex flex-wrap gap-2">
-                <Badge variant="primary">{app.genre}</Badge>
-                <Badge>v{app.version}</Badge>
+                <Badge variant="primary">{tc(`genre.${app.genre}`)}</Badge>
+                <Badge>{tc("badge.version", { version: app.version })}</Badge>
                 {app.rating && (
                   <Badge variant="secondary">
                     <Star className="mr-1 h-3 w-3" />
@@ -71,10 +74,10 @@ export function FeaturedApp() {
                 <GooglePlayBadge
                   href={app.playStoreUrl}
                   size="md"
-                  ariaLabel={`Download ${app.name} on Google Play`}
+                  ariaLabel={tc("playBadge.downloadApp", { name: app.name })}
                 />
                 <Button href={`/apps/${app.slug}`} variant="outline" size="md">
-                  Learn More
+                  {tc("actions.learnMore")}
                 </Button>
               </div>
             </div>

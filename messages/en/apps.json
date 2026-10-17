@@ -1,0 +1,29 @@
+{
+  "list": {
+    "title": "Our Apps",
+    "subtitle": "Explore our collection of fun and addictive Android games",
+    "searchPlaceholder": "Search apps...",
+    "noResults": "No apps found matching your criteria."
+  },
+  "detail": {
+    "inDevelopment": {
+      "title": "{name} is in development",
+      "text": "There is no release date yet. Sign up to hear first when testing opens, and follow development on YouTube {handle}."
+    },
+    "closedTesting": {
+      "badge": "Google Play Closed Testing Open",
+      "title": "{name} is in Closed Testing",
+      "text": "Version {version} is live on the Google Play Closed Testing track. Join the tester Google Group, opt in on Play, and install. Trailers and gameplay are on YouTube {handle}."
+    },
+    "screenshots": "Gameplay Screenshots",
+    "video": "Gameplay Video",
+    "howToPlay": "How to Play",
+    "highlights": "Highlights",
+    "features": "Game Features",
+    "devBuilds": "Development Builds",
+    "versionHistory": "Version History",
+    "knownIssues": "Known Issues",
+    "faq": "FAQ",
+    "related": "Related Games"
+  }
+}

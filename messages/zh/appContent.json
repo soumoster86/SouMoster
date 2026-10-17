@@ -1,0 +1,356 @@
+{
+  "road-hopper": {
+    "tagline": "你能跳多远？",
+    "description": "点按或滑动穿越繁忙的马路、河流和铁轨。躲开汽车和火车，踩着浮木过河，收集品牌 HCoins。上手容易，精通很难！",
+    "longDescription": "Road Hopper 是 SouMoster 推出的免费街机跳跃游戏。穿越繁忙的马路、河流和铁轨：躲开汽车和火车，踩着浮木过河，收集 HCoins。共有五种模式：Adventure（包含 9 个章节的 The Lost Litter 战役）、Endless（每局都是全新的随机世界）、Biomes（锁定经典地形并寻宝）、Worlds（独特的地形和危险）以及 Sprint（与时间赛跑赢取 Velocity Tokens）。解锁 Hopper、Cluck Norris 和 Neil Hopstrong 等英雄，装备跳跃拖尾，完成每日任务和 60 多项成就，并冲击 Google Play 游戏排行榜。完全支持离线游玩，只有可选购买需要联网。",
+    "features": [
+      "五种模式：Adventure、Endless、Biomes、Worlds 和 Sprint",
+      "Adventure 战役：9 个章节、星星、礼物和救援",
+      "Endless 模式：生动的生态区、天气变化和个人最佳纪录",
+      "生态区宝藏（从普通到神话）和 Worlds 独有的遗物",
+      "道具：Shield、Magnet、Double Coins、Speed Boost、Extra Life、Long Jump",
+      "Cluck Norris、Neil Hopstrong、Rexy 等众多英雄",
+      "皮肤、跳跃拖尾、每日礼物、任务和 60 多项成就",
+      "Google Play 游戏排行榜，支持离线游玩",
+      "无障碍选项：左右手模式、滑动灵敏度、省电模式、减少动态效果",
+      "免费游玩：一切都可通过游戏获得；HCoin / 宝石礼包为可选购买"
+    ],
+    "howToPlay": [
+      "点按或滑动，跳过马路、河流和铁轨",
+      "躲开汽车、火车和各种危险，需要时踩着浮木过河",
+      "沿途收集 HCoins 和道具",
+      "想玩剧情就选 Adventure，想冲高分就选 Endless",
+      "在 Biomes 和 Worlds 中探索宝藏和独特的危险",
+      "在 Sprint 赛道上比拼速度，赢取 Velocity Tokens 和 Sprint 英雄",
+      "在商店中解锁英雄、皮肤和跳跃拖尾",
+      "刷新个人纪录，冲击 Google Play 游戏排行榜"
+    ],
+    "faq": [
+      {
+        "question": "Road Hopper 免费吗？",
+        "answer": "是的。Road Hopper 可以免费下载和游玩。游戏提供可选的应用内购买（HCoin 礼包、宝石和装饰），所有内容也都可以免费通过游戏获得。"
+      },
+      {
+        "question": "可以离线玩吗？",
+        "answer": "可以。您可以完全离线游玩，只有可选购买需要联网。"
+      },
+      {
+        "question": "年龄分级是多少？",
+        "answer": "在 Google Play 上分级为 3+。"
+      },
+      {
+        "question": "有哪些模式？",
+        "answer": "共五种模式：Adventure（剧情战役）、Endless、Biomes、Worlds 和 Sprint，每种都有各自的目标、危险和奖励。"
+      },
+      {
+        "question": "如何报告错误？",
+        "answer": "请使用我们的支持页面，或发送邮件至 soumoster@gmail.com 并说明问题详情。"
+      },
+      {
+        "question": "在哪里观看 Road Hopper 的预告片？",
+        "answer": "游戏实况和预告片都在 SouMosterGames 的 YouTube 频道：youtube.com/@SouMosterGames。"
+      }
+    ],
+    "versionHistory": {
+      "9.4.9": [
+        "最新稳定版更新，已在 Google Play 面向全球玩家上线",
+        "持续改进性能、稳定性和细节"
+      ],
+      "9.4.7": [
+        "所有游戏模式的性能和稳定性提升",
+        "优化触控响应和跳跃灵敏度",
+        "修复 Google Play 游戏排行榜和成就记录问题",
+        "已在 Google Play 商店面向全球玩家上线"
+      ],
+      "9.2.9": [
+        "重大性能更新：采用 GPU 渲染，让入门级和老旧设备也能更稳定地保持 60fps",
+        "修复 NEW WORLDS / BIOMES 标题与返回和指南按钮重叠的问题",
+        "减少游戏过程中的内存波动",
+        "已在 Google Play 面向所有人上线"
+      ],
+      "8.1.3": [
+        "复活！被撞后观看一段短广告即可继续游戏",
+        "修复启动时闪退的问题，游戏现已稳定",
+        "每个角色都有自己搞笑的名字和跳跃音效",
+        "更简洁的街机启动画面",
+        "性能和细节优化"
+      ]
+    }
+  },
+  "bank-hopper": {
+    "tagline": "跳跃。抢钱。逃出银行。",
+    "description": "单指操作的竖屏街机银行劫案游戏，现已在 Google Play 上线！带着现金逐道跳出银行，在贪婪和安保警戒之间找到平衡。",
+    "longDescription": "Bank Hopper 是 SouMoster 推出的单指操作竖屏街机劫案游戏，现已在 Google Play 上线。带着现金一道一道跳出银行：点按前进，左右滑动换道，按住释放角色技能。躲开激光网和巡逻的安保无人机，在亮起的存款亭存下现金，或者冲过去追求更高的贪婪倍率，同时 Security 警戒值会让追捕越来越紧。体验 Endless、精心设计的劫案关卡和横跨八层楼的 Full Heist 模式，解锁角色、道具、天赋和逃跑载具，并冲击排行榜。无需账号，支持离线游玩。",
+    "features": [
+      "已在 Google Play 上线：免费下载，分级 7+",
+      "单指竖屏操作：点按前进，左右滑动换道，按住释放技能",
+      "点按存钱：靠近时存款亭会亮起；存下现金或继续冲",
+      "风险与回报并存的 Greed 和 Security 值，追捕会不断升级",
+      "Full Heist 模式：在警戒不断升高的情况下一口气闯过八层楼",
+      "Endless 模式、精心设计的劫案和特别挑战",
+      "Heist Rush 连击、激光网、安保无人机，以及 Security Floor、Subway 和 Escape Zone 等场景",
+      "角色：Rookie、Grabber、Insurance 和 Black Limo",
+      "道具、天赋、包袋外观和逃跑载具",
+      "Vault of Honors：遗物、精通徽章、成就徽章和声望称号",
+      "无需账号，随时随地离线游玩"
+    ],
+    "howToPlay": [
+      "点按逐道向前跳，逃出银行",
+      "左右滑动切换车道，躲开激光和警卫",
+      "按住屏幕发动角色的特殊潜行技能",
+      "收集钱袋提高分数并触发 Greed 倍率",
+      "存款亭亮起时点按存钱，或者继续冲，赌一把运气",
+      "留意 Security 值：越贪心，追捕就来得越快",
+      "抵达 Extraction Zone 保住战利品，或连续挑战 Full Heist 楼层，赢取更大收获"
+    ],
+    "faq": [
+      {
+        "question": "Bank Hopper 免费吗？",
+        "answer": "是的。Bank Hopper 可在 Google Play 免费下载。游戏包含广告和可选的应用内购买，所有影响玩法的内容都可以通过游戏获得。"
+      },
+      {
+        "question": "可以离线玩吗？",
+        "answer": "可以。无需账号，劫案进度保存在您的设备上。使用排行榜和购买功能时需要联网。"
+      },
+      {
+        "question": "年龄分级是多少？",
+        "answer": "在 Google Play 上分级为 7+。"
+      },
+      {
+        "question": "支持哪些设备？",
+        "answer": "Bank Hopper 使用 Kotlin 原生开发，支持 Android 8.0 及更高版本，针对手机和平板的 60 FPS 进行了优化。"
+      },
+      {
+        "question": "如何报告错误？",
+        "answer": "请使用我们的支持页面，或发送邮件至 soumoster@gmail.com 并说明问题详情。"
+      },
+      {
+        "question": "在哪里观看 Bank Hopper 的预告片？",
+        "answer": "游戏实况和预告片都在 SouMosterGames 的 YouTube 频道：youtube.com/@SouMosterGames。"
+      }
+    ],
+    "versionHistory": {
+      "1.0.0": [
+        "正式发布：Bank Hopper 已在 Google Play 上线",
+        "Endless、精心设计的劫案和挑战",
+        "感谢每一位帮助打磨游戏的封闭测试玩家"
+      ],
+      "0.8.7": [
+        "Vault of Honors 全面使用手绘图标：遗物、徽章、成就和街头声望",
+        "声望称号有了专属标志，从兜帽到王冠",
+        "每个每日变化规则都有专属手绘图标"
+      ],
+      "0.8.0": [
+        "Google Play 封闭测试版",
+        "更快上手：引导关卡从四局缩减为两局，其余在游戏中学习",
+        "通过 Play 商店安装时可登录全球排行榜"
+      ],
+      "0.7.9": [
+        "点按存钱：靠近时存款亭会亮起",
+        "六种包袋样式、Pickup 和 Crew Van 逃跑载具、全新危险美术",
+        "Boards 中加入全球 Play 游戏排行榜"
+      ]
+    }
+  },
+  "time-hopper": {
+    "tagline": "穿越时空。打破历史。修复时间线。",
+    "description": "一款横跨七个时代的时空穿越跑酷游戏，每个时代都有两个世界。躲开前方障碍，或用 Time Hop 跃入另一条时间线。现正在 Google Play 封闭测试中。",
+    "longDescription": "Time Hopper 是 SouMoster 使用 Kotlin 原生开发的时空穿越跑酷游戏，现正在 Google Play 封闭测试中。疾驰穿越七个时代：Prehistoric、Ancient Kingdom、Medieval、Industrial Age、Modern City、Cyber Future 和 Chrono Void。每个时代都有两个世界。当道路被堵死时，消耗能量发动 Time Hop 跃入另一条时间线，紫色回响会提示那里有什么在等着你，然后准备好返回。选择 Stable、Relic 或 Paradox 传送门，甩开每个时代的追兵，并在每个 Chrono Gate 选择带着发现撤离，或继续深入。游玩 21 关的 Chronicle 剧情战役、Classic 和 Endless 模式、Paradox、Relic Hunt 和 Hardcore 变体、Boss Gauntlet、Timeline Puzzles、每周活动，以及可以挑战幽灵记录的 Daily Timeline。解锁拥有主动技能的旅行者，为你的博物馆找回 65 件精美插画文物。",
+    "features": [
+      "现正在 Google Play 封闭测试中：加入测试者 Google 群组，然后在 Play 上选择加入",
+      "Time Hop：每个时代都有两个世界，道路被堵死时跃入另一条时间线",
+      "七个时代，各有独特的场景、危险和追逐",
+      "Chronicle：21 关剧情战役，每关有三个星级目标",
+      "计分模式、变体和挑战：Classic、Endless、Paradox、Relic Hunt、Hardcore、Boss Gauntlet、Timeline Puzzles 和每周活动",
+      "Daily Timeline：每日变化、连续天数，还能挑战自己最佳成绩的幽灵",
+      "Stable、Relic 和 Paradox 传送门，深入时还会出现传送门异常",
+      "七位旅行者，各有主动技能，还有道具和特性升级",
+      "博物馆收藏 65 件插画文物，分布在九个展厅",
+      "Google Play 游戏登录、排行榜和云存档备份",
+      "滑动和点按操作或屏幕按钮；可调整左右手、对比度和特效"
+    ],
+    "howToPlay": [
+      "左右滑动切换车道",
+      "点按或上滑跳过矮石和缺口；下滑从横梁下滑过",
+      "按住屏幕发动 Temporal Brake 让世界减速，会消耗能量",
+      "按下 Time Hop 消耗 35 点能量，在另一条时间线停留三秒",
+      "先看紫色回响：另一条时间线也有它自己的危险",
+      "收集 Chrono Shards 补充能量，并为博物馆收集遗物",
+      "用 Time Hop 甩开每个时代的追兵，它们的碎石只存在于你原本的时间线",
+      "在每个 Time Gate 选择撤离并带走全部收获，或继续前往下一个时代赢取更大奖励"
+    ],
+    "knownIssues": [
+      "仅限受邀参加的 Google Play 封闭测试：加入 https://groups.google.com/g/timehoppergame，然后在 Play 上选择加入即可安装"
+    ],
+    "faq": [
+      {
+        "question": "现在怎么玩 Time Hopper？",
+        "answer": "Time Hopper 正在 Google Play 封闭测试中。请使用您的 Google Play 账号加入测试者 Google 群组 https://groups.google.com/g/timehoppergame（timehoppergame@googlegroups.com），在 Play 上选择加入，然后从 Play 商店页面安装。"
+      },
+      {
+        "question": "什么是 Time Hop？",
+        "answer": "每个时代都有两个世界。Time Hop 会消耗能量，让你在另一条时间线停留几秒。那里的危险不同，跳跃前紫色回响会把它们显示出来，由你决定是躲避更安全还是跳跃更安全。"
+      },
+      {
+        "question": "Time Hopper 什么时候正式上线？",
+        "answer": "封闭测试和 Google Play 的正式版审核完成后将在全球上线。在此之前，测试者会帮助我们调整难度、广告和性能。"
+      },
+      {
+        "question": "Time Hopper 免费吗？",
+        "answer": "是的。游戏免费并含有广告。可选购买（去广告和碎片礼包）绝不出售独占角色或游戏能力，碎片也可以通过游戏获得。"
+      },
+      {
+        "question": "可以离线玩吗？",
+        "answer": "核心玩法和本地进度支持离线。广告、排行榜和云存档需要联网。"
+      },
+      {
+        "question": "支持哪些设备？",
+        "answer": "Android 8.0（API 26）及更高版本，竖屏游玩。"
+      }
+    ],
+    "versionHistory": {
+      "1.13.2": [
+        "Google Play 封闭测试版"
+      ],
+      "1.13.0": [
+        "Google Play 游戏登录和排行榜",
+        "手动云存档备份和恢复",
+        "可选的去广告和碎片礼包；商店新增碎片装饰（1.13.1）"
+      ],
+      "1.12.0": [
+        "幽灵计时赛、Boss Gauntlet、Timeline Puzzles 和每周活动",
+        "每日变化与连续天数、Chrono Pass 和时光机",
+        "首次在 Google Play 进行内部测试"
+      ],
+      "1.11.0": [
+        "每位跑者都获得一个带充能条的主动技能"
+      ],
+      "1.10.0": [
+        "Chronicle：带星级目标的 21 关剧情战役"
+      ],
+      "1.9.0": [
+        "传送门异常：深入时可叠加的规则变化"
+      ],
+      "1.8.0": [
+        "九个博物馆展厅，收录全部 65 件文物的背景故事",
+        "插画文物出现在展架上，也作为游戏中的拾取物（1.8.1–1.8.2）"
+      ],
+      "1.2–1.7": [
+        "跳远坡道、每个时代的另一个世界、特性升级",
+        "分阶段追逐、时代精通目标、插画障碍和移动危险"
+      ],
+      "1.0–1.1": [
+        "全部七个时代、七位角色、六种道具和核心模式",
+        "角色和追兵动画，以及原创配乐"
+      ]
+    }
+  },
+  "space-hopper": {
+    "tagline": "Warp Gates 已损坏。跳跃穿越银河，将它们修复。",
+    "description": "一款横跨八颗星球、点按即可跳跃的街机冒险。收集 Star Cores，躲开无人机和坍塌的地砖，修复银河的 Warp Gates。",
+    "longDescription": "Space Hopper 是 SouMoster 使用 Unity 6 开发的休闲街机跳跃游戏，目前正在开发中。银河的 Warp Gates 已经损坏：在八颗星球上逐道跳跃，从 Terra Prime 和月球，到 Volcanis、Gaia、小行星带、Cyber Nexus、Nebula X 和黑洞，收集 Star Cores 让它们重新运转。每个世界都有独特的玩法变化：熔岩喷口、弹跳板、无人机车流、传送带、迷雾和引力牵引。游玩 Endless Orbit、包含首领战的 Adventure Journey、Speed Run 或 Galaxy Explorer，七位英雄和五只宠物各自拥有真正的能力。进度保存在您的设备上。",
+    "features": [
+      "四种模式：Endless Orbit、Adventure Journey、Speed Run 和 Galaxy Explorer",
+      "八颗星球，各有独特危险：虚空长跳、熔岩喷口、弹跳板、无人机车流、传送带、迷雾和黑洞引力",
+      "Adventure Journey：修复 Warp Gates，挑战小首领和世界首领",
+      "七位各有一项能力的英雄：Comet、Talon、Ember、Dash、Rivet、Zix 和 Frost",
+      "五只伙伴宠物：Bolt、Blip、Kit、Goo 和 Nebula",
+      "收集 Star Cores 和 Star Shards；在 Speed Run 中赢取 Velocity Tokens",
+      "连击、擦身而过奖励，以及身后不断逼近的坍塌",
+      "宝藏和遗物博物馆、任务、段位、升级和太空服皮肤",
+      "进度保存在您的设备上，无需账号"
+    ],
+    "howToPlay": [
+      "点按向前跳",
+      "左右滑动切换车道",
+      "别停下：身后的跑道正在坍塌",
+      "收集 Star Cores 和碎片，连续跳跃打出连击",
+      "躲开无人机，别掉进虚空",
+      "在 Adventure Journey 中通关一颗星球即可解锁下一颗"
+    ],
+    "knownIssues": [
+      "开发版本：尚未在 Google Play 上线"
+    ],
+    "faq": [
+      {
+        "question": "Space Hopper 什么时候推出？",
+        "answer": "Space Hopper 正在为 Google Play 封闭测试做准备，目前还没有正式发布日期。在我们的测试版页面报名，测试开放时即可收到邀请。"
+      },
+      {
+        "question": "它和 Road Hopper 有什么不同？",
+        "answer": "Space Hopper 保留了点按跳跃的简单操作，但舞台搬到了太空：八颗各有危险的星球、需要修复的 Warp Gates、首领战，以及拥有独特能力的英雄和宠物。"
+      },
+      {
+        "question": "会免费吗？",
+        "answer": "会。Space Hopper 将免费游玩。如果加入购买内容，也只会是装饰或便利性道具，绝不提供额外战力。"
+      },
+      {
+        "question": "将支持哪些设备？",
+        "answer": "Android 7.0（API 24）及更高版本，竖屏游玩。"
+      }
+    ],
+    "versionHistory": {
+      "1.0.0": [
+        "包含全部四种模式和八颗星球的开发版本",
+        "七位英雄和五只宠物",
+        "正在为 Google Play 封闭测试做准备"
+      ]
+    }
+  },
+  "arena-legends": {
+    "tagline": "Gladiator Wars。战斗吧，赢回你的自由。",
+    "description": "SouMoster 的首款动作游戏：一款拥有连招、格挡反击和首领战的角斗士格斗游戏，包含五章战役。开发中。",
+    "longDescription": "Arena Legends: Gladiator Wars 是 SouMoster 的首款动作游戏，使用 Kotlin 和 libGDX 开发，目前正在开发中。你在竞技场下醒来，角斗场主只给你一个交易：战斗，赢回你的自由。闯过五章战役，从 Blood Pits、Coliseum 到 Wild Trials、Ashen Arena 和 Hall of Champions，对抗掠夺者、长枪兵、蛮兵、持盾守卫、猛兽和五位首领，最终迎战拥有三种架势的 Imperial Champion。打出方向连招，蓄力重击，格挡、招架并反击，闪避，并击碎盾牌和护甲。选择剑盾、长枪、双刃或巨斧，每种武器都有专属招式和特殊技能，并在军械库中升级装备。生存模式、训练模式和限时 Boss Rush 让内容更加完整。横屏游玩，完全支持离线。",
+    "features": [
+      "SouMoster 的首款动作游戏：横屏实时角斗士战斗",
+      "五章战役：Blood Pits、Coliseum、Wild Trials、Ashen Arena 和 Hall of Champions",
+      "五位首领：Brutus the Iron Wall、Vex、Beast Master、Inferno Champion，以及拥有三种架势的 Imperial Champion",
+      "方向连招、蓄力重击、格挡、招架与反击、闪避和终结技，共享同一条体力条",
+      "四种武器职业，各有连招和技能：剑盾（Shield Bash）、长枪（Piercing Thrust）、双刃（Cross Cut）和巨斧（Whirlwind）",
+      "掠夺者、长枪兵、蛮兵、持盾守卫、狂战士、网斗士和会扑击的狮子",
+      "击碎敌人的盾牌和护甲；躲开旋转刀刃、陷阱和火焰喷口",
+      "生存模式的敌潮、实战训练课程和限时 Boss Rush",
+      "军械库升级、天赋、金币、经验值和声望解锁",
+      "手绘竞技场、动画角色、打击停顿、打击音效和可调节的屏幕震动",
+      "离线游玩；提供自动朝向、大字体和大按键以及减少动态效果等选项"
+    ],
+    "howToPlay": [
+      "使用左侧的浮动摇杆移动",
+      "点按 Strike 打出三段连招；按住 Strike 蓄力重击",
+      "按住 Block 防御正面，或在命中前一刻格挡以招架并反击",
+      "点按 Dodge 翻滚离开标记的攻击区域",
+      "使用武器技能（如 Shield Bash）让敌人踉跄",
+      "注意体力：攻击、防御和闪避共用同一条体力",
+      "用重击击碎盾牌和护甲，然后抓住破绽",
+      "赢下每一场试炼，挑战本章首领，赢回你的自由"
+    ],
+    "knownIssues": [
+      "开发版本：尚未在 Google Play 上线"
+    ],
+    "faq": [
+      {
+        "question": "Arena Legends 什么时候推出？",
+        "answer": "Arena Legends 正在开发中，目前还没有发布日期。在我们的测试版页面报名，测试开放时即可第一时间获得通知。"
+      },
+      {
+        "question": "它和 Hopper 系列不同吗？",
+        "answer": "不同。Arena Legends 是 SouMoster 的首款动作游戏：实时近战，包含连招、招架、体力和首领战，横屏使用摇杆和动作按钮游玩。"
+      },
+      {
+        "question": "可以离线玩吗？",
+        "answer": "可以。Arena Legends 专为离线游玩设计，进度保存在您的设备上。"
+      },
+      {
+        "question": "将支持哪些设备？",
+        "answer": "Android 6.0（API 23）及更高版本，横屏游玩。"
+      }
+    ],
+    "versionHistory": {
+      "0.1.0": [
+        "五章战役可一路玩到 Imperial Champion",
+        "Wild Trials、Ashen Arena 和 Hall of Champions，加入猛兽、陷阱和火焰喷口",
+        "Boss Rush、生存和训练模式；四种武器职业"
+      ]
+    }
+  }
+}

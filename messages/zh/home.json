@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Android 游戏开发者",
+    "subtitle": "打造有趣的 Android 游戏。",
+    "exploreApps": "浏览游戏",
+    "joinTimeHopper": "参加 Time Hopper 封闭测试",
+    "watchTrailers": "在 YouTube 观看预告片",
+    "availableNow": "现已推出",
+    "gameplayAlt": "{name} 游戏画面",
+    "scrollToExplore": "向下滚动探索",
+    "explore": "探索"
+  },
+  "stats": {
+    "sectionLabel": "统计数据",
+    "gamesOnPlay": "Google Play 上的游戏",
+    "downloads": "下载次数",
+    "inTesting": "测试和开发中的游戏",
+    "yearsDeveloping": "开发年数"
+  },
+  "latest": {
+    "sectionLabel": "最新游戏",
+    "eyebrow": "我们的游戏",
+    "title": "最新游戏",
+    "subtitle": "探索我们的 Android 游戏合集"
+  },
+  "featured": {
+    "sectionLabel": "精选游戏",
+    "eyebrow": "焦点",
+    "title": "精选游戏",
+    "subtitle": "我们最新、最好的作品",
+    "screenshotAlt": "{name} 游戏截图"
+  },
+  "intro": {
+    "sectionLabel": "开发者介绍",
+    "eyebrow": "关于",
+    "title": "认识 SouMoster",
+    "subtitle": "一位热衷于创造难忘游戏体验的独立 Android 开发者",
+    "playerFirst": {
+      "title": "玩家至上",
+      "description": "每一个设计决定都从玩家体验出发。"
+    },
+    "qualityCode": {
+      "title": "高质量代码",
+      "description": "每个版本都有清晰的架构和优化的性能。"
+    },
+    "alwaysImproving": {
+      "title": "持续改进",
+      "description": "定期更新、新功能，以及由社区推动的开发。"
+    }
+  },
+  "newsletter": {
+    "sectionLabel": "邮件订阅",
+    "title": "随时了解最新动态",
+    "subtitle": "获取新游戏发布、更新和开发者动态的通知。",
+    "placeholder": "输入您的电子邮件",
+    "emailLabel": "电子邮件地址",
+    "subscribe": "订阅",
+    "subscribing": "正在订阅...",
+    "success": "感谢订阅！我们会及时通知您。",
+    "failed": "订阅失败，请重试。"
+  }
+}

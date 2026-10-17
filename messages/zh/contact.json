@@ -1,0 +1,19 @@
+{
+  "title": "联系我们",
+  "subtitle": "有问题或想合作？我们很乐意听到您的声音。",
+  "note": "消息将发送至 <email>{address}</email>。首次通过网页提交需要一封一次性激活邮件（请检查垃圾邮件），也可以使用下方的“在邮件应用中打开”。",
+  "name": "姓名",
+  "email": "电子邮件",
+  "subject": "主题",
+  "message": "消息",
+  "send": "发送消息",
+  "sending": "正在发送...",
+  "openInEmailApp": "在邮件应用中打开",
+  "sent": "消息已发送！我们会尽快回复您。",
+  "failed": "消息发送失败，请重试。",
+  "fillAllFields": "请先填写所有字段。",
+  "mailtoOpening": "将打开您的邮件应用，请点击发送以送出消息。",
+  "emailCard": "电子邮件",
+  "connect": "关注我们",
+  "playDeveloperPage": "Google Play 开发者页面"
+}

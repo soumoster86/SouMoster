@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Desenvolvedor de jogos Android",
+    "subtitle": "Criamos jogos Android divertidos.",
+    "exploreApps": "Ver jogos",
+    "joinTimeHopper": "Participe do teste fechado de Time Hopper",
+    "watchTrailers": "Assista aos trailers no YouTube",
+    "availableNow": "Já disponível",
+    "gameplayAlt": "Gameplay de {name}",
+    "scrollToExplore": "Role para explorar",
+    "explore": "Explorar"
+  },
+  "stats": {
+    "sectionLabel": "Estatísticas",
+    "gamesOnPlay": "Jogos no Google Play",
+    "downloads": "Downloads",
+    "inTesting": "Jogos em teste e desenvolvimento",
+    "yearsDeveloping": "Anos desenvolvendo"
+  },
+  "latest": {
+    "sectionLabel": "Últimos jogos",
+    "eyebrow": "Nossos jogos",
+    "title": "Últimos jogos",
+    "subtitle": "Conheça nossa coleção de jogos Android"
+  },
+  "featured": {
+    "sectionLabel": "Jogo em destaque",
+    "eyebrow": "Destaque",
+    "title": "Jogo em destaque",
+    "subtitle": "Nosso melhor lançamento",
+    "screenshotAlt": "Captura de tela de {name}"
+  },
+  "intro": {
+    "sectionLabel": "Apresentação do desenvolvedor",
+    "eyebrow": "Sobre",
+    "title": "Conheça a SouMoster",
+    "subtitle": "Um desenvolvedor Android independente apaixonado por criar experiências de jogo marcantes",
+    "playerFirst": {
+      "title": "O jogador em primeiro lugar",
+      "description": "Toda decisão de design começa pensando na experiência do jogador."
+    },
+    "qualityCode": {
+      "title": "Código de qualidade",
+      "description": "Arquitetura limpa e desempenho otimizado em cada versão."
+    },
+    "alwaysImproving": {
+      "title": "Sempre evoluindo",
+      "description": "Atualizações frequentes, novos recursos e um desenvolvimento guiado pela comunidade."
+    }
+  },
+  "newsletter": {
+    "sectionLabel": "Newsletter",
+    "title": "Fique por dentro",
+    "subtitle": "Receba avisos sobre novos jogos, atualizações e novidades do estúdio.",
+    "placeholder": "Digite seu e-mail",
+    "emailLabel": "Endereço de e-mail",
+    "subscribe": "Inscrever-se",
+    "subscribing": "Inscrevendo...",
+    "success": "Obrigado por se inscrever! Vamos manter você informado.",
+    "failed": "Não foi possível concluir a inscrição. Tente de novo."
+  }
+}

@@ -1,6 +1,7 @@
-import Link from "next/link";
+import { useLocale, useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
+import { Link } from "@/i18n/navigation";
 import { cn, formatDate } from "@/lib/utils";
 import type { BlogPost } from "@/types";
 
@@ -23,6 +24,8 @@ const categoryCover: Record<BlogPost["category"], string> = {
 };
 
 export function BlogCard({ post }: BlogCardProps) {
+  const t = useTranslations("blog");
+  const locale = useLocale();
   return (
     <Link href={`/blog/${post.slug}`} className="group block h-full">
       <Card className="flex h-full flex-col overflow-hidden p-0">
@@ -45,17 +48,20 @@ export function BlogCard({ post }: BlogCardProps) {
             variant={categoryVariant[post.category]}
             className="relative border-white/20 bg-black/20 text-white backdrop-blur-sm"
           >
-            {post.category}
+            {t(`category.${post.category}`)}
           </Badge>
         </div>
 
         <div className="flex flex-1 flex-col p-6">
+          {/* Posts are written in English. */}
+          <div lang="en" className="flex flex-1 flex-col">
           <h3 className="mb-2 text-lg font-semibold text-text transition-colors group-hover:text-primary">
             {post.title}
           </h3>
           <p className="mb-4 flex-1 text-sm leading-relaxed text-muted">{post.excerpt}</p>
+          </div>
           <div className="flex items-center justify-between text-xs text-muted">
-            <span>{formatDate(post.date)}</span>
+            <span>{formatDate(post.date, locale)}</span>
             <span>{post.author}</span>
           </div>
         </div>

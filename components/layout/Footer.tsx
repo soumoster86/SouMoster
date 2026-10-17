@@ -1,11 +1,13 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import { BrandIcon } from "@/components/shared/BrandIcon";
 import { SocialIcon } from "@/components/shared/SocialIcon";
 import { apps } from "@/data/apps";
+import { Link } from "@/i18n/navigation";
 import { FOOTER_LINKS, NAV_LINKS, PLAY_STORE_DEV_URL, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
 
 export function Footer() {
+  const t = useTranslations("common");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -23,7 +25,7 @@ export function Footer() {
               <span className="font-heading text-xl font-bold">{SITE_NAME}</span>
             </div>
             <p className="text-sm leading-relaxed text-muted">
-              Building fun, addictive and high-quality Android games.
+              {t("siteTagline")}
             </p>
             <div className="flex gap-3">
               {SOCIAL_LINKS.map((social) => (
@@ -43,7 +45,7 @@ export function Footer() {
 
           <div>
             <h3 className="mb-4 font-heading text-sm font-semibold uppercase tracking-wider text-text">
-              Quick Links
+              {t("footer.quickLinks")}
             </h3>
             <ul className="space-y-2">
               {NAV_LINKS.map((link) => (
@@ -52,7 +54,7 @@ export function Footer() {
                     href={link.href}
                     className="text-sm text-muted transition-colors hover:text-primary"
                   >
-                    {link.label}
+                    {t(`nav.${link.key}`)}
                   </Link>
                 </li>
               ))}
@@ -61,7 +63,7 @@ export function Footer() {
 
           <div>
             <h3 className="mb-4 font-heading text-sm font-semibold uppercase tracking-wider text-text">
-              Legal
+              {t("footer.legal")}
             </h3>
             <ul className="space-y-2">
               {FOOTER_LINKS.map((link) => (
@@ -73,14 +75,14 @@ export function Footer() {
                       rel="noopener noreferrer"
                       className="text-sm text-muted transition-colors hover:text-primary"
                     >
-                      {link.label}
+                      {t(`footer.links.${link.key}`)}
                     </a>
                   ) : (
                     <Link
                       href={link.href}
                       className="text-sm text-muted transition-colors hover:text-primary"
                     >
-                      {link.label}
+                      {t(`footer.links.${link.key}`)}
                     </Link>
                   )}
                 </li>
@@ -90,7 +92,7 @@ export function Footer() {
 
           <div>
             <h3 className="mb-4 font-heading text-sm font-semibold uppercase tracking-wider text-text">
-              Our Games
+              {t("footer.ourGames")}
             </h3>
             <div className="mb-4 flex flex-wrap gap-3">
               {apps.map((app) => (
@@ -120,14 +122,14 @@ export function Footer() {
               <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M3.609 1.814L13.792 12 3.61 22.186a1.003 1.003 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.198l2.807 1.626a1 1 0 010 1.73l-2.808 1.626L15.206 12l2.492-2.491zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z" />
               </svg>
-              View on Google Play
+              {t("footer.viewOnPlay")}
             </a>
           </div>
         </div>
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted">
           <p>
-            © {currentYear} {SITE_NAME}. All rights reserved.
+            {t("footer.rights", { year: currentYear, site: SITE_NAME })}
           </p>
         </div>
       </div>

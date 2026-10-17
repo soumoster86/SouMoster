@@ -1,0 +1,42 @@
+{
+  "eyebrow": "Imprensa e criadores",
+  "title": "Kit de imprensa",
+  "subtitle": "Tudo o que você precisa para escrever sobre os jogos da SouMoster ou fazer vídeos. Todo o material pode ser usado em matérias, análises e vídeos de gameplay.",
+  "aboutStudio": "Sobre o estúdio",
+  "aboutP1": "A {site} é uma desenvolvedora independente de jogos Android que cria jogos divertidos, viciantes e de qualidade, com controles simples e acabamento caprichado. A série Hopper do estúdio começou com <strong>Road Hopper</strong>, disponível no Google Play, seguido de <strong>Bank Hopper</strong>, um arcade de assalto a banco jogado com um polegar, também disponível no Google Play.",
+  "aboutP2": "<strong>Time Hopper</strong>, um runner temporal por sete eras, está em teste fechado no Google Play. <strong>Space Hopper</strong>, uma jornada de saltos por oito planetas, e <strong>Arena Legends</strong>, o primeiro jogo de ação do estúdio, estão em desenvolvimento. Trailers, gameplay e vídeos de desenvolvimento no YouTube: <youtube>{handle}</youtube>.",
+  "studioLogo": "Logotipo do estúdio",
+  "logoAlt": "Logotipo da {site}",
+  "logoSvg": "Logotipo (SVG)",
+  "appIconSvg": "Ícone (SVG)",
+  "factSheet": "Ficha técnica",
+  "facts": {
+    "studio": "Estúdio",
+    "type": "Tipo",
+    "typeValue": "Desenvolvedora independente de jogos Android",
+    "started": "Início",
+    "firstRelease": "Primeiro jogo",
+    "platform": "Plataforma",
+    "website": "Site",
+    "pressContact": "Contato de imprensa"
+  },
+  "emailPress": "Falar com a imprensa",
+  "developerPage": "Página de desenvolvedor no Google Play",
+  "trailers": "Trailers no YouTube",
+  "games": "Jogos",
+  "genre": "Gênero:",
+  "platform": "Plataforma:",
+  "price": "Preço:",
+  "freeToPlay": "Gratuito",
+  "googlePlay": "Google Play:",
+  "storeListing": "Página na loja",
+  "assets": {
+    "icon": "Ícone",
+    "banner": "Banner",
+    "screenshot": "Captura {number}",
+    "video": "Vídeo de gameplay"
+  },
+  "fullPage": "Página completa do jogo →",
+  "needMore": "Precisa de mais alguma coisa?",
+  "needMoreText": "Para versões de análise, entrevistas, material em alta resolução ou acesso antecipado aos jogos em teste, escreva para <email>{address}</email>."
+}

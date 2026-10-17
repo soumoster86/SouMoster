@@ -1,0 +1,89 @@
+{
+  "title": "Acerca de SouMoster",
+  "subtitle": "Un desarrollador independiente de juegos Android con la misión de crear experiencias móviles inolvidables",
+  "mission": {
+    "title": "Nuestra misión",
+    "text": "Crear juegos Android divertidos, adictivos y de alta calidad que alegren a jugadores de todo el mundo. Creemos que los grandes juegos no necesitan grandes presupuestos, sino pasión, creatividad y atención al detalle."
+  },
+  "vision": {
+    "title": "Nuestra visión",
+    "text": "Convertirnos en un estudio independiente de juegos Android reconocido por su jugabilidad pulida, su diseño atractivo y una comunidad de jugadores que disfruta lo que creamos."
+  },
+  "story": {
+    "title": "Historia del estudio",
+    "p1": "SouMoster es un estudio independiente de juegos Android fundado por un desarrollador en solitario apasionado por crear juegos móviles divertidos, accesibles y atractivos. Lo que empezó como un camino personal para aprender desarrollo Android se ha convertido en el compromiso de crear juegos pulidos que se pueden disfrutar en cualquier momento y lugar.",
+    "p2": "Cada proyecto sigue una filosofía sencilla: <strong>los grandes juegos no tienen por qué ser complicados</strong>. Con controles intuitivos, una jugabilidad satisfactoria y mejoras constantes, SouMoster busca ofrecer juegos fáciles de aprender, difíciles de soltar y para todas las edades.",
+    "p3": "Nuestro primer título, <strong>Road Hopper</strong>, llegó a Google Play en julio de 2026 con acción arcade rápida, un diseño limpio y juego sin conexión. En octubre de 2026 le siguió <strong>Bank Hopper</strong>, un atraco bancario que se juega con un pulgar, lanzado tras una prueba cerrada con jugadores de nuestra comunidad.",
+    "p4": "<strong>Time Hopper</strong>, un runner por siete épocas construido en torno al Time Hop, ya está en prueba cerrada en Google Play. <strong>Space Hopper</strong> se prepara para sus pruebas, y <strong>Arena Legends</strong>, nuestro primer juego de acción, lleva a SouMoster más allá de la serie Hopper con combates de gladiadores en tiempo real. Cada lanzamiento aprende del anterior, y los comentarios de los jugadores guían cada actualización.",
+    "p5": "Sigue los tráileres, el gameplay y los entresijos del desarrollo en YouTube: <youtube>@SouMosterGames</youtube>. SouMoster crece, pero la misión sigue siendo la misma: crear juegos Android de calidad, divertidos, pulidos y memorables."
+  },
+  "games": {
+    "eyebrow": "Nuestros juegos",
+    "title": "En qué punto está cada juego"
+  },
+  "timeline": {
+    "eyebrow": "Trayectoria",
+    "title": "Cronología",
+    "milestone": "Hito",
+    "items": [
+      {
+        "period": "2024",
+        "title": "Los comienzos",
+        "description": "Comienza el camino en el desarrollo Android y el diseño de juegos: los fundamentos del desarrollo móvil, las mecánicas de juego y las herramientas modernas."
+      },
+      {
+        "period": "2025",
+        "title": "Primeros prototipos",
+        "description": "Varios prototipos de juegos, muchas ideas de jugabilidad probadas y más experiencia en desarrollo Android, diseño UI/UX y optimización."
+      },
+      {
+        "period": "Julio de 2026",
+        "title": "Primer lanzamiento: Road Hopper",
+        "description": "Road Hopper llegó a Google Play tras una beta abierta: el primer juego publicado de SouMoster. Ha seguido mejorando desde entonces y ya va por la v9.4.9."
+      },
+      {
+        "period": "Septiembre de 2026",
+        "title": "Prueba cerrada de Bank Hopper",
+        "description": "Bank Hopper entró en prueba cerrada en Google Play con la v0.8.0: atracos en los que depositas el botín, recorridos Full Heist de ocho plantas y clasificaciones de Play Juegos, probado por jugadores del grupo de Google bank-hopper-game."
+      },
+      {
+        "period": "Octubre de 2026",
+        "title": "Bank Hopper ya está disponible",
+        "description": "Bank Hopper v1.0.0 se lanzó en Google Play el 6 de octubre: el segundo juego publicado de SouMoster."
+      },
+      {
+        "period": "Octubre de 2026",
+        "title": "Prueba cerrada de Time Hopper",
+        "description": "Time Hopper, un runner por siete épocas construido en torno al Time Hop, pasó a prueba cerrada en Google Play con la v1.13.2. Los testers se unen mediante el grupo de Google timehoppergame."
+      },
+      {
+        "period": "Octubre de 2026",
+        "title": "Empieza Arena Legends",
+        "description": "Comienza el desarrollo de Arena Legends: Gladiator Wars, el primer juego de acción de SouMoster: combates de gladiadores con combos, paradas, cuatro clases de armas y una campaña de cinco capítulos."
+      },
+      {
+        "period": "Ahora",
+        "title": "El estudio crece",
+        "description": "Dos juegos están disponibles en Google Play, Time Hopper está en prueba cerrada, Space Hopper se prepara para sus pruebas y Arena Legends está en desarrollo. Tráileres y gameplay en YouTube @SouMosterGames."
+      },
+      {
+        "period": "Lo que viene",
+        "title": "La visión",
+        "description": "Convertirnos en un estudio independiente reconocido con una colección variada de juegos Android de calidad, desde nuevos títulos Hopper hasta nuevos géneros como Arena Legends, para entretener a jugadores de todo el mundo."
+      }
+    ]
+  },
+  "goals": {
+    "eyebrow": "Hoja de ruta",
+    "title": "Objetivos",
+    "items": [
+      "Llevar Time Hopper de la prueba cerrada a un lanzamiento mundial en Google Play",
+      "Abrir la prueba cerrada de Space Hopper en Google Play",
+      "Llevar Arena Legends, nuestro primer juego de acción, de la primera versión jugable a las pruebas",
+      "Seguir mejorando Road Hopper y Bank Hopper con los comentarios de los jugadores",
+      "Hacer crecer el canal de YouTube SouMosterGames con tráileres y diarios de desarrollo",
+      "Lanzar al menos 3 juegos Android nuevos antes de 2027",
+      "Reunir una comunidad de más de 100 000 jugadores"
+    ]
+  }
+}

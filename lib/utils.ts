@@ -5,8 +5,10 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function formatDate(date: string): string {
-  return new Date(date).toLocaleDateString("en-US", {
+const DATE_LOCALES: Record<string, string> = { en: "en-US", zh: "zh-CN" };
+
+export function formatDate(date: string, locale = "en"): string {
+  return new Date(date).toLocaleDateString(DATE_LOCALES[locale] ?? locale, {
     year: "numeric",
     month: "long",
     day: "numeric",

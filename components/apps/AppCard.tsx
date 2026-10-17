@@ -1,8 +1,8 @@
 "use client";
 
 import { Bell, ExternalLink, Users } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/Button";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -12,6 +12,7 @@ import {
   isInDevelopment,
   isInviteOnly,
 } from "@/data/apps";
+import { Link } from "@/i18n/navigation";
 import type { App } from "@/types";
 
 interface AppCardProps {
@@ -19,12 +20,13 @@ interface AppCardProps {
 }
 
 export function AppCard({ app }: AppCardProps) {
+  const t = useTranslations("common");
   return (
     <Card className="group flex flex-col overflow-hidden p-0">
       <div className="relative aspect-[16/9] overflow-hidden">
         <Image
           src={app.banner}
-          alt={`${app.name} preview`}
+          alt={t("a11y.appPreview", { name: app.name })}
           fill
           className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -43,7 +45,7 @@ export function AppCard({ app }: AppCardProps) {
             <h3 className="text-text text-base font-semibold drop-shadow-sm">
               {app.name}
             </h3>
-            <p className="text-muted/90 text-xs">{app.genre}</p>
+            <p className="text-muted/90 text-xs">{t(`genre.${app.genre}`)}</p>
           </div>
         </div>
       </div>
@@ -54,21 +56,21 @@ export function AppCard({ app }: AppCardProps) {
         </p>
 
         <div className="mb-4 flex flex-wrap gap-2">
-          <Badge variant="primary">{app.category}</Badge>
+          <Badge variant="primary">{t(`genre.${app.category}`)}</Badge>
           {app.status === "closed-testing" ? (
-            <Badge variant="secondary">Closed Testing</Badge>
+            <Badge variant="secondary">{t("status.closedTesting")}</Badge>
           ) : app.status === "in-development" ? (
-            <Badge variant="secondary">In Development</Badge>
+            <Badge variant="secondary">{t("status.inDevelopment")}</Badge>
           ) : app.status === "coming-soon" ? (
-            <Badge variant="secondary">Coming Soon</Badge>
+            <Badge variant="secondary">{t("status.comingSoon")}</Badge>
           ) : (
-            <Badge>v{app.version}</Badge>
+            <Badge>{t("badge.version", { version: app.version })}</Badge>
           )}
           {isInDevelopment(app) && hasBuildVersion(app) && (
-            <Badge>Dev build v{app.version}</Badge>
+            <Badge>{t("badge.devBuild", { version: app.version })}</Badge>
           )}
           {isInviteOnly(app) && !isInDevelopment(app) && (
-            <Badge>v{app.version}</Badge>
+            <Badge>{t("badge.version", { version: app.version })}</Badge>
           )}
         </div>
 
@@ -81,7 +83,7 @@ export function AppCard({ app }: AppCardProps) {
               className="flex-1"
             >
               <Bell className="h-4 w-4" />
-              Get Notified
+              {t("actions.getNotified")}
             </Button>
           ) : isInviteOnly(app) ? (
             <Button
@@ -91,17 +93,17 @@ export function AppCard({ app }: AppCardProps) {
               className="flex-1"
             >
               <Users className="h-4 w-4" />
-              {app.googleGroupUrl ? "Join Google Group" : "Join Closed Testing"}
+              {app.googleGroupUrl ? t("actions.joinGoogleGroup") : t("actions.joinClosedTesting")}
             </Button>
           ) : (
             <Button href={app.playStoreUrl} size="sm" className="flex-1">
               <ExternalLink className="h-4 w-4" />
-              Play Store
+              {t("actions.playStore")}
             </Button>
           )}
           <Link href={`/apps/${app.slug}`} className="flex-1">
             <Button variant="outline" size="sm" className="w-full">
-              Learn More
+              {t("actions.learnMore")}
             </Button>
           </Link>
         </div>

@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Développeur de jeux Android",
+    "subtitle": "Nous créons des jeux Android amusants.",
+    "exploreApps": "Découvrir les jeux",
+    "joinTimeHopper": "Rejoindre le test fermé de Time Hopper",
+    "watchTrailers": "Voir les bandes-annonces sur YouTube",
+    "availableNow": "Disponible maintenant",
+    "gameplayAlt": "Gameplay de {name}",
+    "scrollToExplore": "Faire défiler pour découvrir",
+    "explore": "Découvrir"
+  },
+  "stats": {
+    "sectionLabel": "Statistiques",
+    "gamesOnPlay": "Jeux sur Google Play",
+    "downloads": "Téléchargements",
+    "inTesting": "Jeux en test et en développement",
+    "yearsDeveloping": "Années de développement"
+  },
+  "latest": {
+    "sectionLabel": "Derniers jeux",
+    "eyebrow": "Nos jeux",
+    "title": "Derniers jeux",
+    "subtitle": "Découvrez notre collection de jeux Android"
+  },
+  "featured": {
+    "sectionLabel": "Jeu à la une",
+    "eyebrow": "À la une",
+    "title": "Jeu à la une",
+    "subtitle": "Notre meilleure sortie",
+    "screenshotAlt": "Capture d’écran de {name}"
+  },
+  "intro": {
+    "sectionLabel": "Présentation du développeur",
+    "eyebrow": "À propos",
+    "title": "Découvrez SouMoster",
+    "subtitle": "Un développeur Android indépendant passionné par la création d’expériences de jeu mémorables",
+    "playerFirst": {
+      "title": "Le joueur d’abord",
+      "description": "Chaque choix de conception part de l’expérience du joueur."
+    },
+    "qualityCode": {
+      "title": "Un code de qualité",
+      "description": "Une architecture propre et des performances optimisées à chaque version."
+    },
+    "alwaysImproving": {
+      "title": "Toujours plus loin",
+      "description": "Des mises à jour régulières, de nouvelles fonctionnalités et un développement guidé par la communauté."
+    }
+  },
+  "newsletter": {
+    "sectionLabel": "Newsletter",
+    "title": "Restez informé",
+    "subtitle": "Soyez averti des nouveaux jeux, des mises à jour et des nouvelles du studio.",
+    "placeholder": "Votre adresse e-mail",
+    "emailLabel": "Adresse e-mail",
+    "subscribe": "S’abonner",
+    "subscribing": "Inscription...",
+    "success": "Merci pour votre inscription ! Nous vous tiendrons informé.",
+    "failed": "L’inscription a échoué. Veuillez réessayer."
+  }
+}

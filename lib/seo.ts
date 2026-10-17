@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { App } from "@/types";
+import { LOCALE_TAGS, localizedPath, routing, type Locale } from "@/i18n/routing";
 import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./constants";
 
 interface SEOProps {
@@ -9,6 +10,11 @@ interface SEOProps {
   image?: string;
   type?: "website" | "article";
   publishedTime?: string;
+  locale?: string;
+  /** Complete page title, used as-is instead of "<title> | SouMoster". */
+  fullTitle?: string;
+  /** Content exists only in English: canonical points to the English URL, no hreflang alternates. */
+  englishOnly?: boolean;
 }
 
 export function generateSEO({
@@ -18,19 +24,38 @@ export function generateSEO({
   image = "/opengraph-image",
   type = "website",
   publishedTime,
+  locale = routing.defaultLocale,
+  englishOnly = false,
+  fullTitle,
 }: SEOProps = {}): Metadata {
-  const pageTitle = title
-    ? `${title} | ${SITE_NAME}`
-    : `${SITE_NAME} — Android Game Developer`;
-  const url = `${SITE_URL}${path}`;
+  const pageTitle =
+    fullTitle ??
+    (title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Android Game Developer`);
+  const basePath = path || "/";
+  const url = `${SITE_URL}${localizedPath(locale, basePath)}`;
+  const canonical = englishOnly ? `${SITE_URL}${basePath}` : url;
   const imageUrl = image.startsWith("http") ? image : `${SITE_URL}${image}`;
+  const ogLocale = (LOCALE_TAGS[locale as Locale] ?? "en").replace("-", "_");
+
+  const languages = englishOnly
+    ? undefined
+    : {
+        ...Object.fromEntries(
+          routing.locales.map((l) => [
+            LOCALE_TAGS[l],
+            `${SITE_URL}${localizedPath(l, basePath)}`,
+          ]),
+        ),
+        "x-default": `${SITE_URL}${basePath}`,
+      };
 
   return {
     title: pageTitle,
     description,
     metadataBase: new URL(SITE_URL),
     alternates: {
-      canonical: url,
+      canonical,
+      ...(languages && { languages }),
     },
     openGraph: {
       title: pageTitle,
@@ -38,7 +63,7 @@ export function generateSEO({
       url,
       siteName: SITE_NAME,
       images: [{ url: imageUrl, width: 1200, height: 630, alt: pageTitle }],
-      locale: "en_US",
+      locale: ogLocale,
       type,
       ...(publishedTime && { publishedTime }),
     },

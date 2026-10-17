@@ -1,8 +1,9 @@
 import type { Stat } from "@/types";
 
+/** `key` is a translation key under home.stats. */
 export const stats: Stat[] = [
-  { label: "Games on Google Play", value: "2", icon: "smartphone" },
-  { label: "Downloads", value: "20+", icon: "download" },
-  { label: "Games in Testing & Development", value: "3", icon: "refresh" },
-  { label: "Years Developing", value: "3+", icon: "code" },
+  { key: "gamesOnPlay", value: "2", icon: "smartphone" },
+  { key: "downloads", value: "20+", icon: "download" },
+  { key: "inTesting", value: "3", icon: "refresh" },
+  { key: "yearsDeveloping", value: "3+", icon: "code" },
 ];

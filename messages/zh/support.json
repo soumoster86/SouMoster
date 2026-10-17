@@ -1,0 +1,64 @@
+{
+  "title": "支持",
+  "subtitle": "我们随时为您提供帮助。查找答案或联系我们的团队。",
+  "responseTime": "回复时间：24–48 小时",
+  "faqTitle": "常见问题",
+  "faq": [
+    {
+      "question": "如何下载你们的游戏？",
+      "answer": "Road Hopper 和 Bank Hopper 已在 Google Play 上线。Time Hopper 正在 Google Play 进行封闭测试：请加入测试者 Google 群组 https://groups.google.com/g/timehoppergame，然后选择加入并从 Play 安装。您也可以访问我们的游戏页面，或在 Play 商店搜索“SouMoster”。"
+    },
+    {
+      "question": "如何参加 Time Hopper 封闭测试？",
+      "answer": "使用您的 Google Play 账号加入官方测试者 Google 群组 https://groups.google.com/g/timehoppergame（timehoppergame@googlegroups.com）。然后打开 Play 商店中的 Time Hopper 页面，选择成为测试者并安装。您也可以在我们的测试版页面提交您的 Google Play 邮箱。"
+    },
+    {
+      "question": "在哪里可以观看预告片和游戏实况？",
+      "answer": "在 YouTube 关注 SouMosterGames（youtube.com/@SouMosterGames），观看预告片、游戏实况和开发视频。"
+    },
+    {
+      "question": "你们的游戏免费吗？",
+      "answer": "是的，我们的游戏可以免费下载和游玩。部分游戏可能提供可选的装饰性应用内购买。"
+    },
+    {
+      "question": "如何报告错误？",
+      "answer": "使用支持页面上的错误报告表单，或发送电子邮件至 soumoster@gmail.com，并附上描述和截图。"
+    },
+    {
+      "question": "我可以建议新功能吗？",
+      "answer": "当然可以！请通过支持页面提交功能建议。我们会认真查看所有建议，并根据社区反馈确定优先级。"
+    },
+    {
+      "question": "通常多久回复？",
+      "answer": "我们力求在 24–48 小时内回复所有支持请求。"
+    },
+    {
+      "question": "支持较旧的 Android 设备吗？",
+      "answer": "我们支持 Android 7.0（API 24）及更高版本。每款游戏的具体要求请见其 Google Play 页面。"
+    }
+  ],
+  "formNote": "表单将发送至 <email>{address}</email>。<strong>首次提交</strong>会向该邮箱发送一封激活邮件，如果没看到请检查垃圾邮件。也可以使用下方的<strong>在邮件应用中打开</strong>立即发送。",
+  "email": "电子邮件",
+  "appName": "游戏名称",
+  "openInEmailApp": "在邮件应用中打开",
+  "submitting": "正在提交...",
+  "fillAllFields": "请先填写所有字段。",
+  "bug": {
+    "title": "报告错误",
+    "description": "错误描述",
+    "placeholder": "请描述错误、重现步骤以及您的设备信息...",
+    "submit": "提交错误报告",
+    "sent": "错误报告已发送！我们会尽快处理。",
+    "failed": "错误报告提交失败，请重试。",
+    "mailtoOpening": "将打开您的邮件应用，请点击发送以送出报告。"
+  },
+  "feature": {
+    "title": "功能建议",
+    "description": "功能描述",
+    "placeholder": "请描述您希望看到的功能...",
+    "submit": "提交功能建议",
+    "sent": "功能建议已发送！感谢您的反馈。",
+    "failed": "功能建议提交失败，请重试。",
+    "mailtoOpening": "将打开您的邮件应用，请点击发送以送出建议。"
+  }
+}

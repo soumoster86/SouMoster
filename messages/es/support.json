@@ -1,0 +1,64 @@
+{
+  "title": "Soporte",
+  "subtitle": "Estamos aquí para ayudarte. Encuentra respuestas o escríbenos.",
+  "responseTime": "Tiempo de respuesta: 24–48 horas",
+  "faqTitle": "Preguntas frecuentes",
+  "faq": [
+    {
+      "question": "¿Cómo descargo vuestros juegos?",
+      "answer": "Road Hopper y Bank Hopper están disponibles en Google Play. Time Hopper está en prueba cerrada en Google Play: únete al grupo de Google de testers en https://groups.google.com/g/timehoppergame, inscríbete e instálalo desde Play. Visita nuestra página de Juegos o busca «SouMoster» en Play Store."
+    },
+    {
+      "question": "¿Cómo me uno a la prueba cerrada de Time Hopper?",
+      "answer": "Únete al grupo de Google oficial de testers en https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) con tu cuenta de Google Play. Después abre la ficha de Time Hopper en Play Store, hazte tester e instálalo. También puedes dejar tu correo de Google Play en nuestra página Beta."
+    },
+    {
+      "question": "¿Dónde puedo ver tráileres y gameplay?",
+      "answer": "Sigue a SouMosterGames en YouTube (youtube.com/@SouMosterGames) para ver tráileres, gameplay y vídeos de desarrollo."
+    },
+    {
+      "question": "¿Vuestros juegos son gratis?",
+      "answer": "Sí, nuestros juegos son gratis para descargar y jugar. Algunos ofrecen compras opcionales de elementos cosméticos."
+    },
+    {
+      "question": "¿Cómo informo de un error?",
+      "answer": "Usa el formulario de errores de nuestra página de Soporte o escríbenos a soumoster@gmail.com con una descripción y capturas de pantalla."
+    },
+    {
+      "question": "¿Puedo proponer una nueva función?",
+      "answer": "¡Por supuesto! Envía tu propuesta desde nuestra página de Soporte. Revisamos todas las sugerencias y las priorizamos según los comentarios de la comunidad."
+    },
+    {
+      "question": "¿Cuánto tardáis en responder?",
+      "answer": "Intentamos responder a todas las consultas de soporte en un plazo de 24–48 horas."
+    },
+    {
+      "question": "¿Funcionan en dispositivos Android antiguos?",
+      "answer": "Damos soporte a Android 7.0 (API 24) y versiones posteriores. Los requisitos de cada juego aparecen en su página de Google Play."
+    }
+  ],
+  "formNote": "Los formularios se envían a <email>{address}</email>. El <strong>primer envío</strong> manda un correo de activación a esa bandeja: revisa el spam si no lo ves. O usa <strong>Abrir en la app de correo</strong> para un envío inmediato.",
+  "email": "Correo",
+  "appName": "Nombre del juego",
+  "openInEmailApp": "Abrir en la app de correo",
+  "submitting": "Enviando...",
+  "fillAllFields": "Rellena primero todos los campos.",
+  "bug": {
+    "title": "Informar de un error",
+    "description": "Descripción del error",
+    "placeholder": "Describe el error, los pasos para reproducirlo y tu dispositivo...",
+    "submit": "Enviar informe de error",
+    "sent": "¡Informe enviado! Lo revisaremos.",
+    "failed": "No se pudo enviar el informe. Inténtalo de nuevo.",
+    "mailtoOpening": "Se abrirá tu app de correo: pulsa Enviar para mandar el informe."
+  },
+  "feature": {
+    "title": "Proponer una función",
+    "description": "Descripción de la función",
+    "placeholder": "Describe la función que te gustaría ver...",
+    "submit": "Enviar propuesta",
+    "sent": "¡Propuesta enviada! Gracias por tus comentarios.",
+    "failed": "No se pudo enviar la propuesta. Inténtalo de nuevo.",
+    "mailtoOpening": "Se abrirá tu app de correo: pulsa Enviar para mandar la propuesta."
+  }
+}

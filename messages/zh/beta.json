@@ -1,0 +1,110 @@
+{
+  "header": {
+    "badge": "Google Play 测试计划",
+    "title": "加入<highlight>封闭测试</highlight>",
+    "lead": "Time Hopper v1.13.2 已在 Google Play 封闭测试渠道上线。在全球发布前，帮助我们打磨它的七个时代、Chronicle 战役和各种模式。我们上一个测试版游戏 Bank Hopper 现已在 Google Play 上线。",
+    "watchTrailers": "在 YouTube {handle} 观看预告片"
+  },
+  "perks": {
+    "earlyBuilds": {
+      "title": "独家抢先版本",
+      "text": "在正式发布前，通过 Google Play 抢先体验 <strong>Time Hopper v1.13.2</strong> 封闭测试版以及 Arena Legends 等未来作品。"
+    },
+    "devAccess": {
+      "title": "直接对话开发者",
+      "text": "您的反馈将直接影响物理调整、平衡性更新、错误修复和新功能。"
+    },
+    "vip": {
+      "title": "VIP 测试者福利",
+      "text": "获得独家游戏内装饰徽章、额外金币礼包，并在正式版的测试者名单中留名。"
+    }
+  },
+  "games": {
+    "timeHopper": "围绕 Time Hop 打造、横跨七个时代的时空穿越跑酷游戏",
+    "arenaLegends": "我们的首款动作游戏：角斗士战斗与首领战",
+    "spaceHopper": "跳跃穿越八颗星球，修复 Warp Gates",
+    "allUpcoming": {
+      "name": "所有即将推出的游戏",
+      "version": "VIP 资格",
+      "tagline": "受邀体验所有未来的原型和实验版本"
+    }
+  },
+  "formCard": {
+    "title": "测试者申请表",
+    "subtitle": "请填写下方表格。您的账号加入后，Google Play 会通过电子邮件向您发送选择加入的确认链接。",
+    "joinDirect": "直接加入 Google 群组",
+    "tip": "<strong>提示：</strong>使用您的 Google Play 账号加入官方 <group>timehoppergame Google 群组</group>（{email}），即可获得 Time Hopper 封闭测试渠道的访问权限。",
+    "loading": "正在加载测试者表格..."
+  },
+  "form": {
+    "activeTesting": "测试进行中",
+    "selected": "已选择",
+    "clickToAdd": "点击添加",
+    "gameIcon": "{name} 图标",
+    "step1": "1. 选择您想测试的游戏",
+    "step1Hint": "选择一个或多个游戏，以接收 Google Play 测试渠道邀请。",
+    "step2": "2. 您的 Google Play 账号邮箱",
+    "emailHint": "必须与您 Android 手机或平板上登录 Google Play 的邮箱一致，Google 才能为您开通权限。",
+    "optional": "（可选）",
+    "name": "玩家昵称 / 姓名",
+    "namePlaceholder": "例如 HopperChampion",
+    "nameHint": "用于在测试者致谢名单中署名。",
+    "device": "Android 设备和系统版本",
+    "devicePlaceholder": "例如 Pixel 8（Android 14）或 Galaxy S22",
+    "deviceHint": "帮助我们针对您的设备型号优化性能。",
+    "community": "Discord / Reddit 用户名",
+    "communityPlaceholder": "例如 username#1234 或 u/username",
+    "communityHint": "用于邀请您加入私密测试者聊天室。",
+    "notes": "测试者备注或街机游戏经验",
+    "notesPlaceholder": "告诉我们您喜欢哪些游戏，或者想测试哪些玩法...",
+    "consent": "我同意 SouMoster 仅将我的电子邮件地址用于发送 Google Play 封闭测试邀请和发布前通知，并完全遵守<privacy>隐私政策</privacy>和<terms>条款和条件</terms>。我可以随时退出。",
+    "submit": "提交封闭测试申请",
+    "submitting": "正在报名封闭测试...",
+    "emailRequired": "请输入您的 Google Play 账号邮箱。",
+    "consentRequired": "请确认同意接收测试邀请。",
+    "success": "报名成功！我们很快会邀请您的邮箱加入 Google Play 封闭测试渠道。",
+    "failed": "提交失败，请重试。"
+  },
+  "success": {
+    "badge": "申请已确认",
+    "title": "欢迎加入测试！",
+    "registered": "我们已将 <strong>{email}</strong> 登记到 SouMoster 的 Google Play 封闭测试渠道。",
+    "nextTitle": "接下来会怎样？",
+    "step1": "我们会在开发者控制台中将您的邮箱添加到授权的 Google Play 封闭测试者名单。",
+    "step2": "您会收到一个选择加入的网页链接（或邮件邀请）。点击<em>“在网页上加入 / 在 Android 上加入”</em>即可接受。",
+    "step3": "直接在您设备的 Google Play 商店下载独家预发布版本：<play>Google Play 上的 Time Hopper</play>",
+    "instantTitle": "即时开通 Google Play 权限",
+    "instantText": "加入我们的官方 Google 群组，即可自动同步到 Play 商店的封闭测试渠道：",
+    "joinGroup": "加入 timehoppergame Google 群组",
+    "registerAnother": "登记另一台设备"
+  },
+  "faq": {
+    "eyebrow": "需要帮助？",
+    "title": "常见问题",
+    "subtitle": "参加 SouMoster 封闭测试所需了解的一切",
+    "howWorks": {
+      "q": "Google Play 封闭测试是如何运作的？",
+      "a": "Google Play 要求开发者通过特定的封闭测试渠道邀请可信的测试者。我们添加您的 Google Play 邮箱后，Google 会生成一个私密测试链接，让您通过官方 Play 商店应用安装测试版。"
+    },
+    "isFree": {
+      "q": "测试免费吗？测试期间有应用内购买吗？",
+      "a": "是的，测试完全免费。测试期间启用的应用内购买均使用 Google Play 测试结算（沙盒模式），不会扣除真实金额。"
+    },
+    "android": {
+      "q": "需要什么版本的 Android？",
+      "a": "Time Hopper 和 Bank Hopper 支持 Android 8.0（API 26）及更高版本。Road Hopper 支持 Android 7.0 及以上。Space Hopper 和 Arena Legends 仍在开发中。"
+    },
+    "isOpen": {
+      "q": "Time Hopper 封闭测试现在开放了吗？",
+      "a": "是的。Time Hopper v1.13.2 已在 Google Play 封闭测试渠道上线。加入 <group>groups.google.com/g/timehoppergame</group>，在 Play 上选择加入，然后从商店页面安装。Bank Hopper 已完成测试，现已在 Google Play 上线。"
+    },
+    "trailers": {
+      "q": "在哪里可以观看游戏实况和预告片？",
+      "a": "预告片和游戏实况都在 <youtube>YouTube {handle}</youtube>。"
+    },
+    "feedback": {
+      "q": "如何提交错误报告和游戏反馈？",
+      "a": "您可以通过 Google Play 商店的私密反馈表单直接发送反馈，访问我们的<support>支持页面</support>，或发送电子邮件至 <mail>soumoster@gmail.com</mail>。"
+    }
+  }
+}

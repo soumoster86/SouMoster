@@ -1,0 +1,29 @@
+{
+  "list": {
+    "title": "我们的游戏",
+    "subtitle": "探索我们有趣又令人上瘾的 Android 游戏合集",
+    "searchPlaceholder": "搜索游戏...",
+    "noResults": "没有找到符合条件的游戏。"
+  },
+  "detail": {
+    "inDevelopment": {
+      "title": "{name} 正在开发中",
+      "text": "目前还没有发布日期。报名即可在测试开放时第一时间获得通知，也可以在 YouTube {handle} 关注开发进展。"
+    },
+    "closedTesting": {
+      "badge": "Google Play 封闭测试开放中",
+      "title": "{name} 正在封闭测试",
+      "text": "{version} 版本已在 Google Play 封闭测试渠道上线。加入测试者 Google 群组，在 Play 上选择加入，然后安装。预告片和游戏实况请见 YouTube {handle}。"
+    },
+    "screenshots": "游戏截图",
+    "video": "游戏视频",
+    "howToPlay": "玩法说明",
+    "highlights": "亮点",
+    "features": "游戏特色",
+    "devBuilds": "开发版本",
+    "versionHistory": "版本历史",
+    "knownIssues": "已知问题",
+    "faq": "常见问题",
+    "related": "相关游戏"
+  }
+}

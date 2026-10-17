@@ -1,4 +1,6 @@
+import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
+import { localizeHref } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 interface GooglePlayBadgeProps {
@@ -13,13 +15,16 @@ interface GooglePlayBadgeProps {
 
 export function GooglePlayBadge({
   href,
-  subtext = "GET IT ON",
+  subtext,
   title = "Google Play",
   size = "md",
   className,
   ariaLabel,
   target = "_blank",
 }: GooglePlayBadgeProps) {
+  const locale = useLocale();
+  const t = useTranslations("common.playBadge");
+  const badgeSubtext = subtext ?? t("getItOn");
   const isExternal = href.startsWith("http");
 
   const sizeClasses = {
@@ -51,10 +56,10 @@ export function GooglePlayBadge({
 
   return (
     <Link
-      href={href}
+      href={localizeHref(locale, href)}
       target={isExternal ? target : undefined}
       rel={isExternal ? "noopener noreferrer" : undefined}
-      aria-label={ariaLabel || `${subtext} ${title}`}
+      aria-label={ariaLabel || `${badgeSubtext} ${title}`}
       className={cn(
         "group hover:shadow-primary/20 relative inline-flex items-center border border-neutral-700/80 bg-black/90 text-white shadow-lg shadow-black/40 backdrop-blur-sm transition-all duration-200 hover:scale-[1.03] hover:border-neutral-500 hover:bg-black hover:shadow-xl active:scale-[0.98]",
         sizeClasses[size],
@@ -153,7 +158,7 @@ export function GooglePlayBadge({
             textSizes[size].sub,
           )}
         >
-          {subtext}
+          {badgeSubtext}
         </span>
         <span
           className={cn(

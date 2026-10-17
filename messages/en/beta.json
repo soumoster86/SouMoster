@@ -1,0 +1,110 @@
+{
+  "header": {
+    "badge": "Google Play Testing Program",
+    "title": "Join the <highlight>Closed Beta</highlight>",
+    "lead": "Time Hopper v1.13.2 is on the Google Play Closed Testing track. Help us tune its seven eras, Chronicle campaign and modes before the worldwide launch. Bank Hopper, our last beta, is now live on Google Play.",
+    "watchTrailers": "Watch trailers on YouTube {handle}"
+  },
+  "perks": {
+    "earlyBuilds": {
+      "title": "Exclusive Early Builds",
+      "text": "Play <strong>Time Hopper v1.13.2</strong> Closed Testing builds and future titles, like Arena Legends, through Google Play before public release."
+    },
+    "devAccess": {
+      "title": "Direct Developer Access",
+      "text": "Your feedback directly guides physics tuning, balance patches, bug squashes, and feature additions."
+    },
+    "vip": {
+      "title": "VIP Tester Perks",
+      "text": "Receive exclusive in-game cosmetic badges, bonus coin packs, and tester credits in the final game release."
+    }
+  },
+  "games": {
+    "timeHopper": "Seven-era time-travel runner built around the Time Hop",
+    "arenaLegends": "Our first action game: gladiator combat and boss fights",
+    "spaceHopper": "Hop across eight planets to restore the Warp Gates",
+    "allUpcoming": {
+      "name": "All Upcoming Games",
+      "version": "VIP Access",
+      "tagline": "Invites to all future prototypes and experimental builds"
+    }
+  },
+  "formCard": {
+    "title": "Tester Application Form",
+    "subtitle": "Fill out the form below. Google Play will email you with your opt-in confirmation link once your account is enrolled.",
+    "joinDirect": "Join Google Group Directly",
+    "tip": "<strong>Tip:</strong> Joining the official <group>timehoppergame Google Group</group> ({email}) with your Google Play account gives you access to the Time Hopper closed testing track.",
+    "loading": "Loading tester form..."
+  },
+  "form": {
+    "activeTesting": "Active Testing",
+    "selected": "Selected",
+    "clickToAdd": "Click to add",
+    "gameIcon": "{name} icon",
+    "step1": "1. Select the Games You Want to Test",
+    "step1Hint": "Select one or multiple games to receive Google Play test track invitations.",
+    "step2": "2. Your Google Play Account Email",
+    "emailHint": "Must match the email logged into Google Play on your Android phone/tablet so Google can grant access.",
+    "optional": "(Optional)",
+    "name": "Gamer Tag / Name",
+    "namePlaceholder": "e.g. HopperChampion",
+    "nameHint": "To credit you in tester acknowledgments.",
+    "device": "Android Device & OS Version",
+    "devicePlaceholder": "e.g. Pixel 8 (Android 14) or Galaxy S22",
+    "deviceHint": "Helps optimize performance for your device model.",
+    "community": "Discord / Reddit Username",
+    "communityPlaceholder": "e.g. username#1234 or u/username",
+    "communityHint": "For invitations to private tester chat rooms.",
+    "notes": "Tester Notes or Prior Arcade Experience",
+    "notesPlaceholder": "Let us know what games you enjoy or any specific mechanics you'd love to test...",
+    "consent": "I consent to SouMoster processing my email address strictly to deliver Google Play Closed Testing invitations and pre-release communications, in full compliance with the <privacy>Privacy Policy</privacy> and <terms>Terms & Conditions</terms>. You can opt out at any time.",
+    "submit": "Submit Closed Beta Application",
+    "submitting": "Registering for Closed Beta...",
+    "emailRequired": "Please enter your Google Play account email.",
+    "consentRequired": "Please confirm agreement to receive testing invitations.",
+    "success": "You're signed up! We'll invite your email to the Google Play Closed Testing track soon.",
+    "failed": "Submission failed. Please try again."
+  },
+  "success": {
+    "badge": "Application Confirmed",
+    "title": "Welcome to the Test Track!",
+    "registered": "We have registered <strong>{email}</strong> for the SouMoster Google Play Closed Testing track.",
+    "nextTitle": "What happens next?",
+    "step1": "Our developer console adds your email to the authorized Google Play Closed Testers list.",
+    "step2": "You'll receive an opt-in web link (or email invite). Click <em>\"Join on the web / Join on Android\"</em> to accept.",
+    "step3": "Download exclusive pre-release builds directly from the Google Play Store on your device: <play>Time Hopper on Google Play</play>",
+    "instantTitle": "Instant Google Play Authorization",
+    "instantText": "Join our official Google Group to be automatically synced to the Play Store closed testing track:",
+    "joinGroup": "Join timehoppergame Google Group",
+    "registerAnother": "Register Another Device"
+  },
+  "faq": {
+    "eyebrow": "Need Help?",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about participating in the SouMoster closed beta program",
+    "howWorks": {
+      "q": "How does Google Play Closed Testing work?",
+      "a": "Google Play requires developer accounts to invite trusted testers through specific closed testing tracks. Once we add your Google Play email, Google generates a private testing link allowing you to install the test build through the official Play Store app."
+    },
+    "isFree": {
+      "q": "Is testing free? Are there in-app purchases during the beta?",
+      "a": "Yes, testing is 100% free. Any in-app purchases enabled during testing use Google Play Test Billing (sandbox mode), which does not charge real currency."
+    },
+    "android": {
+      "q": "What Android version is required?",
+      "a": "Time Hopper and Bank Hopper support Android 8.0 (API 26) and newer. Road Hopper supports Android 7.0+. Space Hopper and Arena Legends are still in development."
+    },
+    "isOpen": {
+      "q": "Is Time Hopper Closed Testing open now?",
+      "a": "Yes. Time Hopper v1.13.2 is on the Google Play Closed Testing track. Join <group>groups.google.com/g/timehoppergame</group>, opt in on Play, then install from the listing. Bank Hopper has finished testing and is live on Google Play."
+    },
+    "trailers": {
+      "q": "Where can I watch gameplay and trailers?",
+      "a": "Trailers and gameplay live on <youtube>YouTube {handle}</youtube>."
+    },
+    "feedback": {
+      "q": "How do I submit bug reports and gameplay feedback?",
+      "a": "You can send feedback directly through the Google Play Store private feedback form, visit our <support>Support Page</support>, or email us at <mail>soumoster@gmail.com</mail>."
+    }
+  }
+}

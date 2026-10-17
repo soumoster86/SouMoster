@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "badge": "Android गेम डेवलपर",
+    "subtitle": "मज़ेदार Android गेम बना रहे हैं।",
+    "exploreApps": "गेम्स देखें",
+    "joinTimeHopper": "Time Hopper की क्लोज़्ड टेस्टिंग से जुड़ें",
+    "watchTrailers": "YouTube पर ट्रेलर देखें",
+    "availableNow": "अभी उपलब्ध",
+    "gameplayAlt": "{name} गेमप्ले",
+    "scrollToExplore": "देखने के लिए स्क्रॉल करें",
+    "explore": "देखें"
+  },
+  "stats": {
+    "sectionLabel": "आँकड़े",
+    "gamesOnPlay": "Google Play पर गेम्स",
+    "downloads": "डाउनलोड",
+    "inTesting": "टेस्टिंग और डेवलपमेंट में गेम्स",
+    "yearsDeveloping": "डेवलपमेंट के साल"
+  },
+  "latest": {
+    "sectionLabel": "नए गेम्स",
+    "eyebrow": "हमारे गेम्स",
+    "title": "नए गेम्स",
+    "subtitle": "हमारे Android गेम्स का संग्रह देखें"
+  },
+  "featured": {
+    "sectionLabel": "फ़ीचर्ड गेम",
+    "eyebrow": "स्पॉटलाइट",
+    "title": "फ़ीचर्ड गेम",
+    "subtitle": "हमारी सबसे बेहतरीन रिलीज़",
+    "screenshotAlt": "{name} गेमप्ले स्क्रीनशॉट"
+  },
+  "intro": {
+    "sectionLabel": "डेवलपर परिचय",
+    "eyebrow": "हमारे बारे में",
+    "title": "SouMoster से मिलिए",
+    "subtitle": "यादगार गेमिंग अनुभव बनाने का जुनून रखने वाला एक स्वतंत्र Android डेवलपर",
+    "playerFirst": {
+      "title": "खिलाड़ी सबसे पहले",
+      "description": "डिज़ाइन का हर फ़ैसला खिलाड़ी के अनुभव को ध्यान में रखकर शुरू होता है।"
+    },
+    "qualityCode": {
+      "title": "क्वालिटी कोड",
+      "description": "हर रिलीज़ में साफ़-सुथरा आर्किटेक्चर और बेहतरीन परफ़ॉर्मेंस।"
+    },
+    "alwaysImproving": {
+      "title": "लगातार सुधार",
+      "description": "नियमित अपडेट, नए फ़ीचर और कम्युनिटी की राय से आगे बढ़ता डेवलपमेंट।"
+    }
+  },
+  "newsletter": {
+    "sectionLabel": "न्यूज़लेटर",
+    "title": "अपडेट रहें",
+    "subtitle": "नए गेम्स, अपडेट और डेवलपर की खबरों की सूचना पाएँ।",
+    "placeholder": "अपना ईमेल डालें",
+    "emailLabel": "ईमेल पता",
+    "subscribe": "सब्सक्राइब करें",
+    "subscribing": "सब्सक्राइब हो रहा है...",
+    "success": "सब्सक्राइब करने के लिए धन्यवाद! हम आपको अपडेट करते रहेंगे।",
+    "failed": "सब्सक्राइब नहीं हो पाया। कृपया दोबारा कोशिश करें।"
+  }
+}
