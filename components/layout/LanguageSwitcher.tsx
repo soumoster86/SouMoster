@@ -7,6 +7,7 @@ import { useEffect, useRef, useState, useTransition } from "react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { LOCALE_NAMES, routing, type Locale } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
+import { LocaleFlag } from "./LocaleFlag";
 
 interface LanguageSwitcherProps {
   /** "menu": compact globe button with a dropdown; "list": inline list for the mobile menu. */
@@ -65,8 +66,11 @@ export function LanguageSwitcher({ variant = "menu", onSelect }: LanguageSwitche
             active ? "bg-primary/15 text-primary" : "text-muted hover:text-text hover-surface",
           )}
         >
-          {LOCALE_NAMES[code]}
-          {active && <Check className="h-4 w-4" aria-hidden="true" />}
+          <span className="flex items-center gap-2.5">
+            <LocaleFlag locale={code} />
+            {LOCALE_NAMES[code]}
+          </span>
+          {active && <Check className="h-4 w-4 shrink-0" aria-hidden="true" />}
         </button>
       </li>
     );
@@ -99,7 +103,7 @@ export function LanguageSwitcher({ variant = "menu", onSelect }: LanguageSwitche
         aria-haspopup="true"
         aria-expanded={open}
       >
-        <Globe className="h-5 w-5" aria-hidden="true" />
+        <LocaleFlag locale={locale} className="h-4 w-6" />
         <span className="hidden uppercase sm:inline">{locale === "pt-BR" ? "PT" : locale}</span>
       </button>
 
