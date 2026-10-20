@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = { title: "Delete Arena Legends Data | SouMoster" };
@@ -29,7 +30,7 @@ export default async function DeleteArenaData({ params }: { params: Promise<{ lo
         <h2 className="mb-3 text-2xl font-semibold">3. Google advertising and platform information</h2>
         <p>The first closed-test release disables live ads but includes Google advertising libraries. Google may separately process SDK or Play platform information under its policies. Clearing local storage does not erase information held by Google. Manage your advertising ID in Android Settings and use <a className="underline" href="https://myaccount.google.com/data-and-privacy">Google&apos;s Data &amp; privacy controls</a> for information Google holds. Google&apos;s retention rules apply to those records; we do not promise a deletion period for data outside our control.</p>
       </section>
-      <p>Read the <a className="underline" href="/privacy/arena-legends">Arena Legends privacy policy</a> for the full data practices.</p>
+      <p>Read the <Link className="underline" href="/privacy/arena-legends">Arena Legends privacy policy</Link> for the full data practices.</p>
     </main>
   );
 }
