@@ -7,7 +7,7 @@ import { SITE_URL } from "@/lib/constants";
 type Entry = MetadataRoute.Sitemap[number];
 
 /** Pages kept in English only: listed once, without language alternates. */
-const ENGLISH_ONLY = ["/privacy", "/terms", "/delete-data"];
+const ENGLISH_ONLY = ["/privacy", "/privacy/nitro-racer", "/terms", "/delete-data"];
 
 const TRANSLATED = ["", "/apps", "/about", "/beta", "/support", "/contact", "/blog", "/press"];
 

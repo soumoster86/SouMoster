@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 
 import { motion } from "framer-motion";
 import {
@@ -317,6 +318,11 @@ Thank you.`;
 
         {/* Content Column */}
         <main className="text-muted space-y-12 text-sm leading-relaxed lg:col-span-8">
+          <section className="glass rounded-2xl p-6 sm:p-8" aria-label="Nitro Racer privacy clarification">
+            <h2 className="text-text mb-3 text-2xl font-bold">Nitro Racer: game-specific privacy</h2>
+            <p>Nitro Racer uses local saves and Google AdMob with family advertising protections. It does not include Firebase Analytics, Crashlytics, Play Games sign-in or real-money purchases. The game-specific policy explains the current build and takes precedence over descriptions of other games below.</p>
+            <Link className="text-primary mt-3 inline-block font-medium underline" href="/privacy/nitro-racer">Read Nitro Racer&apos;s privacy policy</Link>
+          </section>
           {/* Section 1 */}
           <section id="introduction" className="scroll-mt-28">
             <div className="mb-3 flex items-center gap-2">
