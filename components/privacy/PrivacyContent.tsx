@@ -320,7 +320,7 @@ Thank you.`;
         <main className="text-muted space-y-12 text-sm leading-relaxed lg:col-span-8">
           <section className="glass rounded-2xl p-6 sm:p-8" aria-label="Nitro Racer privacy clarification">
             <h2 className="text-text mb-3 text-2xl font-bold">Nitro Racer: game-specific privacy</h2>
-            <p>Nitro Racer uses local saves and Google AdMob with family advertising protections. It does not include Firebase Analytics, Crashlytics, Play Games sign-in or real-money purchases. The game-specific policy explains the current build and takes precedence over descriptions of other games below.</p>
+            <p>Nitro Racer uses local saves and Google AdMob with family advertising protections. Optional Firebase usage and crash reporting stays off unless an adult explicitly enables it; Firebase is not initialised for children or unknown ages. There is no Play Games sign-in or real-money purchase feature. The game-specific policy explains the current build and takes precedence over descriptions of other games below.</p>
             <Link className="text-primary mt-3 inline-block font-medium underline" href="/privacy/nitro-racer">Read Nitro Racer&apos;s privacy policy</Link>
           </section>
           {/* Section 1 */}
