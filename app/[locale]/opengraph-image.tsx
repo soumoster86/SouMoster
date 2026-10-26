@@ -207,7 +207,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#6C63FF" }} />
-          <span>100% Free to Play</span>
+          <span>Time Hopper Live (v1.15.1)</span>
         </div>
       </div>
     </div>,

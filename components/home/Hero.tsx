@@ -10,7 +10,6 @@ import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { useLocalizedApps } from "@/hooks/useLocalizedApps";
 import {
-  TIME_HOPPER_GOOGLE_GROUP_URL,
   PLAY_STORE_DEV_URL,
   YOUTUBE_URL,
 } from "@/lib/constants";
@@ -127,13 +126,13 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.4 }}
             >
               <Button
-                href={TIME_HOPPER_GOOGLE_GROUP_URL}
+                href="/beta?game=arena-legends"
                 variant="secondary"
                 size="md"
                 className="min-h-[44px]"
               >
                 <Users className="h-4 w-4" />
-                {t("joinTimeHopper")}
+                {t("joinClosedTest")}
               </Button>
               <a
                 href={YOUTUBE_URL}

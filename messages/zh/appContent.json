@@ -154,54 +154,53 @@
   },
   "time-hopper": {
     "tagline": "穿越时空。打破历史。修复时间线。",
-    "description": "一款横跨七个时代的时空穿越跑酷游戏，每个时代都有两个世界。躲开前方障碍，或用 Time Hop 跃入另一条时间线。现正在 Google Play 封闭测试中。",
-    "longDescription": "Time Hopper 是 SouMoster 使用 Kotlin 原生开发的时空穿越跑酷游戏，现正在 Google Play 封闭测试中。疾驰穿越七个时代：Prehistoric、Ancient Kingdom、Medieval、Industrial Age、Modern City、Cyber Future 和 Chrono Void。每个时代都有两个世界。当道路被堵死时，消耗能量发动 Time Hop 跃入另一条时间线，紫色回响会提示那里有什么在等着你，然后准备好返回。选择 Stable、Relic 或 Paradox 传送门，甩开每个时代的追兵，并在每个 Chrono Gate 选择带着发现撤离，或继续深入。游玩 21 关的 Chronicle 剧情战役、Classic 和 Endless 模式、Paradox、Relic Hunt 和 Hardcore 变体、Boss Gauntlet、Timeline Puzzles、每周活动，以及可以挑战幽灵记录的 Daily Timeline。解锁拥有主动技能的旅行者，为你的博物馆找回 65 件精美插画文物。",
+    "description": "一款横跨七个时代的时空穿越跑酷游戏，每个时代都有两个世界。躲开前方障碍，或用 Time Hop 跃入回响时间线。现已在 Google Play 上线！",
+    "longDescription": "Time Hopper 是 SouMoster 使用 Kotlin 原生开发的时空穿越跑酷游戏，现已在 Google Play 上线。疾驰穿越七个时代：Prehistoric、Ancient Kingdom、Medieval、Industrial Age、Modern City、Cyber Future 和 Chrono Void。每个时代都有两个世界。当道路被堵死时，消耗能量发动 Time Hop 跃入回响时间线，紫色回响会提示那里有什么在等着你，然后准备好返回。穿过只存在于一条时间线中的 Timeline Bridges，选择 Stable、Relic 或 Paradox 传送门，甩开每个时代的追兵，并在每个 Chrono Gate 选择带着发现撤离，或继续深入。游玩 21 关的 Chronicle 剧情战役、Classic 和 Endless 模式、Paradox、Relic Hunt 和 Hardcore 变体、Boss Gauntlet、Timeline Puzzles、每周活动，以及可以挑战幽灵记录的 Daily Timeline。从七位拥有主动技能的旅行者中选择，为博物馆找回 65 件插画文物，并用服装、拖尾、传送门和 Time Hop 特效打造你的造型。",
     "features": [
-      "现正在 Google Play 封闭测试中：加入测试者 Google 群组，然后在 Play 上选择加入",
-      "Time Hop：每个时代都有两个世界，道路被堵死时跃入另一条时间线",
+      "已在 Google Play 上线：免费下载，分级 3+",
+      "Time Hop：每个时代都有两个世界，道路被堵死时跃入回响时间线",
       "七个时代，各有独特的场景、危险和追逐",
+      "Timeline Bridges：在只存在于一条时间线的桥面上跨越深渊",
       "Chronicle：21 关剧情战役，每关有三个星级目标",
       "计分模式、变体和挑战：Classic、Endless、Paradox、Relic Hunt、Hardcore、Boss Gauntlet、Timeline Puzzles 和每周活动",
       "Daily Timeline：每日变化、连续天数，还能挑战自己最佳成绩的幽灵",
-      "Stable、Relic 和 Paradox 传送门，深入时还会出现传送门异常",
       "七位旅行者，各有主动技能，还有道具和特性升级",
+      "Chrono Shop 外观：服装、拖尾、传送门、Time Hop 特效以及 Emerald Expedition 等套装",
       "博物馆收藏 65 件插画文物，分布在九个展厅",
-      "Google Play 游戏登录、排行榜和云存档备份",
-      "滑动和点按操作或屏幕按钮；可调整左右手、对比度和特效"
+      "Quick Practice 和可选的提示卡，帮你学会每个动作",
+      "Google Play 游戏登录、排行榜和云存档备份"
     ],
     "howToPlay": [
       "左右滑动切换车道",
       "点按或上滑跳过矮石和缺口；下滑从横梁下滑过",
       "按住屏幕发动 Temporal Brake 让世界减速，会消耗能量",
-      "按下 Time Hop 消耗 35 点能量，在另一条时间线停留三秒",
+      "按下 Time Hop 消耗 35 点能量，在回响时间线停留三秒",
       "先看紫色回响：另一条时间线也有它自己的危险",
+      "在对应的时间线穿过 Timeline Bridges：薄荷色桥面在原始时间线是实心的，紫色桥面在回响时间线是实心的",
       "收集 Chrono Shards 补充能量，并为博物馆收集遗物",
-      "用 Time Hop 甩开每个时代的追兵，它们的碎石只存在于你原本的时间线",
-      "在每个 Time Gate 选择撤离并带走全部收获，或继续前往下一个时代赢取更大奖励"
+      "在每个 Chrono Gate 选择撤离并带走全部收获，或继续前往下一个时代赢取更大奖励"
     ],
-    "knownIssues": [
-      "仅限受邀参加的 Google Play 封闭测试：加入 https://groups.google.com/g/timehoppergame，然后在 Play 上选择加入即可安装"
-    ],
+    "knownIssues": [],
     "faq": [
       {
-        "question": "现在怎么玩 Time Hopper？",
-        "answer": "Time Hopper 正在 Google Play 封闭测试中。请使用您的 Google Play 账号加入测试者 Google 群组 https://groups.google.com/g/timehoppergame（timehoppergame@googlegroups.com），在 Play 上选择加入，然后从 Play 商店页面安装。"
+        "question": "Time Hopper 免费吗？",
+        "answer": "是的。Time Hopper 可在 Google Play 免费下载，含有广告。可选购买（去广告以及碎片或水晶礼包）绝不出售独占角色或游戏能力，碎片和水晶也可以通过游戏获得。"
       },
       {
         "question": "什么是 Time Hop？",
-        "answer": "每个时代都有两个世界。Time Hop 会消耗能量，让你在另一条时间线停留几秒。那里的危险不同，跳跃前紫色回响会把它们显示出来，由你决定是躲避更安全还是跳跃更安全。"
+        "answer": "每个时代都有两个世界。Time Hop 会消耗能量，让你在回响时间线停留几秒。那里的危险不同，跳跃前紫色回响会把它们显示出来，由你决定是躲避更安全还是跳跃更安全。"
       },
       {
-        "question": "Time Hopper 什么时候正式上线？",
-        "answer": "封闭测试和 Google Play 的正式版审核完成后将在全球上线。在此之前，测试者会帮助我们调整难度、广告和性能。"
-      },
-      {
-        "question": "Time Hopper 免费吗？",
-        "answer": "是的。游戏免费并含有广告。可选购买（去广告和碎片礼包）绝不出售独占角色或游戏能力，碎片也可以通过游戏获得。"
+        "question": "什么是 Timeline Bridges？",
+        "answer": "有些深渊只在一条时间线中有桥面：实心的薄荷色桥面在原始时间线中可以通过，实心的紫色桥面在回响时间线中可以通过。在回响桥前刚好发动 Time Hop，并在自动返回前通过。"
       },
       {
         "question": "可以离线玩吗？",
         "answer": "核心玩法和本地进度支持离线。广告、排行榜和云存档需要联网。"
+      },
+      {
+        "question": "年龄分级是多少？",
+        "answer": "在 Google Play 上分级为 3+。"
       },
       {
         "question": "支持哪些设备？",
@@ -209,39 +208,39 @@
       }
     ],
     "versionHistory": {
-      "1.13.2": [
-        "Google Play 封闭测试版"
+      "1.15.1": [
+        "正式发布：Time Hopper 已在 Google Play 上线",
+        "七个时代、七位旅行者、Chronicle 挑战和 Timeline Bridges"
+      ],
+      "1.15.0": [
+        "每位旅行者的跳跃和滑行动画更加生动",
+        "Timeline Bridges，以及练习关卡和介绍它们的 Chronicle 关卡",
+        "Emerald Expedition 系列：服装、落叶拖尾、传送门和 Time Hop 特效"
+      ],
+      "1.14.0–1.14.2": [
+        "扩充的 Chrono Shop：服装、头像框、称号、Time Hop 特效、博物馆主题和套装",
+        "流动的动画拖尾和商店动画预览",
+        "更自然的坡道：先爬上斜坡，再从顶端起跳"
+      ],
+      "1.13.3": [
+        "Quick Practice：约 30 秒学会跳跃、滑行、闪避和 Time Hop",
+        "更亮、更大的 HUD 文字和全新游戏字体"
       ],
       "1.13.0": [
         "Google Play 游戏登录和排行榜",
-        "手动云存档备份和恢复",
-        "可选的去广告和碎片礼包；商店新增碎片装饰（1.13.1）"
+        "手动云存档备份和恢复"
       ],
       "1.12.0": [
         "幽灵计时赛、Boss Gauntlet、Timeline Puzzles 和每周活动",
-        "每日变化与连续天数、Chrono Pass 和时光机",
-        "首次在 Google Play 进行内部测试"
+        "每日变化与连续天数、Chrono Pass 和时光机"
       ],
-      "1.11.0": [
-        "每位跑者都获得一个带充能条的主动技能"
+      "1.8–1.11": [
+        "Chronicle 剧情战役、主动技能和传送门异常",
+        "九个博物馆展厅和 65 件插画文物"
       ],
-      "1.10.0": [
-        "Chronicle：带星级目标的 21 关剧情战役"
-      ],
-      "1.9.0": [
-        "传送门异常：深入时可叠加的规则变化"
-      ],
-      "1.8.0": [
-        "九个博物馆展厅，收录全部 65 件文物的背景故事",
-        "插画文物出现在展架上，也作为游戏中的拾取物（1.8.1–1.8.2）"
-      ],
-      "1.2–1.7": [
-        "跳远坡道、每个时代的另一个世界、特性升级",
-        "分阶段追逐、时代精通目标、插画障碍和移动危险"
-      ],
-      "1.0–1.1": [
+      "1.0–1.7": [
         "全部七个时代、七位角色、六种道具和核心模式",
-        "角色和追兵动画，以及原创配乐"
+        "每个时代的另一个世界、坡道、追逐和原创配乐"
       ]
     }
   },
@@ -299,20 +298,20 @@
   },
   "arena-legends": {
     "tagline": "Gladiator Wars。战斗吧，赢回你的自由。",
-    "description": "SouMoster 的首款动作游戏：一款拥有连招、格挡反击和首领战的角斗士格斗游戏，包含五章战役。开发中。",
-    "longDescription": "Arena Legends: Gladiator Wars 是 SouMoster 的首款动作游戏，使用 Kotlin 和 libGDX 开发，目前正在开发中。你在竞技场下醒来，角斗场主只给你一个交易：战斗，赢回你的自由。闯过五章战役，从 Blood Pits、Coliseum 到 Wild Trials、Ashen Arena 和 Hall of Champions，对抗掠夺者、长枪兵、蛮兵、持盾守卫、猛兽和五位首领，最终迎战拥有三种架势的 Imperial Champion。打出方向连招，蓄力重击，格挡、招架并反击，闪避，并击碎盾牌和护甲。选择剑盾、长枪、双刃或巨斧，每种武器都有专属招式和特殊技能，并在军械库中升级装备。生存模式、训练模式和限时 Boss Rush 让内容更加完整。横屏游玩，完全支持离线。",
+    "description": "SouMoster 的首款动作游戏：一款拥有连招、格挡反击和首领战的角斗士格斗游戏，包含五章战役。现正在 Google Play 封闭测试中。",
+    "longDescription": "Arena Legends: Gladiator Wars 是 SouMoster 的首款动作游戏，使用 Kotlin 和 libGDX 开发，现正在 Google Play 封闭测试中。你在竞技场下醒来，角斗场主只给你一个交易：战斗，赢回你的自由。闯过五章战役，从 Blood Pits、Coliseum 到 Wild Trials、Ashen Arena 和 Hall of Champions，对抗掠夺者、长枪兵、蛮兵、持盾守卫、猛兽和五位首领，最终迎战拥有三种架势的 Imperial Champion。看清每次预警，躲开攻击，在敌人收招时出手：打出连招，蓄力重击，格挡、招架并反击，击碎盾牌和护甲。选择剑盾、长枪、双刃或巨斧，每种武器都有专属招式和特殊技能，并在军械库中升级装备。生存模式、训练模式、限时 Boss Rush 和规则不断变化的每日挑战让内容更加完整，还有 20 项成就等你解锁。你可以移动和调整动作按钮大小、使用左手模式，并离线游玩：进度保存在你的设备上。",
     "features": [
-      "SouMoster 的首款动作游戏：横屏实时角斗士战斗",
+      "现正在 Google Play 封闭测试中：在我们的测试版页面申请邀请",
       "五章战役：Blood Pits、Coliseum、Wild Trials、Ashen Arena 和 Hall of Champions",
       "五位首领：Brutus the Iron Wall、Vex、Beast Master、Inferno Champion，以及拥有三种架势的 Imperial Champion",
       "方向连招、蓄力重击、格挡、招架与反击、闪避和终结技，共享同一条体力条",
       "四种武器职业，各有连招和技能：剑盾（Shield Bash）、长枪（Piercing Thrust）、双刃（Cross Cut）和巨斧（Whirlwind）",
-      "掠夺者、长枪兵、蛮兵、持盾守卫、狂战士、网斗士和会扑击的狮子",
-      "击碎敌人的盾牌和护甲；躲开旋转刀刃、陷阱和火焰喷口",
-      "生存模式的敌潮、实战训练课程和限时 Boss Rush",
+      "击碎敌人的盾牌和护甲；躲开旋转刀刃、陷阱和火焰格栅",
+      "生存模式的敌潮、训练课程、限时 Boss Rush 和规则不断变化的每日挑战",
+      "20 项成就，可选关联 Google Play 游戏和云备份",
       "军械库升级、天赋、金币、经验值和声望解锁",
-      "手绘竞技场、动画角色、打击停顿、打击音效和可调节的屏幕震动",
-      "离线游玩；提供自动朝向、大字体和大按键以及减少动态效果等选项"
+      "自定义操作：移动和调整按钮大小，或切换为左手模式",
+      "离线游玩；提供文字大小、屏幕震动、闪光和减少特效等舒适选项"
     ],
     "howToPlay": [
       "使用左侧的浮动摇杆移动",
@@ -325,31 +324,112 @@
       "赢下每一场试炼，挑战本章首领，赢回你的自由"
     ],
     "knownIssues": [
-      "开发版本：尚未在 Google Play 上线"
+      "仅限受邀参加的 Google Play 封闭测试：使用您的 Google Play 邮箱在我们的测试版页面申请邀请"
     ],
     "faq": [
       {
-        "question": "Arena Legends 什么时候推出？",
-        "answer": "Arena Legends 正在开发中，目前还没有发布日期。在我们的测试版页面报名，测试开放时即可第一时间获得通知。"
+        "question": "现在怎么玩 Arena Legends？",
+        "answer": "Arena Legends 正在 Google Play 封闭测试中。在我们的测试版页面提交您的 Google Play 邮箱；我们会将您加入测试者名单，您会收到一个链接，用于选择加入并从 Google Play 安装。"
       },
       {
         "question": "它和 Hopper 系列不同吗？",
         "answer": "不同。Arena Legends 是 SouMoster 的首款动作游戏：实时近战，包含连招、招架、体力和首领战，横屏使用摇杆和动作按钮游玩。"
       },
       {
+        "question": "Arena Legends 免费吗？",
+        "answer": "是的。封闭测试免费游玩，并提供可选的 Google Play 金币礼包用于装备和升级。经验值、声望和章节解锁仍需通过游戏获得。"
+      },
+      {
         "question": "可以离线玩吗？",
-        "answer": "可以。Arena Legends 专为离线游玩设计，进度保存在您的设备上。"
+        "answer": "可以。核心玩法无需联网或账号。进度保存在您的设备上；可选的云备份使用 Google Play 游戏。"
+      },
+      {
+        "question": "支持哪些设备？",
+        "answer": "Android 7.0（API 24）及更高版本，横屏游玩。"
+      }
+    ],
+    "versionHistory": {
+      "0.1.11": [
+        "Google Play 封闭测试版",
+        "首领介绍排版更宽松，胜利结算更清晰",
+        "下一章：通关一章后可直接进入下一章"
+      ],
+      "0.1.8–0.1.10": [
+        "可选的 Play 游戏个人资料云备份",
+        "Play 游戏自动重新连接；训练陪练随时待命"
+      ],
+      "0.1.5–0.1.7": [
+        "20 项成就，可选关联 Google Play 游戏",
+        "所有角色、敌人和首领都有八帧行走动画",
+        "更清晰的攻击前摇、标签和装备要求"
+      ],
+      "0.1.1–0.1.3": [
+        "首批封闭测试版本：五章战役、四种武器、生存模式、Boss Rush 和每日挑战",
+        "自定义操作、全新设置界面和插画加载画面"
+      ],
+      "0.1.0": [
+        "五章战役可一路玩到 Imperial Champion",
+        "首次在 Google Play 进行内部测试"
+      ]
+    }
+  },
+  "nitro-racer": {
+    "tagline": "驶向下一个地平线。",
+    "description": "SouMoster 的首款竞速游戏：在 32 条赛道上征战 8 个锦标赛，收集氮气，打造你的梦想车库。开发中。",
+    "longDescription": "Nitro Racer 是 SouMoster 的首款竞速游戏，使用 Kotlin 和 libGDX 开发，目前正在开发中。驶过大弯，借对手的尾流加速，释放氮气冲向方格旗。在 8 个锦标赛、32 条赛道上驰骋，穿越乡村、海滨公路、高山隘口、霓虹城市之夜、沙漠峡谷、热带雨林、冰雪地带和火山地貌，然后挑战镜像赛道。与五名 AI 对手一较高下，收集氮气瓶，沿着金币轨迹前进，冲过加速板，冒险抄近路，用干净利落的超车打出连击。解锁六辆赛车，升级引擎、涡轮、轮胎和氮气，并自定义车漆、拉花、加速特效、底盘灯和车牌。创建你的车手，在计时赛中挑战自己的幽灵记录，保持每日挑战连胜。可倾斜手机或使用屏幕按键操控，无需账号即可离线游玩。",
+    "features": [
+      "SouMoster 的首款竞速游戏：横屏街机竞速",
+      "8 个锦标赛、32 条赛道：乡村、海岸、高山隘口、霓虹城市之夜、沙漠、雨林、北极和火山",
+      "镜像赛道，已完成的锦标赛可重复挑战",
+      "与五名 AI 对手竞速：氮气瓶、金币轨迹、加速板、近路和超车连击",
+      "六辆赛车，可升级引擎、涡轮、轮胎和氮气",
+      "自定义车漆、赛车拉花、加速特效、底盘灯和车牌，购买前可预览",
+      "创建你的车手：选择车手、赛车服、头盔和昵称",
+      "挑战自己幽灵记录的计时赛，赢取铜、银、金牌",
+      "每日挑战与连胜、电影般的冲线画面和后视镜头",
+      "倾斜操控或屏幕按键，灵敏度可调",
+      "16 项成就，可选关联 Google Play 游戏和云存档",
+      "离线竞速，无需账号"
+    ],
+    "howToPlay": [
+      "倾斜手机或使用屏幕按键转向",
+      "用左下角按钮刹车；用右下角按钮释放氮气",
+      "收集氮气瓶和金币轨迹，冲过加速板提升速度",
+      "用干净利落的超车打出连击，敢的话就抄近路",
+      "按住 REAR 查看身后的对手",
+      "进入前三名即可解锁下一个锦标赛",
+      "在车库中花金币购买升级和新外观"
+    ],
+    "knownIssues": [
+      "开发版本：尚未在 Google Play 上线"
+    ],
+    "faq": [
+      {
+        "question": "Nitro Racer 什么时候推出？",
+        "answer": "Nitro Racer 正在开发中，目前还没有发布日期。在我们的测试版页面报名，测试开放时即可第一时间获得通知。"
+      },
+      {
+        "question": "它和 SouMoster 的其他游戏有什么不同？",
+        "answer": "Nitro Racer 是 SouMoster 的首款竞速游戏：与 AI 对手进行锦标赛、计时赛，以及可升级和改装的车库，横屏游玩。"
+      },
+      {
+        "question": "会免费吗？",
+        "answer": "会。Nitro Racer 将免费游玩，包含可选的激励广告（赢取额外金币）以及完成比赛之间偶尔出现的广告。赛车和升级都通过比赛获得。"
+      },
+      {
+        "question": "可以离线玩吗？",
+        "answer": "可以。无需账号即可离线竞速。广告需要联网。"
       },
       {
         "question": "将支持哪些设备？",
-        "answer": "Android 6.0（API 23）及更高版本，横屏游玩。"
+        "answer": "Android 8.0（API 26）及更高版本，横屏游玩。"
       }
     ],
     "versionHistory": {
       "0.1.0": [
-        "五章战役可一路玩到 Imperial Champion",
-        "Wild Trials、Ashen Arena 和 Hall of Champions，加入猛兽、陷阱和火焰喷口",
-        "Boss Rush、生存和训练模式；四种武器职业"
+        "开发版本：8 个锦标赛和 32 条赛道",
+        "车手档案、车库升级和赛车改装",
+        "成就、可选的 Play 游戏关联和云存档"
       ]
     }
   }

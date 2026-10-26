@@ -13,8 +13,8 @@
     "title": "A história do estúdio",
     "p1": "A SouMoster é um estúdio independente de jogos Android fundado por um desenvolvedor solo apaixonado por criar jogos mobile divertidos, acessíveis e envolventes. O que começou como uma jornada pessoal para aprender desenvolvimento Android virou o compromisso de criar jogos caprichados para jogar a qualquer hora, em qualquer lugar.",
     "p2": "Todo projeto segue uma filosofia simples: <strong>jogos incríveis não precisam ser complicados</strong>. Com controles intuitivos, jogabilidade gostosa e melhorias constantes, a SouMoster quer entregar jogos fáceis de aprender, difíceis de largar e divertidos para todas as idades.",
-    "p3": "Nosso primeiro jogo, <strong>Road Hopper</strong>, chegou ao Google Play em julho de 2026, com ação arcade rápida, visual limpo e jogo offline. Em outubro de 2026 veio <strong>Bank Hopper</strong>, um assalto a banco jogado com um polegar, lançado depois de um teste fechado com jogadores da nossa comunidade.",
-    "p4": "<strong>Time Hopper</strong>, um runner por sete eras construído em torno do Time Hop, já está em teste fechado no Google Play. <strong>Space Hopper</strong> está se preparando para os testes, e <strong>Arena Legends</strong>, nosso primeiro jogo de ação, leva a SouMoster além da série Hopper com combates de gladiadores em tempo real. Cada lançamento aprende com o anterior, e o retorno dos jogadores orienta cada atualização.",
+    "p3": "Nosso primeiro jogo, <strong>Road Hopper</strong>, chegou ao Google Play em julho de 2026, com ação arcade rápida, visual limpo e jogo offline. Em outubro de 2026 veio <strong>Bank Hopper</strong>, um assalto a banco jogado com um polegar, e no fim do mesmo mês foi lançado <strong>Time Hopper</strong>, um runner por sete eras construído em torno do Time Hop. Cada um foi lançado depois de um teste fechado com jogadores da nossa comunidade.",
+    "p4": "<strong>Arena Legends</strong>, nosso primeiro jogo de ação, já está em teste fechado no Google Play e leva a SouMoster além da série Hopper com combates de gladiadores em tempo real. <strong>Nitro Racer</strong>, nosso primeiro jogo de corrida, e <strong>Space Hopper</strong> estão em desenvolvimento. Cada lançamento aprende com o anterior, e o retorno dos jogadores orienta cada atualização.",
     "p5": "Acompanhe trailers, gameplay e bastidores no YouTube: <youtube>@SouMosterGames</youtube>. A SouMoster está crescendo, mas a missão continua a mesma: criar jogos Android de qualidade, divertidos, caprichados e marcantes."
   },
   "games": {
@@ -62,14 +62,29 @@
         "description": "Começou o desenvolvimento de Arena Legends: Gladiator Wars, o primeiro jogo de ação da SouMoster: combates de gladiadores com combos, aparadas, quatro classes de armas e uma campanha de cinco capítulos."
       },
       {
+        "period": "Outubro de 2026",
+        "title": "Time Hopper chega ao Google Play",
+        "description": "Time Hopper v1.15.1 foi lançado no Google Play em 24 de outubro: o terceiro jogo publicado da SouMoster, com Timeline Bridges, a campanha Chronicle e a coleção Emerald Expedition."
+      },
+      {
+        "period": "Outubro de 2026",
+        "title": "Teste fechado de Arena Legends",
+        "description": "Arena Legends: Gladiator Wars, nosso primeiro jogo de ação, entrou em teste fechado no Google Play. A versão 0.1.11 traz um desafio diário, 20 conquistas, controles personalizáveis e backups opcionais na nuvem."
+      },
+      {
+        "period": "Outubro de 2026",
+        "title": "Começa Nitro Racer",
+        "description": "Começou o desenvolvimento de Nitro Racer, o primeiro jogo de corrida da SouMoster: 8 campeonatos, 32 circuitos, seis carros para melhorar e personalizar e contra-relógios contra o seu fantasma."
+      },
+      {
         "period": "Agora",
         "title": "O estúdio está crescendo",
-        "description": "Dois jogos estão disponíveis no Google Play, Time Hopper está em teste fechado, Space Hopper está se preparando para os testes e Arena Legends está em desenvolvimento. Trailers e gameplay no YouTube @SouMosterGames."
+        "description": "Três jogos estão disponíveis no Google Play, Arena Legends está em teste fechado, e Space Hopper e Nitro Racer estão em desenvolvimento. Trailers e gameplay no YouTube @SouMosterGames."
       },
       {
         "period": "O que vem por aí",
         "title": "A visão",
-        "description": "Ser um estúdio independente reconhecido, com uma coleção variada de jogos Android de qualidade, de novos títulos Hopper a novos gêneros como Arena Legends, que divirta jogadores no mundo todo."
+        "description": "Ser um estúdio independente reconhecido, com uma coleção variada de jogos Android de qualidade, de novos títulos Hopper a novos gêneros como ação e corrida, que divirta jogadores no mundo todo."
       }
     ]
   },
@@ -77,10 +92,9 @@
     "eyebrow": "Roteiro",
     "title": "Próximos objetivos",
     "items": [
-      "Levar Time Hopper do teste fechado a um lançamento mundial no Google Play",
-      "Abrir o teste fechado de Space Hopper no Google Play",
-      "Levar Arena Legends, nosso primeiro jogo de ação, da primeira versão jogável aos testes",
-      "Continuar melhorando Road Hopper e Bank Hopper com o retorno dos jogadores",
+      "Levar Arena Legends do teste fechado a um lançamento mundial no Google Play",
+      "Abrir os testes fechados de Space Hopper e Nitro Racer no Google Play",
+      "Continuar melhorando Road Hopper, Bank Hopper e Time Hopper com o retorno dos jogadores",
       "Fazer o canal SouMosterGames no YouTube crescer com trailers e diários de desenvolvimento",
       "Lançar pelo menos 3 novos jogos Android até 2027",
       "Reunir uma comunidade de mais de 100 mil jogadores"

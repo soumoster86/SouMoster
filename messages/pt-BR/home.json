@@ -3,12 +3,12 @@
     "badge": "Desenvolvedor de jogos Android",
     "subtitle": "Criamos jogos Android divertidos.",
     "exploreApps": "Ver jogos",
-    "joinTimeHopper": "Participe do teste fechado de Time Hopper",
     "watchTrailers": "Assista aos trailers no YouTube",
     "availableNow": "Já disponível",
     "gameplayAlt": "Gameplay de {name}",
     "scrollToExplore": "Role para explorar",
-    "explore": "Explorar"
+    "explore": "Explorar",
+    "joinClosedTest": "Participe do teste fechado de Arena Legends"
   },
   "stats": {
     "sectionLabel": "Estatísticas",

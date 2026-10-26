@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play Testing Program",
     "title": "Join the <highlight>Closed Beta</highlight>",
-    "lead": "Time Hopper v1.13.2 is on the Google Play Closed Testing track. Help us tune its seven eras, Chronicle campaign and modes before the worldwide launch. Bank Hopper, our last beta, is now live on Google Play.",
+    "lead": "Arena Legends v0.1.11, our first action game, is on the Google Play Closed Testing track. Help us tune its combat, campaign and controls before the worldwide launch. Time Hopper, our last beta, is now live on Google Play.",
     "watchTrailers": "Watch trailers on YouTube {handle}"
   },
   "perks": {
     "earlyBuilds": {
       "title": "Exclusive Early Builds",
-      "text": "Play <strong>Time Hopper v1.13.2</strong> Closed Testing builds and future titles, like Arena Legends, through Google Play before public release."
+      "text": "Play <strong>Arena Legends v0.1.11</strong> Closed Testing builds and future titles, like Nitro Racer, through Google Play before public release."
     },
     "devAccess": {
       "title": "Direct Developer Access",
@@ -20,20 +20,19 @@
     }
   },
   "games": {
-    "timeHopper": "Seven-era time-travel runner built around the Time Hop",
     "arenaLegends": "Our first action game: gladiator combat and boss fights",
     "spaceHopper": "Hop across eight planets to restore the Warp Gates",
     "allUpcoming": {
       "name": "All Upcoming Games",
       "version": "VIP Access",
       "tagline": "Invites to all future prototypes and experimental builds"
-    }
+    },
+    "nitroRacer": "Our first racing game: 8 championships, nitro and a garage to build"
   },
   "formCard": {
     "title": "Tester Application Form",
     "subtitle": "Fill out the form below. Google Play will email you with your opt-in confirmation link once your account is enrolled.",
-    "joinDirect": "Join Google Group Directly",
-    "tip": "<strong>Tip:</strong> Joining the official <group>timehoppergame Google Group</group> ({email}) with your Google Play account gives you access to the Time Hopper closed testing track.",
+    "tip": "<strong>Tip:</strong> Use the email of the Google account signed in to the Play Store on your phone. We add it to the Arena Legends tester list and send you the link to opt in and install.",
     "loading": "Loading tester form..."
   },
   "form": {
@@ -72,10 +71,7 @@
     "nextTitle": "What happens next?",
     "step1": "Our developer console adds your email to the authorized Google Play Closed Testers list.",
     "step2": "You'll receive an opt-in web link (or email invite). Click <em>\"Join on the web / Join on Android\"</em> to accept.",
-    "step3": "Download exclusive pre-release builds directly from the Google Play Store on your device: <play>Time Hopper on Google Play</play>",
-    "instantTitle": "Instant Google Play Authorization",
-    "instantText": "Join our official Google Group to be automatically synced to the Play Store closed testing track:",
-    "joinGroup": "Join timehoppergame Google Group",
+    "step3": "Once you've opted in, install the closed test from the Google Play Store on your device: <play>Arena Legends on Google Play</play>",
     "registerAnother": "Register Another Device"
   },
   "faq": {
@@ -92,11 +88,11 @@
     },
     "android": {
       "q": "What Android version is required?",
-      "a": "Time Hopper and Bank Hopper support Android 8.0 (API 26) and newer. Road Hopper supports Android 7.0+. Space Hopper and Arena Legends are still in development."
+      "a": "Arena Legends and Road Hopper support Android 7.0 (API 24) and newer. Time Hopper and Bank Hopper support Android 8.0 (API 26) and newer. Space Hopper and Nitro Racer are still in development."
     },
     "isOpen": {
-      "q": "Is Time Hopper Closed Testing open now?",
-      "a": "Yes. Time Hopper v1.13.2 is on the Google Play Closed Testing track. Join <group>groups.google.com/g/timehoppergame</group>, opt in on Play, then install from the listing. Bank Hopper has finished testing and is live on Google Play."
+      "q": "Is Arena Legends Closed Testing open now?",
+      "a": "Yes. Arena Legends v0.1.11 is on the Google Play Closed Testing track. Submit your Google Play email with the form above; once we add you, opt in from the link and install from the Play Store listing. Time Hopper has finished testing and is live on Google Play."
     },
     "trailers": {
       "q": "Where can I watch gameplay and trailers?",

@@ -154,54 +154,53 @@
   },
   "time-hopper": {
     "tagline": "Sautez dans le temps. Brisez l’Histoire. Réparez la ligne temporelle.",
-    "description": "Un runner de voyage dans le temps à travers sept époques, chacune avec deux mondes. Esquivez les obstacles, ou faites un Time Hop vers la ligne temporelle alternative. En test fermé sur Google Play.",
-    "longDescription": "Time Hopper est un runner de voyage dans le temps développé nativement en Kotlin par SouMoster, actuellement en test fermé sur Google Play. Foncez à travers sept époques : Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future et le Chrono Void. Chaque époque a deux mondes. Quand la route se referme, dépensez de l’énergie pour faire un Time Hop vers la ligne temporelle alternative, où des échos violets montrent ce qui vous attend, puis préparez votre retour. Choisissez les portails Stable, Relic ou Paradox, échappez aux poursuites de chaque époque et, à chaque Chrono Gate, repartez avec vos découvertes ou allez plus loin. Jouez la campagne Chronicle en 21 niveaux, des parties Classic et Endless, les variantes Paradox, Relic Hunt et Hardcore, le Boss Gauntlet, les Timeline Puzzles, des événements hebdomadaires et une Daily Timeline avec un fantôme à battre. Débloquez des voyageurs aux capacités actives et retrouvez 65 artefacts illustrés pour votre musée.",
+    "description": "Un runner de voyage dans le temps à travers sept époques, chacune avec deux mondes. Esquivez les obstacles, ou faites un Time Hop vers la ligne temporelle écho. Disponible sur Google Play !",
+    "longDescription": "Time Hopper est un runner de voyage dans le temps développé nativement en Kotlin par SouMoster, désormais disponible sur Google Play. Foncez à travers sept époques : Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future et le Chrono Void. Chaque époque a deux mondes. Quand la route se referme, dépensez de l’énergie pour faire un Time Hop vers la ligne temporelle écho, où des échos violets montrent ce qui vous attend, puis préparez votre retour. Traversez des Timeline Bridges qui n’existent que dans une seule ligne temporelle, choisissez les portails Stable, Relic ou Paradox, échappez aux poursuites de chaque époque et, à chaque Chrono Gate, repartez avec vos découvertes ou allez plus loin. Jouez la campagne Chronicle en 21 niveaux, des parties Classic et Endless, les variantes Paradox, Relic Hunt et Hardcore, le Boss Gauntlet, les Timeline Puzzles, des événements hebdomadaires et une Daily Timeline avec un fantôme à battre. Choisissez parmi sept voyageurs aux capacités actives, retrouvez 65 artefacts illustrés pour votre musée et personnalisez votre style avec des tenues, traînées, portails et effets de Time Hop.",
     "features": [
-      "En test fermé sur Google Play : rejoignez le groupe Google des testeurs, puis inscrivez-vous sur Play",
-      "Time Hop : chaque époque a deux mondes ; passez dans la ligne temporelle alternative quand la route se referme",
+      "Disponible sur Google Play : téléchargement gratuit, classé 3+",
+      "Time Hop : chaque époque a deux mondes ; passez dans la ligne temporelle écho quand la route se referme",
       "Sept époques, chacune avec ses décors, ses dangers et sa poursuite",
+      "Timeline Bridges : traversez des gouffres sur des ponts qui n’existent que dans une seule ligne temporelle",
       "Chronicle : une campagne de 21 niveaux avec trois objectifs étoilés par niveau",
       "Parties à score, variantes et défis : Classic, Endless, Paradox, Relic Hunt, Hardcore, Boss Gauntlet, Timeline Puzzles et événements hebdomadaires",
       "Daily Timeline avec une variante du jour, une série de jours et le fantôme de votre meilleure partie",
-      "Portails Stable, Relic et Paradox, et anomalies de portail quand vous allez plus loin",
       "Sept voyageurs, chacun avec une capacité active, plus des gadgets et des améliorations",
+      "Styles du Chrono Shop : tenues, traînées, portails, effets de Time Hop et ensembles comme l’Emerald Expedition",
       "Un musée de 65 artefacts illustrés répartis dans neuf salles",
-      "Connexion Google Play Jeux, classements et sauvegarde dans le cloud",
-      "Balayage et toucher ou boutons à l’écran ; réglages de main dominante, de contraste et d’effets"
+      "Quick Practice et cartes d’aide facultatives pour apprendre chaque mouvement",
+      "Connexion Google Play Jeux, classements et sauvegarde dans le cloud"
     ],
     "howToPlay": [
       "Balayez à gauche ou à droite pour changer de voie",
       "Touchez ou balayez vers le haut pour sauter rochers et trous ; balayez vers le bas pour glisser sous les poutres",
       "Maintenez l’écran pour le Temporal Brake et ralentir le monde, au prix d’énergie",
-      "Appuyez sur Time Hop pour dépenser 35 d’énergie et passer trois secondes dans la ligne temporelle alternative",
+      "Appuyez sur Time Hop pour dépenser 35 d’énergie et passer trois secondes dans la ligne temporelle écho",
       "Lisez d’abord les échos violets : l’autre ligne temporelle a ses propres dangers",
+      "Traversez les Timeline Bridges dans la bonne ligne temporelle : les ponts menthe sont solides dans l’originale, les ponts violets dans l’écho",
       "Ramassez des Chrono Shards pour recharger votre énergie, et des reliques pour votre musée",
-      "Utilisez le Time Hop pour échapper aux poursuites : leurs débris n’existent que dans votre ligne temporelle d’origine",
-      "À chaque Time Gate, repartez avec tout votre butin, ou passez à l’époque suivante pour de plus grosses récompenses"
+      "À chaque Chrono Gate, repartez avec tout votre butin, ou passez à l’époque suivante pour de plus grosses récompenses"
     ],
-    "knownIssues": [
-      "Test fermé Google Play sur invitation : rejoignez https://groups.google.com/g/timehoppergame, puis inscrivez-vous sur Play pour installer le jeu"
-    ],
+    "knownIssues": [],
     "faq": [
       {
-        "question": "Comment jouer à Time Hopper dès maintenant ?",
-        "answer": "Time Hopper est en test fermé sur Google Play. Rejoignez le groupe Google des testeurs sur https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) avec votre compte Google Play, inscrivez-vous sur Play, puis installez le jeu depuis sa fiche Play Store."
+        "question": "Time Hopper est-il gratuit ?",
+        "answer": "Oui. Time Hopper est gratuit sur Google Play et contient des publicités. Les achats facultatifs (suppression des pubs et packs d’éclats ou de cristaux) ne vendent jamais de personnages exclusifs ni d’avantages de jeu, et éclats et cristaux se gagnent en jouant."
       },
       {
         "question": "Qu’est-ce qu’un Time Hop ?",
-        "answer": "Chaque époque a deux mondes. Le Time Hop dépense de l’énergie pour vous faire passer quelques secondes dans la ligne temporelle alternative. Les dangers y sont différents, et des échos violets vous les montrent avant le saut : à vous de choisir s’il vaut mieux esquiver ou sauter."
+        "answer": "Chaque époque a deux mondes. Le Time Hop dépense de l’énergie pour vous faire passer quelques secondes dans la ligne temporelle écho. Les dangers y sont différents, et des échos violets vous les montrent avant le saut : à vous de choisir s’il vaut mieux esquiver ou sauter."
       },
       {
-        "question": "Quand Time Hopper sortira-t-il pour tous ?",
-        "answer": "Un lancement mondial suivra le test fermé et l’examen de production de Google Play. Les testeurs nous aident d’ici là à régler la difficulté, les publicités et les performances."
-      },
-      {
-        "question": "Time Hopper est-il gratuit ?",
-        "answer": "Oui. Il est gratuit et contient des publicités. Les achats facultatifs (suppression des pubs et packs d’éclats) ne vendent jamais de personnages exclusifs ni d’avantages de jeu, et les éclats se gagnent en jouant."
+        "question": "Que sont les Timeline Bridges ?",
+        "answer": "Certains gouffres ont un pont dans une seule ligne temporelle : un pont menthe plein est solide dans la ligne originale, un pont violet plein dans l’écho. Faites un Time Hop juste avant un pont écho et traversez avant le retour automatique."
       },
       {
         "question": "Fonctionne-t-il hors ligne ?",
         "answer": "Le jeu et la progression locale fonctionnent hors ligne. Les publicités, les classements et la sauvegarde cloud nécessitent une connexion Internet."
+      },
+      {
+        "question": "Quelle est sa classification d’âge ?",
+        "answer": "Classé 3+ sur Google Play."
       },
       {
         "question": "Sur quels appareils fonctionne-t-il ?",
@@ -209,39 +208,39 @@
       }
     ],
     "versionHistory": {
-      "1.13.2": [
-        "Version de test fermé sur Google Play"
+      "1.15.1": [
+        "Sortie publique : Time Hopper est disponible sur Google Play",
+        "Sept époques, sept voyageurs, défis Chronicle et Timeline Bridges"
+      ],
+      "1.15.0": [
+        "Animations de saut et de glissade plus vivantes pour chaque voyageur",
+        "Timeline Bridges, avec un exercice d’entraînement et des niveaux Chronicle qui les introduisent",
+        "La collection Emerald Expedition : tenue, traînée de feuilles, portail et effet de Time Hop"
+      ],
+      "1.14.0–1.14.2": [
+        "Chrono Shop enrichi : tenues, cadres, titres, effets de Time Hop, thèmes de musée et ensembles",
+        "Traînées animées et aperçus animés dans la boutique",
+        "Tremplins plus naturels : montez la pente, puis sautez depuis le sommet"
+      ],
+      "1.13.3": [
+        "Quick Practice : apprenez le saut, la glissade, l’esquive et le Time Hop en 30 secondes environ",
+        "Textes de l’interface plus grands et plus lumineux, et nouvelles polices"
       ],
       "1.13.0": [
         "Connexion Google Play Jeux et classements",
-        "Sauvegarde et restauration manuelles dans le cloud",
-        "Suppression des pubs et packs d’éclats facultatifs ; cosmétiques en éclats dans la boutique (1.13.1)"
+        "Sauvegarde et restauration manuelles dans le cloud"
       ],
       "1.12.0": [
         "Contre-la-montre contre un fantôme, Boss Gauntlet, Timeline Puzzles et événements hebdomadaires",
-        "Variante du jour et série quotidienne, le Chrono Pass et la machine à remonter le temps",
-        "Premier test interne sur Google Play"
+        "Variante et série quotidiennes, le Chrono Pass et la machine à remonter le temps"
       ],
-      "1.11.0": [
-        "Chaque coureur obtient une capacité active avec une jauge de charge"
+      "1.8–1.11": [
+        "Campagne Chronicle, capacités actives et anomalies de portail",
+        "Neuf salles de musée et 65 artefacts illustrés"
       ],
-      "1.10.0": [
-        "Chronicle : une campagne de 21 niveaux avec objectifs étoilés"
-      ],
-      "1.9.0": [
-        "Anomalies de portail : des règles cumulables quand vous allez plus loin"
-      ],
-      "1.8.0": [
-        "Neuf salles de musée avec l’histoire des 65 artefacts",
-        "Artefacts illustrés sur les étagères et en jeu (1.8.1–1.8.2)"
-      ],
-      "1.2–1.7": [
-        "Tremplins de saut en longueur, mondes alternatifs pour chaque époque, améliorations de traits",
-        "Poursuites en plusieurs étapes, objectifs de maîtrise par époque, obstacles illustrés et dangers mobiles"
-      ],
-      "1.0–1.1": [
+      "1.0–1.7": [
         "Les sept époques, sept personnages, six gadgets et les modes principaux",
-        "Personnages et poursuivants animés, et une bande-son originale"
+        "Mondes alternatifs pour chaque époque, tremplins, poursuites et bande-son originale"
       ]
     }
   },
@@ -299,20 +298,20 @@
   },
   "arena-legends": {
     "tagline": "Gladiator Wars. Combattez et gagnez votre liberté.",
-    "description": "Le premier jeu d’action de SouMoster : des combats de gladiateurs avec combos, parades et boss, au fil d’une campagne en cinq chapitres. En développement.",
-    "longDescription": "Arena Legends: Gladiator Wars est le premier jeu d’action de SouMoster, développé en Kotlin avec libGDX et actuellement en développement. Vous vous réveillez sous l’arène, et le maître des fosses vous propose un marché : combattez et gagnez votre liberté. Traversez une campagne en cinq chapitres, des Blood Pits et du Colisée jusqu’aux Wild Trials, à l’Ashen Arena et au Hall of Champions, face à des pillards, des lanciers, des brutes, des gardiens à bouclier, des fauves et cinq boss, jusqu’à l’Imperial Champion et ses trois postures. Enchaînez des combos directionnels, chargez des attaques lourdes, bloquez, parez et contre-attaquez, esquivez, et brisez boucliers et armures. Choisissez Épée et bouclier, Lance, Lames jumelles ou Grande hache, chacune avec ses coups et sa compétence spéciale, et améliorez votre équipement à l’Armurerie. Les modes Survie, Entraînement et un Boss Rush chronométré complètent le tout. Se joue en mode paysage, entièrement hors ligne.",
+    "description": "Le premier jeu d’action de SouMoster : des combats de gladiateurs avec combos, parades et boss, au fil d’une campagne en cinq chapitres. En test fermé sur Google Play.",
+    "longDescription": "Arena Legends: Gladiator Wars est le premier jeu d’action de SouMoster, développé en Kotlin avec libGDX et actuellement en test fermé sur Google Play. Vous vous réveillez sous l’arène, et le maître des fosses vous propose un marché : combattez et gagnez votre liberté. Traversez une campagne en cinq chapitres, des Blood Pits et du Colisée jusqu’aux Wild Trials, à l’Ashen Arena et au Hall of Champions, face à des pillards, des lanciers, des brutes, des gardiens à bouclier, des fauves et cinq boss, jusqu’à l’Imperial Champion et ses trois postures. Lisez chaque avertissement, esquivez l’impact et frappez pendant la récupération : enchaînez les combos, chargez des attaques lourdes, bloquez, parez et contre-attaquez, et brisez boucliers et armures. Choisissez Épée et bouclier, Lance, Lames jumelles ou Grande hache, chacune avec ses coups et sa compétence spéciale, et améliorez votre équipement à l’Armurerie. Survie, Entraînement, un Boss Rush chronométré et un défi quotidien aux modificateurs changeants complètent le tout, avec 20 succès à obtenir. Déplacez et redimensionnez les boutons d’action, jouez en mode gaucher et jouez hors ligne : la progression reste sur votre appareil.",
     "features": [
-      "Le premier jeu d’action de SouMoster : des combats de gladiateurs en temps réel, en mode paysage",
+      "En test fermé sur Google Play : demandez une invitation sur notre page Bêta",
       "Une campagne en cinq chapitres : les Blood Pits, le Colisée, les Wild Trials, l’Ashen Arena et le Hall of Champions",
       "Cinq boss : Brutus the Iron Wall, Vex, le Beast Master, l’Inferno Champion et l’Imperial Champion aux trois postures",
       "Combos directionnels, attaques lourdes chargées, blocage, parade et contre-attaque, esquive et coups de grâce, sur une jauge d’endurance commune",
       "Quatre classes d’armes avec leurs combos et compétences : Épée et bouclier (Shield Bash), Lance (Piercing Thrust), Lames jumelles (Cross Cut) et Grande hache (Whirlwind)",
-      "Pillards, lanciers, brutes, gardiens à bouclier, berserkers, combattants au filet et lions qui bondissent",
-      "Brisez les boucliers et armures ennemis ; évitez lames tournantes, pièges et bouches de feu",
-      "Vagues de Survie, leçons d’Entraînement pratiques et Boss Rush chronométré",
+      "Brisez les boucliers et armures ennemis ; évitez lames tournantes, pièges et grilles de feu",
+      "Vagues de Survie, leçons d’Entraînement, Boss Rush chronométré et défi quotidien aux modificateurs changeants",
+      "20 succès, avec liaison Google Play Jeux et sauvegardes cloud facultatives",
       "Améliorations à l’Armurerie, talents, or, XP et déblocages par la réputation",
-      "Arènes peintes, combattants animés, impacts marqués, sons d’impact et tremblement d’écran réglable",
-      "Jeu hors ligne ; options d’orientation automatique, de grands textes et commandes, et d’animations réduites"
+      "Commandes personnalisables : déplacez et redimensionnez les boutons, ou passez en mode gaucher",
+      "Jeu hors ligne ; options de confort pour la taille du texte, le tremblement d’écran, les flashs et les effets réduits"
     ],
     "howToPlay": [
       "Déplacez-vous avec le joystick flottant à gauche",
@@ -325,31 +324,112 @@
       "Remportez chaque épreuve pour affronter le boss du chapitre et gagner votre liberté"
     ],
     "knownIssues": [
-      "Version de développement : pas encore sur Google Play"
+      "Test fermé Google Play sur invitation : demandez une invitation sur notre page Bêta avec votre adresse Google Play"
     ],
     "faq": [
       {
-        "question": "Quand Arena Legends sera-t-il disponible ?",
-        "answer": "Arena Legends est en développement et n’a pas encore de date de sortie. Inscrivez-vous sur notre page Bêta pour être averti en premier de l’ouverture des tests."
+        "question": "Comment jouer à Arena Legends dès maintenant ?",
+        "answer": "Arena Legends est en test fermé sur Google Play. Envoyez votre adresse Google Play sur notre page Bêta ; nous vous ajoutons à la liste des testeurs et vous recevez un lien pour vous inscrire et installer le jeu depuis Google Play."
       },
       {
         "question": "Est-il différent des jeux Hopper ?",
         "answer": "Oui. Arena Legends est le premier jeu d’action de SouMoster : des combats au corps à corps en temps réel avec combos, parades, endurance et boss, joués en mode paysage avec un joystick et des boutons d’action."
       },
       {
+        "question": "Arena Legends est-il gratuit ?",
+        "answer": "Oui. Le test fermé est gratuit, avec des packs d’or Google Play facultatifs pour l’équipement et les améliorations. L’XP, la réputation et le déblocage des chapitres demandent toujours de jouer."
+      },
+      {
+        "question": "Fonctionne-t-il hors ligne ?",
+        "answer": "Oui. Le jeu fonctionne sans connexion Internet ni compte. La progression est sauvegardée sur votre appareil ; les sauvegardes cloud facultatives passent par Google Play Jeux."
+      },
+      {
+        "question": "Sur quels appareils fonctionne-t-il ?",
+        "answer": "Android 7.0 (API 24) et versions ultérieures, en mode paysage."
+      }
+    ],
+    "versionHistory": {
+      "0.1.11": [
+        "Version de test fermé sur Google Play",
+        "Présentations des boss plus aérées et résultats de victoire plus clairs",
+        "Chapitre suivant : continuez directement après avoir terminé un chapitre"
+      ],
+      "0.1.8–0.1.10": [
+        "Sauvegardes cloud facultatives sur votre profil Play Jeux",
+        "Reconnexion automatique à Play Jeux ; partenaires d’entraînement prêts au combat"
+      ],
+      "0.1.5–0.1.7": [
+        "20 succès, avec liaison Google Play Jeux facultative",
+        "Animations de marche en huit images pour chaque combattant, ennemi et boss",
+        "Préparations d’attaque, libellés et exigences d’équipement plus clairs"
+      ],
+      "0.1.1–0.1.3": [
+        "Premières versions de test fermé : cinq chapitres, quatre armes, Survie, Boss Rush et défi quotidien",
+        "Commandes personnalisables, réglages repensés et écran de chargement illustré"
+      ],
+      "0.1.0": [
+        "Campagne en cinq chapitres jouable jusqu’à l’Imperial Champion",
+        "Premier test interne sur Google Play"
+      ]
+    }
+  },
+  "nitro-racer": {
+    "tagline": "Foncez vers l’horizon.",
+    "description": "Le premier jeu de course de SouMoster : 8 championnats sur 32 circuits, du nitro à ramasser et le garage de vos rêves à construire. En développement.",
+    "longDescription": "Nitro Racer est le premier jeu de course de SouMoster, développé en Kotlin avec libGDX et actuellement en développement. Négociez de grandes courbes, profitez de l’aspiration de vos rivaux et libérez le nitro jusqu’au drapeau à damier. Courez à travers campagne, routes côtières, cols alpins, nuits urbaines au néon, canyons du désert, forêt tropicale, paysages glacés et terres volcaniques, sur 8 championnats et 32 circuits, puis attaquez-vous aux versions inversées. Affrontez cinq rivaux IA, ramassez des bouteilles de nitro, suivez les traînées d’or, passez sur les boosters, tentez les raccourcis et enchaînez les dépassements propres en combos. Débloquez six voitures, améliorez moteur, turbo, pneus et nitro, et personnalisez peinture, bandes, effets de boost, néons et plaques. Créez votre pilote, battez votre meilleur tour contre votre fantôme en contre-la-montre et entretenez votre série de défis quotidiens. Pilotez par inclinaison ou avec les commandes à l’écran, et jouez hors ligne sans compte.",
+    "features": [
+      "Le premier jeu de course de SouMoster : course arcade en mode paysage",
+      "8 championnats et 32 circuits : campagne, côte, cols alpins, nuits urbaines au néon, désert, forêt tropicale, Arctique et volcans",
+      "Circuits inversés et championnats rejouables",
+      "Affrontez cinq rivaux IA : bouteilles de nitro, traînées d’or, boosters, raccourcis et combos de dépassement",
+      "Six voitures avec améliorations du moteur, du turbo, des pneus et du nitro",
+      "Personnalisez peinture, bandes, effets de boost, néons et plaques, avec aperçu avant achat",
+      "Créez votre pilote : choisissez un pilote, une combinaison, un casque et un surnom",
+      "Contre-la-montre contre votre fantôme, avec médailles de bronze, d’argent et d’or",
+      "Défis quotidiens et séries, arrivées cinématiques et caméra arrière",
+      "Pilotage par inclinaison ou commandes à l’écran, avec sensibilité réglable",
+      "16 succès, avec liaison Google Play Jeux et sauvegarde cloud facultatives",
+      "Jouez hors ligne, sans compte"
+    ],
+    "howToPlay": [
+      "Inclinez votre téléphone ou utilisez les boutons à l’écran pour diriger",
+      "Freinez avec le bouton en bas à gauche ; déclenchez le nitro avec le bouton en bas à droite",
+      "Ramassez les bouteilles de nitro et les traînées d’or, et passez sur les boosters pour gagner en vitesse",
+      "Enchaînez les dépassements propres en combos, et tentez un raccourci si vous l’osez",
+      "Maintenez REAR pour surveiller les rivaux derrière vous",
+      "Terminez dans les trois premiers pour débloquer le championnat suivant",
+      "Dépensez votre or au garage en améliorations et nouveaux styles"
+    ],
+    "knownIssues": [
+      "Version de développement : pas encore sur Google Play"
+    ],
+    "faq": [
+      {
+        "question": "Quand Nitro Racer sera-t-il disponible ?",
+        "answer": "Nitro Racer est en développement et n’a pas encore de date de sortie. Inscrivez-vous sur notre page Bêta pour être averti en premier de l’ouverture des tests."
+      },
+      {
+        "question": "Est-il différent des autres jeux SouMoster ?",
+        "answer": "Oui. Nitro Racer est le premier jeu de course de SouMoster : des courses de championnat contre des rivaux IA, des contre-la-montre et un garage de voitures à améliorer et personnaliser, en mode paysage."
+      },
+      {
+        "question": "Sera-t-il gratuit ?",
+        "answer": "Oui. Nitro Racer sera gratuit, avec des publicités récompensées facultatives pour gagner de l’or et des publicités occasionnelles entre les courses terminées. Les voitures et améliorations se gagnent en courant."
+      },
+      {
         "question": "Fonctionnera-t-il hors ligne ?",
-        "answer": "Oui. Arena Legends est conçu pour se jouer hors ligne, avec une progression sauvegardée sur votre appareil."
+        "answer": "Oui. Vous pouvez courir hors ligne et sans compte. Les publicités nécessitent une connexion Internet."
       },
       {
         "question": "Sur quels appareils fonctionnera-t-il ?",
-        "answer": "Android 6.0 (API 23) et versions ultérieures, en mode paysage."
+        "answer": "Android 8.0 (API 26) et versions ultérieures, en mode paysage."
       }
     ],
     "versionHistory": {
       "0.1.0": [
-        "Campagne en cinq chapitres jouable jusqu’à l’Imperial Champion",
-        "Wild Trials, Ashen Arena et Hall of Champions avec fauves, pièges et bouches de feu",
-        "Modes Boss Rush, Survie et Entraînement ; quatre classes d’armes"
+        "Version de développement : 8 championnats et 32 circuits",
+        "Profils de pilote, améliorations au garage et personnalisation des voitures",
+        "Succès, liaison Play Jeux et sauvegarde cloud facultatives"
       ]
     }
   }

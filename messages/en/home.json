@@ -3,12 +3,12 @@
     "badge": "Android Game Developer",
     "subtitle": "Building fun Android games.",
     "exploreApps": "Explore Apps",
-    "joinTimeHopper": "Join Time Hopper Closed Testing",
     "watchTrailers": "Watch trailers on YouTube",
     "availableNow": "Available now",
     "gameplayAlt": "{name} gameplay",
     "scrollToExplore": "Scroll to explore",
-    "explore": "Explore"
+    "explore": "Explore",
+    "joinClosedTest": "Join the Arena Legends closed test"
   },
   "stats": {
     "sectionLabel": "Statistics",

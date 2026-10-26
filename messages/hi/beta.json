@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play टेस्टिंग प्रोग्राम",
     "title": "<highlight>क्लोज़्ड बीटा</highlight> से जुड़ें",
-    "lead": "Time Hopper v1.13.2 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। दुनिया भर में लॉन्च से पहले इसके सात युगों, Chronicle कैंपेन और मोड्स को बेहतर बनाने में हमारी मदद करें। हमारा पिछला बीटा, Bank Hopper, अब Google Play पर उपलब्ध है।",
+    "lead": "हमारा पहला एक्शन गेम Arena Legends v0.1.11 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। दुनिया भर में लॉन्च से पहले इसकी लड़ाई, कैंपेन और कंट्रोल को बेहतर बनाने में हमारी मदद करें। हमारा पिछला बीटा, Time Hopper, अब Google Play पर उपलब्ध है।",
     "watchTrailers": "YouTube {handle} पर ट्रेलर देखें"
   },
   "perks": {
     "earlyBuilds": {
       "title": "एक्सक्लूसिव अर्ली बिल्ड",
-      "text": "<strong>Time Hopper v1.13.2</strong> के क्लोज़्ड टेस्टिंग बिल्ड और Arena Legends जैसे आने वाले गेम, सार्वजनिक रिलीज़ से पहले Google Play पर खेलें।"
+      "text": "<strong>Arena Legends v0.1.11</strong> के क्लोज़्ड टेस्टिंग बिल्ड और Nitro Racer जैसे आने वाले गेम, सार्वजनिक रिलीज़ से पहले Google Play पर खेलें।"
     },
     "devAccess": {
       "title": "डेवलपर से सीधा संपर्क",
@@ -20,20 +20,19 @@
     }
   },
   "games": {
-    "timeHopper": "Time Hop पर आधारित सात युगों का टाइम-ट्रैवल रनर",
     "arenaLegends": "हमारा पहला एक्शन गेम: ग्लैडिएटर लड़ाई और बॉस फ़ाइट",
     "spaceHopper": "Warp Gates को ठीक करने के लिए आठ ग्रहों पर कूदें",
     "allUpcoming": {
       "name": "सभी आने वाले गेम्स",
       "version": "VIP एक्सेस",
       "tagline": "आने वाले सभी प्रोटोटाइप और एक्सपेरिमेंटल बिल्ड के इनवाइट"
-    }
+    },
+    "nitroRacer": "हमारा पहला रेसिंग गेम: 8 चैंपियनशिप, नाइट्रो और अपनी गैराज"
   },
   "formCard": {
     "title": "टेस्टर आवेदन फ़ॉर्म",
     "subtitle": "नीचे दिया फ़ॉर्म भरें। आपका अकाउंट जुड़ते ही Google Play आपको ऑप्ट-इन कन्फ़र्मेशन लिंक ईमेल करेगा।",
-    "joinDirect": "सीधे Google Group से जुड़ें",
-    "tip": "<strong>सुझाव:</strong> अपने Google Play अकाउंट से आधिकारिक <group>timehoppergame Google Group</group> ({email}) से जुड़ने पर आपको Time Hopper के क्लोज़्ड टेस्टिंग ट्रैक का एक्सेस मिल जाता है।",
+    "tip": "<strong>सुझाव:</strong> वही ईमेल इस्तेमाल करें जिस Google अकाउंट से आपके फ़ोन पर Play Store में लॉग इन है। हम उसे Arena Legends की टेस्टर सूची में जोड़ते हैं और ऑप्ट इन करके इंस्टॉल करने का लिंक भेजते हैं।",
     "loading": "टेस्टर फ़ॉर्म लोड हो रहा है..."
   },
   "form": {
@@ -72,10 +71,7 @@
     "nextTitle": "आगे क्या होगा?",
     "step1": "हमारा डेवलपर कंसोल आपके ईमेल को अधिकृत Google Play क्लोज़्ड टेस्टर सूची में जोड़ देगा।",
     "step2": "आपको एक ऑप्ट-इन वेब लिंक (या ईमेल इनवाइट) मिलेगा। स्वीकार करने के लिए <em>\"Join on the web / Join on Android\"</em> पर क्लिक करें।",
-    "step3": "अपने डिवाइस पर Google Play Store से सीधे एक्सक्लूसिव प्री-रिलीज़ बिल्ड डाउनलोड करें: <play>Google Play पर Time Hopper</play>",
-    "instantTitle": "तुरंत Google Play एक्सेस",
-    "instantText": "Play Store के क्लोज़्ड टेस्टिंग ट्रैक से अपने आप जुड़ने के लिए हमारे आधिकारिक Google Group से जुड़ें:",
-    "joinGroup": "timehoppergame Google Group से जुड़ें",
+    "step3": "ऑप्ट इन करने के बाद, अपने डिवाइस पर Google Play Store से क्लोज़्ड टेस्ट इंस्टॉल करें: <play>Google Play पर Arena Legends</play>",
     "registerAnother": "दूसरा डिवाइस रजिस्टर करें"
   },
   "faq": {
@@ -92,11 +88,11 @@
     },
     "android": {
       "q": "कौन-सा Android वर्ज़न चाहिए?",
-      "a": "Time Hopper और Bank Hopper, Android 8.0 (API 26) और उससे नए वर्ज़न पर चलते हैं। Road Hopper, Android 7.0+ पर चलता है। Space Hopper और Arena Legends अभी डेवलपमेंट में हैं।"
+      "a": "Arena Legends और Road Hopper, Android 7.0 (API 24) और उससे नए वर्ज़न पर चलते हैं। Time Hopper और Bank Hopper, Android 8.0 (API 26) और उससे नए वर्ज़न पर चलते हैं। Space Hopper और Nitro Racer अभी डेवलपमेंट में हैं।"
     },
     "isOpen": {
-      "q": "क्या Time Hopper की क्लोज़्ड टेस्टिंग अभी खुली है?",
-      "a": "हाँ। Time Hopper v1.13.2 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। <group>groups.google.com/g/timehoppergame</group> से जुड़ें, Play पर ऑप्ट इन करें, फिर लिस्टिंग से इंस्टॉल करें। Bank Hopper की टेस्टिंग पूरी हो चुकी है और यह Google Play पर उपलब्ध है।"
+      "q": "क्या Arena Legends की क्लोज़्ड टेस्टिंग अभी खुली है?",
+      "a": "हाँ। Arena Legends v0.1.11 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। ऊपर दिए फ़ॉर्म से अपना Google Play ईमेल भेजें; जुड़ने के बाद लिंक से ऑप्ट इन करें और Play Store लिस्टिंग से इंस्टॉल करें। Time Hopper की टेस्टिंग पूरी हो चुकी है और यह Google Play पर उपलब्ध है।"
     },
     "trailers": {
       "q": "गेमप्ले और ट्रेलर कहाँ देखें?",

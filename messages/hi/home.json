@@ -3,12 +3,12 @@
     "badge": "Android गेम डेवलपर",
     "subtitle": "मज़ेदार Android गेम बना रहे हैं।",
     "exploreApps": "गेम्स देखें",
-    "joinTimeHopper": "Time Hopper की क्लोज़्ड टेस्टिंग से जुड़ें",
     "watchTrailers": "YouTube पर ट्रेलर देखें",
     "availableNow": "अभी उपलब्ध",
     "gameplayAlt": "{name} गेमप्ले",
     "scrollToExplore": "देखने के लिए स्क्रॉल करें",
-    "explore": "देखें"
+    "explore": "देखें",
+    "joinClosedTest": "Arena Legends की क्लोज़्ड टेस्टिंग से जुड़ें"
   },
   "stats": {
     "sectionLabel": "आँकड़े",

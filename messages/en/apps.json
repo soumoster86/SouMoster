@@ -13,7 +13,8 @@
     "closedTesting": {
       "badge": "Google Play Closed Testing Open",
       "title": "{name} is in Closed Testing",
-      "text": "Version {version} is live on the Google Play Closed Testing track. Join the tester Google Group, opt in on Play, and install. Trailers and gameplay are on YouTube {handle}."
+      "text": "Version {version} is live on the Google Play Closed Testing track. Join the tester Google Group, opt in on Play, and install. Trailers and gameplay are on YouTube {handle}.",
+      "textInvite": "Version {version} is on the Google Play Closed Testing track. Request an invite with your Google Play email, then opt in from the link we send you and install. Trailers and gameplay are on YouTube {handle}."
     },
     "screenshots": "Gameplay Screenshots",
     "video": "Gameplay Video",

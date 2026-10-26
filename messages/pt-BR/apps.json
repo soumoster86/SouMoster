@@ -13,7 +13,8 @@
     "closedTesting": {
       "badge": "Teste fechado aberto no Google Play",
       "title": "{name} está em teste fechado",
-      "text": "A versão {version} está disponível na faixa de teste fechado do Google Play. Entre no Grupo do Google de testadores, inscreva-se no Play e instale. Trailers e gameplay no YouTube {handle}."
+      "text": "A versão {version} está disponível na faixa de teste fechado do Google Play. Entre no Grupo do Google de testadores, inscreva-se no Play e instale. Trailers e gameplay no YouTube {handle}.",
+      "textInvite": "A versão {version} está na faixa de teste fechado do Google Play. Peça um convite com seu e-mail do Google Play, depois inscreva-se pelo link que enviamos e instale. Trailers e gameplay no YouTube {handle}."
     },
     "screenshots": "Capturas de tela",
     "video": "Vídeo de gameplay",

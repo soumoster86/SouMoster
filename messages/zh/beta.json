@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play 测试计划",
     "title": "加入<highlight>封闭测试</highlight>",
-    "lead": "Time Hopper v1.13.2 已在 Google Play 封闭测试渠道上线。在全球发布前，帮助我们打磨它的七个时代、Chronicle 战役和各种模式。我们上一个测试版游戏 Bank Hopper 现已在 Google Play 上线。",
+    "lead": "我们的首款动作游戏 Arena Legends v0.1.11 已在 Google Play 封闭测试渠道上线。在全球发布前，帮助我们打磨它的战斗、战役和操作。我们上一个测试版游戏 Time Hopper 现已在 Google Play 上线。",
     "watchTrailers": "在 YouTube {handle} 观看预告片"
   },
   "perks": {
     "earlyBuilds": {
       "title": "独家抢先版本",
-      "text": "在正式发布前，通过 Google Play 抢先体验 <strong>Time Hopper v1.13.2</strong> 封闭测试版以及 Arena Legends 等未来作品。"
+      "text": "在正式发布前，通过 Google Play 抢先体验 <strong>Arena Legends v0.1.11</strong> 封闭测试版以及 Nitro Racer 等未来作品。"
     },
     "devAccess": {
       "title": "直接对话开发者",
@@ -20,20 +20,19 @@
     }
   },
   "games": {
-    "timeHopper": "围绕 Time Hop 打造、横跨七个时代的时空穿越跑酷游戏",
     "arenaLegends": "我们的首款动作游戏：角斗士战斗与首领战",
     "spaceHopper": "跳跃穿越八颗星球，修复 Warp Gates",
     "allUpcoming": {
       "name": "所有即将推出的游戏",
       "version": "VIP 资格",
       "tagline": "受邀体验所有未来的原型和实验版本"
-    }
+    },
+    "nitroRacer": "我们的首款竞速游戏：8 个锦标赛、氮气加速和属于你的车库"
   },
   "formCard": {
     "title": "测试者申请表",
     "subtitle": "请填写下方表格。您的账号加入后，Google Play 会通过电子邮件向您发送选择加入的确认链接。",
-    "joinDirect": "直接加入 Google 群组",
-    "tip": "<strong>提示：</strong>使用您的 Google Play 账号加入官方 <group>timehoppergame Google 群组</group>（{email}），即可获得 Time Hopper 封闭测试渠道的访问权限。",
+    "tip": "<strong>提示：</strong>请使用您手机上登录 Play 商店的 Google 账号邮箱。我们会将其加入 Arena Legends 测试者名单，并发送选择加入和安装的链接。",
     "loading": "正在加载测试者表格..."
   },
   "form": {
@@ -72,10 +71,7 @@
     "nextTitle": "接下来会怎样？",
     "step1": "我们会在开发者控制台中将您的邮箱添加到授权的 Google Play 封闭测试者名单。",
     "step2": "您会收到一个选择加入的网页链接（或邮件邀请）。点击<em>“在网页上加入 / 在 Android 上加入”</em>即可接受。",
-    "step3": "直接在您设备的 Google Play 商店下载独家预发布版本：<play>Google Play 上的 Time Hopper</play>",
-    "instantTitle": "即时开通 Google Play 权限",
-    "instantText": "加入我们的官方 Google 群组，即可自动同步到 Play 商店的封闭测试渠道：",
-    "joinGroup": "加入 timehoppergame Google 群组",
+    "step3": "选择加入后，即可在设备上的 Google Play 商店安装封闭测试版：<play>Google Play 上的 Arena Legends</play>",
     "registerAnother": "登记另一台设备"
   },
   "faq": {
@@ -92,11 +88,11 @@
     },
     "android": {
       "q": "需要什么版本的 Android？",
-      "a": "Time Hopper 和 Bank Hopper 支持 Android 8.0（API 26）及更高版本。Road Hopper 支持 Android 7.0 及以上。Space Hopper 和 Arena Legends 仍在开发中。"
+      "a": "Arena Legends 和 Road Hopper 支持 Android 7.0（API 24）及更高版本。Time Hopper 和 Bank Hopper 支持 Android 8.0（API 26）及更高版本。Space Hopper 和 Nitro Racer 仍在开发中。"
     },
     "isOpen": {
-      "q": "Time Hopper 封闭测试现在开放了吗？",
-      "a": "是的。Time Hopper v1.13.2 已在 Google Play 封闭测试渠道上线。加入 <group>groups.google.com/g/timehoppergame</group>，在 Play 上选择加入，然后从商店页面安装。Bank Hopper 已完成测试，现已在 Google Play 上线。"
+      "q": "Arena Legends 封闭测试现在开放了吗？",
+      "a": "是的。Arena Legends v0.1.11 已在 Google Play 封闭测试渠道上线。使用上方表格提交您的 Google Play 邮箱；我们添加您之后，通过链接选择加入，然后从 Play 商店页面安装。Time Hopper 已完成测试，现已在 Google Play 上线。"
     },
     "trailers": {
       "q": "在哪里可以观看游戏实况和预告片？",

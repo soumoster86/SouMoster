@@ -26,11 +26,10 @@ import { useToastContext } from "@/components/shared/Providers";
 import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Link } from "@/i18n/navigation";
 import {
+  ARENA_LEGENDS_PLAY_STORE_URL,
   BANK_HOPPER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
   SUPPORT_EMAIL,
-  TIME_HOPPER_GOOGLE_GROUP_EMAIL,
-  TIME_HOPPER_GOOGLE_GROUP_URL,
   TIME_HOPPER_PLAY_STORE_URL,
   YOUTUBE_HANDLE,
   YOUTUBE_URL,
@@ -49,20 +48,20 @@ interface GameOption {
 
 const GAME_OPTIONS: GameOption[] = [
   {
-    id: "time-hopper",
-    name: "Time Hopper",
-    version: "v1.13.2",
-    taglineKey: "timeHopper",
-    icon: "/images/time-hopper/icon.png",
+    id: "arena-legends",
+    name: "Arena Legends",
+    version: "v0.1.11",
+    taglineKey: "arenaLegends",
+    icon: "/images/arena-legends/icon.svg",
     status: "active-testing",
     recommended: true,
   },
   {
-    id: "arena-legends",
-    name: "Arena Legends",
+    id: "nitro-racer",
+    name: "Nitro Racer",
     version: "Dev build 0.1.0",
-    taglineKey: "arenaLegends",
-    icon: "/images/arena-legends/icon.svg",
+    taglineKey: "nitroRacer",
+    icon: "/images/nitro-racer/icon.png",
     status: "coming-soon",
   },
   {
@@ -111,7 +110,7 @@ function BetaForm() {
     ) {
       return [initialGameParam];
     }
-    return ["time-hopper"];
+    return ["arena-legends"];
   });
 
   const [formData, setFormData] = useState({
@@ -242,7 +241,7 @@ function BetaForm() {
                     em: (chunks) => <em>{chunks}</em>,
                     play: (chunks) => (
                       <a
-                        href={TIME_HOPPER_PLAY_STORE_URL}
+                        href={ARENA_LEGENDS_PLAY_STORE_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
@@ -258,48 +257,20 @@ function BetaForm() {
           </ol>
         </div>
 
-        {/* Google Group Instant Authorization Callout */}
-        <div className="border-primary/40 from-primary/15 via-card to-accent/10 mx-auto mt-6 max-w-lg rounded-2xl border bg-gradient-to-r p-5 text-left">
-          <div className="flex items-start gap-3">
-            <div className="bg-primary/20 text-primary flex h-9 w-9 shrink-0 items-center justify-center rounded-xl">
-              <Users className="h-5 w-5" />
-            </div>
-            <div className="flex-1 space-y-1">
-              <h4 className="font-heading text-text text-sm font-bold">
-                {t("success.instantTitle")}
-              </h4>
-              <p className="text-muted text-xs leading-relaxed">
-                {t("success.instantText")}
-              </p>
-              <div className="mt-2 flex flex-wrap items-center gap-2">
-                <a
-                  href={TIME_HOPPER_GOOGLE_GROUP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="border-primary/40 bg-primary/20 text-primary hover:bg-primary inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors hover:text-white"
-                >
-                  <span>{t("success.joinGroup")}</span>
-                  <ExternalLink className="h-3.5 w-3.5" />
-                </a>
-                <span className="text-muted text-[11px]">
-                  (
-                  <code className="text-text font-mono">
-                    {TIME_HOPPER_GOOGLE_GROUP_EMAIL}
-                  </code>
-                  )
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <GooglePlayBadge
-            href={TIME_HOPPER_PLAY_STORE_URL}
+            href={ARENA_LEGENDS_PLAY_STORE_URL}
             size="md"
             subtext={tc("testBuildOn")}
             title="Google Play"
-            ariaLabel={tc("downloadTestBuild", { name: "Time Hopper" })}
+            ariaLabel={tc("downloadTestBuild", { name: "Arena Legends" })}
+          />
+          <GooglePlayBadge
+            href={TIME_HOPPER_PLAY_STORE_URL}
+            size="md"
+            subtext={tc("nowLive")}
+            title="Time Hopper"
+            ariaLabel={tc("downloadApp", { name: "Time Hopper" })}
           />
           <GooglePlayBadge
             href={BANK_HOPPER_PLAY_STORE_URL}
@@ -646,28 +617,13 @@ export function BetaContent() {
               </h2>
               <p className="text-muted mt-1 text-sm">{t("formCard.subtitle")}</p>
             </div>
-            <a
-              href={TIME_HOPPER_GOOGLE_GROUP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-primary/50 bg-primary/10 text-primary hover:bg-primary inline-flex shrink-0 items-center gap-2 rounded-xl border px-4 py-2.5 text-xs font-semibold shadow-sm transition-all hover:text-white"
-            >
-              <Users className="h-4 w-4" />
-              <span>{t("formCard.joinDirect")}</span>
-              <ExternalLink className="h-3.5 w-3.5" />
-            </a>
           </div>
 
           <div className="border-primary/20 bg-primary/5 text-muted mt-4 flex items-start gap-2.5 rounded-xl border px-4 py-3 text-xs">
             <Sparkles className="text-primary mt-0.5 h-4 w-4 shrink-0" />
             <span>
               {t.rich("formCard.tip", {
-                email: TIME_HOPPER_GOOGLE_GROUP_EMAIL,
                 strong: (chunks) => <strong>{chunks}</strong>,
-                group: externalLink(
-                  TIME_HOPPER_GOOGLE_GROUP_URL,
-                  "text-primary font-semibold hover:underline",
-                ),
               })}
             </span>
           </div>
@@ -701,7 +657,6 @@ export function BetaContent() {
               <p className="text-muted mt-2 text-sm leading-relaxed">
                 {t.rich(`faq.${key}.a`, {
                   handle: YOUTUBE_HANDLE,
-                  group: externalLink(TIME_HOPPER_GOOGLE_GROUP_URL, faqLink),
                   youtube: externalLink(YOUTUBE_URL, faqLink),
                   support: (chunks) => (
                     <Link href="/support" className="text-primary hover:underline">

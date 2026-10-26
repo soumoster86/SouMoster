@@ -1,6 +1,6 @@
 import type { App } from "@/types";
 import {
-  TIME_HOPPER_GOOGLE_GROUP_URL,
+  ARENA_LEGENDS_PLAY_STORE_URL,
   TIME_HOPPER_PLAY_STORE_URL,
 } from "@/lib/constants";
 
@@ -261,56 +261,82 @@ export const apps: App[] = [
     name: "Time Hopper",
     tagline: "Hop Through Time. Break History. Fix the Timeline.",
     description:
-      "A time-travel runner across seven eras, each with two worlds. Dodge what's ahead, or Time Hop into the alternate timeline. Now in Google Play Closed Testing.",
+      "A time-travel runner across seven eras, each with two worlds. Dodge what's ahead, or Time Hop into the alternate timeline. Now live on Google Play!",
     longDescription:
-      "Time Hopper is a native Kotlin time-travel runner from SouMoster, now in Google Play Closed Testing. Sprint through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. Every era has two worlds. When the road closes in, spend energy to Time Hop into the alternate timeline, where purple echoes show what's waiting, then prepare for your return. Pick Stable, Relic or Paradox portals, outrun each era's pursuit, and at every Chrono Gate extract with your discoveries or go deeper. Play the 21-level Chronicle story campaign, Classic and Endless runs, Paradox, Relic Hunt and Hardcore twists, Boss Gauntlet, Timeline Puzzles, weekly events and a Daily Timeline with a ghost to race. Unlock travelers with active abilities and recover 65 illustrated artifacts for your museum.",
+      "Time Hopper is a native Kotlin time-travel runner from SouMoster, now live on Google Play. Sprint through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. Every era has two worlds. When the road closes in, spend energy to Time Hop into the echo timeline, where purple echoes show what's waiting, then prepare for your return. Cross Timeline Bridges that only exist in one timeline, pick Stable, Relic or Paradox portals, outrun each era's pursuit, and at every Chrono Gate extract with your discoveries or go deeper. Play the 21-level Chronicle story campaign, Classic and Endless runs, Paradox, Relic Hunt and Hardcore twists, Boss Gauntlet, Timeline Puzzles, weekly events and a Daily Timeline with a ghost to race. Choose from seven travellers with active abilities, recover 65 illustrated artifacts for your museum, and personalise your look with outfits, trails, gates and Time Hop effects.",
     genre: "Arcade",
     category: "Arcade",
-    version: "1.13.2",
-    status: "closed-testing",
+    version: "1.15.1",
+    status: "live",
     playStoreUrl: TIME_HOPPER_PLAY_STORE_URL,
-    googleGroupUrl: TIME_HOPPER_GOOGLE_GROUP_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/time-hopper/icon.png",
     banner: "/images/time-hopper/banner.webp",
     screenshots: [
-      "/images/time-hopper/screen-echo-world.webp",
-      "/images/time-hopper/screen-chrono-gate.webp",
+      "/images/time-hopper/screen-ramp-jump.webp",
       "/images/time-hopper/screen-time-hop.webp",
-      "/images/time-hopper/screen-junction.webp",
-      "/images/time-hopper/screen-perfect-jump.webp",
-      "/images/time-hopper/screen-home.webp",
-      "/images/time-hopper/screen-game-modes.webp",
-      "/images/time-hopper/screen-characters.webp",
-      "/images/time-hopper/screen-loadout.webp",
+      "/images/time-hopper/screen-cyber-cosmetics.webp",
+      "/images/time-hopper/screen-chrono-gate.webp",
+      "/images/time-hopper/screen-prehistoric-run.webp",
+      "/images/time-hopper/screen-chronicle.webp",
+      "/images/time-hopper/screen-travellers.webp",
+      "/images/time-hopper/screen-chrono-shop.webp",
     ],
     features: [
-      "Now in Google Play Closed Testing: join the tester Google Group, then opt in on Play",
-      "Time Hop: every era has two worlds; slip into the alternate timeline when the road closes in",
+      "Live on Google Play: free to download, rated 3+",
+      "Time Hop: every era has two worlds; slip into the echo timeline when the road closes in",
       "Seven eras, each with its own scenery, hazards and pursuit",
+      "Timeline Bridges: cross chasms on decks that exist in only one timeline",
       "Chronicle: a 21-level story campaign with three star goals per level",
       "Score runs, twists and challenges: Classic, Endless, Paradox, Relic Hunt, Hardcore, Boss Gauntlet, Timeline Puzzles and weekly events",
       "Daily Timeline with a daily twist, a streak and a ghost of your best run to race",
-      "Stable, Relic and Paradox portals, and gate anomalies when you go deeper",
-      "Seven travelers, each with an active ability, plus gadgets and trait upgrades",
+      "Seven travellers, each with an active ability, plus gadgets and trait upgrades",
+      "Chrono Shop looks: outfits, trails, gates, Time Hop effects and sets like the Emerald Expedition",
       "Museum of 65 illustrated artifacts across nine rooms",
+      "Quick Practice and optional helper cards to learn every move",
       "Google Play Games sign-in, leaderboards and cloud save backup",
-      "Swipe and tap or on-screen buttons; handedness, contrast and effects settings",
     ],
     howToPlay: [
       "Swipe left or right to change lanes",
       "Tap or swipe up to jump low rocks and gaps; swipe down to slide under beams",
       "Hold the screen to Temporal Brake and slow the world, at an energy cost",
-      "Press Time Hop to spend 35 energy and spend three seconds in the alternate timeline",
+      "Press Time Hop to spend 35 energy and spend three seconds in the echo timeline",
       "Read the purple echoes first: the other timeline has hazards of its own",
+      "Cross Timeline Bridges in the matching timeline: mint decks are solid in the original, violet decks in the echo",
       "Collect Chrono Shards to refill energy, and grab relics for your museum",
-      "Use Time Hop to escape each era's pursuit; its debris only exists in your original timeline",
-      "At each Time Gate, extract to bank everything, or continue to the next era for bigger rewards",
+      "At each Chrono Gate, extract to bank everything, or continue to the next era for bigger rewards",
     ],
     versionHistory: [
       {
-        version: "1.13.2",
-        changes: ["Closed Testing build on Google Play"],
+        version: "1.15.1",
+        date: "2026-10-24",
+        changes: [
+          "Public release: Time Hopper is live on Google Play",
+          "Seven eras, seven travellers, Chronicle challenges and Timeline Bridges",
+        ],
+      },
+      {
+        version: "1.15.0",
+        changes: [
+          "More movement in jump and slide animations for every traveller",
+          "Timeline Bridges, with a practice drill and Chronicle levels that introduce them",
+          "The Emerald Expedition collection: outfit, leaf trail, gate and Time Hop effect",
+        ],
+      },
+      {
+        version: "1.14.0–1.14.2",
+        changes: [
+          "Expanded Chrono Shop: outfits, frames, titles, Time Hop effects, museum themes and sets",
+          "Flowing animated trails and animated shop previews",
+          "More natural ramps: climb the slope, then jump from the top",
+        ],
+      },
+      {
+        version: "1.13.3",
+        changes: [
+          "Quick Practice: learn jump, slide, dodge and Time Hop in about 30 seconds",
+          "Brighter, larger HUD text and new game fonts",
+        ],
       },
       {
         version: "1.13.0",
@@ -318,7 +344,6 @@ export const apps: App[] = [
         changes: [
           "Google Play Games sign-in and leaderboards",
           "Manual cloud save backup and restore",
-          "Optional Remove Ads and shard packs; shard cosmetics in the shop (1.13.1)",
         ],
       },
       {
@@ -327,66 +352,39 @@ export const apps: App[] = [
         changes: [
           "Ghost time trial, Boss Gauntlet, Timeline Puzzles and weekly events",
           "Daily twist and streak, the Chrono Pass and the time machine",
-          "First internal test on Google Play",
         ],
       },
       {
-        version: "1.11.0",
-        changes: ["Every runner gets an active ability on a charge meter"],
-      },
-      {
-        version: "1.10.0",
-        changes: ["Chronicle: a 21-level story campaign with star goals"],
-      },
-      {
-        version: "1.9.0",
-        changes: ["Gate anomalies: stacking rule changes when you go deeper"],
-      },
-      {
-        version: "1.8.0",
+        version: "1.8–1.11",
         changes: [
-          "Nine museum rooms with lore for all 65 artifacts",
-          "Illustrated artifacts on shelves and as gameplay pickups (1.8.1–1.8.2)",
+          "Chronicle story campaign, active abilities and gate anomalies",
+          "Nine museum rooms with 65 illustrated artifacts",
         ],
       },
       {
-        version: "1.2–1.7",
-        changes: [
-          "Long-jump ramps, alternate worlds for every era, trait upgrades",
-          "Staged pursuits, era mastery goals, illustrated obstacles and moving hazards",
-        ],
-      },
-      {
-        version: "1.0–1.1",
+        version: "1.0–1.7",
         changes: [
           "All seven eras, seven characters, six gadgets and the core modes",
-          "Animated characters and pursuers, and an original soundtrack",
+          "Alternate worlds for every era, ramps, pursuits and an original soundtrack",
         ],
       },
     ],
-    knownIssues: [
-      "Invite-only Google Play Closed Testing: join https://groups.google.com/g/timehoppergame, then opt in on Play to install",
-    ],
+    knownIssues: [],
     faq: [
       {
-        question: "How do I play Time Hopper right now?",
+        question: "Is Time Hopper free?",
         answer:
-          "Time Hopper is in Google Play Closed Testing. Join the tester Google Group at https://groups.google.com/g/timehoppergame (timehoppergame@googlegroups.com) with your Google Play account, opt in on Play, then install from the Play Store listing.",
+          "Yes. Time Hopper is free to download on Google Play and contains ads. Optional purchases (Remove Ads and shard or crystal packs) never sell exclusive characters or gameplay power, and shards and crystals can be earned by playing.",
       },
       {
         question: "What is a Time Hop?",
         answer:
-          "Every era has two worlds. Time Hop spends energy to move you into the alternate timeline for a few seconds. Hazards there are different, and purple echoes show them before you hop, so you choose whether dodging or hopping is safer.",
+          "Every era has two worlds. Time Hop spends energy to move you into the echo timeline for a few seconds. Hazards there are different, and purple echoes show them before you hop, so you choose whether dodging or hopping is safer.",
       },
       {
-        question: "When will Time Hopper launch publicly?",
+        question: "What are Timeline Bridges?",
         answer:
-          "A worldwide launch follows Closed Testing and Google Play's production review. Testers help us tune difficulty, ads and performance before that.",
-      },
-      {
-        question: "Is Time Hopper free?",
-        answer:
-          "Yes. It's free to play with ads. Optional purchases (Remove Ads and shard packs) never sell exclusive characters or gameplay powers, and shards can be earned by playing.",
+          "Some chasms have a bridge deck in only one timeline: a filled mint deck is solid in the original timeline, a filled violet deck in the echo. Hop just before an echo bridge and cross before the automatic return.",
       },
       {
         question: "Does it work offline?",
@@ -394,12 +392,17 @@ export const apps: App[] = [
           "Core gameplay and local progression work offline. Ads, leaderboards and cloud save need an internet connection.",
       },
       {
+        question: "What age rating is it?",
+        answer: "Rated 3+ on Google Play.",
+      },
+      {
         question: "What devices does it support?",
         answer: "Android 8.0 (API 26) and newer, in portrait.",
       },
     ],
     featured: false,
-    releaseDate: "2026-10-16",
+    releaseDate: "2026-10-24",
+    downloads: "10+",
   },
   {
     slug: "space-hopper",
@@ -487,43 +490,40 @@ export const apps: App[] = [
     name: "Arena Legends",
     tagline: "Gladiator Wars. Fight, and earn your freedom.",
     description:
-      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now in development.",
+      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now in Google Play Closed Testing.",
     longDescription:
-      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX and now in development. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Chain directional combos, charge heavy attacks, block, parry and counter, dodge, and break shields and armor. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, and upgrade your gear in the Armory. Survival, Training and a timed Boss Rush round it out. Plays in landscape, fully offline.",
+      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX and now in Google Play Closed Testing. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Read each warning, dodge the impact and strike during recovery: chain combos, charge heavy attacks, block, parry and counter, and break shields and armour. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, and upgrade your gear in the Armory. Survival, Training, a timed Boss Rush and a Daily Challenge with changing modifiers round it out, with 20 achievements to earn. Move and resize the action buttons, play left-handed, and play offline: progress stays on your device.",
     genre: "Action",
     category: "Action",
-    version: "0.1.0",
-    status: "in-development",
-    playStoreUrl: "",
+    version: "0.1.11",
+    status: "closed-testing",
+    playStoreUrl: ARENA_LEGENDS_PLAY_STORE_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/arena-legends/icon.svg",
     banner: "/images/arena-legends/banner.webp",
     screenshotOrientation: "landscape",
     screenshots: [
-      "/images/arena-legends/screen-boss-brutus.webp",
-      "/images/arena-legends/screen-combo.webp",
-      "/images/arena-legends/screen-inferno-champion.webp",
-      "/images/arena-legends/screen-imperial-champion.webp",
-      "/images/arena-legends/screen-beast-master.webp",
-      "/images/arena-legends/screen-shield-bash.webp",
-      "/images/arena-legends/screen-weapons.webp",
+      "/images/arena-legends/screen-brutus.webp",
+      "/images/arena-legends/screen-wild-trials.webp",
+      "/images/arena-legends/screen-ashen-arena.webp",
+      "/images/arena-legends/screen-hall-of-champions.webp",
       "/images/arena-legends/screen-campaign.webp",
-      "/images/arena-legends/screen-modes.webp",
-      "/images/arena-legends/screen-chapter-intro.webp",
-      "/images/arena-legends/screen-title.webp",
+      "/images/arena-legends/screen-weapons.webp",
+      "/images/arena-legends/screen-daily-challenge.webp",
+      "/images/arena-legends/screen-custom-controls.webp",
     ],
     features: [
-      "SouMoster's first action game: real-time gladiator combat in landscape",
+      "Now in Google Play Closed Testing: request an invite on our Beta page",
       "Five-chapter campaign: the Blood Pits, the Coliseum, the Wild Trials, the Ashen Arena and the Hall of Champions",
       "Five bosses: Brutus the Iron Wall, Vex, the Beast Master, the Inferno Champion and the three-stance Imperial Champion",
       "Directional combos, charged heavy attacks, block, parry and counter, dodge and finishers, all on a shared stamina bar",
       "Four weapon classes with their own combos and skills: Sword & Shield (Shield Bash), Spear (Piercing Thrust), Dual Blades (Cross Cut) and Great Axe (Whirlwind)",
-      "Raiders, lancers, brutes, shield guardians, berserkers, net fighters and pouncing lions",
-      "Break enemy shields and armor; avoid spinning blades, snares and fire vents",
-      "Survival waves, hands-on Training lessons and a timed Boss Rush",
+      "Break enemy shields and armour; avoid spinning blades, snares and fire grates",
+      "Survival waves, Training lessons, a timed Boss Rush and a Daily Challenge with changing modifiers",
+      "20 achievements, with optional Google Play Games linking and cloud backups",
       "Armory upgrades, talents, gold, XP and reputation unlocks",
-      "Painted arenas, animated fighters, hit-stop, impact sound and adjustable screen shake",
-      "Offline play; options for automatic facing, large text and controls, and reduced motion",
+      "Custom controls: move and resize the action buttons, or switch to left-handed",
+      "Offline play; comfort options for text size, screen shake, flashes and reduced effects",
     ],
     howToPlay: [
       "Move with the floating joystick on the left",
@@ -532,26 +532,57 @@ export const apps: App[] = [
       "Tap Dodge to roll out of marked attack zones",
       "Use your weapon's skill, like Shield Bash, to stagger enemies",
       "Watch your stamina: attacks, guard and dodge all share it",
-      "Break shields and armor with heavy attacks, then punish the opening",
+      "Break shields and armour with heavy attacks, then punish the opening",
       "Clear every trial to face the chapter's boss and earn your freedom",
     ],
     versionHistory: [
       {
+        version: "0.1.11",
+        changes: [
+          "Closed Testing build on Google Play",
+          "Roomier boss introductions and clearer victory results",
+          "Next chapter: continue straight to the next chapter after a campaign clear",
+        ],
+      },
+      {
+        version: "0.1.8–0.1.10",
+        changes: [
+          "Optional cloud backups to your Play Games profile",
+          "Play Games reconnects automatically; training partners stand ready",
+        ],
+      },
+      {
+        version: "0.1.5–0.1.7",
+        changes: [
+          "20 achievements, with optional Google Play Games linking",
+          "Eight-frame walking animations for every fighter, enemy and boss",
+          "Clearer attack windups, labels and equipment requirements",
+        ],
+      },
+      {
+        version: "0.1.1–0.1.3",
+        changes: [
+          "First closed-test builds: five chapters, four weapons, Survival, Boss Rush and Daily Challenge",
+          "Custom controls, refreshed settings and an illustrated loading screen",
+        ],
+      },
+      {
         version: "0.1.0",
-        date: "2026-10-15",
+        date: "2026-10-21",
         changes: [
           "Five-chapter campaign playable through the Imperial Champion",
-          "Wild Trials, Ashen Arena and Hall of Champions with beasts, snares and fire vents",
-          "Boss Rush, Survival and Training modes; four weapon classes",
+          "First internal test on Google Play",
         ],
       },
     ],
-    knownIssues: ["Development build: not yet on Google Play"],
+    knownIssues: [
+      "Invite-only Google Play Closed Testing: request an invite on our Beta page with your Google Play email",
+    ],
     faq: [
       {
-        question: "When will Arena Legends be available?",
+        question: "How do I play Arena Legends right now?",
         answer:
-          "Arena Legends is in development and has no release date yet. Sign up on our Beta page to hear first when testing opens.",
+          "Arena Legends is in Google Play Closed Testing. Submit your Google Play email on our Beta page; we add you to the tester list, and you receive a link to opt in and install from Google Play.",
       },
       {
         question: "Is it different from the Hopper games?",
@@ -559,16 +590,114 @@ export const apps: App[] = [
           "Yes. Arena Legends is SouMoster's first action game: real-time melee combat with combos, parries, stamina and boss fights, played in landscape with a joystick and action buttons.",
       },
       {
-        question: "Will it work offline?",
-        answer: "Yes. Arena Legends is built for offline play, with progress saved on your device.",
+        question: "Is Arena Legends free?",
+        answer:
+          "Yes. The closed test is free to play, with optional Google Play gold packs for equipment and upgrades. XP, reputation and chapter unlocks still require play.",
       },
       {
-        question: "What devices will it support?",
-        answer: "Android 6.0 (API 23) and newer, in landscape.",
+        question: "Does it work offline?",
+        answer:
+          "Yes. Core gameplay works without an internet connection or account. Progress is saved on your device; optional cloud backups use Google Play Games.",
+      },
+      {
+        question: "What devices does it support?",
+        answer: "Android 7.0 (API 24) and newer, in landscape.",
       },
     ],
     featured: false,
     releaseDate: "2026-10-16",
+  },
+  {
+    slug: "nitro-racer",
+    name: "Nitro Racer",
+    tagline: "Chase the next horizon.",
+    description:
+      "SouMoster's first racing game: race 8 championships across 32 circuits, collect nitro and build your dream garage. Now in development.",
+    longDescription:
+      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in development. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag. Race through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes and volcanic terrain across 8 championships and 32 circuits, then take on mirrored variants. Compete against five AI rivals, collect nitro bottles, follow gold trails, hit boost pads, risk shortcuts and chain clean overtakes into combos. Unlock six cars, upgrade engine, turbo, tyres and nitro, and personalise paint, stripes, boost effects, underglow and number plates. Create your racer, chase your best lap against your saved ghost in time trials, and keep a daily challenge streak. Steer with tilt or on-screen controls, and race offline with no account needed.",
+    genre: "Racing",
+    category: "Racing",
+    version: "0.1.0",
+    status: "in-development",
+    playStoreUrl: "",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    icon: "/images/nitro-racer/icon.png",
+    banner: "/images/nitro-racer/banner.webp",
+    screenshotOrientation: "landscape",
+    screenshots: [
+      "/images/nitro-racer/screen-desert-racing.webp",
+      "/images/nitro-racer/screen-alpine-racing.webp",
+      "/images/nitro-racer/screen-neon-night-racing.webp",
+      "/images/nitro-racer/screen-rainforest-racing.webp",
+      "/images/nitro-racer/screen-championships.webp",
+      "/images/nitro-racer/screen-garage.webp",
+      "/images/nitro-racer/screen-customise-your-car.webp",
+      "/images/nitro-racer/screen-create-your-racer.webp",
+      "/images/nitro-racer/screen-main-menu.webp",
+    ],
+    features: [
+      "SouMoster's first racing game: arcade racing in landscape",
+      "8 championships and 32 circuits: countryside, coast, alpine passes, neon city nights, desert, rainforest, arctic and volcanic roads",
+      "Mirrored track variants and replayable championships",
+      "Race five AI rivals: nitro bottles, gold trails, boost pads, shortcuts and overtake combos",
+      "Six cars with engine, turbo, tyre and nitro upgrades",
+      "Customise paint, racing stripes, boost effects, underglow and number plates, with previews before you buy",
+      "Create your racer: pick a driver, suit, helmet and racing nickname",
+      "Time trials against your saved ghost, with bronze, silver and gold medals",
+      "Daily challenges and streaks, cinematic finishes and a rear-view camera",
+      "Tilt steering or on-screen controls, with adjustable sensitivity",
+      "16 achievements, with optional Google Play Games linking and cloud save",
+      "Race offline; no account needed",
+    ],
+    howToPlay: [
+      "Tilt your phone or use the on-screen buttons to steer",
+      "Brake with the bottom-left button; fire nitro with the bottom-right button",
+      "Collect nitro bottles and gold trails, and hit boost pads for extra speed",
+      "Chain clean overtakes into combos, and take a shortcut when you dare",
+      "Hold REAR to check the rivals behind you",
+      "Finish in the top three to unlock the next championship",
+      "Spend gold in the Garage on upgrades and new looks",
+    ],
+    versionHistory: [
+      {
+        version: "0.1.0",
+        date: "2026-10-24",
+        changes: [
+          "Development build: 8 championships and 32 circuits",
+          "Driver profiles, garage upgrades and car customisation",
+          "Achievements, optional Play Games linking and cloud save",
+        ],
+      },
+    ],
+    knownIssues: ["Development build: not yet on Google Play"],
+    faq: [
+      {
+        question: "When will Nitro Racer be available?",
+        answer:
+          "Nitro Racer is in development and has no release date yet. Sign up on our Beta page to hear first when testing opens.",
+      },
+      {
+        question: "Is it different from SouMoster's other games?",
+        answer:
+          "Yes. Nitro Racer is SouMoster's first racing game: championship races against AI rivals, time trials and a garage of cars to upgrade and customise, played in landscape.",
+      },
+      {
+        question: "Will it be free?",
+        answer:
+          "Yes. Nitro Racer will be free to play, with optional rewarded ads for extra gold and occasional ads between completed races. Cars and upgrades are earned by racing.",
+      },
+      {
+        question: "Will it work offline?",
+        answer:
+          "Yes. You can race offline with no account. Ads need an internet connection.",
+      },
+      {
+        question: "What devices will it support?",
+        answer: "Android 8.0 (API 26) and newer, in landscape.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-10-26",
   },
 ];
 

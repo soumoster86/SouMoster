@@ -13,7 +13,8 @@
     "closedTesting": {
       "badge": "Prueba cerrada abierta en Google Play",
       "title": "{name} está en prueba cerrada",
-      "text": "La versión {version} está disponible en el canal de prueba cerrada de Google Play. Únete al grupo de Google de testers, inscríbete en Play e instálalo. Tráileres y gameplay en YouTube {handle}."
+      "text": "La versión {version} está disponible en el canal de prueba cerrada de Google Play. Únete al grupo de Google de testers, inscríbete en Play e instálalo. Tráileres y gameplay en YouTube {handle}.",
+      "textInvite": "La versión {version} está en el canal de prueba cerrada de Google Play. Solicita una invitación con tu correo de Google Play, inscríbete con el enlace que te enviamos e instálalo. Tráileres y gameplay en YouTube {handle}."
     },
     "screenshots": "Capturas de pantalla",
     "video": "Vídeo de juego",

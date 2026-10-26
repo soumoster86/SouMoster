@@ -119,28 +119,35 @@ export default async function AppPage({ params }: AppPageProps) {
                   {t("closedTesting.title", { name: app.name })}
                 </h2>
                 <p className="text-muted max-w-xl text-sm leading-relaxed">
-                  {t("closedTesting.text", {
+                  {t(app.googleGroupUrl ? "closedTesting.text" : "closedTesting.textInvite", {
                     version: app.version,
                     handle: YOUTUBE_HANDLE,
                   })}
                 </p>
               </div>
               <div className="flex shrink-0 flex-wrap items-center gap-3">
-                <Button
-                  href={closedTestingJoinUrl(app)}
-                  size="lg"
-                  className="shadow-primary/30 min-h-[50px] shadow-lg"
-                >
-                  <Users className="mr-2 h-5 w-5" />
-                  {tc("actions.joinGoogleGroup")}
-                  <ExternalLink className="ml-2 h-4 w-4" />
-                </Button>
+                {app.googleGroupUrl && (
+                  <Button
+                    href={closedTestingJoinUrl(app)}
+                    size="lg"
+                    className="shadow-primary/30 min-h-[50px] shadow-lg"
+                  >
+                    <Users className="mr-2 h-5 w-5" />
+                    {tc("actions.joinGoogleGroup")}
+                    <ExternalLink className="ml-2 h-4 w-4" />
+                  </Button>
+                )}
                 <Button
                   href={`/beta?game=${app.slug}`}
                   size="lg"
-                  variant="outline"
-                  className="min-h-[50px]"
+                  variant={app.googleGroupUrl ? "outline" : "primary"}
+                  className={
+                    app.googleGroupUrl
+                      ? "min-h-[50px]"
+                      : "shadow-primary/30 min-h-[50px] shadow-lg"
+                  }
                 >
+                  {!app.googleGroupUrl && <Users className="mr-2 h-5 w-5" />}
                   {tc("actions.requestInvite")}
                 </Button>
                 <Button

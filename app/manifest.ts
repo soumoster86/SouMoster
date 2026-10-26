@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "SouMoster — Android Game Developer",
     short_name: "SouMoster",
     description:
-      "SouMoster is an independent Android game developer. Discover Road Hopper, Bank Hopper, Time Hopper, Space Hopper and Arena Legends. Watch trailers on YouTube @SouMosterGames.",
+      "SouMoster is an independent Android game developer. Discover Road Hopper, Bank Hopper, Time Hopper, Arena Legends, Space Hopper and Nitro Racer. Watch trailers on YouTube @SouMosterGames.",
     start_url: "/",
     display: "standalone",
     background_color: "#0F172A",

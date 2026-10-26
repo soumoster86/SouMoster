@@ -5,7 +5,7 @@ export const SITE_TAGLINE =
   "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer. Download Road Hopper and Bank Hopper free on Google Play. Time Hopper is in Google Play Closed Testing. Space Hopper and Arena Legends, our first action game, are in development. Watch trailers on YouTube @SouMosterGames.";
+  "SouMoster is an independent Android game developer. Download Road Hopper, Bank Hopper and Time Hopper free on Google Play. Arena Legends, our first action game, is in Google Play Closed Testing. Space Hopper and Nitro Racer, our first racing game, are in development. Watch trailers on YouTube @SouMosterGames.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
 export const BANK_HOPPER_PLAY_STORE_URL =
@@ -16,9 +16,8 @@ export const PLAY_STORE_DEVELOPER_URL =
   "https://play.google.com/store/apps/dev?id=9220341090582575849";
 export const TIME_HOPPER_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.soumster.timehopper";
-export const TIME_HOPPER_GOOGLE_GROUP_URL =
-  "https://groups.google.com/g/timehoppergame";
-export const TIME_HOPPER_GOOGLE_GROUP_EMAIL = "timehoppergame@googlegroups.com";
+export const ARENA_LEGENDS_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.arenalegends.game";
 export const YOUTUBE_URL = "https://www.youtube.com/@SouMosterGames";
 export const YOUTUBE_HANDLE = "@SouMosterGames";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";
@@ -66,7 +65,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 /** `key` is a translation key under common.footer.links. */
 export const FOOTER_LINKS: NavLink[] = [
-  { href: TIME_HOPPER_GOOGLE_GROUP_URL, key: "testerGroup" },
   { href: "/beta", key: "betaSignup" },
   { href: "/privacy", key: "privacy" },
   { href: "/terms", key: "terms" },

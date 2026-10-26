@@ -3,12 +3,12 @@
     "badge": "Android 游戏开发者",
     "subtitle": "打造有趣的 Android 游戏。",
     "exploreApps": "浏览游戏",
-    "joinTimeHopper": "参加 Time Hopper 封闭测试",
     "watchTrailers": "在 YouTube 观看预告片",
     "availableNow": "现已推出",
     "gameplayAlt": "{name} 游戏画面",
     "scrollToExplore": "向下滚动探索",
-    "explore": "探索"
+    "explore": "探索",
+    "joinClosedTest": "参加 Arena Legends 封闭测试"
   },
   "stats": {
     "sectionLabel": "统计数据",

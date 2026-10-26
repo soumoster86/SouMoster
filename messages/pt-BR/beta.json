@@ -2,13 +2,13 @@
   "header": {
     "badge": "Programa de testes do Google Play",
     "title": "Participe do <highlight>beta fechado</highlight>",
-    "lead": "Time Hopper v1.13.2 está na faixa de teste fechado do Google Play. Ajude a ajustar as sete eras, a campanha Chronicle e os modos antes do lançamento mundial. Bank Hopper, nosso beta anterior, já está disponível no Google Play.",
+    "lead": "Arena Legends v0.1.11, nosso primeiro jogo de ação, está na faixa de teste fechado do Google Play. Ajude a ajustar o combate, a campanha e os controles antes do lançamento mundial. Time Hopper, nosso beta anterior, já está disponível no Google Play.",
     "watchTrailers": "Assista aos trailers no YouTube {handle}"
   },
   "perks": {
     "earlyBuilds": {
       "title": "Versões antecipadas exclusivas",
-      "text": "Jogue as versões de teste fechado de <strong>Time Hopper v1.13.2</strong> e futuros títulos, como Arena Legends, pelo Google Play antes do lançamento público."
+      "text": "Jogue as versões de teste fechado de <strong>Arena Legends v0.1.11</strong> e futuros títulos, como Nitro Racer, pelo Google Play antes do lançamento público."
     },
     "devAccess": {
       "title": "Contato direto com o desenvolvedor",
@@ -20,20 +20,19 @@
     }
   },
   "games": {
-    "timeHopper": "Runner temporal por sete eras construído em torno do Time Hop",
     "arenaLegends": "Nosso primeiro jogo de ação: combates de gladiadores e chefes",
     "spaceHopper": "Salte por oito planetas para consertar os Warp Gates",
     "allUpcoming": {
       "name": "Todos os próximos jogos",
       "version": "Acesso VIP",
       "tagline": "Convites para todos os futuros protótipos e versões experimentais"
-    }
+    },
+    "nitroRacer": "Nosso primeiro jogo de corrida: 8 campeonatos, nitro e uma garagem para montar"
   },
   "formCard": {
     "title": "Formulário de inscrição de testadores",
     "subtitle": "Preencha o formulário abaixo. O Google Play vai enviar por e-mail seu link de confirmação assim que sua conta for inscrita.",
-    "joinDirect": "Entrar direto no Grupo do Google",
-    "tip": "<strong>Dica:</strong> entrar no <group>Grupo do Google timehoppergame</group> oficial ({email}) com sua conta do Google Play dá acesso à faixa de teste fechado de Time Hopper.",
+    "tip": "<strong>Dica:</strong> use o e-mail da conta Google conectada à Play Store no seu celular. Nós o adicionamos à lista de testadores de Arena Legends e enviamos o link para você se inscrever e instalar.",
     "loading": "Carregando o formulário..."
   },
   "form": {
@@ -72,10 +71,7 @@
     "nextTitle": "E agora?",
     "step1": "Adicionamos seu e-mail à lista de testadores autorizados no Console do Google Play.",
     "step2": "Você vai receber um link de inscrição (ou um convite por e-mail). Toque em <em>“Participar na Web / Participar no Android”</em> para aceitar.",
-    "step3": "Baixe as versões exclusivas antes do lançamento direto pela Google Play Store no seu aparelho: <play>Time Hopper no Google Play</play>",
-    "instantTitle": "Acesso imediato no Google Play",
-    "instantText": "Entre no nosso Grupo do Google oficial para ser incluído automaticamente na faixa de teste fechado da Play Store:",
-    "joinGroup": "Entrar no Grupo do Google timehoppergame",
+    "step3": "Depois de se inscrever, instale o teste fechado pela Google Play Store no seu aparelho: <play>Arena Legends no Google Play</play>",
     "registerAnother": "Inscrever outro aparelho"
   },
   "faq": {
@@ -92,11 +88,11 @@
     },
     "android": {
       "q": "Qual versão do Android é necessária?",
-      "a": "Time Hopper e Bank Hopper funcionam no Android 8.0 (API 26) ou superior. Road Hopper funciona no Android 7.0 ou superior. Space Hopper e Arena Legends ainda estão em desenvolvimento."
+      "a": "Arena Legends e Road Hopper funcionam no Android 7.0 (API 24) ou superior. Time Hopper e Bank Hopper funcionam no Android 8.0 (API 26) ou superior. Space Hopper e Nitro Racer ainda estão em desenvolvimento."
     },
     "isOpen": {
-      "q": "O teste fechado de Time Hopper está aberto?",
-      "a": "Sim. Time Hopper v1.13.2 está na faixa de teste fechado do Google Play. Entre em <group>groups.google.com/g/timehoppergame</group>, inscreva-se no Play e instale pela página do jogo. Bank Hopper já terminou os testes e está disponível no Google Play."
+      "q": "O teste fechado de Arena Legends está aberto?",
+      "a": "Sim. Arena Legends v0.1.11 está na faixa de teste fechado do Google Play. Envie seu e-mail do Google Play pelo formulário acima; quando adicionarmos você, inscreva-se pelo link e instale pela página do jogo na Play Store. Time Hopper já terminou os testes e está disponível no Google Play."
     },
     "trailers": {
       "q": "Onde posso ver gameplay e trailers?",

@@ -2,13 +2,13 @@
   "header": {
     "badge": "Programa de pruebas de Google Play",
     "title": "Únete a la <highlight>beta cerrada</highlight>",
-    "lead": "Time Hopper v1.13.2 está en el canal de prueba cerrada de Google Play. Ayúdanos a pulir sus siete épocas, la campaña Chronicle y sus modos antes del lanzamiento mundial. Bank Hopper, nuestra beta anterior, ya está disponible en Google Play.",
+    "lead": "Arena Legends v0.1.11, nuestro primer juego de acción, está en el canal de prueba cerrada de Google Play. Ayúdanos a pulir sus combates, su campaña y sus controles antes del lanzamiento mundial. Time Hopper, nuestra beta anterior, ya está disponible en Google Play.",
     "watchTrailers": "Mira los tráileres en YouTube {handle}"
   },
   "perks": {
     "earlyBuilds": {
       "title": "Versiones anticipadas exclusivas",
-      "text": "Juega a las versiones de prueba cerrada de <strong>Time Hopper v1.13.2</strong> y a futuros títulos, como Arena Legends, en Google Play antes de su lanzamiento."
+      "text": "Juega a las versiones de prueba cerrada de <strong>Arena Legends v0.1.11</strong> y a futuros títulos, como Nitro Racer, en Google Play antes de su lanzamiento."
     },
     "devAccess": {
       "title": "Contacto directo con el desarrollador",
@@ -20,20 +20,19 @@
     }
   },
   "games": {
-    "timeHopper": "Runner temporal por siete épocas construido en torno al Time Hop",
     "arenaLegends": "Nuestro primer juego de acción: combates de gladiadores y jefes",
     "spaceHopper": "Salta por ocho planetas para reparar las Warp Gates",
     "allUpcoming": {
       "name": "Todos los próximos juegos",
       "version": "Acceso VIP",
       "tagline": "Invitaciones a todos los futuros prototipos y versiones experimentales"
-    }
+    },
+    "nitroRacer": "Nuestro primer juego de carreras: 8 campeonatos, nitro y un garaje que construir"
   },
   "formCard": {
     "title": "Formulario de registro de testers",
     "subtitle": "Rellena el formulario. Google Play te enviará por correo tu enlace de confirmación cuando tu cuenta esté inscrita.",
-    "joinDirect": "Unirse directamente al grupo de Google",
-    "tip": "<strong>Consejo:</strong> unirte al <group>grupo de Google timehoppergame</group> oficial ({email}) con tu cuenta de Google Play te da acceso al canal de prueba cerrada de Time Hopper.",
+    "tip": "<strong>Consejo:</strong> usa el correo de la cuenta de Google con la que entras en Play Store en tu móvil. Lo añadimos a la lista de testers de Arena Legends y te enviamos el enlace para inscribirte e instalarlo.",
     "loading": "Cargando el formulario..."
   },
   "form": {
@@ -72,10 +71,7 @@
     "nextTitle": "¿Qué pasa ahora?",
     "step1": "Añadimos tu correo a la lista de testers autorizados en la consola de Google Play.",
     "step2": "Recibirás un enlace de inscripción (o una invitación por correo). Pulsa <em>«Unirse en la web / Unirse en Android»</em> para aceptar.",
-    "step3": "Descarga versiones exclusivas anticipadas directamente desde Google Play Store en tu dispositivo: <play>Time Hopper en Google Play</play>",
-    "instantTitle": "Acceso inmediato en Google Play",
-    "instantText": "Únete a nuestro grupo de Google oficial para que te añadan automáticamente al canal de prueba cerrada de Play Store:",
-    "joinGroup": "Unirse al grupo de Google timehoppergame",
+    "step3": "Cuando te hayas inscrito, instala la prueba cerrada desde Google Play Store en tu dispositivo: <play>Arena Legends en Google Play</play>",
     "registerAnother": "Registrar otro dispositivo"
   },
   "faq": {
@@ -92,11 +88,11 @@
     },
     "android": {
       "q": "¿Qué versión de Android necesito?",
-      "a": "Time Hopper y Bank Hopper funcionan en Android 8.0 (API 26) o superior. Road Hopper funciona en Android 7.0 o superior. Space Hopper y Arena Legends siguen en desarrollo."
+      "a": "Arena Legends y Road Hopper funcionan en Android 7.0 (API 24) o superior. Time Hopper y Bank Hopper funcionan en Android 8.0 (API 26) o superior. Space Hopper y Nitro Racer siguen en desarrollo."
     },
     "isOpen": {
-      "q": "¿Está abierta la prueba cerrada de Time Hopper?",
-      "a": "Sí. Time Hopper v1.13.2 está en el canal de prueba cerrada de Google Play. Únete a <group>groups.google.com/g/timehoppergame</group>, inscríbete en Play e instálalo desde su ficha. Bank Hopper ya terminó sus pruebas y está disponible en Google Play."
+      "q": "¿Está abierta la prueba cerrada de Arena Legends?",
+      "a": "Sí. Arena Legends v0.1.11 está en el canal de prueba cerrada de Google Play. Envía tu correo de Google Play con el formulario de arriba; cuando te añadamos, inscríbete con el enlace e instálalo desde su ficha de Play Store. Time Hopper ya terminó sus pruebas y está disponible en Google Play."
     },
     "trailers": {
       "q": "¿Dónde puedo ver gameplay y tráileres?",
