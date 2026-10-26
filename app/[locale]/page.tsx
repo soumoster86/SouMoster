@@ -1,10 +1,11 @@
 import { setRequestLocale } from "next-intl/server";
 import { DeveloperIntro } from "@/components/home/DeveloperIntro";
-import { FeaturedApp } from "@/components/home/FeaturedApp";
+import { GameSlate } from "@/components/home/GameSlate";
 import { Hero } from "@/components/home/Hero";
-import { LatestApps } from "@/components/home/LatestApps";
 import { Newsletter } from "@/components/home/Newsletter";
+import { Spotlight } from "@/components/home/Spotlight";
 import { Stats } from "@/components/home/Stats";
+import { StudioTicker } from "@/components/home/StudioTicker";
 import { PageTransition } from "@/components/shared/PageTransition";
 
 export default async function HomePage({
@@ -18,9 +19,10 @@ export default async function HomePage({
   return (
     <PageTransition>
       <Hero />
+      <StudioTicker />
       <Stats />
-      <LatestApps />
-      <FeaturedApp />
+      <GameSlate />
+      <Spotlight />
       <DeveloperIntro />
       <Newsletter />
     </PageTransition>

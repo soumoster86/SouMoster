@@ -1,14 +1,22 @@
 {
   "hero": {
-    "badge": "Desarrollador de juegos Android",
-    "subtitle": "Creamos juegos Android divertidos.",
-    "exploreApps": "Ver juegos",
+    "badge": "Estudio de juegos independiente",
+    "subtitle": "Diseñamos, desarrollamos y publicamos juegos originales para Android, desde arcades de saltos hasta combates de arena y carreras, y probamos cada uno con jugadores reales.",
+    "exploreApps": "Explora nuestros juegos",
     "watchTrailers": "Mira los tráileres en YouTube",
-    "availableNow": "Ya disponible",
-    "gameplayAlt": "Juego de {name}",
     "scrollToExplore": "Desplázate para explorar",
     "explore": "Explorar",
-    "joinClosedTest": "Únete a la prueba cerrada de Arena Legends"
+    "headline": "Muchos mundos. Un estudio indie.",
+    "wallLabel": "Juegos de SouMoster"
+  },
+  "stages": {
+    "live": "Disponible",
+    "closedTesting": "Prueba cerrada",
+    "inDevelopment": "En desarrollo",
+    "comingSoon": "Próximamente"
+  },
+  "ticker": {
+    "label": "Catálogo del estudio"
   },
   "stats": {
     "sectionLabel": "Estadísticas",
@@ -17,35 +25,37 @@
     "inTesting": "Juegos en pruebas y desarrollo",
     "yearsDeveloping": "Años desarrollando"
   },
-  "latest": {
-    "sectionLabel": "Últimos juegos",
+  "slate": {
+    "sectionLabel": "Catálogo de juegos",
     "eyebrow": "Nuestros juegos",
-    "title": "Últimos juegos",
-    "subtitle": "Descubre nuestra colección de juegos Android"
+    "title": "El catálogo de SouMoster",
+    "subtitle": "Todos los juegos que estamos creando, desde el primer prototipo hasta Google Play.",
+    "filterLabel": "Filtrar juegos por género",
+    "progressLabel": "Fase de desarrollo",
+    "viewAll": "Ver todos los juegos"
   },
-  "featured": {
-    "sectionLabel": "Juego destacado",
-    "eyebrow": "Destacado",
-    "title": "Juego destacado",
-    "subtitle": "Nuestro mejor lanzamiento",
+  "spotlight": {
+    "sectionLabel": "Prueba cerrada destacada",
+    "eyebrow": "Ahora en prueba cerrada",
+    "lead": "Nuestra versión más reciente ya está en manos de los jugadores. Únete a la prueba cerrada en Google Play, juega antes del lanzamiento y ayúdanos a dar forma al juego.",
     "screenshotAlt": "Captura de pantalla de {name}"
   },
   "intro": {
     "sectionLabel": "Presentación del desarrollador",
-    "eyebrow": "Acerca de",
-    "title": "Conoce a SouMoster",
-    "subtitle": "Un desarrollador Android independiente apasionado por crear experiencias de juego memorables",
+    "eyebrow": "Dentro del estudio",
+    "title": "Cómo creamos juegos",
+    "subtitle": "Un pequeño estudio indie con un gran catálogo. Cada juego sigue el mismo camino, de la idea a Google Play.",
     "playerFirst": {
-      "title": "El jugador primero",
-      "description": "Cada decisión de diseño parte de la experiencia del jugador."
+      "title": "La diversión primero",
+      "description": "Cada juego empieza con una mecánica que se aprende en segundos y apetece repetir durante semanas."
     },
     "qualityCode": {
-      "title": "Código de calidad",
-      "description": "Arquitectura limpia y rendimiento optimizado en cada versión."
+      "title": "Probado con jugadores",
+      "description": "Las pruebas cerradas en Google Play dan forma a cada versión antes del lanzamiento."
     },
     "alwaysImproving": {
-      "title": "Siempre mejorando",
-      "description": "Actualizaciones frecuentes, nuevas funciones y un desarrollo guiado por la comunidad."
+      "title": "Hecho para durar",
+      "description": "Actualizaciones periódicas, contenido nuevo y correcciones mucho después del lanzamiento."
     }
   },
   "newsletter": {

@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Heart, Rocket } from "lucide-react";
+import { FlaskConical, Heart, Rocket } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 
 const values = [
   { icon: Heart, key: "playerFirst" },
-  { icon: Code2, key: "qualityCode" },
+  { icon: FlaskConical, key: "qualityCode" },
   { icon: Rocket, key: "alwaysImproving" },
 ] as const;
 

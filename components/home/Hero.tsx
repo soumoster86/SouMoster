@@ -1,94 +1,99 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { ChevronDown, Gamepad2, Users, Youtube } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { StageDot } from "@/components/home/StageDot";
 import { BrandIcon } from "@/components/shared/BrandIcon";
-import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
-import { PhoneFrame } from "@/components/shared/PhoneFrame";
 import { Button } from "@/components/ui/Button";
 import { useLocalizedApps } from "@/hooks/useLocalizedApps";
-import {
-  PLAY_STORE_DEV_URL,
-  YOUTUBE_URL,
-} from "@/lib/constants";
+import { Link } from "@/i18n/navigation";
+import { YOUTUBE_URL } from "@/lib/constants";
+import type { App } from "@/types";
 
-const floatingShapes = [
-  { size: 60, x: "10%", y: "20%", delay: 0, color: "bg-primary/20" },
-  { size: 40, x: "80%", y: "15%", delay: 1, color: "bg-secondary/20" },
-  { size: 50, x: "70%", y: "70%", delay: 2, color: "bg-accent/20" },
-  { size: 30, x: "20%", y: "75%", delay: 0.5, color: "bg-primary/15" },
-  { size: 45, x: "50%", y: "10%", delay: 1.5, color: "bg-secondary/15" },
-];
+function WallTile({ app, priority }: { app: App; priority?: boolean }) {
+  return (
+    <Link
+      href={`/apps/${app.slug}`}
+      className="group border-border/60 bg-card relative block aspect-[2/1] overflow-hidden rounded-2xl border shadow-xl shadow-black/30"
+    >
+      <Image
+        src={app.banner}
+        alt=""
+        fill
+        priority={priority}
+        className="object-cover transition-transform duration-500 group-hover:scale-105"
+        sizes="(max-width: 1024px) 50vw, 300px"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent" />
+      <div className="absolute right-2 bottom-2 left-2 flex items-center gap-2">
+        <Image
+          src={app.icon}
+          alt=""
+          width={28}
+          height={28}
+          className="rounded-lg ring-1 ring-white/30"
+        />
+        <span className="truncate text-xs font-semibold text-white sm:text-sm">
+          {app.name}
+        </span>
+        <StageDot status={app.status} className="ml-auto" />
+      </div>
+    </Link>
+  );
+}
 
 export function Hero() {
   const t = useTranslations("home.hero");
-  const tc = useTranslations("common.playBadge");
-  const featuredApp = useLocalizedApps().find((app) => app.featured);
-  const heroScreenshot = featuredApp?.screenshots[0] ?? featuredApp?.banner;
+  const tc = useTranslations("common.actions");
+  const apps = useLocalizedApps();
+  const reduceMotion = useReducedMotion();
+  const testing = apps.find((app) => app.status === "closed-testing");
+  const columns = [
+    apps.filter((_, i) => i % 2 === 0),
+    apps.filter((_, i) => i % 2 === 1),
+  ];
 
   return (
     <section className="relative flex min-h-screen items-center overflow-hidden pt-20">
       <div className="hero-gradient absolute inset-0" />
+      <div className="studio-grid absolute inset-0" aria-hidden="true" />
 
-      {floatingShapes.map((shape, i) => (
-        <motion.div
-          key={i}
-          className={`absolute rounded-full ${shape.color} blur-sm`}
-          style={{
-            width: shape.size,
-            height: shape.size,
-            left: shape.x,
-            top: shape.y,
-          }}
-          animate={{ y: [0, -20, 0], x: [0, 10, 0] }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            delay: shape.delay,
-            ease: "easeInOut",
-          }}
-          aria-hidden="true"
-        />
-      ))}
-
-      <div className="relative z-10 mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+        <div className="grid items-center gap-12 lg:grid-cols-[1.05fr_1fr] lg:gap-10">
           <div className="text-center lg:text-left">
             <motion.div
-              className="mb-6 flex justify-center lg:justify-start"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, type: "spring", stiffness: 120 }}
+              className="mb-6 flex items-center justify-center gap-3 lg:justify-start"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
             >
               <BrandIcon
-                size={72}
-                className="shadow-primary/30 rounded-2xl shadow-xl ring-1 ring-white/10"
+                size={44}
+                className="shadow-primary/30 rounded-xl shadow-lg ring-1 ring-white/10"
               />
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <span className="border-primary/30 bg-primary/10 text-primary mb-4 inline-block rounded-full border px-4 py-1.5 text-sm font-medium">
+              <span className="border-primary/30 bg-primary/10 text-primary rounded-full border px-4 py-1.5 text-sm font-medium">
                 {t("badge")}
               </span>
             </motion.div>
 
             <motion.h1
-              className="text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl"
+              className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              <span className="gradient-text">SouMoster</span>
+              <span className="text-muted block text-lg font-semibold tracking-[0.3em] uppercase sm:text-xl">
+                SouMoster
+              </span>
+              <span className="gradient-text mt-2 block leading-tight">
+                {t("headline")}
+              </span>
             </motion.h1>
 
             <motion.p
-              className="text-muted mt-6 text-xl sm:text-2xl"
+              className="text-muted mx-auto mt-6 max-w-xl text-lg sm:text-xl lg:mx-0"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -97,117 +102,75 @@ export function Hero() {
             </motion.p>
 
             <motion.div
-              className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start"
+              className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row lg:justify-start"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
-              <GooglePlayBadge
-                href={PLAY_STORE_DEV_URL}
-                size="lg"
-                title="Google Play"
-                ariaLabel={tc("downloadOurGames")}
-              />
-              <Button
-                href="/apps"
-                variant="outline"
-                size="lg"
-                className="min-h-[54px]"
-              >
+              <Button href="/apps" size="lg" className="min-h-[52px] whitespace-nowrap">
                 <Gamepad2 className="h-5 w-5" />
                 {t("exploreApps")}
               </Button>
+              {testing && (
+                <Button
+                  href={`/beta?game=${testing.slug}`}
+                  variant="outline"
+                  size="lg"
+                  className="min-h-[52px] whitespace-nowrap"
+                >
+                  <Users className="h-5 w-5" />
+                  {tc("joinClosedTesting")}
+                </Button>
+              )}
             </motion.div>
 
-            <motion.div
-              className="mt-6 flex flex-col items-center gap-3 sm:flex-row lg:justify-start"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+            <motion.a
+              href={YOUTUBE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted hover:text-primary mt-6 inline-flex items-center gap-2 text-sm font-medium transition-colors"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <Button
-                href="/beta?game=arena-legends"
-                variant="secondary"
-                size="md"
-                className="min-h-[44px]"
-              >
-                <Users className="h-4 w-4" />
-                {t("joinClosedTest")}
-              </Button>
-              <a
-                href={YOUTUBE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted hover:text-primary inline-flex items-center gap-2 text-sm font-medium transition-colors"
-              >
-                <Youtube className="h-4 w-4" />
-                {t("watchTrailers")}
-              </a>
-            </motion.div>
+              <Youtube className="h-4 w-4" />
+              {t("watchTrailers")}
+            </motion.a>
           </div>
 
-          {heroScreenshot && featuredApp && (
-            <motion.div
-              className="relative flex justify-center lg:justify-end"
-              initial={{ opacity: 0, y: 40, scale: 0.9 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{
-                duration: 0.8,
-                delay: 0.2,
-                type: "spring",
-                stiffness: 80,
-              }}
+          <motion.div
+            className="relative"
+            initial={{ opacity: 0, scale: 0.92 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            <div
+              className="bg-primary/20 absolute inset-8 rounded-full blur-3xl"
+              aria-hidden="true"
+            />
+            <nav
+              aria-label={t("wallLabel")}
+              className="relative grid grid-cols-2 gap-3 sm:gap-4 lg:-rotate-3"
             >
-              <motion.div
-                className="relative"
-                animate={{ y: [0, -12, 0] }}
-                transition={{
-                  duration: 5,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
-              >
-                <div
-                  className="bg-primary/20 absolute inset-0 scale-110 rounded-[3rem] blur-3xl"
-                  aria-hidden="true"
-                />
-                <PhoneFrame
-                  src={featuredApp.gameplayVideo ? undefined : heroScreenshot}
-                  videoSrc={featuredApp.gameplayVideo}
-                  poster={heroScreenshot}
-                  alt={t("gameplayAlt", { name: featuredApp.name })}
-                  size="lg"
-                  priority
-                />
+              {columns.map((column, c) => (
                 <motion.div
-                  className="border-border bg-card/90 absolute -right-2 -bottom-2 flex items-center gap-2 rounded-2xl border px-3 py-2 shadow-lg backdrop-blur-sm sm:-right-4 sm:-bottom-4"
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.6 }}
+                  key={c}
+                  className={`flex flex-col gap-3 sm:gap-4 ${c === 1 ? "lg:mt-12" : ""}`}
+                  animate={reduceMotion ? undefined : { y: c === 0 ? [0, -10, 0] : [0, 10, 0] }}
+                  transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
                 >
-                  <Image
-                    src={featuredApp.icon}
-                    alt=""
-                    width={32}
-                    height={32}
-                    className="rounded-lg"
-                    aria-hidden="true"
-                  />
-                  <div className="text-left">
-                    <p className="text-text text-xs font-semibold">
-                      {featuredApp.name}
-                    </p>
-                    <p className="text-muted text-xs">{t("availableNow")}</p>
-                  </div>
+                  {column.map((app, i) => (
+                    <WallTile key={app.slug} app={app} priority={i === 0} />
+                  ))}
                 </motion.div>
-              </motion.div>
-            </motion.div>
-          )}
+              ))}
+            </nav>
+          </motion.div>
         </div>
 
         <motion.a
           href="#stats"
-          className="text-muted hover:text-primary mt-16 flex flex-col items-center gap-1 transition-colors lg:mt-20"
+          className="text-muted hover:text-primary mt-14 flex flex-col items-center gap-1 transition-colors"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}

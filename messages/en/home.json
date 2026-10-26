@@ -1,14 +1,22 @@
 {
   "hero": {
-    "badge": "Android Game Developer",
-    "subtitle": "Building fun Android games.",
-    "exploreApps": "Explore Apps",
+    "badge": "Independent Game Studio",
+    "subtitle": "We design, build and ship original Android games, from arcade hoppers to arena brawlers and racers, and test every one with real players.",
+    "exploreApps": "Explore our games",
     "watchTrailers": "Watch trailers on YouTube",
-    "availableNow": "Available now",
-    "gameplayAlt": "{name} gameplay",
     "scrollToExplore": "Scroll to explore",
     "explore": "Explore",
-    "joinClosedTest": "Join the Arena Legends closed test"
+    "headline": "Many worlds. One indie studio.",
+    "wallLabel": "SouMoster games"
+  },
+  "stages": {
+    "live": "Live",
+    "closedTesting": "Closed test",
+    "inDevelopment": "In development",
+    "comingSoon": "Coming soon"
+  },
+  "ticker": {
+    "label": "Studio slate"
   },
   "stats": {
     "sectionLabel": "Statistics",
@@ -17,35 +25,37 @@
     "inTesting": "Games in Testing & Development",
     "yearsDeveloping": "Years Developing"
   },
-  "latest": {
-    "sectionLabel": "Latest apps",
-    "eyebrow": "Our Games",
-    "title": "Latest Apps",
-    "subtitle": "Discover our collection of Android games"
+  "slate": {
+    "sectionLabel": "Game slate",
+    "eyebrow": "Our games",
+    "title": "The SouMoster Slate",
+    "subtitle": "Every game we're making, from first prototype to Google Play.",
+    "filterLabel": "Filter games by genre",
+    "progressLabel": "Development stage",
+    "viewAll": "View all games"
   },
-  "featured": {
-    "sectionLabel": "Featured app",
-    "eyebrow": "Spotlight",
-    "title": "Featured App",
-    "subtitle": "Our latest and greatest release",
+  "spotlight": {
+    "sectionLabel": "Closed test spotlight",
+    "eyebrow": "Now in closed testing",
+    "lead": "Our newest build is in players' hands. Join the closed test on Google Play, play before launch and help shape the game.",
     "screenshotAlt": "{name} gameplay screenshot"
   },
   "intro": {
     "sectionLabel": "Developer introduction",
-    "eyebrow": "About",
-    "title": "Meet SouMoster",
-    "subtitle": "An independent Android developer passionate about creating memorable gaming experiences",
+    "eyebrow": "Inside the studio",
+    "title": "How We Make Games",
+    "subtitle": "A small indie studio with a big slate. Every game follows the same path from idea to Google Play.",
     "playerFirst": {
-      "title": "Player First",
-      "description": "Every design decision starts with the player experience in mind."
+      "title": "Fun First",
+      "description": "Every game starts with a core loop you can learn in seconds and want to replay for weeks."
     },
     "qualityCode": {
-      "title": "Quality Code",
-      "description": "Clean architecture and performance optimization in every release."
+      "title": "Tested With Players",
+      "description": "Closed tests on Google Play shape every release before it launches."
     },
     "alwaysImproving": {
-      "title": "Always Improving",
-      "description": "Regular updates, new features, and community-driven development."
+      "title": "Built to Last",
+      "description": "Regular updates, new content and fixes long after a game goes live."
     }
   },
   "newsletter": {

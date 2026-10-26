@@ -1,14 +1,22 @@
 {
   "hero": {
-    "badge": "Android 游戏开发者",
-    "subtitle": "打造有趣的 Android 游戏。",
-    "exploreApps": "浏览游戏",
+    "badge": "独立游戏工作室",
+    "subtitle": "我们设计、开发并发布原创 Android 游戏，从街机跳跃到竞技场格斗和竞速，每一款都与真实玩家一起测试。",
+    "exploreApps": "探索我们的游戏",
     "watchTrailers": "在 YouTube 观看预告片",
-    "availableNow": "现已推出",
-    "gameplayAlt": "{name} 游戏画面",
     "scrollToExplore": "向下滚动探索",
     "explore": "探索",
-    "joinClosedTest": "参加 Arena Legends 封闭测试"
+    "headline": "多个世界，一个独立工作室。",
+    "wallLabel": "SouMoster 游戏"
+  },
+  "stages": {
+    "live": "已上线",
+    "closedTesting": "封闭测试",
+    "inDevelopment": "开发中",
+    "comingSoon": "即将推出"
+  },
+  "ticker": {
+    "label": "工作室作品"
   },
   "stats": {
     "sectionLabel": "统计数据",
@@ -17,35 +25,37 @@
     "inTesting": "测试和开发中的游戏",
     "yearsDeveloping": "开发年数"
   },
-  "latest": {
-    "sectionLabel": "最新游戏",
+  "slate": {
+    "sectionLabel": "游戏阵容",
     "eyebrow": "我们的游戏",
-    "title": "最新游戏",
-    "subtitle": "探索我们的 Android 游戏合集"
+    "title": "SouMoster 游戏阵容",
+    "subtitle": "我们正在制作的每一款游戏，从第一个原型到 Google Play。",
+    "filterLabel": "按类型筛选游戏",
+    "progressLabel": "开发阶段",
+    "viewAll": "查看全部游戏"
   },
-  "featured": {
-    "sectionLabel": "精选游戏",
-    "eyebrow": "焦点",
-    "title": "精选游戏",
-    "subtitle": "我们最新、最好的作品",
+  "spotlight": {
+    "sectionLabel": "封闭测试焦点",
+    "eyebrow": "正在封闭测试",
+    "lead": "我们最新的版本已交到玩家手中。在 Google Play 参加封闭测试，抢先试玩并帮助我们打磨游戏。",
     "screenshotAlt": "{name} 游戏截图"
   },
   "intro": {
     "sectionLabel": "开发者介绍",
-    "eyebrow": "关于",
-    "title": "认识 SouMoster",
-    "subtitle": "一位热衷于创造难忘游戏体验的独立 Android 开发者",
+    "eyebrow": "走进工作室",
+    "title": "我们如何制作游戏",
+    "subtitle": "一个小型独立工作室，拥有丰富的游戏阵容。每款游戏都经历从创意到 Google Play 的同一条路。",
     "playerFirst": {
-      "title": "玩家至上",
-      "description": "每一个设计决定都从玩家体验出发。"
+      "title": "乐趣至上",
+      "description": "每款游戏都从几秒就能上手、让人想反复玩上好几周的核心玩法开始。"
     },
     "qualityCode": {
-      "title": "高质量代码",
-      "description": "每个版本都有清晰的架构和优化的性能。"
+      "title": "与玩家一起测试",
+      "description": "Google Play 上的封闭测试在每次发布前帮助打磨游戏。"
     },
     "alwaysImproving": {
-      "title": "持续改进",
-      "description": "定期更新、新功能，以及由社区推动的开发。"
+      "title": "长期运营",
+      "description": "游戏上线后依然持续更新、加入新内容并修复问题。"
     }
   },
   "newsletter": {
