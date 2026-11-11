@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play 测试计划",
     "title": "加入<highlight>封闭测试</highlight>",
-    "lead": "我们的首款动作游戏 Arena Legends v0.1.11 已在 Google Play 封闭测试渠道上线。在全球发布前，帮助我们打磨它的战斗、战役和操作。我们上一个测试版游戏 Time Hopper 现已在 Google Play 上线。",
+    "lead": "我们的首款竞速游戏 Nitro Racer 正在 Google Play 进行封闭测试。帮助我们在发布前打磨它的操控、锦标赛和车库。我们上一次测试的 Arena Legends 现已在 Google Play 上线。",
     "watchTrailers": "在 YouTube {handle} 观看预告片"
   },
   "perks": {
     "earlyBuilds": {
       "title": "独家抢先版本",
-      "text": "在正式发布前，通过 Google Play 抢先体验 <strong>Arena Legends v0.1.11</strong> 封闭测试版以及 Nitro Racer 等未来作品。"
+      "text": "在正式发布前，通过 Google Play 抢先试玩 <strong>Nitro Racer</strong> 封闭测试版，以及 Lantern Depths 等未来作品。"
     },
     "devAccess": {
       "title": "直接对话开发者",
@@ -20,19 +20,19 @@
     }
   },
   "games": {
-    "arenaLegends": "我们的首款动作游戏：角斗士战斗与首领战",
     "spaceHopper": "跳跃穿越八颗星球，修复 Warp Gates",
     "allUpcoming": {
       "name": "所有即将推出的游戏",
       "version": "VIP 资格",
       "tagline": "受邀体验所有未来的原型和实验版本"
     },
-    "nitroRacer": "我们的首款竞速游戏：8 个锦标赛、氮气加速和属于你的车库"
+    "nitroRacer": "我们的首款竞速游戏：8 个锦标赛、氮气加速和属于你的车库",
+    "lanternDepths": "回合制 Roguelite：灯油就是你的生命和光亮"
   },
   "formCard": {
     "title": "测试者申请表",
     "subtitle": "请填写下方表格。您的账号加入后，Google Play 会通过电子邮件向您发送选择加入的确认链接。",
-    "tip": "<strong>提示：</strong>请使用您手机上登录 Play 商店的 Google 账号邮箱。我们会将其加入 Arena Legends 测试者名单，并发送选择加入和安装的链接。",
+    "tip": "<strong>提示：</strong>请使用手机上登录 Play 商店的 Google 账号邮箱。我们会将其加入 Nitro Racer 测试者名单，并发送选择加入和安装的链接。",
     "loading": "正在加载测试者表格..."
   },
   "form": {
@@ -71,7 +71,7 @@
     "nextTitle": "接下来会怎样？",
     "step1": "我们会在开发者控制台中将您的邮箱添加到授权的 Google Play 封闭测试者名单。",
     "step2": "您会收到一个选择加入的网页链接（或邮件邀请）。点击<em>“在网页上加入 / 在 Android 上加入”</em>即可接受。",
-    "step3": "选择加入后，即可在设备上的 Google Play 商店安装封闭测试版：<play>Google Play 上的 Arena Legends</play>",
+    "step3": "选择加入后，在您的设备上从 Google Play 商店安装封闭测试版：<play>Google Play 上的 Nitro Racer</play>",
     "registerAnother": "登记另一台设备"
   },
   "faq": {
@@ -88,11 +88,11 @@
     },
     "android": {
       "q": "需要什么版本的 Android？",
-      "a": "Arena Legends 和 Road Hopper 支持 Android 7.0（API 24）及更高版本。Time Hopper 和 Bank Hopper 支持 Android 8.0（API 26）及更高版本。Space Hopper 和 Nitro Racer 仍在开发中。"
+      "a": "Arena Legends 和 Road Hopper 支持 Android 7.0（API 24）及更高版本。Nitro Racer、Time Hopper 和 Bank Hopper 支持 Android 8.0（API 26）及更高版本。Space Hopper 和 Lantern Depths 仍在开发中。"
     },
     "isOpen": {
-      "q": "Arena Legends 封闭测试现在开放了吗？",
-      "a": "是的。Arena Legends v0.1.11 已在 Google Play 封闭测试渠道上线。使用上方表格提交您的 Google Play 邮箱；我们添加您之后，通过链接选择加入，然后从 Play 商店页面安装。Time Hopper 已完成测试，现已在 Google Play 上线。"
+      "q": "Nitro Racer 封闭测试现在开放吗？",
+      "a": "是的。Nitro Racer 正在 Google Play 进行封闭测试。用上面的表单提交您的 Google Play 邮箱；我们添加后，通过链接选择加入，并从 Play 商店页面安装。Arena Legends 已完成测试，现已在 Google Play 上线。"
     },
     "trailers": {
       "q": "在哪里可以观看游戏实况和预告片？",

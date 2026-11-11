@@ -41,7 +41,8 @@
     "live": "Google Play पर उपलब्ध",
     "closedTesting": "क्लोज़्ड टेस्टिंग",
     "inDevelopment": "डेवलपमेंट में",
-    "comingSoon": "जल्द आ रहा है"
+    "comingSoon": "जल्द आ रहा है",
+    "launching": "जल्द लॉन्च"
   },
   "genre": {
     "Arcade": "आर्केड",
@@ -49,7 +50,8 @@
     "Puzzle": "पज़ल",
     "Casual": "कैज़ुअल",
     "Racing": "रेसिंग",
-    "All": "सभी"
+    "All": "सभी",
+    "Strategy": "रणनीति"
   },
   "badge": {
     "version": "v{version}",

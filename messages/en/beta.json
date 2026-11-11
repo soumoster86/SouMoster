@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play Testing Program",
     "title": "Join the <highlight>Closed Beta</highlight>",
-    "lead": "Arena Legends v0.1.11, our first action game, is on the Google Play Closed Testing track. Help us tune its combat, campaign and controls before the worldwide launch. Time Hopper, our last beta, is now live on Google Play.",
+    "lead": "Nitro Racer, our first racing game, is on the Google Play Closed Testing track. Help us tune its handling, championships and garage before launch. Arena Legends, our last beta, is now live on Google Play.",
     "watchTrailers": "Watch trailers on YouTube {handle}"
   },
   "perks": {
     "earlyBuilds": {
       "title": "Exclusive Early Builds",
-      "text": "Play <strong>Arena Legends v0.1.11</strong> Closed Testing builds and future titles, like Nitro Racer, through Google Play before public release."
+      "text": "Play <strong>Nitro Racer</strong> Closed Testing builds and future titles, like Lantern Depths, through Google Play before public release."
     },
     "devAccess": {
       "title": "Direct Developer Access",
@@ -20,19 +20,19 @@
     }
   },
   "games": {
-    "arenaLegends": "Our first action game: gladiator combat and boss fights",
     "spaceHopper": "Hop across eight planets to restore the Warp Gates",
     "allUpcoming": {
       "name": "All Upcoming Games",
       "version": "VIP Access",
       "tagline": "Invites to all future prototypes and experimental builds"
     },
-    "nitroRacer": "Our first racing game: 8 championships, nitro and a garage to build"
+    "nitroRacer": "Our first racing game: 8 championships, nitro and a garage to build",
+    "lanternDepths": "A turn-based roguelite where oil is your health and your light"
   },
   "formCard": {
     "title": "Tester Application Form",
     "subtitle": "Fill out the form below. Google Play will email you with your opt-in confirmation link once your account is enrolled.",
-    "tip": "<strong>Tip:</strong> Use the email of the Google account signed in to the Play Store on your phone. We add it to the Arena Legends tester list and send you the link to opt in and install.",
+    "tip": "<strong>Tip:</strong> Use the email of the Google account signed in to the Play Store on your phone. We add it to the Nitro Racer tester list and send you the link to opt in and install.",
     "loading": "Loading tester form..."
   },
   "form": {
@@ -71,7 +71,7 @@
     "nextTitle": "What happens next?",
     "step1": "Our developer console adds your email to the authorized Google Play Closed Testers list.",
     "step2": "You'll receive an opt-in web link (or email invite). Click <em>\"Join on the web / Join on Android\"</em> to accept.",
-    "step3": "Once you've opted in, install the closed test from the Google Play Store on your device: <play>Arena Legends on Google Play</play>",
+    "step3": "Once you've opted in, install the closed test from the Google Play Store on your device: <play>Nitro Racer on Google Play</play>",
     "registerAnother": "Register Another Device"
   },
   "faq": {
@@ -88,11 +88,11 @@
     },
     "android": {
       "q": "What Android version is required?",
-      "a": "Arena Legends and Road Hopper support Android 7.0 (API 24) and newer. Time Hopper and Bank Hopper support Android 8.0 (API 26) and newer. Space Hopper and Nitro Racer are still in development."
+      "a": "Arena Legends and Road Hopper support Android 7.0 (API 24) and newer. Nitro Racer, Time Hopper and Bank Hopper support Android 8.0 (API 26) and newer. Space Hopper and Lantern Depths are still in development."
     },
     "isOpen": {
-      "q": "Is Arena Legends Closed Testing open now?",
-      "a": "Yes. Arena Legends v0.1.11 is on the Google Play Closed Testing track. Submit your Google Play email with the form above; once we add you, opt in from the link and install from the Play Store listing. Time Hopper has finished testing and is live on Google Play."
+      "q": "Is Nitro Racer Closed Testing open now?",
+      "a": "Yes. Nitro Racer is on the Google Play Closed Testing track. Submit your Google Play email with the form above; once we add you, opt in from the link and install from the Play Store listing. Arena Legends has finished testing and is now live on Google Play."
     },
     "trailers": {
       "q": "Where can I watch gameplay and trailers?",

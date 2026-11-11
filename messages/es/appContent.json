@@ -298,20 +298,20 @@
   },
   "arena-legends": {
     "tagline": "Gladiator Wars. Lucha y gana tu libertad.",
-    "description": "El primer juego de acción de SouMoster: combates de gladiadores con combos, paradas y jefes a lo largo de una campaña de cinco capítulos. En prueba cerrada en Google Play.",
-    "longDescription": "Arena Legends: Gladiator Wars es el primer juego de acción de SouMoster, creado en Kotlin con libGDX y ahora en prueba cerrada en Google Play. Despiertas bajo la arena y el amo del foso te ofrece un trato: lucha y gana tu libertad. Recorre una campaña de cinco capítulos, desde los Blood Pits y el Coliseo hasta las Wild Trials, la Ashen Arena y el Hall of Champions, contra saqueadores, lanceros, brutos, guardianes con escudo, fieras y cinco jefes, hasta el Imperial Champion y sus tres posturas. Lee cada aviso, esquiva el impacto y golpea durante la recuperación: encadena combos, carga ataques pesados, bloquea, para y contraataca, y rompe escudos y armaduras. Elige Espada y escudo, Lanza, Espadas dobles o Gran hacha, cada una con sus golpes y su habilidad especial, y mejora tu equipo en la Armería. Supervivencia, Entrenamiento, un Boss Rush contrarreloj y un desafío diario con modificadores cambiantes completan la experiencia, con 20 logros por conseguir. Mueve y cambia el tamaño de los botones de acción, juega con la mano izquierda y juega sin conexión: el progreso se queda en tu dispositivo.",
+    "description": "El primer juego de acción de SouMoster: un juego de lucha de gladiadores con combos, paradas y jefes en una campaña de cinco capítulos. Ya disponible en Google Play.",
+    "longDescription": "Arena Legends: Gladiator Wars es el primer juego de acción de SouMoster, desarrollado en Kotlin con libGDX. Tras su prueba cerrada en Google Play, la versión 1.0.2 ya está disponible en Google Play. Despiertas bajo la arena y el maestro de los fosos te ofrece un trato: lucha y gánate la libertad. Avanza por una campaña de cinco capítulos, desde los Fosos de sangre y el Coliseo hasta las Pruebas salvajes, la Arena de ceniza y el Salón de los campeones, contra saqueadores, lanceros, brutos, guardianes con escudo, bestias y cinco jefes, hasta el Campeón imperial de tres posturas. Lee cada aviso, esquiva el impacto y golpea durante la recuperación: encadena combos, carga ataques pesados, bloquea, para y contraataca, y rompe escudos y armaduras. Elige Espada y escudo, Lanza, Hojas gemelas o Gran hacha, cada una con sus movimientos y su habilidad especial, y desarrolla tu maestría para desbloquear colores de tela, estandartes heráldicos, crestas de casco, diseños de escudo y acabados metálicos. Supervivencia con ventajas, Boss Rush cronometrado, Desafío diario, Campeón semanal, contratos diarios y semanales y 20 logros completan el juego. Mueve y cambia el tamaño de los botones de acción, juega con la mano izquierda y juega sin conexión: el progreso se guarda en tu dispositivo.",
     "features": [
-      "En prueba cerrada en Google Play: solicita una invitación en nuestra página Beta",
-      "Campaña de cinco capítulos: los Blood Pits, el Coliseo, las Wild Trials, la Ashen Arena y el Hall of Champions",
-      "Cinco jefes: Brutus the Iron Wall, Vex, el Beast Master, el Inferno Champion y el Imperial Champion de tres posturas",
-      "Combos direccionales, ataques pesados cargados, bloqueo, parada y contraataque, esquivas y remates, con una barra de aguante compartida",
-      "Cuatro clases de armas con sus propios combos y habilidades: Espada y escudo (Shield Bash), Lanza (Piercing Thrust), Espadas dobles (Cross Cut) y Gran hacha (Whirlwind)",
-      "Rompe escudos y armaduras enemigos; evita cuchillas giratorias, trampas y rejillas de fuego",
-      "Oleadas de Supervivencia, lecciones de Entrenamiento, Boss Rush contrarreloj y un desafío diario con modificadores cambiantes",
-      "20 logros, con vinculación opcional a Google Play Juegos y copias de seguridad en la nube",
-      "Mejoras en la Armería, talentos, oro, XP y desbloqueos por reputación",
-      "Controles personalizables: mueve y cambia el tamaño de los botones, o usa el modo zurdo",
-      "Juego sin conexión; opciones de comodidad para el tamaño del texto, el temblor de pantalla, los destellos y los efectos reducidos"
+      "Ya disponible en Google Play: gratis, con paquetes de oro opcionales",
+      "Campaña de cinco capítulos: los Fosos de sangre, el Coliseo, las Pruebas salvajes, la Arena de ceniza y el Salón de los campeones",
+      "Cinco jefes: Brutus el Muro de hierro, Vex, el Señor de las bestias, el Campeón infernal y el Campeón imperial de tres posturas",
+      "Combos direccionales, ataques pesados cargados, bloqueo, parada y contraataque, esquiva y remates, con una barra de aguante compartida",
+      "Cuatro clases de arma con sus combos y habilidades: Espada y escudo (Golpe de escudo), Lanza (Estocada perforante), Hojas gemelas (Corte cruzado) y Gran hacha (Torbellino)",
+      "Personaliza tu gladiador: colores de tela, estandartes heráldicos, crestas de casco, diseños de escudo y acabados de arma desbloqueados con la maestría",
+      "Supervivencia con ventajas, Boss Rush cronometrado, Desafío diario y Campeón semanal",
+      "Contratos diarios y semanales, medallas de capítulo y 20 logros, con vinculación opcional a Google Play Juegos y copias en la nube",
+      "Mejoras en la armería, talentos, oro, XP y desbloqueos por reputación",
+      "Controles personalizables: mueve y cambia el tamaño de los botones de acción o activa el modo zurdo",
+      "Juego sin conexión; opciones de comodidad para tamaño de texto, vibración de pantalla, destellos y efectos reducidos"
     ],
     "howToPlay": [
       "Muévete con el joystick flotante de la izquierda",
@@ -323,73 +323,72 @@
       "Rompe escudos y armaduras con ataques pesados y aprovecha la apertura",
       "Supera cada prueba para enfrentarte al jefe del capítulo y ganar tu libertad"
     ],
-    "knownIssues": [
-      "Prueba cerrada de Google Play solo con invitación: solicítala en nuestra página Beta con tu correo de Google Play"
-    ],
+    "knownIssues": [],
     "faq": [
       {
-        "question": "¿Cómo puedo jugar a Arena Legends ahora mismo?",
-        "answer": "Arena Legends está en prueba cerrada en Google Play. Envía tu correo de Google Play en nuestra página Beta; te añadimos a la lista de testers y recibes un enlace para inscribirte e instalarlo desde Google Play."
+        "question": "¿Dónde descargo Arena Legends?",
+        "answer": "Arena Legends está disponible en Google Play. Toca Descargar en esta página o busca «Arena Legends: Gladiator Wars» en Play Store."
       },
       {
-        "question": "¿Es distinto de los juegos Hopper?",
-        "answer": "Sí. Arena Legends es el primer juego de acción de SouMoster: combate cuerpo a cuerpo en tiempo real con combos, paradas, aguante y jefes, que se juega en horizontal con un joystick y botones de acción."
+        "question": "¿Es diferente de los juegos Hopper?",
+        "answer": "Sí. Arena Legends es el primer juego de acción de SouMoster: combate cuerpo a cuerpo en tiempo real con combos, paradas, aguante y jefes, en horizontal con joystick y botones de acción."
       },
       {
         "question": "¿Arena Legends es gratis?",
-        "answer": "Sí. La prueba cerrada es gratis, con paquetes de oro opcionales de Google Play para equipo y mejoras. La XP, la reputación y el desbloqueo de capítulos siguen requiriendo jugar."
+        "answer": "Sí. Arena Legends es gratis. Google Play indica que contiene anuncios y paquetes de oro opcionales para equipo y mejoras. La XP, la reputación y los capítulos se siguen desbloqueando jugando, y los estilos cosméticos no cambian las estadísticas de combate."
       },
       {
         "question": "¿Funciona sin conexión?",
-        "answer": "Sí. El juego funciona sin conexión a internet ni cuenta. El progreso se guarda en tu dispositivo; las copias de seguridad en la nube opcionales usan Google Play Juegos."
+        "answer": "Sí. El juego principal funciona sin conexión a internet ni cuenta. El progreso se guarda en tu dispositivo; las copias en la nube opcionales usan Google Play Juegos."
       },
       {
-        "question": "¿En qué dispositivos funciona?",
-        "answer": "Android 7.0 (API 24) o superior, en horizontal."
+        "question": "¿Qué dispositivos admite?",
+        "answer": "Android 7.0 (API 24) o posterior, en horizontal."
       }
     ],
     "versionHistory": {
-      "0.1.11": [
-        "Versión de prueba cerrada en Google Play",
-        "Presentaciones de jefes más espaciosas y resultados de victoria más claros",
-        "Siguiente capítulo: continúa directamente tras completar un capítulo"
+      "1.0.2": [
+        "Lanzamiento mundial en Google Play",
+        "Pantalla completa adaptada a las versiones recientes de Android",
+        "Diseños más seguros alrededor de cámaras frontales y barras de título",
+        "Código y recursos optimizados y más ligeros"
       ],
-      "0.1.8–0.1.10": [
-        "Copias de seguridad opcionales en tu perfil de Play Juegos",
-        "Play Juegos se reconecta solo; los compañeros de entrenamiento esperan listos"
+      "1.0.0–1.0.1": [
+        "Primera versión candidata de producción: cinco capítulos, cuatro estilos de arma y todos los modos"
       ],
-      "0.1.5–0.1.7": [
-        "20 logros, con vinculación opcional a Google Play Juegos",
-        "Animaciones de caminar de ocho fotogramas para cada luchador, enemigo y jefe",
-        "Preparaciones de ataque, etiquetas y requisitos de equipo más claros"
+      "0.1.17–0.1.19": [
+        "Colores de cresta, diseños de escudo y acabados de arma desbloqueados con la maestría",
+        "Música de menú y combate más larga, con transiciones más suaves"
       ],
-      "0.1.1–0.1.3": [
-        "Primeras versiones de prueba cerrada: cinco capítulos, cuatro armas, Supervivencia, Boss Rush y desafío diario",
-        "Controles personalizables, ajustes renovados y pantalla de carga ilustrada"
+      "0.1.12–0.1.15": [
+        "Contratos diarios y semanales, maestría de armas, medallas de capítulo y ventajas de Supervivencia",
+        "Encuentros del Campeón semanal y un menú renovado con estandartes heráldicos",
+        "Trampas pintadas: cuchillas giratorias, redes y rejillas de fuego"
       ],
-      "0.1.0": [
-        "Campaña de cinco capítulos jugable hasta el Imperial Champion",
-        "Primera prueba interna en Google Play"
+      "0.1.0–0.1.11": [
+        "Prueba cerrada en Google Play: cinco capítulos, cuatro armas, Supervivencia, Boss Rush y Desafío diario",
+        "20 logros, vinculación opcional a Play Juegos, copias en la nube y controles personalizables"
       ]
     }
   },
   "nitro-racer": {
     "tagline": "A por el siguiente horizonte.",
-    "description": "El primer juego de carreras de SouMoster: corre 8 campeonatos en 32 circuitos, recoge nitro y monta el garaje de tus sueños. En desarrollo.",
-    "longDescription": "Nitro Racer es el primer juego de carreras de SouMoster, creado en Kotlin con libGDX y ahora en desarrollo. Traza curvas amplias, aprovecha el rebufo de tus rivales y desata el nitro camino de la bandera a cuadros. Corre por campiña, carreteras costeras, puertos alpinos, noches urbanas de neón, cañones del desierto, selva tropical, paisajes helados y terreno volcánico en 8 campeonatos y 32 circuitos, y después prueba sus versiones en espejo. Compite contra cinco rivales de IA, recoge botellas de nitro, sigue los rastros de oro, pisa las placas de impulso, arriesga en los atajos y encadena adelantamientos limpios en combos. Desbloquea seis coches, mejora motor, turbo, neumáticos y nitro, y personaliza pintura, franjas, efectos de impulso, luces de bajos y matrículas. Crea tu piloto, bate tu mejor vuelta contra tu fantasma en contrarreloj y mantén tu racha de desafíos diarios. Conduce inclinando el móvil o con controles en pantalla, y juega sin conexión y sin cuenta.",
+    "description": "El primer juego de carreras de SouMoster: 8 campeonatos en 32 circuitos, nitro que recoger y el garaje de tus sueños. En la prueba cerrada de Google Play.",
+    "longDescription": "Nitro Racer es el primer juego de carreras de SouMoster, desarrollado en Kotlin con libGDX y ahora en la prueba cerrada de Google Play. Traza curvas amplias, aprovecha el rebufo de tus rivales y libera el nitro camino de la bandera a cuadros. Corre por campiña, carreteras costeras, puertos alpinos, noches urbanas de neón, cañones del desierto, selva, paisajes helados y tierras volcánicas en 8 campeonatos y 32 circuitos, cada uno con su propio escenario, y luego atrévete con las variantes en espejo. Compite contra cinco rivales de IA, recoge botellas de nitro, sigue los rastros de oro, pisa los potenciadores, arriesga en los atajos y encadena adelantamientos limpios en combos. Desbloquea seis coches, mejora motor, turbo, neumáticos y nitro, y personaliza pintura, franjas, efectos de turbo, luces de bajos y matrículas. Crea tu piloto, persigue tu mejor vuelta contra tu fantasma en contrarreloj y mantén tu racha de desafíos diarios. Conduce inclinando el móvil o con controles en pantalla, y corre sin conexión y sin cuenta.",
     "features": [
-      "El primer juego de carreras de SouMoster: carreras arcade en horizontal",
+      "En la prueba cerrada de Google Play: pide una invitación en nuestra página Beta",
       "8 campeonatos y 32 circuitos: campiña, costa, puertos alpinos, noches urbanas de neón, desierto, selva, Ártico y volcanes",
-      "Circuitos en espejo y campeonatos que puedes volver a correr",
-      "Compite contra cinco rivales de IA: botellas de nitro, rastros de oro, placas de impulso, atajos y combos de adelantamiento",
+      "Escenarios para cada bioma: flores silvestres y balas de heno, madera a la deriva y hierba de dunas, vallas nevadas y troncos calcinados",
+      "Circuitos en espejo y campeonatos rejugables",
+      "Compite contra cinco rivales de IA: botellas de nitro, rastros de oro, potenciadores, atajos y combos de adelantamiento",
       "Seis coches con mejoras de motor, turbo, neumáticos y nitro",
-      "Personaliza pintura, franjas, efectos de impulso, luces de bajos y matrículas, con vista previa antes de comprar",
+      "Personaliza pintura, franjas, efectos de turbo, luces de bajos y matrículas, con vista previa antes de comprar",
       "Crea tu piloto: elige piloto, mono, casco y apodo",
-      "Contrarrelojes contra tu fantasma, con medallas de bronce, plata y oro",
+      "Contrarreloj contra tu fantasma, con medallas de bronce, plata y oro",
       "Desafíos diarios y rachas, llegadas cinematográficas y cámara trasera",
-      "Conducción por inclinación o controles en pantalla, con sensibilidad ajustable",
+      "Dirección por inclinación o controles en pantalla, con sensibilidad ajustable",
       "16 logros, con vinculación opcional a Google Play Juegos y guardado en la nube",
-      "Juega sin conexión, sin cuenta"
+      "Corre sin conexión; no necesitas cuenta"
     ],
     "howToPlay": [
       "Inclina el móvil o usa los botones en pantalla para girar",
@@ -401,35 +400,98 @@
       "Gasta tu oro en el garaje en mejoras y nuevos estilos"
     ],
     "knownIssues": [
-      "Versión de desarrollo: todavía no está en Google Play"
+      "Prueba cerrada de Google Play solo con invitación: pide una invitación en nuestra página Beta con tu correo de Google Play"
     ],
     "faq": [
       {
-        "question": "¿Cuándo estará disponible Nitro Racer?",
-        "answer": "Nitro Racer está en desarrollo y aún no tiene fecha de lanzamiento. Regístrate en nuestra página Beta para enterarte primero cuando abran las pruebas."
+        "question": "¿Cómo juego a Nitro Racer ahora?",
+        "answer": "Nitro Racer está en la prueba cerrada de Google Play. Envía tu correo de Google Play en nuestra página Beta; te añadimos a la lista de testers y recibes un enlace para unirte e instalar desde Google Play."
       },
       {
-        "question": "¿Es distinto de los demás juegos de SouMoster?",
-        "answer": "Sí. Nitro Racer es el primer juego de carreras de SouMoster: carreras de campeonato contra rivales de IA, contrarrelojes y un garaje de coches que mejorar y personalizar, en horizontal."
+        "question": "¿Es diferente de los otros juegos de SouMoster?",
+        "answer": "Sí. Nitro Racer es el primer juego de carreras de SouMoster: campeonatos contra rivales de IA, contrarrelojes y un garaje de coches para mejorar y personalizar, en horizontal."
       },
       {
-        "question": "¿Será gratis?",
-        "answer": "Sí. Nitro Racer será gratis, con anuncios recompensados opcionales para ganar oro y anuncios ocasionales entre carreras terminadas. Los coches y las mejoras se ganan corriendo."
+        "question": "¿Es gratis?",
+        "answer": "Sí. Nitro Racer es gratis, con anuncios con recompensa opcionales para ganar oro, anuncios ocasionales entre carreras terminadas y paquetes de oro de Google Play opcionales. Los coches y las mejoras se ganan corriendo."
       },
       {
-        "question": "¿Funcionará sin conexión?",
+        "question": "¿Funciona sin conexión?",
         "answer": "Sí. Puedes correr sin conexión y sin cuenta. Los anuncios necesitan conexión a internet."
       },
       {
-        "question": "¿En qué dispositivos funcionará?",
-        "answer": "Android 8.0 (API 26) o superior, en horizontal."
+        "question": "¿Qué dispositivos admite?",
+        "answer": "Android 8.0 (API 26) o posterior, en horizontal."
       }
     ],
     "versionHistory": {
+      "0.1.0 (build 15)": [
+        "Cinco ilustraciones a pantalla completa mientras carga la carrera, con el nombre del circuito y el progreso",
+        "Celebración con monedas y confeti tras una compra de oro correcta"
+      ],
+      "0.1.0 (builds 12–14)": [
+        "Versión de prueba cerrada en Google Play",
+        "Nuevos escenarios en los 32 circuitos: praderas, costa, Alpes, ciudad, desierto, selva, nieve y volcanes"
+      ],
       "0.1.0": [
         "Versión de desarrollo: 8 campeonatos y 32 circuitos",
         "Perfiles de piloto, mejoras en el garaje y personalización de coches",
         "Logros, vinculación opcional a Play Juegos y guardado en la nube"
+      ]
+    }
+  },
+  "lantern-depths": {
+    "tagline": "Una luz contra las profundidades.",
+    "description": "Un roguelite por turnos donde el aceite de tu farol es tu vida, tu luz y tu energía. En desarrollo.",
+    "longDescription": "Lantern Depths es un roguelite por turnos de SouMoster, desarrollado con Godot y ahora en desarrollo. El aceite de tu farol es a la vez tu vida, tu luz y tu energía: cada golpe que recibes atenúa la llama, y cuanto más débil estás, menos ves. Desciende al Pozo hueco paso a paso. Nada se mueve hasta que actúas, así que cada paso es una decisión. Usa Destello para aturdir a los enemigos sensibles a la luz y ver más lejos, cierra tu farol para moverte a escondidas, quema barriles, aviva fuegos y lee el próximo movimiento de cada enemigo antes de comprometerte. Elige una reliquia en cada descenso, compra al Mercader, abre cofres y protege tu aceite con el Cristal del farol. Enfréntate a ratas, sanguijuelas, polillas, arrastradores ahogados, arqueros de sentina, acechadores y esporitas en la Cisterna inundada, hasta el Campanero ahogado. Cada muerte alimenta el Campamento del pozo, donde las ascuas compran nuevas mechas, desbloquean al Guardián y llenan el Archivo de criaturas, páginas y récords. Partidas cortas para un trayecto, jugables con un solo pulgar en vertical.",
+    "features": [
+      "El primer roguelite de SouMoster: por turnos, partidas cortas y juego con una mano en vertical",
+      "Un recurso, tres funciones: el aceite es tu vida, el radio de tu luz y la energía de tus habilidades",
+      "Cuanto menos aceite tienes, menos ves; las zonas exploradas quedan en el mapa como un recuerdo gris",
+      "Acciones del farol: Destello, Cerrar, Quemar y Avivar, además de frascos de aceite y humo",
+      "Las intenciones de los enemigos iluminados aparecen antes de que actúes",
+      "Pisos procedurales en la Cisterna inundada, hasta el jefe Campanero ahogado",
+      "Dos clases: el Farolero y el Guardián, que se desbloquea al llegar al piso 5",
+      "Reliquias, armas, Cristal del farol, Mercader, cofres y santuarios",
+      "Campamento del pozo: gasta ascuas en mechas y mejoras; llena el Archivo de criaturas, páginas y récords",
+      "Práctica guiada y tutoriales ilustrados",
+      "Interfaz para zurdos, modo rápido, parpadeo reducido, texto grande y vibración"
+    ],
+    "howToPlay": [
+      "Toca una casilla para moverte; toca un enemigo adyacente para golpear",
+      "Vigila tu aceite: es tu vida y marca hasta dónde llega tu luz",
+      "Lee las etiquetas sobre los enemigos iluminados para ver qué harán después",
+      "Usa Destello para aturdir a los enemigos sensibles a la luz, o cierra tu farol para moverte a escondidas y atacar por la espalda",
+      "Quema barriles y aviva fuegos para volver la sala contra tus enemigos",
+      "Encuentra la escalera de cada piso y desciende",
+      "Cuando la llama se apague, gasta tus ascuas en el Campamento del pozo y vuelve a intentarlo"
+    ],
+    "knownIssues": [
+      "Versión de desarrollo: aún no está en Google Play"
+    ],
+    "faq": [
+      {
+        "question": "¿Cuándo estará disponible Lantern Depths?",
+        "answer": "Lantern Depths está en desarrollo y aún no tiene fecha de lanzamiento. Inscríbete en nuestra página Beta para enterarte primero cuando abran las pruebas."
+      },
+      {
+        "question": "¿Qué tipo de juego es?",
+        "answer": "Un roguelite por turnos: exploras pisos generados proceduralmente paso a paso, y nada se mueve hasta que actúas. El aceite de tu farol es tu vida, tu luz y tu energía, así que cada decisión equilibra supervivencia y visibilidad."
+      },
+      {
+        "question": "¿Cuánto dura una partida?",
+        "answer": "Las partidas están pensadas para caber en un trayecto. Cuando tu llama se apaga, las ascuas ganadas desbloquean mejoras en el Campamento del pozo para el siguiente descenso."
+      },
+      {
+        "question": "¿Se puede jugar con una mano?",
+        "answer": "Sí. Lantern Depths se juega en vertical con un solo pulgar, y hay una interfaz para zurdos en Ajustes."
+      }
+    ],
+    "versionHistory": {
+      "0.2.0": [
+        "Versión de desarrollo: Campamento del pozo ilustrado, criaturas pintadas y un farol de hierro en la interfaz",
+        "Primer descenso guiado, tutoriales ilustrados y pantalla de inicio a pantalla completa",
+        "Ajustes de modo rápido, interfaz para zurdos, parpadeo reducido, tamaño de texto y vibración"
       ]
     }
   }

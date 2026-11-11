@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "SouMoster — Android Game Developer";
+export const alt = "SouMoster — Indie Game Studio";
 export const size = {
   width: 1200,
   height: 630,
@@ -82,7 +82,7 @@ export default async function Image() {
                 textTransform: "uppercase",
               }}
             >
-              Android Game Developer
+              Indie Game Studio
             </span>
           </div>
         </div>
@@ -171,7 +171,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#22C55E" }} />
-          <span>Road Hopper Live (v9.4.9)</span>
+          <span>4 Games Live on Google Play</span>
         </div>
 
         <div
@@ -189,7 +189,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#FFB703" }} />
-          <span>Bank Hopper Live (v1.0.0)</span>
+          <span>Arena Legends Now Live</span>
         </div>
 
         <div
@@ -207,7 +207,7 @@ export default async function Image() {
           }}
         >
           <div style={{ width: 10, height: 10, borderRadius: 5, backgroundColor: "#6C63FF" }} />
-          <span>Time Hopper Live (v1.15.1)</span>
+          <span>Nitro Racer Closed Test</span>
         </div>
       </div>
     </div>,

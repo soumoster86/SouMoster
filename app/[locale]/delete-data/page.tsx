@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps) {
 }
 
 const releasedGames = apps
-  .filter((app) => app.status === "live" || app.status === "closed-testing")
+  .filter((app) => app.status === "live" || app.status === "launching" || app.status === "closed-testing")
   .map((app) => app.name);
 
 const deletionEmailHref = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(

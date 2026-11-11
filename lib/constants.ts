@@ -5,7 +5,7 @@ export const SITE_TAGLINE =
   "Building fun, addictive and high-quality Android games.";
 export const SITE_URL = "https://sou-moster.vercel.app";
 export const SITE_DESCRIPTION =
-  "SouMoster is an independent Android game developer. Download Road Hopper, Bank Hopper and Time Hopper free on Google Play. Arena Legends, our first action game, is in Google Play Closed Testing. Space Hopper and Nitro Racer, our first racing game, are in development. Watch trailers on YouTube @SouMosterGames.";
+  "SouMoster is an independent Android game studio. Download Road Hopper, Bank Hopper, Time Hopper and Arena Legends, our first action game, free on Google Play. Nitro Racer, our first racing game, is in Google Play Closed Testing, and Space Hopper and Lantern Depths are in development. Watch trailers on YouTube @SouMosterGames.";
 export const PLAY_STORE_APP_URL =
   "https://play.google.com/store/apps/details?id=com.roadohopper.game";
 export const BANK_HOPPER_PLAY_STORE_URL =
@@ -18,6 +18,8 @@ export const TIME_HOPPER_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.soumster.timehopper";
 export const ARENA_LEGENDS_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.arenalegends.game";
+export const NITRO_RACER_PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.soumo.nitrohopper";
 export const YOUTUBE_URL = "https://www.youtube.com/@SouMosterGames";
 export const YOUTUBE_HANDLE = "@SouMosterGames";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";

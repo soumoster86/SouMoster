@@ -13,7 +13,8 @@
     "live": "Disponible",
     "closedTesting": "Prueba cerrada",
     "inDevelopment": "En desarrollo",
-    "comingSoon": "Próximamente"
+    "comingSoon": "Próximamente",
+    "launching": "Lanzamiento"
   },
   "ticker": {
     "label": "Catálogo del estudio"

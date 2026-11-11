@@ -13,7 +13,8 @@
     "live": "Disponible",
     "closedTesting": "Test fermé",
     "inDevelopment": "En développement",
-    "comingSoon": "Bientôt"
+    "comingSoon": "Bientôt",
+    "launching": "Lancement"
   },
   "ticker": {
     "label": "Programme du studio"

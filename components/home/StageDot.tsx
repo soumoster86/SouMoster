@@ -8,6 +8,7 @@ type Status = NonNullable<App["status"]>;
 
 export const stageColors: Record<Status, string> = {
   live: "bg-accent",
+  launching: "bg-sky-400",
   "closed-testing": "bg-secondary",
   "in-development": "bg-primary",
   "coming-soon": "bg-primary",
@@ -16,6 +17,7 @@ export const stageColors: Record<Status, string> = {
 /** Translation keys under home.stages. */
 export const stageKeys: Record<Status, string> = {
   live: "live",
+  launching: "launching",
   "closed-testing": "closedTesting",
   "in-development": "inDevelopment",
   "coming-soon": "comingSoon",

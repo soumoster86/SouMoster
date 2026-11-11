@@ -298,19 +298,19 @@
   },
   "arena-legends": {
     "tagline": "Gladiator Wars. Lute e conquiste sua liberdade.",
-    "description": "O primeiro jogo de ação da SouMoster: combates de gladiadores com combos, aparadas e chefes ao longo de uma campanha de cinco capítulos. Em teste fechado no Google Play.",
-    "longDescription": "Arena Legends: Gladiator Wars é o primeiro jogo de ação da SouMoster, feito em Kotlin com libGDX e agora em teste fechado no Google Play. Você acorda embaixo da arena, e o mestre do fosso oferece um acordo: lute e conquiste sua liberdade. Enfrente uma campanha de cinco capítulos, dos Blood Pits e do Coliseu até as Wild Trials, a Ashen Arena e o Hall of Champions, contra saqueadores, lanceiros, brutamontes, guardiões com escudo, feras e cinco chefes, até o Imperial Champion e suas três posturas. Leia cada aviso, desvie do impacto e ataque durante a recuperação: encadeie combos, carregue ataques pesados, bloqueie, apare e contra-ataque, e quebre escudos e armaduras. Escolha Espada e escudo, Lança, Lâminas duplas ou Machado grande, cada um com seus golpes e habilidade especial, e melhore seu equipamento no Arsenal. Sobrevivência, Treino, um Boss Rush cronometrado e um desafio diário com modificadores que mudam completam o pacote, com 20 conquistas para obter. Mova e redimensione os botões de ação, jogue no modo canhoto e jogue offline: o progresso fica no seu aparelho.",
+    "description": "O primeiro jogo de ação da SouMoster: um jogo de luta de gladiadores com combos, aparos e chefões em uma campanha de cinco capítulos. Já disponível no Google Play.",
+    "longDescription": "Arena Legends: Gladiator Wars é o primeiro jogo de ação da SouMoster, desenvolvido em Kotlin com libGDX. Após o teste fechado do Google Play, a versão 1.0.2 já está disponível no Google Play. Você acorda sob a arena, e o mestre dos fossos oferece um acordo: lute e conquiste sua liberdade. Avance por uma campanha de cinco capítulos, dos Fossos de sangue e do Coliseu às Provas selvagens, à Arena de cinzas e ao Salão dos campeões, contra saqueadores, lanceiros, brutamontes, guardiões de escudo, feras e cinco chefões, até o Campeão imperial de três posturas. Leia cada aviso, esquive do impacto e ataque durante a recuperação: encadeie combos, carregue ataques pesados, bloqueie, apare e contra-ataque, e quebre escudos e armaduras. Escolha Espada e escudo, Lança, Lâminas duplas ou Machado grande, cada uma com seus golpes e habilidade especial, e desenvolva sua maestria para desbloquear cores de tecido, estandartes heráldicos, cristas de elmo, desenhos de escudo e acabamentos de metal. Sobrevivência com vantagens, Boss Rush cronometrado, Desafio diário, Campeão semanal, contratos diários e semanais e 20 conquistas completam o jogo. Mova e redimensione os botões de ação, jogue com a mão esquerda e jogue offline: o progresso fica no seu dispositivo.",
     "features": [
-      "Em teste fechado no Google Play: peça um convite na nossa página Beta",
-      "Campanha de cinco capítulos: os Blood Pits, o Coliseu, as Wild Trials, a Ashen Arena e o Hall of Champions",
-      "Cinco chefes: Brutus the Iron Wall, Vex, o Beast Master, o Inferno Champion e o Imperial Champion de três posturas",
-      "Combos direcionais, ataques pesados carregados, bloqueio, aparada e contra-ataque, esquivas e golpes finais, tudo numa barra de vigor compartilhada",
-      "Quatro classes de armas com combos e habilidades próprias: Espada e escudo (Shield Bash), Lança (Piercing Thrust), Lâminas duplas (Cross Cut) e Machado grande (Whirlwind)",
-      "Quebre escudos e armaduras inimigos; evite lâminas giratórias, armadilhas e grelhas de fogo",
-      "Ondas de Sobrevivência, lições de Treino, Boss Rush cronometrado e um desafio diário com modificadores que mudam",
-      "20 conquistas, com vinculação opcional ao Google Play Games e backups na nuvem",
-      "Melhorias no Arsenal, talentos, ouro, XP e desbloqueios por reputação",
-      "Controles personalizáveis: mova e redimensione os botões, ou use o modo canhoto",
+      "Já disponível no Google Play: grátis, com pacotes de ouro opcionais",
+      "Campanha de cinco capítulos: os Fossos de sangue, o Coliseu, as Provas selvagens, a Arena de cinzas e o Salão dos campeões",
+      "Cinco chefões: Brutus, a Muralha de ferro, Vex, o Mestre das feras, o Campeão infernal e o Campeão imperial de três posturas",
+      "Combos direcionais, ataques pesados carregados, bloqueio, aparo e contra-ataque, esquiva e golpes finais, com uma barra de vigor compartilhada",
+      "Quatro classes de arma com combos e habilidades próprias: Espada e escudo (Golpe de escudo), Lança (Estocada perfurante), Lâminas duplas (Corte cruzado) e Machado grande (Redemoinho)",
+      "Personalize seu gladiador: cores de tecido, estandartes heráldicos, cristas de elmo, desenhos de escudo e acabamentos de arma desbloqueados pela maestria",
+      "Sobrevivência com vantagens, Boss Rush cronometrado, Desafio diário e Campeão semanal",
+      "Contratos diários e semanais, medalhas de capítulo e 20 conquistas, com vínculo opcional ao Google Play Games e backups na nuvem",
+      "Melhorias no arsenal, talentos, ouro, XP e desbloqueios por reputação",
+      "Controles personalizáveis: mova e redimensione os botões de ação ou use o modo canhoto",
       "Jogo offline; opções de conforto para tamanho do texto, tremor de tela, flashes e efeitos reduzidos"
     ],
     "howToPlay": [
@@ -323,73 +323,72 @@
       "Quebre escudos e armaduras com ataques pesados e aproveite a brecha",
       "Vença cada prova para enfrentar o chefe do capítulo e conquistar sua liberdade"
     ],
-    "knownIssues": [
-      "Teste fechado do Google Play só com convite: peça o seu na nossa página Beta com seu e-mail do Google Play"
-    ],
+    "knownIssues": [],
     "faq": [
       {
-        "question": "Como posso jogar Arena Legends agora?",
-        "answer": "Arena Legends está em teste fechado no Google Play. Envie seu e-mail do Google Play na nossa página Beta; adicionamos você à lista de testadores e você recebe um link para se inscrever e instalar pelo Google Play."
+        "question": "Onde baixo Arena Legends?",
+        "answer": "Arena Legends está disponível no Google Play. Toque em Baixar nesta página ou pesquise \"Arena Legends: Gladiator Wars\" na Play Store."
       },
       {
-        "question": "É diferente dos jogos Hopper?",
-        "answer": "Sim. Arena Legends é o primeiro jogo de ação da SouMoster: combate corpo a corpo em tempo real com combos, aparadas, vigor e chefes, jogado na horizontal com um joystick e botões de ação."
+        "question": "Ele é diferente dos jogos Hopper?",
+        "answer": "Sim. Arena Legends é o primeiro jogo de ação da SouMoster: combate corpo a corpo em tempo real com combos, aparos, vigor e chefões, jogado na horizontal com joystick e botões de ação."
       },
       {
-        "question": "Arena Legends é gratuito?",
-        "answer": "Sim. O teste fechado é gratuito, com pacotes opcionais de ouro do Google Play para equipamentos e melhorias. XP, reputação e desbloqueio de capítulos continuam exigindo jogar."
+        "question": "Arena Legends é grátis?",
+        "answer": "Sim. Arena Legends é grátis. O Google Play informa que ele contém anúncios e pacotes de ouro opcionais para equipamentos e melhorias. XP, reputação e capítulos continuam sendo desbloqueados jogando, e os estilos cosméticos não alteram os atributos de combate."
       },
       {
         "question": "Funciona offline?",
-        "answer": "Sim. O jogo funciona sem internet e sem conta. O progresso fica salvo no seu aparelho; os backups opcionais na nuvem usam o Google Play Games."
+        "answer": "Sim. O jogo principal funciona sem internet e sem conta. O progresso fica salvo no seu dispositivo; os backups opcionais na nuvem usam o Google Play Games."
       },
       {
-        "question": "Em quais aparelhos funciona?",
+        "question": "Quais dispositivos são compatíveis?",
         "answer": "Android 7.0 (API 24) ou superior, na horizontal."
       }
     ],
     "versionHistory": {
-      "0.1.11": [
-        "Versão de teste fechado no Google Play",
-        "Apresentações de chefes com mais espaço e resultados de vitória mais claros",
-        "Próximo capítulo: continue direto depois de concluir um capítulo"
+      "1.0.2": [
+        "Lançamento mundial no Google Play",
+        "Tela cheia ajustada para versões recentes do Android",
+        "Layouts mais seguros ao redor de câmeras frontais e barras de título",
+        "Código e recursos otimizados e mais leves"
       ],
-      "0.1.8–0.1.10": [
-        "Backups opcionais no seu perfil do Play Games",
-        "O Play Games reconecta sozinho; parceiros de treino ficam prontos"
+      "1.0.0–1.0.1": [
+        "Primeira versão candidata de produção: cinco capítulos, quatro estilos de arma e todos os modos"
       ],
-      "0.1.5–0.1.7": [
-        "20 conquistas, com vinculação opcional ao Google Play Games",
-        "Animações de caminhada com oito quadros para cada lutador, inimigo e chefe",
-        "Preparações de ataque, rótulos e requisitos de equipamento mais claros"
+      "0.1.17–0.1.19": [
+        "Cores de crista, desenhos de escudo e acabamentos de arma desbloqueados pela maestria",
+        "Músicas de menu e combate mais longas, com transições mais suaves"
       ],
-      "0.1.1–0.1.3": [
-        "Primeiras versões de teste fechado: cinco capítulos, quatro armas, Sobrevivência, Boss Rush e desafio diário",
-        "Controles personalizáveis, ajustes renovados e tela de carregamento ilustrada"
+      "0.1.12–0.1.15": [
+        "Contratos diários e semanais, maestria de armas, medalhas de capítulo e vantagens de Sobrevivência",
+        "Encontros com o Campeão semanal e menu renovado com estandartes heráldicos",
+        "Armadilhas pintadas: lâminas giratórias, redes e grelhas de fogo"
       ],
-      "0.1.0": [
-        "Campanha de cinco capítulos jogável até o Imperial Champion",
-        "Primeiro teste interno no Google Play"
+      "0.1.0–0.1.11": [
+        "Teste fechado no Google Play: cinco capítulos, quatro armas, Sobrevivência, Boss Rush e Desafio diário",
+        "20 conquistas, vínculo opcional ao Play Games, backups na nuvem e controles personalizáveis"
       ]
     }
   },
   "nitro-racer": {
     "tagline": "Rumo ao próximo horizonte.",
-    "description": "O primeiro jogo de corrida da SouMoster: dispute 8 campeonatos em 32 circuitos, pegue nitro e monte a garagem dos seus sonhos. Em desenvolvimento.",
-    "longDescription": "Nitro Racer é o primeiro jogo de corrida da SouMoster, feito em Kotlin com libGDX e agora em desenvolvimento. Faça curvas amplas, pegue o vácuo dos rivais e solte o nitro rumo à bandeira quadriculada. Corra pelo campo, estradas litorâneas, passagens alpinas, noites urbanas de neon, cânions do deserto, floresta tropical, paisagens geladas e terreno vulcânico em 8 campeonatos e 32 circuitos, e depois encare as versões espelhadas. Dispute contra cinco rivais controlados por IA, pegue garrafas de nitro, siga os rastros de ouro, passe pelas placas de impulso, arrisque os atalhos e encadeie ultrapassagens limpas em combos. Desbloqueie seis carros, melhore motor, turbo, pneus e nitro, e personalize pintura, faixas, efeitos de impulso, neon sob o carro e placas. Crie seu piloto, bata sua melhor volta contra o seu fantasma no contra-relógio e mantenha sua sequência de desafios diários. Pilote inclinando o celular ou com controles na tela, e jogue offline, sem conta.",
+    "description": "O primeiro jogo de corrida da SouMoster: 8 campeonatos em 32 circuitos, nitro para coletar e a garagem dos seus sonhos. No teste fechado do Google Play.",
+    "longDescription": "Nitro Racer é o primeiro jogo de corrida da SouMoster, desenvolvido em Kotlin com libGDX e agora no teste fechado do Google Play. Faça curvas longas, pegue o vácuo dos rivais e solte o nitro rumo à bandeira quadriculada. Corra por campos, estradas litorâneas, passagens alpinas, noites urbanas de neon, cânions do deserto, floresta tropical, paisagens geladas e terras vulcânicas em 8 campeonatos e 32 circuitos, cada um com seu próprio cenário, e depois encare as versões espelhadas. Dispute com cinco rivais de IA, colete garrafas de nitro, siga as trilhas de ouro, passe pelos impulsores, arrisque atalhos e encadeie ultrapassagens limpas em combos. Desbloqueie seis carros, melhore motor, turbo, pneus e nitro, e personalize pintura, faixas, efeitos de turbo, neon e placas. Crie seu piloto, persiga sua melhor volta contra seu fantasma no contrarrelógio e mantenha sua sequência de desafios diários. Pilote inclinando o celular ou com controles na tela, e corra offline sem conta.",
     "features": [
-      "O primeiro jogo de corrida da SouMoster: corrida arcade na horizontal",
-      "8 campeonatos e 32 circuitos: campo, litoral, passagens alpinas, noites urbanas de neon, deserto, floresta, Ártico e vulcões",
-      "Circuitos espelhados e campeonatos que podem ser disputados de novo",
-      "Dispute contra cinco rivais de IA: garrafas de nitro, rastros de ouro, placas de impulso, atalhos e combos de ultrapassagem",
+      "No teste fechado do Google Play: peça um convite na nossa página Beta",
+      "8 campeonatos e 32 circuitos: campos, litoral, passagens alpinas, noites urbanas de neon, deserto, floresta tropical, Ártico e vulcões",
+      "Cenários para cada bioma: flores silvestres e fardos de feno, troncos na praia e capim de duna, cercas nevadas e tocos queimados",
+      "Circuitos espelhados e campeonatos que podem ser repetidos",
+      "Dispute com cinco rivais de IA: garrafas de nitro, trilhas de ouro, impulsores, atalhos e combos de ultrapassagem",
       "Seis carros com melhorias de motor, turbo, pneus e nitro",
-      "Personalize pintura, faixas, efeitos de impulso, neon sob o carro e placas, com prévia antes de comprar",
+      "Personalize pintura, faixas, efeitos de turbo, neon e placas, com prévia antes da compra",
       "Crie seu piloto: escolha piloto, macacão, capacete e apelido",
-      "Contra-relógio contra o seu fantasma, com medalhas de bronze, prata e ouro",
+      "Contrarrelógio contra seu fantasma, com medalhas de bronze, prata e ouro",
       "Desafios diários e sequências, chegadas cinematográficas e câmera traseira",
       "Direção por inclinação ou controles na tela, com sensibilidade ajustável",
-      "16 conquistas, com vinculação opcional ao Google Play Games e salvamento na nuvem",
-      "Jogue offline, sem conta"
+      "16 conquistas, com vínculo opcional ao Google Play Games e salvamento na nuvem",
+      "Corra offline; não precisa de conta"
     ],
     "howToPlay": [
       "Incline o celular ou use os botões na tela para virar",
@@ -401,35 +400,98 @@
       "Gaste seu ouro na garagem em melhorias e novos visuais"
     ],
     "knownIssues": [
-      "Versão de desenvolvimento: ainda não está no Google Play"
+      "Teste fechado do Google Play somente por convite: peça um convite na nossa página Beta com seu e-mail do Google Play"
     ],
     "faq": [
       {
-        "question": "Quando Nitro Racer estará disponível?",
-        "answer": "Nitro Racer está em desenvolvimento e ainda não tem data de lançamento. Inscreva-se na nossa página Beta para saber primeiro quando os testes abrirem."
+        "question": "Como jogo Nitro Racer agora?",
+        "answer": "Nitro Racer está no teste fechado do Google Play. Envie seu e-mail do Google Play na nossa página Beta; adicionamos você à lista de testadores e você recebe um link para participar e instalar pelo Google Play."
       },
       {
-        "question": "É diferente dos outros jogos da SouMoster?",
-        "answer": "Sim. Nitro Racer é o primeiro jogo de corrida da SouMoster: corridas de campeonato contra rivais de IA, contra-relógios e uma garagem de carros para melhorar e personalizar, na horizontal."
+        "question": "Ele é diferente dos outros jogos da SouMoster?",
+        "answer": "Sim. Nitro Racer é o primeiro jogo de corrida da SouMoster: campeonatos contra rivais de IA, contrarrelógio e uma garagem de carros para melhorar e personalizar, na horizontal."
       },
       {
-        "question": "Vai ser gratuito?",
-        "answer": "Sim. Nitro Racer será gratuito, com anúncios recompensados opcionais para ganhar ouro e anúncios ocasionais entre corridas concluídas. Carros e melhorias são conquistados correndo."
+        "question": "É grátis?",
+        "answer": "Sim. Nitro Racer é grátis, com anúncios premiados opcionais para ganhar ouro, anúncios ocasionais entre corridas concluídas e pacotes de ouro opcionais do Google Play. Carros e melhorias são conquistados correndo."
       },
       {
-        "question": "Vai funcionar offline?",
-        "answer": "Sim. Você pode correr offline e sem conta. Os anúncios precisam de internet."
+        "question": "Funciona offline?",
+        "answer": "Sim. Você pode correr offline e sem conta. Os anúncios precisam de conexão com a internet."
       },
       {
-        "question": "Em quais aparelhos vai funcionar?",
+        "question": "Quais dispositivos são compatíveis?",
         "answer": "Android 8.0 (API 26) ou superior, na horizontal."
       }
     ],
     "versionHistory": {
+      "0.1.0 (build 15)": [
+        "Cinco ilustrações em tela cheia enquanto a corrida carrega, com o nome do circuito e o progresso",
+        "Comemoração com moedas e confete após uma compra de ouro bem-sucedida"
+      ],
+      "0.1.0 (builds 12–14)": [
+        "Versão de teste fechado no Google Play",
+        "Novos cenários nos 32 circuitos: campos, litoral, Alpes, cidade, deserto, floresta tropical, neve e vulcões"
+      ],
       "0.1.0": [
         "Versão de desenvolvimento: 8 campeonatos e 32 circuitos",
         "Perfis de piloto, melhorias na garagem e personalização de carros",
-        "Conquistas, vinculação opcional ao Play Games e salvamento na nuvem"
+        "Conquistas, vínculo opcional ao Play Games e salvamento na nuvem"
+      ]
+    }
+  },
+  "lantern-depths": {
+    "tagline": "Uma luz contra as profundezas.",
+    "description": "Um roguelite por turnos em que o óleo da sua lanterna é sua vida, sua luz e sua energia. Em desenvolvimento.",
+    "longDescription": "Lantern Depths é um roguelite por turnos da SouMoster, desenvolvido com Godot e agora em desenvolvimento. O óleo da sua lanterna é ao mesmo tempo sua vida, sua luz e sua energia: cada golpe recebido enfraquece a chama, e quanto mais fraco você fica, menos enxerga. Desça o Poço oco passo a passo. Nada se move até você agir, então cada passo é uma decisão. Use Lampejo para atordoar inimigos sensíveis à luz e enxergar mais longe, feche a lanterna para se esgueirar, queime barris, acenda fogueiras e leia o próximo movimento de cada inimigo antes de agir. Escolha uma relíquia a cada descida, compre do Mercador, abra baús e proteja seu óleo com o Vidro da lanterna. Enfrente ratos, sanguessugas, mariposas, carregadores afogados, arqueiros do porão, espreitadores e esporinhos na Cisterna inundada, até o Sineiro afogado. Cada morte alimenta o Acampamento do poço, onde as brasas compram novos pavios, desbloqueiam o Guardião e enchem o Arquivo com criaturas, páginas e recordes. Partidas curtas, ideais para o trajeto, jogadas com um só polegar na vertical.",
+    "features": [
+      "O primeiro roguelite da SouMoster: por turnos, partidas curtas e jogo com uma mão na vertical",
+      "Um recurso, três funções: o óleo é sua vida, o raio da sua luz e a energia das suas habilidades",
+      "Quanto menos óleo, menos você enxerga; as áreas exploradas ficam no mapa como uma memória cinza",
+      "Ações da lanterna: Lampejo, Fechar, Queimar e Acender, além de frascos de óleo e fumaça",
+      "As intenções dos inimigos iluminados aparecem antes de você agir",
+      "Andares procedurais na Cisterna inundada, até o chefão Sineiro afogado",
+      "Duas classes: o Acendedor e o Guardião, desbloqueado ao chegar ao andar 5",
+      "Relíquias, armas, Vidro da lanterna, Mercador, baús e santuários",
+      "Acampamento do poço: gaste brasas em pavios e melhorias; encha o Arquivo com criaturas, páginas e recordes",
+      "Prática guiada e tutoriais ilustrados",
+      "Interface para canhotos, modo rápido, cintilação reduzida, texto grande e vibração"
+    ],
+    "howToPlay": [
+      "Toque em uma casa para se mover; toque em um inimigo ao lado para atacar",
+      "Fique de olho no óleo: ele é sua vida e define o alcance da sua luz",
+      "Leia as etiquetas sobre os inimigos iluminados para ver o que farão em seguida",
+      "Use Lampejo para atordoar inimigos sensíveis à luz, ou feche a lanterna para se esgueirar e atacar pelas costas",
+      "Queime barris e acenda fogueiras para virar a sala contra os inimigos",
+      "Encontre a escada de cada andar e desça",
+      "Quando a chama se apagar, gaste suas brasas no Acampamento do poço e tente de novo"
+    ],
+    "knownIssues": [
+      "Versão de desenvolvimento: ainda não está no Google Play"
+    ],
+    "faq": [
+      {
+        "question": "Quando Lantern Depths estará disponível?",
+        "answer": "Lantern Depths está em desenvolvimento e ainda não tem data de lançamento. Inscreva-se na nossa página Beta para saber primeiro quando os testes abrirem."
+      },
+      {
+        "question": "Que tipo de jogo é?",
+        "answer": "Um roguelite por turnos: você explora andares gerados proceduralmente passo a passo, e nada se move até você agir. O óleo da sua lanterna é sua vida, sua luz e sua energia, então cada escolha equilibra sobrevivência e visibilidade."
+      },
+      {
+        "question": "Quanto dura uma partida?",
+        "answer": "As partidas foram pensadas para caber em um trajeto. Quando sua chama se apaga, as brasas conquistadas desbloqueiam melhorias no Acampamento do poço para a próxima descida."
+      },
+      {
+        "question": "Dá para jogar com uma mão?",
+        "answer": "Sim. Lantern Depths é jogado na vertical com um só polegar, e há uma interface para canhotos nas Configurações."
+      }
+    ],
+    "versionHistory": {
+      "0.2.0": [
+        "Versão de desenvolvimento: Acampamento do poço ilustrado, criaturas pintadas e uma lanterna de ferro na interface",
+        "Primeira descida guiada, tutoriais ilustrados e tela de abertura em tela cheia",
+        "Configurações de modo rápido, interface para canhotos, cintilação reduzida, tamanho do texto e vibração"
       ]
     }
   }

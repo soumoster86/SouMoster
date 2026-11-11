@@ -2,13 +2,13 @@
   "header": {
     "badge": "Google Play टेस्टिंग प्रोग्राम",
     "title": "<highlight>क्लोज़्ड बीटा</highlight> से जुड़ें",
-    "lead": "हमारा पहला एक्शन गेम Arena Legends v0.1.11 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। दुनिया भर में लॉन्च से पहले इसकी लड़ाई, कैंपेन और कंट्रोल को बेहतर बनाने में हमारी मदद करें। हमारा पिछला बीटा, Time Hopper, अब Google Play पर उपलब्ध है।",
+    "lead": "Nitro Racer, हमारा पहला रेसिंग गेम, Google Play क्लोज़्ड टेस्टिंग में है। लॉन्च से पहले इसकी हैंडलिंग, चैंपियनशिप और गैराज को बेहतर बनाने में हमारी मदद करें। Arena Legends, हमारा पिछला बीटा, अब Google Play पर उपलब्ध है।",
     "watchTrailers": "YouTube {handle} पर ट्रेलर देखें"
   },
   "perks": {
     "earlyBuilds": {
       "title": "एक्सक्लूसिव अर्ली बिल्ड",
-      "text": "<strong>Arena Legends v0.1.11</strong> के क्लोज़्ड टेस्टिंग बिल्ड और Nitro Racer जैसे आने वाले गेम, सार्वजनिक रिलीज़ से पहले Google Play पर खेलें।"
+      "text": "<strong>Nitro Racer</strong> के क्लोज़्ड टेस्टिंग बिल्ड और Lantern Depths जैसे आने वाले गेम, सार्वजनिक रिलीज़ से पहले Google Play पर खेलें।"
     },
     "devAccess": {
       "title": "डेवलपर से सीधा संपर्क",
@@ -20,19 +20,19 @@
     }
   },
   "games": {
-    "arenaLegends": "हमारा पहला एक्शन गेम: ग्लैडिएटर लड़ाई और बॉस फ़ाइट",
     "spaceHopper": "Warp Gates को ठीक करने के लिए आठ ग्रहों पर कूदें",
     "allUpcoming": {
       "name": "सभी आने वाले गेम्स",
       "version": "VIP एक्सेस",
       "tagline": "आने वाले सभी प्रोटोटाइप और एक्सपेरिमेंटल बिल्ड के इनवाइट"
     },
-    "nitroRacer": "हमारा पहला रेसिंग गेम: 8 चैंपियनशिप, नाइट्रो और अपनी गैराज"
+    "nitroRacer": "हमारा पहला रेसिंग गेम: 8 चैंपियनशिप, नाइट्रो और अपनी गैराज",
+    "lanternDepths": "टर्न-बेस्ड रोगलाइट, जहाँ तेल ही आपकी जान और आपकी रोशनी है"
   },
   "formCard": {
     "title": "टेस्टर आवेदन फ़ॉर्म",
     "subtitle": "नीचे दिया फ़ॉर्म भरें। आपका अकाउंट जुड़ते ही Google Play आपको ऑप्ट-इन कन्फ़र्मेशन लिंक ईमेल करेगा।",
-    "tip": "<strong>सुझाव:</strong> वही ईमेल इस्तेमाल करें जिस Google अकाउंट से आपके फ़ोन पर Play Store में लॉग इन है। हम उसे Arena Legends की टेस्टर सूची में जोड़ते हैं और ऑप्ट इन करके इंस्टॉल करने का लिंक भेजते हैं।",
+    "tip": "<strong>सुझाव:</strong> अपने फ़ोन पर Play Store में साइन-इन Google खाते का ईमेल इस्तेमाल करें। हम इसे Nitro Racer टेस्टर सूची में जोड़कर आपको ऑप्ट-इन और इंस्टॉल करने का लिंक भेजेंगे।",
     "loading": "टेस्टर फ़ॉर्म लोड हो रहा है..."
   },
   "form": {
@@ -71,7 +71,7 @@
     "nextTitle": "आगे क्या होगा?",
     "step1": "हमारा डेवलपर कंसोल आपके ईमेल को अधिकृत Google Play क्लोज़्ड टेस्टर सूची में जोड़ देगा।",
     "step2": "आपको एक ऑप्ट-इन वेब लिंक (या ईमेल इनवाइट) मिलेगा। स्वीकार करने के लिए <em>\"Join on the web / Join on Android\"</em> पर क्लिक करें।",
-    "step3": "ऑप्ट इन करने के बाद, अपने डिवाइस पर Google Play Store से क्लोज़्ड टेस्ट इंस्टॉल करें: <play>Google Play पर Arena Legends</play>",
+    "step3": "ऑप्ट-इन करने के बाद, अपने डिवाइस पर Google Play Store से क्लोज़्ड टेस्ट इंस्टॉल करें: <play>Google Play पर Nitro Racer</play>",
     "registerAnother": "दूसरा डिवाइस रजिस्टर करें"
   },
   "faq": {
@@ -88,11 +88,11 @@
     },
     "android": {
       "q": "कौन-सा Android वर्ज़न चाहिए?",
-      "a": "Arena Legends और Road Hopper, Android 7.0 (API 24) और उससे नए वर्ज़न पर चलते हैं। Time Hopper और Bank Hopper, Android 8.0 (API 26) और उससे नए वर्ज़न पर चलते हैं। Space Hopper और Nitro Racer अभी डेवलपमेंट में हैं।"
+      "a": "Arena Legends और Road Hopper, Android 7.0 (API 24) और उसके बाद के वर्ज़न पर चलते हैं। Nitro Racer, Time Hopper और Bank Hopper, Android 8.0 (API 26) और उसके बाद के वर्ज़न पर चलते हैं। Space Hopper और Lantern Depths अभी विकास में हैं।"
     },
     "isOpen": {
-      "q": "क्या Arena Legends की क्लोज़्ड टेस्टिंग अभी खुली है?",
-      "a": "हाँ। Arena Legends v0.1.11 Google Play के क्लोज़्ड टेस्टिंग ट्रैक पर है। ऊपर दिए फ़ॉर्म से अपना Google Play ईमेल भेजें; जुड़ने के बाद लिंक से ऑप्ट इन करें और Play Store लिस्टिंग से इंस्टॉल करें। Time Hopper की टेस्टिंग पूरी हो चुकी है और यह Google Play पर उपलब्ध है।"
+      "q": "क्या Nitro Racer क्लोज़्ड टेस्टिंग अभी खुली है?",
+      "a": "हाँ। Nitro Racer, Google Play क्लोज़्ड टेस्टिंग में है। ऊपर दिए फ़ॉर्म से अपना Google Play ईमेल भेजें; हमारे जोड़ने के बाद लिंक से ऑप्ट-इन करें और Play Store पेज से इंस्टॉल करें। Arena Legends की टेस्टिंग पूरी हो चुकी है और यह अब Google Play पर उपलब्ध है।"
     },
     "trailers": {
       "q": "गेमप्ले और ट्रेलर कहाँ देखें?",

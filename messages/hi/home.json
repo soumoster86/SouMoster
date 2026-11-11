@@ -13,7 +13,8 @@
     "live": "लाइव",
     "closedTesting": "क्लोज़्ड टेस्ट",
     "inDevelopment": "विकास में",
-    "comingSoon": "जल्द आ रहा है"
+    "comingSoon": "जल्द आ रहा है",
+    "launching": "लॉन्च"
   },
   "ticker": {
     "label": "स्टूडियो के गेम"

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import {
   CarFront,
   Code2,
+  Flame,
   Rocket,
   Sparkles,
   Star,
@@ -26,6 +27,9 @@ const timelineStyle = [
   { icon: Rocket, milestone: true },
   { icon: Users, milestone: false },
   { icon: CarFront, milestone: false },
+  { icon: Rocket, milestone: true },
+  { icon: Users, milestone: false },
+  { icon: Flame, milestone: false },
   { icon: TrendingUp, milestone: false },
   { icon: Star, milestone: false },
 ];

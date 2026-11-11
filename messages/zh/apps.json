@@ -25,6 +25,11 @@
     "versionHistory": "版本历史",
     "knownIssues": "已知问题",
     "faq": "常见问题",
-    "related": "相关游戏"
+    "related": "相关游戏",
+    "launching": {
+      "badge": "已获准正式发布",
+      "title": "{name} 即将上线",
+      "text": "Google Play 已批准 {name} 正式发布，{version} 版本即将上线。上线后第一时间通知您，也可以在 YouTube {handle} 观看预告片。"
+    }
   }
 }

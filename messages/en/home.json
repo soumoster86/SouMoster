@@ -13,7 +13,8 @@
     "live": "Live",
     "closedTesting": "Closed test",
     "inDevelopment": "In development",
-    "comingSoon": "Coming soon"
+    "comingSoon": "Coming soon",
+    "launching": "Launching"
   },
   "ticker": {
     "label": "Studio slate"

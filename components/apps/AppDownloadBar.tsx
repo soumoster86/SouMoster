@@ -9,8 +9,8 @@ import { GooglePlayBadge } from "@/components/shared/GooglePlayBadge";
 import { Button } from "@/components/ui/Button";
 import {
   closedTestingJoinUrl,
-  isInDevelopment,
   isInviteOnly,
+  isUpcoming,
 } from "@/data/apps";
 import type { App } from "@/types";
 
@@ -56,7 +56,7 @@ export function AppDownloadBar({ app }: AppDownloadBarProps) {
               </p>
               <p className="text-muted truncate text-xs">{app.tagline}</p>
             </div>
-            {isInDevelopment(app) ? (
+            {isUpcoming(app) ? (
               <Button
                 href={`/beta?game=${app.slug}`}
                 size="sm"

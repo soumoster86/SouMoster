@@ -30,7 +30,7 @@ export function generateSEO({
 }: SEOProps = {}): Metadata {
   const pageTitle =
     fullTitle ??
-    (title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Android Game Developer`);
+    (title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} — Indie Game Studio`);
   const basePath = path || "/";
   const url = `${SITE_URL}${localizedPath(locale, basePath)}`;
   const canonical = englishOnly ? `${SITE_URL}${basePath}` : url;

@@ -22,7 +22,8 @@ export interface App {
   knownIssues: string[];
   faq: FAQItem[];
   featured?: boolean;
-  status?: "live" | "closed-testing" | "in-development" | "coming-soon";
+  /** "launching": approved for production on Google Play but not public yet. */
+  status?: "live" | "launching" | "closed-testing" | "in-development" | "coming-soon";
   releaseDate: string;
   downloads?: string;
   rating?: number;

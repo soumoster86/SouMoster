@@ -14,7 +14,7 @@
     "p1": "SouMoster is an independent Android game studio founded by a solo developer with a passion for creating fun, accessible, and engaging mobile games. What began as a personal journey to learn Android development has evolved into a commitment to building polished gaming experiences that players can enjoy anytime, anywhere.",
     "p2": "Every project is driven by a simple philosophy: <strong>great games don't have to be complicated</strong>. By focusing on intuitive controls, satisfying gameplay, and continuous improvement, SouMoster aims to deliver games that are easy to pick up, difficult to put down, and enjoyable for players of all ages.",
     "p3": "Our debut title, <strong>Road Hopper</strong>, launched on Google Play in July 2026, combining fast-paced arcade gameplay with clean design and offline play. <strong>Bank Hopper</strong>, a one-thumb bank heist, followed in October 2026, and <strong>Time Hopper</strong>, a seven-era time-travel runner built around the Time Hop, went live later that month. Each launched after a Closed Test with players from our community.",
-    "p4": "<strong>Arena Legends</strong>, our first action game, is now in Google Play Closed Testing, taking SouMoster beyond the Hopper series into real-time gladiator combat. <strong>Nitro Racer</strong>, our first racing game, and <strong>Space Hopper</strong> are in development. Each release builds on the lessons of the last, with player feedback shaping every update.",
+    "p4": "<strong>Arena Legends</strong>, our first action game, completed Google Play Closed Testing and launched on Google Play in November 2026, taking SouMoster beyond the Hopper series into real-time gladiator combat. <strong>Nitro Racer</strong>, our first racing game, is now in Closed Testing, and <strong>Space Hopper</strong> and <strong>Lantern Depths</strong>, a turn-based roguelite, are in development. Each release builds on the lessons of the last, with player feedback shaping every update.",
     "p5": "Follow trailers, gameplay, and behind-the-scenes videos on YouTube at <youtube>@SouMosterGames</youtube>. As SouMoster grows, the mission stays the same: to create high-quality Android games that are fun, polished, and memorable."
   },
   "games": {
@@ -77,9 +77,24 @@
         "description": "Work started on Nitro Racer, SouMoster's first racing game: 8 championships, 32 circuits, six cars to upgrade and customise, and time trials against your ghost."
       },
       {
+        "period": "November 2026",
+        "title": "Arena Legends Launches",
+        "description": "After Closed Testing, Arena Legends: Gladiator Wars, our first action game, launched worldwide on Google Play with version 1.0.2."
+      },
+      {
+        "period": "November 2026",
+        "title": "Nitro Racer Closed Testing",
+        "description": "Nitro Racer entered Google Play Closed Testing, with new scenery across all 32 circuits and illustrated race loading screens."
+      },
+      {
+        "period": "November 2026",
+        "title": "Lantern Depths Begins",
+        "description": "Work started on Lantern Depths, a turn-based roguelite where your lantern's oil is your health, your light and your ability fuel."
+      },
+      {
         "period": "Now",
         "title": "Growing the Studio",
-        "description": "Three games are live on Google Play, Arena Legends is in Closed Testing, and Space Hopper and Nitro Racer are in development. Trailers and gameplay are on YouTube @SouMosterGames."
+        "description": "Four games are live on Google Play, Nitro Racer is in Closed Testing, and Space Hopper and Lantern Depths are in development. Trailers and gameplay are on YouTube @SouMosterGames."
       },
       {
         "period": "Looking Ahead",
@@ -92,8 +107,8 @@
     "eyebrow": "Roadmap",
     "title": "Future Goals",
     "items": [
-      "Take Arena Legends from Closed Testing to a worldwide Google Play launch",
-      "Bring Space Hopper and Nitro Racer to Google Play Closed Testing",
+      "Keep growing Arena Legends with new content and player feedback",
+      "Take Nitro Racer from Closed Testing to launch, and bring Space Hopper and Lantern Depths to testing",
       "Keep improving Road Hopper, Bank Hopper and Time Hopper with player feedback",
       "Grow the SouMosterGames YouTube channel with trailers and developer diaries",
       "Release 3+ new Android games by 2027",

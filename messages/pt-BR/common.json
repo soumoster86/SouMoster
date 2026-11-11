@@ -41,7 +41,8 @@
     "live": "Disponível no Google Play",
     "closedTesting": "Teste fechado",
     "inDevelopment": "Em desenvolvimento",
-    "comingSoon": "Em breve"
+    "comingSoon": "Em breve",
+    "launching": "Lançamento em breve"
   },
   "genre": {
     "Arcade": "Arcade",
@@ -49,7 +50,8 @@
     "Puzzle": "Quebra-cabeça",
     "Casual": "Casual",
     "Racing": "Corrida",
-    "All": "Todos"
+    "All": "Todos",
+    "Strategy": "Estratégia"
   },
   "badge": {
     "version": "v{version}",

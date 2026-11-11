@@ -28,6 +28,7 @@ import { Link } from "@/i18n/navigation";
 import {
   ARENA_LEGENDS_PLAY_STORE_URL,
   BANK_HOPPER_PLAY_STORE_URL,
+  NITRO_RACER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
   SUPPORT_EMAIL,
   TIME_HOPPER_PLAY_STORE_URL,
@@ -48,20 +49,21 @@ interface GameOption {
 
 const GAME_OPTIONS: GameOption[] = [
   {
-    id: "arena-legends",
-    name: "Arena Legends",
-    version: "v0.1.11",
-    taglineKey: "arenaLegends",
-    icon: "/images/arena-legends/icon.svg",
+    id: "nitro-racer",
+    name: "Nitro Racer",
+    version: "v0.1.0",
+    taglineKey: "nitroRacer",
+    icon: "/images/nitro-racer/icon.png",
     status: "active-testing",
     recommended: true,
   },
+
   {
-    id: "nitro-racer",
-    name: "Nitro Racer",
-    version: "Dev build 0.1.0",
-    taglineKey: "nitroRacer",
-    icon: "/images/nitro-racer/icon.png",
+    id: "lantern-depths",
+    name: "Lantern Depths",
+    version: "Dev build 0.2.0",
+    taglineKey: "lanternDepths",
+    icon: "/images/lantern-depths/icon.png",
     status: "coming-soon",
   },
   {
@@ -110,7 +112,7 @@ function BetaForm() {
     ) {
       return [initialGameParam];
     }
-    return ["arena-legends"];
+    return ["nitro-racer"];
   });
 
   const [formData, setFormData] = useState({
@@ -241,7 +243,7 @@ function BetaForm() {
                     em: (chunks) => <em>{chunks}</em>,
                     play: (chunks) => (
                       <a
-                        href={ARENA_LEGENDS_PLAY_STORE_URL}
+                        href={NITRO_RACER_PLAY_STORE_URL}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
@@ -259,11 +261,18 @@ function BetaForm() {
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <GooglePlayBadge
-            href={ARENA_LEGENDS_PLAY_STORE_URL}
+            href={NITRO_RACER_PLAY_STORE_URL}
             size="md"
             subtext={tc("testBuildOn")}
-            title="Google Play"
-            ariaLabel={tc("downloadTestBuild", { name: "Arena Legends" })}
+            title="Nitro Racer"
+            ariaLabel={tc("downloadTestBuild", { name: "Nitro Racer" })}
+          />
+          <GooglePlayBadge
+            href={ARENA_LEGENDS_PLAY_STORE_URL}
+            size="md"
+            subtext={tc("nowLive")}
+            title="Arena Legends"
+            ariaLabel={tc("downloadApp", { name: "Arena Legends" })}
           />
           <GooglePlayBadge
             href={TIME_HOPPER_PLAY_STORE_URL}

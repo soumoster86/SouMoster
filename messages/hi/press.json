@@ -4,7 +4,7 @@
   "subtitle": "SouMoster गेम्स के बारे में लिखने या वीडियो बनाने के लिए ज़रूरी सब कुछ। सभी एसेट्स का इस्तेमाल लेख, रिव्यू और लेट्स-प्ले वीडियो के लिए किया जा सकता है।",
   "aboutStudio": "स्टूडियो के बारे में",
   "aboutP1": "{site} एक स्वतंत्र Android गेम डेवलपर है, जो आसान कंट्रोल और शानदार फ़िनिश वाले मज़ेदार, लत लगाने वाले और बेहतरीन क्वालिटी के गेम बनाता है। स्टूडियो की Hopper सीरीज़ में <strong>Road Hopper</strong>, <strong>Bank Hopper</strong> और <strong>Time Hopper</strong> शामिल हैं, जो सभी Google Play पर उपलब्ध हैं।",
-  "aboutP2": "स्टूडियो का पहला एक्शन गेम <strong>Arena Legends</strong> Google Play की क्लोज़्ड टेस्टिंग में है। आठ ग्रहों पर कूदने वाला <strong>Space Hopper</strong> और स्टूडियो का पहला रेसिंग गेम <strong>Nitro Racer</strong> डेवलपमेंट में हैं। ट्रेलर, गेमप्ले और डेवलपर वीडियो YouTube पर हैं: <youtube>{handle}</youtube>।",
+  "aboutP2": "<strong>Arena Legends</strong>, स्टूडियो का पहला एक्शन गेम, अब Google Play पर उपलब्ध है। <strong>Nitro Racer</strong>, स्टूडियो का पहला रेसिंग गेम, Google Play क्लोज़्ड टेस्टिंग में है। <strong>Space Hopper</strong>, आठ ग्रहों की हॉपिंग यात्रा, और <strong>Lantern Depths</strong>, एक टर्न-बेस्ड रोगलाइट, विकास में हैं। ट्रेलर, गेमप्ले और डेवलपमेंट वीडियो YouTube पर: <youtube>{handle}</youtube>।",
   "studioLogo": "स्टूडियो लोगो",
   "logoAlt": "{site} लोगो",
   "logoSvg": "लोगो (SVG)",

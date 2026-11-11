@@ -13,38 +13,39 @@ import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 import type { App } from "@/types";
 
-const pipeline = ["in-development", "closed-testing", "live"] as const;
+const pipeline = ["in-development", "closed-testing", "launching", "live"] as const;
 
 function stageIndex(status: App["status"]) {
   const index = pipeline.indexOf((status ?? "live") as (typeof pipeline)[number]);
   return index === -1 ? 0 : index;
 }
 
+/** Four-step bar from development to live, captioned with the current stage. */
 function PipelineBar({ app }: { app: App }) {
   const t = useTranslations("home");
   const current = stageIndex(app.status);
+  const color = stageColors[app.status ?? "live"];
   return (
     <div>
-      <ol className="grid grid-cols-3 gap-1.5" aria-label={t("slate.progressLabel")}>
+      <ol className="flex gap-1.5" aria-label={t("slate.progressLabel")}>
         {pipeline.map((stage, i) => (
-          <li key={stage} aria-current={i === current ? "step" : undefined}>
-            <span
-              className={cn(
-                "block h-1.5 rounded-full",
-                i <= current ? stageColors[app.status ?? "live"] : "bg-border",
-              )}
-            />
-            <span
-              className={cn(
-                "mt-1.5 block truncate text-[11px]",
-                i === current ? "text-text font-semibold" : "text-muted",
-              )}
-            >
-              {t(`stages.${stageKeys[stage]}`)}
-            </span>
+          <li
+            key={stage}
+            aria-current={i === current ? "step" : undefined}
+            className={cn("h-1.5 flex-1 rounded-full", i <= current ? color : "bg-border")}
+          >
+            <span className="sr-only">{t(`stages.${stageKeys[stage]}`)}</span>
           </li>
         ))}
       </ol>
+      <p className="mt-2 flex items-center justify-between text-xs" aria-hidden="true">
+        <span className="text-text font-semibold">
+          {t(`stages.${stageKeys[pipeline[current]]}`)}
+        </span>
+        <span className="text-muted">
+          {current + 1} / {pipeline.length}
+        </span>
+      </p>
     </div>
   );
 }

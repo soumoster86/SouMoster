@@ -11,6 +11,8 @@ import {
   hasBuildVersion,
   isInDevelopment,
   isInviteOnly,
+  isLaunching,
+  isUpcoming,
 } from "@/data/apps";
 import { Link } from "@/i18n/navigation";
 import type { App } from "@/types";
@@ -57,7 +59,9 @@ export function AppCard({ app }: AppCardProps) {
 
         <div className="mb-4 flex flex-wrap gap-2">
           <Badge variant="primary">{t(`genre.${app.category}`)}</Badge>
-          {app.status === "closed-testing" ? (
+          {isLaunching(app) ? (
+            <Badge variant="accent">{t("status.launching")}</Badge>
+          ) : app.status === "closed-testing" ? (
             <Badge variant="secondary">{t("status.closedTesting")}</Badge>
           ) : app.status === "in-development" ? (
             <Badge variant="secondary">{t("status.inDevelopment")}</Badge>
@@ -69,13 +73,13 @@ export function AppCard({ app }: AppCardProps) {
           {isInDevelopment(app) && hasBuildVersion(app) && (
             <Badge>{t("badge.devBuild", { version: app.version })}</Badge>
           )}
-          {isInviteOnly(app) && !isInDevelopment(app) && (
+          {(isInviteOnly(app) || isLaunching(app)) && !isInDevelopment(app) && (
             <Badge>{t("badge.version", { version: app.version })}</Badge>
           )}
         </div>
 
         <div className="flex gap-2">
-          {isInDevelopment(app) ? (
+          {isUpcoming(app) ? (
             <Button
               href={`/beta?game=${app.slug}`}
               size="sm"

@@ -25,6 +25,11 @@
     "versionHistory": "Version History",
     "knownIssues": "Known Issues",
     "faq": "FAQ",
-    "related": "Related Games"
+    "related": "Related Games",
+    "launching": {
+      "badge": "Approved for production",
+      "title": "{name} is launching soon",
+      "text": "Google Play has approved {name} for production, and version {version} goes live soon. Get notified the moment it's out, and watch trailers on YouTube {handle}."
+    }
   }
 }

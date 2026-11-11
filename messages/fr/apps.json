@@ -25,6 +25,11 @@
     "versionHistory": "Historique des versions",
     "knownIssues": "Problèmes connus",
     "faq": "FAQ",
-    "related": "Autres jeux"
+    "related": "Autres jeux",
+    "launching": {
+      "badge": "Approuvé pour la production",
+      "title": "{name} arrive bientôt",
+      "text": "Google Play a approuvé {name} pour la production, et la version {version} sera bientôt disponible. Soyez prévenu dès sa sortie et regardez les bandes-annonces sur YouTube {handle}."
+    }
   }
 }

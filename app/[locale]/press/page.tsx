@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: PageProps) {
 
 const STATUS_KEY: Record<NonNullable<App["status"]>, string> = {
   live: "live",
+  launching: "launching",
   "closed-testing": "closedTesting",
   "in-development": "inDevelopment",
   "coming-soon": "comingSoon",

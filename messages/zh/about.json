@@ -14,7 +14,7 @@
     "p1": "SouMoster 是一家独立 Android 游戏工作室，由一位热衷于打造有趣、易上手又引人入胜的手机游戏的独立开发者创立。从最初学习 Android 开发的个人旅程开始，如今已发展为一份承诺：打造玩家随时随地都能享受的精良游戏。",
     "p2": "每个项目都遵循一个简单的理念：<strong>好游戏不必复杂</strong>。通过直观的操作、令人满足的玩法和持续的改进，SouMoster 希望带来易于上手、难以放下、老少皆宜的游戏。",
     "p3": "我们的首款作品 <strong>Road Hopper</strong> 于 2026 年 7 月在 Google Play 上线，融合了快节奏的街机玩法、简洁的设计和离线游玩。2026 年 10 月，单指操作的银行劫案游戏 <strong>Bank Hopper</strong> 紧随其后，同月晚些时候，围绕 Time Hop 打造、横跨七个时代的时空穿越跑酷游戏 <strong>Time Hopper</strong> 也正式上线。每款游戏都在与社区玩家完成封闭测试后发布。",
-    "p4": "我们的首款动作游戏 <strong>Arena Legends</strong> 现正在 Google Play 封闭测试中，以实时角斗士战斗带领 SouMoster 走出 Hopper 系列。我们的首款竞速游戏 <strong>Nitro Racer</strong> 和 <strong>Space Hopper</strong> 正在开发中。每一次发布都借鉴上一次的经验，玩家的反馈塑造着每一次更新。",
+    "p4": "我们的首款动作游戏 <strong>Arena Legends</strong> 完成了 Google Play 封闭测试，并于 2026 年 11 月上线，让 SouMoster 从 Hopper 系列迈向即时角斗士战斗。我们的首款竞速游戏 <strong>Nitro Racer</strong> 现已进入封闭测试，<strong>Space Hopper</strong> 和回合制 Roguelite <strong>Lantern Depths</strong> 正在开发中。每一次发布都借鉴上一次的经验，玩家反馈塑造着每一次更新。",
     "p5": "在 YouTube 关注预告片、游戏实况和幕后视频：<youtube>@SouMosterGames</youtube>。SouMoster 在不断成长，但使命始终如一：打造有趣、精良、令人难忘的高品质 Android 游戏。"
   },
   "games": {
@@ -77,9 +77,24 @@
         "description": "SouMoster 首款竞速游戏 Nitro Racer 开始开发：8 个锦标赛、32 条赛道、六辆可升级和改装的赛车，以及挑战自己幽灵记录的计时赛。"
       },
       {
+        "period": "2026 年 11 月",
+        "title": "Arena Legends 上线",
+        "description": "经过封闭测试，我们的首款动作游戏 Arena Legends: Gladiator Wars 以 1.0.2 版本在 Google Play 全球上线。"
+      },
+      {
+        "period": "2026 年 11 月",
+        "title": "Nitro Racer 封闭测试",
+        "description": "Nitro Racer 进入 Google Play 封闭测试，全部 32 条赛道都换上了新场景，并加入了插画风格的比赛加载画面。"
+      },
+      {
+        "period": "2026 年 11 月",
+        "title": "Lantern Depths 启动",
+        "description": "Lantern Depths 开始开发：一款回合制 Roguelite，灯笼里的油同时是你的生命、你的光亮和你的技能燃料。"
+      },
+      {
         "period": "现在",
         "title": "工作室不断成长",
-        "description": "三款游戏已在 Google Play 上线，Arena Legends 正在封闭测试，Space Hopper 和 Nitro Racer 正在开发中。预告片和游戏实况请见 YouTube @SouMosterGames。"
+        "description": "四款游戏已在 Google Play 上线，Nitro Racer 正在封闭测试，Space Hopper 和 Lantern Depths 正在开发中。预告片和游戏实况请见 YouTube @SouMosterGames。"
       },
       {
         "period": "展望未来",
@@ -92,8 +107,8 @@
     "eyebrow": "路线图",
     "title": "未来目标",
     "items": [
-      "让 Arena Legends 从封闭测试走向在 Google Play 全球上线",
-      "启动 Space Hopper 和 Nitro Racer 的 Google Play 封闭测试",
+      "持续为 Arena Legends 加入新内容，并根据玩家反馈改进",
+      "让 Nitro Racer 从封闭测试走向正式发布，并开启 Space Hopper 和 Lantern Depths 的测试",
       "根据玩家反馈持续改进 Road Hopper、Bank Hopper 和 Time Hopper",
       "通过预告片和开发日志发展 SouMosterGames YouTube 频道",
       "在 2027 年前发布至少 3 款新的 Android 游戏",

@@ -13,7 +13,8 @@
     "live": "已上线",
     "closedTesting": "封闭测试",
     "inDevelopment": "开发中",
-    "comingSoon": "即将推出"
+    "comingSoon": "即将推出",
+    "launching": "即将上线"
   },
   "ticker": {
     "label": "工作室作品"

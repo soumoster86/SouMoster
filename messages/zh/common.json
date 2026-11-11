@@ -41,7 +41,8 @@
     "live": "已在 Google Play 上线",
     "closedTesting": "封闭测试中",
     "inDevelopment": "开发中",
-    "comingSoon": "即将推出"
+    "comingSoon": "即将推出",
+    "launching": "即将上线"
   },
   "genre": {
     "Arcade": "街机",
@@ -49,7 +50,8 @@
     "Puzzle": "益智",
     "Casual": "休闲",
     "Racing": "竞速",
-    "All": "全部"
+    "All": "全部",
+    "Strategy": "策略"
   },
   "badge": {
     "version": "v{version}",

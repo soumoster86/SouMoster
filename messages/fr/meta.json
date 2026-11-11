@@ -1,19 +1,19 @@
 {
   "home": {
     "title": "SouMoster — Studio de jeux indépendant",
-    "description": "SouMoster est un développeur indépendant de jeux Android. Téléchargez gratuitement Road Hopper, Bank Hopper et Time Hopper sur Google Play. Arena Legends, notre premier jeu d’action, est en test fermé sur Google Play. Space Hopper et Nitro Racer, notre premier jeu de course, sont en développement. Bandes-annonces sur YouTube @SouMosterGames."
+    "description": "SouMoster est un studio indépendant de jeux Android. Téléchargez gratuitement Road Hopper, Bank Hopper, Time Hopper et Arena Legends, notre premier jeu d'action, sur Google Play. Nitro Racer est en test fermé sur Google Play, et Space Hopper et Lantern Depths sont en développement. Bandes-annonces sur YouTube @SouMosterGames."
   },
   "apps": {
     "title": "Jeux",
-    "description": "Découvrez les jeux Android de SouMoster. Téléchargez Road Hopper, Bank Hopper et Time Hopper, rejoignez le test fermé d’Arena Legends sur Google Play, découvrez Nitro Racer et suivez nos bandes-annonces sur YouTube."
+    "description": "Découvrez les jeux Android de SouMoster. Téléchargez Road Hopper, Bank Hopper, Time Hopper et Arena Legends, rejoignez le test fermé de Nitro Racer sur Google Play, découvrez Lantern Depths et suivez les bandes-annonces sur YouTube."
   },
   "about": {
     "title": "À propos",
-    "description": "Découvrez SouMoster, studio indépendant de jeux Android : Road Hopper, Bank Hopper et Time Hopper (disponibles), Arena Legends (test fermé sur Google Play), Space Hopper et Nitro Racer (en développement). YouTube @SouMosterGames."
+    "description": "Découvrez SouMoster — des jeux Android indépendants : Road Hopper, Bank Hopper, Time Hopper et Arena Legends (disponibles), Nitro Racer (test fermé Google Play), Space Hopper et Lantern Depths (en développement). YouTube @SouMosterGames."
   },
   "beta": {
     "title": "Rejoindre la bêta fermée",
-    "description": "Arena Legends v0.1.11 est en test fermé sur Google Play, et Time Hopper est désormais disponible sur Google Play. Inscrivez-vous comme testeur SouMoster, installez le jeu depuis Play et regardez les bandes-annonces sur YouTube @SouMosterGames."
+    "description": "Nitro Racer est en test fermé sur Google Play, et Arena Legends est désormais disponible sur Google Play. Inscrivez-vous comme testeur SouMoster, installez depuis Play et regardez les bandes-annonces sur YouTube @SouMosterGames."
   },
   "contact": {
     "title": "Contact",
@@ -25,7 +25,7 @@
   },
   "press": {
     "title": "Kit presse",
-    "description": "Kit presse SouMoster : fiche du studio, fiches des jeux, logos, icônes, bannières, captures d’écran et bandes-annonces de Road Hopper, Bank Hopper, Time Hopper, Arena Legends, Space Hopper et Nitro Racer."
+    "description": "Kit presse SouMoster : fiche du studio, fiches des jeux, logos, icônes, bannières, captures d'écran et bandes-annonces de Road Hopper, Bank Hopper, Time Hopper, Arena Legends, Nitro Racer, Space Hopper et Lantern Depths."
   },
   "blog": {
     "title": "Blog",

@@ -2,13 +2,13 @@
   "header": {
     "badge": "Programa de testes do Google Play",
     "title": "Participe do <highlight>beta fechado</highlight>",
-    "lead": "Arena Legends v0.1.11, nosso primeiro jogo de ação, está na faixa de teste fechado do Google Play. Ajude a ajustar o combate, a campanha e os controles antes do lançamento mundial. Time Hopper, nosso beta anterior, já está disponível no Google Play.",
+    "lead": "Nitro Racer, nosso primeiro jogo de corrida, está no teste fechado do Google Play. Ajude-nos a ajustar a pilotagem, os campeonatos e a garagem antes do lançamento. Arena Legends, nosso último beta, já está disponível no Google Play.",
     "watchTrailers": "Assista aos trailers no YouTube {handle}"
   },
   "perks": {
     "earlyBuilds": {
       "title": "Versões antecipadas exclusivas",
-      "text": "Jogue as versões de teste fechado de <strong>Arena Legends v0.1.11</strong> e futuros títulos, como Nitro Racer, pelo Google Play antes do lançamento público."
+      "text": "Jogue as versões de teste fechado de <strong>Nitro Racer</strong> e futuros jogos, como Lantern Depths, pelo Google Play antes do lançamento público."
     },
     "devAccess": {
       "title": "Contato direto com o desenvolvedor",
@@ -20,19 +20,19 @@
     }
   },
   "games": {
-    "arenaLegends": "Nosso primeiro jogo de ação: combates de gladiadores e chefes",
     "spaceHopper": "Salte por oito planetas para consertar os Warp Gates",
     "allUpcoming": {
       "name": "Todos os próximos jogos",
       "version": "Acesso VIP",
       "tagline": "Convites para todos os futuros protótipos e versões experimentais"
     },
-    "nitroRacer": "Nosso primeiro jogo de corrida: 8 campeonatos, nitro e uma garagem para montar"
+    "nitroRacer": "Nosso primeiro jogo de corrida: 8 campeonatos, nitro e uma garagem para montar",
+    "lanternDepths": "Um roguelite por turnos em que o óleo é sua vida e sua luz"
   },
   "formCard": {
     "title": "Formulário de inscrição de testadores",
     "subtitle": "Preencha o formulário abaixo. O Google Play vai enviar por e-mail seu link de confirmação assim que sua conta for inscrita.",
-    "tip": "<strong>Dica:</strong> use o e-mail da conta Google conectada à Play Store no seu celular. Nós o adicionamos à lista de testadores de Arena Legends e enviamos o link para você se inscrever e instalar.",
+    "tip": "<strong>Dica:</strong> use o e-mail da conta Google conectada à Play Store no seu celular. Nós o adicionamos à lista de testadores de Nitro Racer e enviamos o link para você participar e instalar.",
     "loading": "Carregando o formulário..."
   },
   "form": {
@@ -71,7 +71,7 @@
     "nextTitle": "E agora?",
     "step1": "Adicionamos seu e-mail à lista de testadores autorizados no Console do Google Play.",
     "step2": "Você vai receber um link de inscrição (ou um convite por e-mail). Toque em <em>“Participar na Web / Participar no Android”</em> para aceitar.",
-    "step3": "Depois de se inscrever, instale o teste fechado pela Google Play Store no seu aparelho: <play>Arena Legends no Google Play</play>",
+    "step3": "Depois de participar, instale o teste fechado pela Google Play Store no seu dispositivo: <play>Nitro Racer no Google Play</play>",
     "registerAnother": "Inscrever outro aparelho"
   },
   "faq": {
@@ -88,11 +88,11 @@
     },
     "android": {
       "q": "Qual versão do Android é necessária?",
-      "a": "Arena Legends e Road Hopper funcionam no Android 7.0 (API 24) ou superior. Time Hopper e Bank Hopper funcionam no Android 8.0 (API 26) ou superior. Space Hopper e Nitro Racer ainda estão em desenvolvimento."
+      "a": "Arena Legends e Road Hopper funcionam no Android 7.0 (API 24) ou superior. Nitro Racer, Time Hopper e Bank Hopper funcionam no Android 8.0 (API 26) ou superior. Space Hopper e Lantern Depths ainda estão em desenvolvimento."
     },
     "isOpen": {
-      "q": "O teste fechado de Arena Legends está aberto?",
-      "a": "Sim. Arena Legends v0.1.11 está na faixa de teste fechado do Google Play. Envie seu e-mail do Google Play pelo formulário acima; quando adicionarmos você, inscreva-se pelo link e instale pela página do jogo na Play Store. Time Hopper já terminou os testes e está disponível no Google Play."
+      "q": "O teste fechado de Nitro Racer está aberto?",
+      "a": "Sim. Nitro Racer está no teste fechado do Google Play. Envie seu e-mail do Google Play pelo formulário acima; depois que adicionarmos você, participe pelo link e instale pela página da Play Store. Arena Legends concluiu os testes e já está disponível no Google Play."
     },
     "trailers": {
       "q": "Onde posso ver gameplay e trailers?",

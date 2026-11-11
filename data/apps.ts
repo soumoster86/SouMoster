@@ -1,6 +1,7 @@
 import type { App } from "@/types";
 import {
   ARENA_LEGENDS_PLAY_STORE_URL,
+  NITRO_RACER_PLAY_STORE_URL,
   TIME_HOPPER_PLAY_STORE_URL,
 } from "@/lib/constants";
 
@@ -490,13 +491,13 @@ export const apps: App[] = [
     name: "Arena Legends",
     tagline: "Gladiator Wars. Fight, and earn your freedom.",
     description:
-      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now in Google Play Closed Testing.",
+      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now live on Google Play.",
     longDescription:
-      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX and now in Google Play Closed Testing. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Read each warning, dodge the impact and strike during recovery: chain combos, charge heavy attacks, block, parry and counter, and break shields and armour. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, and upgrade your gear in the Armory. Survival, Training, a timed Boss Rush and a Daily Challenge with changing modifiers round it out, with 20 achievements to earn. Move and resize the action buttons, play left-handed, and play offline: progress stays on your device.",
+      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX. After Google Play Closed Testing, version 1.0.2 is now live on Google Play. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Read each warning, dodge the impact and strike during recovery: chain combos, charge heavy attacks, block, parry and counter, and break shields and armour. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, then build weapon mastery and unlock cloth colours, heraldic standards, helmet crests, shield designs and metal finishes. Survival with perks, a timed Boss Rush, the Daily Challenge, a rotating Weekly Champion, daily and weekly contracts and 20 achievements round it out. Move and resize the action buttons, play left-handed, and play offline: progress stays on your device.",
     genre: "Action",
     category: "Action",
-    version: "0.1.11",
-    status: "closed-testing",
+    version: "1.0.2",
+    status: "live",
     playStoreUrl: ARENA_LEGENDS_PLAY_STORE_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/arena-legends/icon.svg",
@@ -509,18 +510,18 @@ export const apps: App[] = [
       "/images/arena-legends/screen-hall-of-champions.webp",
       "/images/arena-legends/screen-campaign.webp",
       "/images/arena-legends/screen-weapons.webp",
-      "/images/arena-legends/screen-daily-challenge.webp",
-      "/images/arena-legends/screen-custom-controls.webp",
+      "/images/arena-legends/screen-customize.webp",
+      "/images/arena-legends/screen-main-menu.webp",
     ],
     features: [
-      "Now in Google Play Closed Testing: request an invite on our Beta page",
+      "Now live on Google Play: free to play, with optional gold packs",
       "Five-chapter campaign: the Blood Pits, the Coliseum, the Wild Trials, the Ashen Arena and the Hall of Champions",
       "Five bosses: Brutus the Iron Wall, Vex, the Beast Master, the Inferno Champion and the three-stance Imperial Champion",
       "Directional combos, charged heavy attacks, block, parry and counter, dodge and finishers, all on a shared stamina bar",
       "Four weapon classes with their own combos and skills: Sword & Shield (Shield Bash), Spear (Piercing Thrust), Dual Blades (Cross Cut) and Great Axe (Whirlwind)",
-      "Break enemy shields and armour; avoid spinning blades, snares and fire grates",
-      "Survival waves, Training lessons, a timed Boss Rush and a Daily Challenge with changing modifiers",
-      "20 achievements, with optional Google Play Games linking and cloud backups",
+      "Customize your gladiator: cloth colours, heraldic standards, helmet crests, shield designs and weapon finishes unlocked through mastery",
+      "Survival with perks, a timed Boss Rush, the Daily Challenge and a rotating Weekly Champion",
+      "Daily and weekly contracts, chapter medals and 20 achievements, with optional Google Play Games linking and cloud backups",
       "Armory upgrades, talents, gold, XP and reputation unlocks",
       "Custom controls: move and resize the action buttons, or switch to left-handed",
       "Offline play; comfort options for text size, screen shake, flashes and reduced effects",
@@ -537,52 +538,52 @@ export const apps: App[] = [
     ],
     versionHistory: [
       {
-        version: "0.1.11",
+        version: "1.0.2",
+        date: "2026-11-11",
         changes: [
-          "Closed Testing build on Google Play",
-          "Roomier boss introductions and clearer victory results",
-          "Next chapter: continue straight to the next chapter after a campaign clear",
+          "Worldwide launch on Google Play",
+          "Fullscreen display handling for newer Android versions",
+          "Safer layouts around camera cutouts and window captions",
+          "Smaller, optimized release code and resources",
         ],
       },
       {
-        version: "0.1.8–0.1.10",
+        version: "1.0.0–1.0.1",
+        date: "2026-11-09",
         changes: [
-          "Optional cloud backups to your Play Games profile",
-          "Play Games reconnects automatically; training partners stand ready",
+          "First production release candidate: five chapters, four weapon styles and every mode",
         ],
       },
       {
-        version: "0.1.5–0.1.7",
+        version: "0.1.17–0.1.19",
         changes: [
-          "20 achievements, with optional Google Play Games linking",
-          "Eight-frame walking animations for every fighter, enemy and boss",
-          "Clearer attack windups, labels and equipment requirements",
+          "Helmet crest colours, shield designs and weapon finishes unlocked through mastery",
+          "Longer menu and combat music with smoother transitions",
         ],
       },
       {
-        version: "0.1.1–0.1.3",
+        version: "0.1.12–0.1.15",
         changes: [
-          "First closed-test builds: five chapters, four weapons, Survival, Boss Rush and Daily Challenge",
-          "Custom controls, refreshed settings and an illustrated loading screen",
+          "Daily and weekly contracts, weapon mastery, chapter medals and Survival perks",
+          "Weekly Champion encounters and a redesigned menu with heraldic standards",
+          "Painted floor hazards: spinning blades, snares and fire grates",
         ],
       },
       {
-        version: "0.1.0",
+        version: "0.1.0–0.1.11",
         date: "2026-10-21",
         changes: [
-          "Five-chapter campaign playable through the Imperial Champion",
-          "First internal test on Google Play",
+          "Google Play Closed Testing: five chapters, four weapons, Survival, Boss Rush and Daily Challenge",
+          "20 achievements, optional Play Games linking and cloud backups, and custom controls",
         ],
       },
     ],
-    knownIssues: [
-      "Invite-only Google Play Closed Testing: request an invite on our Beta page with your Google Play email",
-    ],
+    knownIssues: [],
     faq: [
       {
-        question: "How do I play Arena Legends right now?",
+        question: "Where can I download Arena Legends?",
         answer:
-          "Arena Legends is in Google Play Closed Testing. Submit your Google Play email on our Beta page; we add you to the tester list, and you receive a link to opt in and install from Google Play.",
+          "Arena Legends is live on Google Play. Tap Download on this page or search 'Arena Legends: Gladiator Wars' in the Play Store.",
       },
       {
         question: "Is it different from the Hopper games?",
@@ -592,7 +593,7 @@ export const apps: App[] = [
       {
         question: "Is Arena Legends free?",
         answer:
-          "Yes. The closed test is free to play, with optional Google Play gold packs for equipment and upgrades. XP, reputation and chapter unlocks still require play.",
+          "Yes. Arena Legends is free to play. Google Play lists it as containing ads and optional gold packs for equipment and upgrades. XP, reputation and chapter unlocks still require play, and cosmetic styles keep combat stats the same.",
       },
       {
         question: "Does it work offline?",
@@ -605,21 +606,22 @@ export const apps: App[] = [
       },
     ],
     featured: false,
-    releaseDate: "2026-10-16",
+    releaseDate: "2026-11-11",
+    downloads: "10+",
   },
   {
     slug: "nitro-racer",
     name: "Nitro Racer",
     tagline: "Chase the next horizon.",
     description:
-      "SouMoster's first racing game: race 8 championships across 32 circuits, collect nitro and build your dream garage. Now in development.",
+      "SouMoster's first racing game: race 8 championships across 32 circuits, collect nitro and build your dream garage. Now in Google Play Closed Testing.",
     longDescription:
-      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in development. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag. Race through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes and volcanic terrain across 8 championships and 32 circuits, then take on mirrored variants. Compete against five AI rivals, collect nitro bottles, follow gold trails, hit boost pads, risk shortcuts and chain clean overtakes into combos. Unlock six cars, upgrade engine, turbo, tyres and nitro, and personalise paint, stripes, boost effects, underglow and number plates. Create your racer, chase your best lap against your saved ghost in time trials, and keep a daily challenge streak. Steer with tilt or on-screen controls, and race offline with no account needed.",
+      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in Google Play Closed Testing. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag. Race through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes and volcanic terrain across 8 championships and 32 circuits, each dressed with its own scenery, then take on mirrored variants. Compete against five AI rivals, collect nitro bottles, follow gold trails, hit boost pads, risk shortcuts and chain clean overtakes into combos. Unlock six cars, upgrade engine, turbo, tyres and nitro, and personalise paint, stripes, boost effects, underglow and number plates. Create your racer, chase your best lap against your saved ghost in time trials, and keep a daily challenge streak. Steer with tilt or on-screen controls, and race offline with no account needed.",
     genre: "Racing",
     category: "Racing",
     version: "0.1.0",
-    status: "in-development",
-    playStoreUrl: "",
+    status: "closed-testing",
+    playStoreUrl: NITRO_RACER_PLAY_STORE_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/nitro-racer/icon.png",
     banner: "/images/nitro-racer/banner.webp",
@@ -636,8 +638,9 @@ export const apps: App[] = [
       "/images/nitro-racer/screen-main-menu.webp",
     ],
     features: [
-      "SouMoster's first racing game: arcade racing in landscape",
+      "Now in Google Play Closed Testing: request an invite on our Beta page",
       "8 championships and 32 circuits: countryside, coast, alpine passes, neon city nights, desert, rainforest, arctic and volcanic roads",
+      "Scenery for every biome: wildflowers and hay bales, driftwood and dune grass, snowy fences and charred snags",
       "Mirrored track variants and replayable championships",
       "Race five AI rivals: nitro bottles, gold trails, boost pads, shortcuts and overtake combos",
       "Six cars with engine, turbo, tyre and nitro upgrades",
@@ -660,6 +663,22 @@ export const apps: App[] = [
     ],
     versionHistory: [
       {
+        version: "0.1.0 (build 15)",
+        date: "2026-11-11",
+        changes: [
+          "Five full-screen racing paintings while your next race loads, with circuit name and progress",
+          "Coin-and-confetti celebration after a successful gold purchase",
+        ],
+      },
+      {
+        version: "0.1.0 (builds 12–14)",
+        date: "2026-11-10",
+        changes: [
+          "Closed Testing build on Google Play",
+          "New scenery across all 32 circuits: meadows, coast, alpine, city, desert, rainforest, snow and volcanic",
+        ],
+      },
+      {
         version: "0.1.0",
         date: "2026-10-24",
         changes: [
@@ -669,12 +688,14 @@ export const apps: App[] = [
         ],
       },
     ],
-    knownIssues: ["Development build: not yet on Google Play"],
+    knownIssues: [
+      "Invite-only Google Play Closed Testing: request an invite on our Beta page with your Google Play email",
+    ],
     faq: [
       {
-        question: "When will Nitro Racer be available?",
+        question: "How do I play Nitro Racer right now?",
         answer:
-          "Nitro Racer is in development and has no release date yet. Sign up on our Beta page to hear first when testing opens.",
+          "Nitro Racer is in Google Play Closed Testing. Submit your Google Play email on our Beta page; we add you to the tester list, and you receive a link to opt in and install from Google Play.",
       },
       {
         question: "Is it different from SouMoster's other games?",
@@ -682,22 +703,107 @@ export const apps: App[] = [
           "Yes. Nitro Racer is SouMoster's first racing game: championship races against AI rivals, time trials and a garage of cars to upgrade and customise, played in landscape.",
       },
       {
-        question: "Will it be free?",
+        question: "Is it free?",
         answer:
-          "Yes. Nitro Racer will be free to play, with optional rewarded ads for extra gold and occasional ads between completed races. Cars and upgrades are earned by racing.",
+          "Yes. Nitro Racer is free to play, with optional rewarded ads for extra gold, occasional ads between completed races and optional Google Play gold packs. Cars and upgrades can be earned by racing.",
       },
       {
-        question: "Will it work offline?",
+        question: "Does it work offline?",
         answer:
           "Yes. You can race offline with no account. Ads need an internet connection.",
       },
       {
-        question: "What devices will it support?",
+        question: "What devices does it support?",
         answer: "Android 8.0 (API 26) and newer, in landscape.",
       },
     ],
     featured: false,
-    releaseDate: "2026-10-26",
+    releaseDate: "2026-11-10",
+  },
+  {
+    slug: "lantern-depths",
+    name: "Lantern Depths",
+    tagline: "A light against the deep.",
+    description:
+      "A turn-based roguelite where your lantern's oil is your health, your light and your spell fuel. Now in development.",
+    longDescription:
+      "Lantern Depths is a turn-based roguelite from SouMoster, built with Godot and now in development. Your lantern's oil is your health, your light and your spell fuel, all at once: every hit you take dims the flame, so the weaker you get, the less you can see. Descend the Hollow Well one careful step at a time. Nothing moves until you act, so every step is a decision. Flare to stun light-sensitive foes and reveal more, Shut your lantern to sneak, Burn barrels and Kindle fires, and read each enemy's next move before you commit. Pick a relic for every descent, buy from the Merchant, open chests and protect your oil with Lantern Glass. Face rats, leeches, lamp moths, drowned haulers, bilge archers, gloomers and sporelings in the flooded Cistern, ending with the Drowned Bellringer. Death feeds Wellhead Camp, where embers buy new Wicks, unlock the Warden and fill the Archive with creatures, pages and records. Short runs fit a commute, and everything plays with one thumb in portrait.",
+    genre: "Strategy",
+    category: "Strategy",
+    version: "0.2.0",
+    status: "in-development",
+    playStoreUrl: "",
+    youtubeUrl: "https://www.youtube.com/@SouMosterGames",
+    icon: "/images/lantern-depths/icon.png",
+    banner: "/images/lantern-depths/banner.webp",
+    screenshots: [
+      "/images/lantern-depths/screen-title.webp",
+      "/images/lantern-depths/screen-burn.webp",
+      "/images/lantern-depths/screen-warden.webp",
+      "/images/lantern-depths/screen-low-oil.webp",
+      "/images/lantern-depths/screen-wellhead-camp.webp",
+      "/images/lantern-depths/screen-relics.webp",
+      "/images/lantern-depths/screen-merchant.webp",
+      "/images/lantern-depths/screen-run-recap.webp",
+    ],
+    features: [
+      "SouMoster's first roguelite: turn-based, short runs, one-thumb portrait play",
+      "One resource, three jobs: oil is your health, your light radius and your ability fuel",
+      "The lower your oil, the less you can see; explored tiles stay on the map as a grey memory",
+      "Lantern actions: Flare, Shut, Burn and Kindle, plus Oil Flasks and Smoke",
+      "Enemy forecasts show each lit foe's next move before you act",
+      "Procedural floors in the flooded Cistern, ending with the Drowned Bellringer boss",
+      "Two classes: the Lamplighter and the Warden, unlocked by reaching floor 5",
+      "Relics, weapons, Lantern Glass, a Merchant, chests and shrines",
+      "Wellhead Camp: spend embers on Wicks and upgrades; fill the Archive with creatures, pages and records",
+      "Guided practice and illustrated tutorials",
+      "Left-handed HUD, Fast mode, reduced flicker, large text and haptics",
+    ],
+    howToPlay: [
+      "Tap a tile to move; tap an enemy beside you to strike",
+      "Watch your oil: it is your health, and it sets how far your light reaches",
+      "Read the labels over lit enemies to see what they will do next",
+      "Flare to stun light-sensitive foes, or Shut your lantern to sneak and backstab",
+      "Burn barrels and Kindle fires to turn the room against your enemies",
+      "Find the stairs on each floor and descend",
+      "When the flame goes out, spend your embers at Wellhead Camp and try again",
+    ],
+    versionHistory: [
+      {
+        version: "0.2.0",
+        date: "2026-11-11",
+        changes: [
+          "Development build: illustrated Wellhead Camp, painted creatures and an iron lantern HUD",
+          "Guided first descent, illustrated tutorials and a full-screen launch screen",
+          "Settings for Fast mode, left-handed HUD, reduced flicker, text size and haptics",
+        ],
+      },
+    ],
+    knownIssues: ["Development build: not yet on Google Play"],
+    faq: [
+      {
+        question: "When will Lantern Depths be available?",
+        answer:
+          "Lantern Depths is in development and has no release date yet. Sign up on our Beta page to hear first when testing opens.",
+      },
+      {
+        question: "What kind of game is it?",
+        answer:
+          "A turn-based roguelite: you explore procedurally generated floors one step at a time, and nothing moves until you act. Your lantern's oil is your health, your light and your ability fuel, so every choice trades survival against what you can see.",
+      },
+      {
+        question: "How long is a run?",
+        answer:
+          "Runs are designed to be short enough for a commute. When your flame goes out, the embers you earned unlock upgrades at Wellhead Camp for the next descent.",
+      },
+      {
+        question: "Can I play with one hand?",
+        answer:
+          "Yes. Lantern Depths is played in portrait with one thumb, and a left-handed HUD is available in Settings.",
+      },
+    ],
+    featured: false,
+    releaseDate: "2026-11-11",
   },
 ];
 
@@ -707,6 +813,15 @@ export function isInviteOnly(app: App): boolean {
 
 export function isInDevelopment(app: App): boolean {
   return app.status === "in-development" || app.status === "coming-soon";
+}
+
+export function isLaunching(app: App): boolean {
+  return app.status === "launching";
+}
+
+/** Not downloadable yet, so calls to action point to "Get notified". */
+export function isUpcoming(app: App): boolean {
+  return isInDevelopment(app) || isLaunching(app);
 }
 
 /** True when `version` is a real build number rather than a label like "In development". */

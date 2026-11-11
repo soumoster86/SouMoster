@@ -2,6 +2,7 @@ import {
   AlertTriangle,
   Bell,
   ExternalLink,
+  Rocket,
   Users,
   Youtube,
 } from "lucide-react";
@@ -17,7 +18,12 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { Accordion } from "@/components/ui/Accordion";
 import { Button } from "@/components/ui/Button";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { closedTestingJoinUrl, isInDevelopment, isInviteOnly } from "@/data/apps";
+import {
+  closedTestingJoinUrl,
+  isInDevelopment,
+  isInviteOnly,
+  isLaunching,
+} from "@/data/apps";
 import { YOUTUBE_HANDLE, YOUTUBE_URL } from "@/lib/constants";
 import { formatDate } from "@/lib/utils";
 import { generateSEO, generateSoftwareAppSchema } from "@/lib/seo";
@@ -69,6 +75,48 @@ export default async function AppPage({ params }: AppPageProps) {
       <AppDownloadBar app={app} />
 
       <div className="mx-auto max-w-7xl space-y-20 px-4 py-16 pb-28 sm:px-6 lg:px-8">
+        {isLaunching(app) && (
+          <div className="glass border-accent/40 from-accent/15 via-card to-primary/15 shadow-accent/10 relative overflow-hidden rounded-3xl border bg-gradient-to-r p-8 shadow-xl">
+            <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+              <div className="space-y-2">
+                <span className="border-accent/40 bg-accent/20 text-accent inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-semibold">
+                  <Rocket className="h-3.5 w-3.5" />
+                  {t("launching.badge")}
+                </span>
+                <h2 className="font-heading text-text text-2xl font-bold sm:text-3xl">
+                  {t("launching.title", { name: app.name })}
+                </h2>
+                <p className="text-muted max-w-xl text-sm leading-relaxed">
+                  {t("launching.text", {
+                    name: app.name,
+                    version: app.version,
+                    handle: YOUTUBE_HANDLE,
+                  })}
+                </p>
+              </div>
+              <div className="flex shrink-0 flex-wrap items-center gap-3">
+                <Button
+                  href={`/beta?game=${app.slug}`}
+                  size="lg"
+                  className="shadow-primary/30 min-h-[50px] shadow-lg"
+                >
+                  <Bell className="mr-2 h-5 w-5" />
+                  {tc("actions.getNotified")}
+                </Button>
+                <Button
+                  href={app.youtubeUrl ?? YOUTUBE_URL}
+                  size="lg"
+                  variant="outline"
+                  className="min-h-[50px]"
+                >
+                  <Youtube className="mr-2 h-4 w-4" />
+                  {tc("actions.youtube")}
+                </Button>
+              </div>
+            </div>
+          </div>
+        )}
+
         {isInDevelopment(app) && (
           <div className="glass border-primary/40 from-primary/15 via-card to-accent/15 shadow-primary/10 relative overflow-hidden rounded-3xl border bg-gradient-to-r p-8 shadow-xl">
             <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
