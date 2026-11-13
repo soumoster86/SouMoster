@@ -376,7 +376,7 @@
     "description": "Le premier jeu de course de SouMoster : 8 championnats sur 32 circuits, du nitro à ramasser et le garage de vos rêves à construire. En test fermé sur Google Play.",
     "longDescription": "Nitro Racer est le premier jeu de course de SouMoster, développé en Kotlin avec libGDX et actuellement en test fermé sur Google Play. Négociez de grandes courbes, profitez de l'aspiration de vos rivaux et libérez le nitro jusqu'au drapeau à damier. Courez à travers campagne, routes côtières, cols alpins, nuits urbaines au néon, canyons du désert, forêt tropicale, paysages glacés et terres volcaniques, sur 8 championnats et 32 circuits, chacun avec ses propres décors, puis attaquez-vous aux versions inversées. Affrontez cinq rivaux IA, ramassez des bouteilles de nitro, suivez les traînées d'or, passez sur les boosters, tentez les raccourcis et enchaînez les dépassements propres en combos. Débloquez six voitures, améliorez moteur, turbo, pneus et nitro, et personnalisez peinture, bandes, effets de boost, néons et plaques. Créez votre pilote, battez votre meilleur tour contre votre fantôme en contre-la-montre et entretenez votre série de défis quotidiens. Pilotez par inclinaison ou avec les commandes à l'écran, et jouez hors ligne sans compte.",
     "features": [
-      "En test fermé sur Google Play : demandez une invitation sur notre page Bêta",
+      "En test fermé sur Google Play : rejoignez le groupe Google des testeurs, puis inscrivez-vous et installez",
       "8 championnats et 32 circuits : campagne, côte, cols alpins, nuits urbaines au néon, désert, forêt tropicale, Arctique et volcans",
       "Des décors pour chaque biome : fleurs sauvages et bottes de foin, bois flotté et herbes des dunes, clôtures enneigées et souches calcinées",
       "Circuits inversés et championnats rejouables",
@@ -400,12 +400,12 @@
       "Dépensez votre or au garage en améliorations et nouveaux styles"
     ],
     "knownIssues": [
-      "Test fermé Google Play sur invitation : demandez une invitation sur notre page Bêta avec votre adresse Google Play"
+      "Test fermé Google Play : rejoignez le groupe Google des testeurs avec le compte Google de votre téléphone avant d'installer"
     ],
     "faq": [
       {
         "question": "Comment jouer à Nitro Racer dès maintenant ?",
-        "answer": "Nitro Racer est en test fermé sur Google Play. Envoyez votre adresse Google Play sur notre page Bêta ; nous vous ajoutons à la liste des testeurs et vous recevez un lien pour vous inscrire et installer le jeu depuis Google Play."
+        "answer": "Nitro Racer est en test fermé sur Google Play. Rejoignez notre groupe Google des testeurs avec le compte Google de votre téléphone Android, puis inscrivez-vous depuis la fiche Play et installez Nitro Racer depuis Google Play."
       },
       {
         "question": "Est-il différent des autres jeux SouMoster ?",

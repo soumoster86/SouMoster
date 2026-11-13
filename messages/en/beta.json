@@ -3,7 +3,9 @@
     "badge": "Google Play Testing Program",
     "title": "Join the <highlight>Closed Beta</highlight>",
     "lead": "Nitro Racer, our first racing game, is on the Google Play Closed Testing track. Help us tune its handling, championships and garage before launch. Arena Legends, our last beta, is now live on Google Play.",
-    "watchTrailers": "Watch trailers on YouTube {handle}"
+    "watchTrailers": "Watch trailers on YouTube {handle}",
+    "joinGroup": "Join the tester Google Group",
+    "joinGroupNote": "Join with the Google account on your Android phone, then opt in on Google Play and install. Sign up below too so we can keep you posted."
   },
   "perks": {
     "earlyBuilds": {
@@ -32,7 +34,7 @@
   "formCard": {
     "title": "Tester Application Form",
     "subtitle": "Fill out the form below. Google Play will email you with your opt-in confirmation link once your account is enrolled.",
-    "tip": "<strong>Tip:</strong> Use the email of the Google account signed in to the Play Store on your phone. We add it to the Nitro Racer tester list and send you the link to opt in and install.",
+    "tip": "<strong>Tip:</strong> Use the email of the Google account signed in to the Play Store on your phone, and join our tester Google Group with that same account. Group members can opt in to the Nitro Racer closed test and install it from Google Play.",
     "loading": "Loading tester form..."
   },
   "form": {
@@ -69,7 +71,7 @@
     "title": "Welcome to the Test Track!",
     "registered": "We have registered <strong>{email}</strong> for the SouMoster Google Play Closed Testing track.",
     "nextTitle": "What happens next?",
-    "step1": "Our developer console adds your email to the authorized Google Play Closed Testers list.",
+    "step1": "Join our tester Google Group with the same Google account: <group>groups.google.com/g/roadhopper</group>",
     "step2": "You'll receive an opt-in web link (or email invite). Click <em>\"Join on the web / Join on Android\"</em> to accept.",
     "step3": "Once you've opted in, install the closed test from the Google Play Store on your device: <play>Nitro Racer on Google Play</play>",
     "registerAnother": "Register Another Device"
@@ -92,7 +94,7 @@
     },
     "isOpen": {
       "q": "Is Nitro Racer Closed Testing open now?",
-      "a": "Yes. Nitro Racer is on the Google Play Closed Testing track. Submit your Google Play email with the form above; once we add you, opt in from the link and install from the Play Store listing. Arena Legends has finished testing and is now live on Google Play."
+      "a": "Yes. Nitro Racer is on the Google Play Closed Testing track. Join our tester Google Group with the Google account on your phone, then opt in and install from the Play Store listing. Arena Legends has finished testing and is now live on Google Play."
     },
     "trailers": {
       "q": "Where can I watch gameplay and trailers?",

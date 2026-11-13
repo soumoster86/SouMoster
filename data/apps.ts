@@ -1,12 +1,13 @@
 import type { App } from "@/types";
 import {
   ARENA_LEGENDS_PLAY_STORE_URL,
+  CLOSED_TESTING_GROUP_URL,
   NITRO_RACER_PLAY_STORE_URL,
   TIME_HOPPER_PLAY_STORE_URL,
 } from "@/lib/constants";
 
 /** Live listing: https://play.google.com/store/apps/details?id=com.roadohopper.game */
-export const apps: App[] = [
+const appList: App[] = [
   {
     slug: "road-hopper",
     name: "Road Hopper",
@@ -638,7 +639,7 @@ export const apps: App[] = [
       "/images/nitro-racer/screen-main-menu.webp",
     ],
     features: [
-      "Now in Google Play Closed Testing: request an invite on our Beta page",
+      "Now in Google Play Closed Testing: join the tester Google Group, then opt in and install",
       "8 championships and 32 circuits: countryside, coast, alpine passes, neon city nights, desert, rainforest, arctic and volcanic roads",
       "Scenery for every biome: wildflowers and hay bales, driftwood and dune grass, snowy fences and charred snags",
       "Mirrored track variants and replayable championships",
@@ -689,13 +690,13 @@ export const apps: App[] = [
       },
     ],
     knownIssues: [
-      "Invite-only Google Play Closed Testing: request an invite on our Beta page with your Google Play email",
+      "Google Play Closed Testing: join the tester Google Group with the Google account on your phone before installing",
     ],
     faq: [
       {
         question: "How do I play Nitro Racer right now?",
         answer:
-          "Nitro Racer is in Google Play Closed Testing. Submit your Google Play email on our Beta page; we add you to the tester list, and you receive a link to opt in and install from Google Play.",
+          "Nitro Racer is in Google Play Closed Testing. Join our tester Google Group with the Google account on your Android phone, then opt in from the Play listing and install Nitro Racer from Google Play.",
       },
       {
         question: "Is it different from SouMoster's other games?",
@@ -806,6 +807,13 @@ export const apps: App[] = [
     releaseDate: "2026-11-11",
   },
 ];
+
+/** Closed-testing games use the shared tester Google Group unless they set their own. */
+export const apps: App[] = appList.map((app) =>
+  app.status === "closed-testing" && !app.googleGroupUrl
+    ? { ...app, googleGroupUrl: CLOSED_TESTING_GROUP_URL }
+    : app,
+);
 
 export function isInviteOnly(app: App): boolean {
   return app.status === "closed-testing" || app.status === "in-development";

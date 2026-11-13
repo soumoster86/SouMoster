@@ -376,7 +376,7 @@
     "description": "SouMoster 的首款竞速游戏：32 条赛道上的 8 个锦标赛，收集氮气，打造梦想车库。正在 Google Play 封闭测试中。",
     "longDescription": "Nitro Racer 是 SouMoster 的首款竞速游戏，使用 Kotlin 和 libGDX 开发，目前正在 Google Play 进行封闭测试。穿过大弯道，借助对手的尾流，释放氮气冲向方格旗。在乡村、海岸公路、高山山口、霓虹城市之夜、沙漠峡谷、雨林、冰雪地带和火山地形中，驰骋 8 个锦标赛的 32 条赛道，每条赛道都有独特场景，之后还能挑战镜像赛道。与五名 AI 对手竞速，收集氮气瓶，追随金色轨迹，冲上加速板，冒险抄近路，并把干净利落的超车连成连击。解锁六辆赛车，升级引擎、涡轮、轮胎和氮气，并自定义涂装、条纹、加速特效、底盘灯和车牌。创建你的车手，在计时赛中挑战保存的幽灵车刷新最佳圈速，并保持每日挑战的连续纪录。可用重力感应或屏幕按钮操控，无需账号即可离线比赛。",
     "features": [
-      "正在 Google Play 封闭测试中：在我们的测试版页面申请邀请",
+      "正在 Google Play 封闭测试中：加入测试者 Google 群组，然后选择加入并安装",
       "8 个锦标赛和 32 条赛道：乡村、海岸、高山山口、霓虹城市之夜、沙漠、雨林、北极和火山道路",
       "每种地貌都有专属场景：野花和干草捆、浮木和沙丘草、积雪围栏和烧焦的树桩",
       "镜像赛道和可重复挑战的锦标赛",
@@ -400,12 +400,12 @@
       "在车库中花金币购买升级和新外观"
     ],
     "knownIssues": [
-      "仅限受邀参加的 Google Play 封闭测试：请在我们的测试版页面用您的 Google Play 邮箱申请邀请"
+      "Google Play 封闭测试：安装前请用手机上的 Google 账号加入测试者 Google 群组"
     ],
     "faq": [
       {
         "question": "现在怎样玩 Nitro Racer？",
-        "answer": "Nitro Racer 正在 Google Play 进行封闭测试。在我们的测试版页面提交您的 Google Play 邮箱；我们会将您加入测试者名单，您将收到从 Google Play 选择加入并安装的链接。"
+        "answer": "Nitro Racer 正在 Google Play 进行封闭测试。用您 Android 手机上的 Google 账号加入我们的测试者 Google 群组，然后从 Play 页面选择加入，并从 Google Play 安装 Nitro Racer。"
       },
       {
         "question": "它和 SouMoster 的其他游戏有什么不同？",

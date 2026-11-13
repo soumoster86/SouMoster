@@ -3,7 +3,9 @@
     "badge": "Google Play टेस्टिंग प्रोग्राम",
     "title": "<highlight>क्लोज़्ड बीटा</highlight> से जुड़ें",
     "lead": "Nitro Racer, हमारा पहला रेसिंग गेम, Google Play क्लोज़्ड टेस्टिंग में है। लॉन्च से पहले इसकी हैंडलिंग, चैंपियनशिप और गैराज को बेहतर बनाने में हमारी मदद करें। Arena Legends, हमारा पिछला बीटा, अब Google Play पर उपलब्ध है।",
-    "watchTrailers": "YouTube {handle} पर ट्रेलर देखें"
+    "watchTrailers": "YouTube {handle} पर ट्रेलर देखें",
+    "joinGroup": "टेस्टर Google ग्रुप से जुड़ें",
+    "joinGroupNote": "अपने Android फ़ोन वाले Google खाते से जुड़ें, फिर Google Play पर ऑप्ट-इन करके इंस्टॉल करें। अपडेट पाने के लिए नीचे साइन अप भी करें।"
   },
   "perks": {
     "earlyBuilds": {
@@ -32,7 +34,7 @@
   "formCard": {
     "title": "टेस्टर आवेदन फ़ॉर्म",
     "subtitle": "नीचे दिया फ़ॉर्म भरें। आपका अकाउंट जुड़ते ही Google Play आपको ऑप्ट-इन कन्फ़र्मेशन लिंक ईमेल करेगा।",
-    "tip": "<strong>सुझाव:</strong> अपने फ़ोन पर Play Store में साइन-इन Google खाते का ईमेल इस्तेमाल करें। हम इसे Nitro Racer टेस्टर सूची में जोड़कर आपको ऑप्ट-इन और इंस्टॉल करने का लिंक भेजेंगे।",
+    "tip": "<strong>सुझाव:</strong> अपने फ़ोन पर Play Store में साइन-इन Google खाते का ईमेल इस्तेमाल करें, और उसी खाते से हमारे टेस्टर Google ग्रुप से जुड़ें। ग्रुप के सदस्य Nitro Racer क्लोज़्ड टेस्ट में ऑप्ट-इन करके उसे Google Play से इंस्टॉल कर सकते हैं।",
     "loading": "टेस्टर फ़ॉर्म लोड हो रहा है..."
   },
   "form": {
@@ -69,7 +71,7 @@
     "title": "टेस्ट ट्रैक पर आपका स्वागत है!",
     "registered": "हमने <strong>{email}</strong> को SouMoster के Google Play क्लोज़्ड टेस्टिंग ट्रैक के लिए रजिस्टर कर लिया है।",
     "nextTitle": "आगे क्या होगा?",
-    "step1": "हमारा डेवलपर कंसोल आपके ईमेल को अधिकृत Google Play क्लोज़्ड टेस्टर सूची में जोड़ देगा।",
+    "step1": "उसी Google खाते से हमारे टेस्टर Google ग्रुप से जुड़ें: <group>groups.google.com/g/roadhopper</group>",
     "step2": "आपको एक ऑप्ट-इन वेब लिंक (या ईमेल इनवाइट) मिलेगा। स्वीकार करने के लिए <em>\"Join on the web / Join on Android\"</em> पर क्लिक करें।",
     "step3": "ऑप्ट-इन करने के बाद, अपने डिवाइस पर Google Play Store से क्लोज़्ड टेस्ट इंस्टॉल करें: <play>Google Play पर Nitro Racer</play>",
     "registerAnother": "दूसरा डिवाइस रजिस्टर करें"
@@ -92,7 +94,7 @@
     },
     "isOpen": {
       "q": "क्या Nitro Racer क्लोज़्ड टेस्टिंग अभी खुली है?",
-      "a": "हाँ। Nitro Racer, Google Play क्लोज़्ड टेस्टिंग में है। ऊपर दिए फ़ॉर्म से अपना Google Play ईमेल भेजें; हमारे जोड़ने के बाद लिंक से ऑप्ट-इन करें और Play Store पेज से इंस्टॉल करें। Arena Legends की टेस्टिंग पूरी हो चुकी है और यह अब Google Play पर उपलब्ध है।"
+      "a": "हाँ। Nitro Racer, Google Play क्लोज़्ड टेस्टिंग में है। अपने फ़ोन वाले Google खाते से हमारे टेस्टर Google ग्रुप से जुड़ें, फिर Play Store पेज से ऑप्ट-इन करके इंस्टॉल करें। Arena Legends की टेस्टिंग पूरी हो चुकी है और यह अब Google Play पर उपलब्ध है।"
     },
     "trailers": {
       "q": "गेमप्ले और ट्रेलर कहाँ देखें?",

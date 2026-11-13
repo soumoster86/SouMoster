@@ -28,6 +28,7 @@ import { Link } from "@/i18n/navigation";
 import {
   ARENA_LEGENDS_PLAY_STORE_URL,
   BANK_HOPPER_PLAY_STORE_URL,
+  CLOSED_TESTING_GROUP_URL,
   NITRO_RACER_PLAY_STORE_URL,
   PLAY_STORE_APP_URL,
   SUPPORT_EMAIL,
@@ -241,6 +242,17 @@ function BetaForm() {
                 <span>
                   {t.rich(`success.${step}`, {
                     em: (chunks) => <em>{chunks}</em>,
+                    group: (chunks) => (
+                      <a
+                        href={CLOSED_TESTING_GROUP_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary inline-flex items-center gap-1 font-semibold hover:underline"
+                      >
+                        <span>{chunks}</span>
+                        <ExternalLink className="h-3 w-3" />
+                      </a>
+                    ),
                     play: (chunks) => (
                       <a
                         href={NITRO_RACER_PLAY_STORE_URL}
@@ -572,6 +584,18 @@ export function BetaContent() {
           <p className="text-muted mx-auto mt-4 max-w-2xl text-base sm:text-lg">
             {t("header.lead")}
           </p>
+          <div className="mt-6 flex flex-col items-center gap-2">
+            <Button
+              href={CLOSED_TESTING_GROUP_URL}
+              size="lg"
+              className="shadow-primary/30 min-h-[50px] shadow-lg"
+            >
+              <Users className="h-5 w-5" />
+              {t("header.joinGroup")}
+              <ExternalLink className="h-4 w-4" />
+            </Button>
+            <p className="text-muted max-w-md text-xs">{t("header.joinGroupNote")}</p>
+          </div>
           <a
             href={YOUTUBE_URL}
             target="_blank"

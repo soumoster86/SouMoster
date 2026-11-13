@@ -20,6 +20,8 @@ export const ARENA_LEGENDS_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.arenalegends.game";
 export const NITRO_RACER_PLAY_STORE_URL =
   "https://play.google.com/store/apps/details?id=com.soumo.nitrohopper";
+/** Testers for every closed-testing game join through this Google Group. */
+export const CLOSED_TESTING_GROUP_URL = "https://groups.google.com/g/roadhopper";
 export const YOUTUBE_URL = "https://www.youtube.com/@SouMosterGames";
 export const YOUTUBE_HANDLE = "@SouMosterGames";
 export const SUPPORT_EMAIL = "soumoster@gmail.com";

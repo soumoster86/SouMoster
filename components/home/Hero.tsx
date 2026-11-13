@@ -7,6 +7,7 @@ import Image from "next/image";
 import { StageDot } from "@/components/home/StageDot";
 import { BrandIcon } from "@/components/shared/BrandIcon";
 import { Button } from "@/components/ui/Button";
+import { closedTestingJoinUrl } from "@/data/apps";
 import { useLocalizedApps } from "@/hooks/useLocalizedApps";
 import { Link } from "@/i18n/navigation";
 import { YOUTUBE_URL } from "@/lib/constants";
@@ -113,7 +114,7 @@ export function Hero() {
               </Button>
               {testing && (
                 <Button
-                  href={`/beta?game=${testing.slug}`}
+                  href={closedTestingJoinUrl(testing)}
                   variant="outline"
                   size="lg"
                   className="min-h-[52px] whitespace-nowrap"
