@@ -229,7 +229,8 @@ export default async function AppPage({ params }: AppPageProps) {
             <GameplayVideo
               src={app.gameplayVideo}
               title={app.name}
-              poster={app.screenshots[0]}
+              poster={app.gameplayPoster ?? app.screenshots[0]}
+              orientation={app.gameplayVideoOrientation}
             />
           </section>
         )}

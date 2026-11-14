@@ -9,9 +9,15 @@ interface GameplayVideoProps {
   src: string;
   title: string;
   poster?: string;
+  orientation?: "portrait" | "landscape";
 }
 
-export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
+export function GameplayVideo({
+  src,
+  title,
+  poster,
+  orientation = "landscape",
+}: GameplayVideoProps) {
   const t = useTranslations("common.a11y");
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
@@ -30,10 +36,18 @@ export function GameplayVideo({ src, title, poster }: GameplayVideoProps) {
   };
 
   return (
-    <div className="glass group relative overflow-hidden rounded-2xl">
+    <div
+      className={cn(
+        "glass group relative overflow-hidden",
+        orientation === "portrait" ? "mx-auto max-w-[340px] rounded-[2rem]" : "rounded-2xl",
+      )}
+    >
       <video
         ref={videoRef}
-        className="aspect-video w-full bg-black object-contain"
+        className={cn(
+          "w-full bg-black object-contain",
+          orientation === "portrait" ? "aspect-[9/20]" : "aspect-video",
+        )}
         controls={playing}
         playsInline
         preload="metadata"

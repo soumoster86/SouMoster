@@ -14,6 +14,10 @@ export interface App {
   /** Landscape games show their screenshots in a sideways phone frame. */
   screenshotOrientation?: "portrait" | "landscape";
   gameplayVideo?: string;
+  /** Portrait clips play in a phone-shaped frame; landscape (default) fills a 16:9 box. */
+  gameplayVideoOrientation?: "portrait" | "landscape";
+  /** Still shown before the gameplay video plays; defaults to the first screenshot. */
+  gameplayPoster?: string;
   youtubeUrl?: string;
   googleGroupUrl?: string;
   features: string[];

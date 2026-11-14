@@ -2,16 +2,21 @@
   "road-hopper": {
     "tagline": "Jusqu’où irez-vous ?",
     "description": "Touchez ou balayez pour traverser routes, rivières et voies ferrées. Évitez voitures et trains, montez sur les rondins, ramassez des HCoins. Facile à prendre en main, difficile à maîtriser !",
-    "longDescription": "Road Hopper est un jeu d’arcade gratuit de SouMoster. Traversez routes, rivières et voies ferrées : évitez voitures et trains, montez sur les rondins et ramassez des HCoins. Cinq modes : Adventure (la campagne The Lost Litter en 9 chapitres), Endless (un nouveau monde aléatoire à chaque partie), Biomes (des terres classiques et des trésors à chasser), Worlds (des terres et dangers exclusifs) et Sprint (course contre la montre pour gagner des Velocity Tokens). Débloquez des héros comme Hopper, Cluck Norris et Neil Hopstrong, équipez des traînées de saut, accomplissez des missions quotidiennes et plus de 60 succès, et grimpez dans les classements Google Play Jeux. Le jeu fonctionne entièrement hors ligne ; Internet n’est nécessaire que pour les achats facultatifs.",
+    "longDescription": "Road Hopper est un jeu d’arcade gratuit de SouMoster. Traversez routes, rivières et voies ferrées : évitez voitures et trains, montez sur les rondins et ramassez des HCoins. Cinq modes : Adventure (la campagne The Lost Litter en 9 chapitres), Endless (un nouveau monde aléatoire à chaque partie), Biomes (des terres classiques et des trésors à chasser), Worlds (des terres et dangers exclusifs) et Sprint (course contre la montre pour gagner des Velocity Tokens). Débloquez des héros comme Hopper, Cluck Norris et Neil Hopstrong, équipez des traînées de saut, accomplissez des missions quotidiennes et plus de 60 succès, et grimpez dans les classements Google Play Jeux. Le jeu fonctionne entièrement hors ligne ; Internet n’est nécessaire que pour les achats facultatifs. La version 9.5.1, The Twilight Anomaly, ajoute la Campagne 4 : 9 nouveaux chapitres et 72 niveaux marathon aux fusions de dangers doubles, des poursuites de l'Ombre chronique à chaque fin de chapitre et le héros légendaire Chrono. Jouez en anglais, en espagnol ou en français.",
     "features": [
       "Cinq modes : Adventure, Endless, Biomes, Worlds et Sprint",
-      "Campagne Adventure : 9 chapitres, étoiles, cadeaux et sauvetages",
+      "Campagnes Aventure avec chapitres, étoiles, cadeaux et sauvetages",
+      "Nouveau en 9.5.1, The Twilight Anomaly : Campagne 4 avec 9 chapitres et 72 niveaux marathon aux fusions de dangers doubles",
+      "Poursuites de boss : échappez à l'Ombre chronique à la fin de chaque chapitre",
+      "Héros légendaire Chrono : sauts 20 % plus rapides, Bouclier et Vie de départ, et tolérance aux dangers",
+      "Zone de sécurité de réanimation : une onde de choc dégage ±2 voies de circulation avec 2 s d'invulnérabilité",
       "Parties Endless avec biomes vivants, météo et records personnels",
       "Trésors de biomes (de Commun à Mythique) et reliques exclusives des Worlds",
       "Bonus : Shield, Magnet, Double Coins, Speed Boost, Extra Life, Long Jump",
       "Des héros comme Cluck Norris, Neil Hopstrong, Rexy et bien d’autres",
       "Skins, traînées de saut, cadeaux quotidiens, missions et plus de 60 succès",
       "Classements Google Play Jeux et jeu hors ligne",
+      "Jouez en anglais, en espagnol ou en français",
       "Accessibilité : main dominante, sensibilité du balayage, économie de batterie, réduction des animations",
       "Gratuit : tout se débloque en jouant ; packs de HCoins et de gemmes facultatifs"
     ],
@@ -40,7 +45,7 @@
       },
       {
         "question": "Quels modes de jeu sont disponibles ?",
-        "answer": "Cinq modes : Adventure (campagne), Endless, Biomes, Worlds et Sprint, chacun avec ses objectifs, ses dangers et ses récompenses."
+        "answer": "Cinq modes : Adventure (campagnes, dont la Campagne 4 : The Twilight Anomaly), Endless, Biomes, Worlds et Sprint, chacun avec ses objectifs, ses dangers et ses récompenses."
       },
       {
         "question": "Comment signaler un bug ?",
@@ -52,6 +57,13 @@
       }
     ],
     "versionHistory": {
+      "9.5.1": [
+        "The Twilight Anomaly ! Campagne 4 : 9 nouveaux chapitres et 72 niveaux marathon aux fusions de dangers doubles",
+        "Poursuites de boss : affrontez l'Ombre chronique à chaque fin de chapitre",
+        "Nouveau héros légendaire « Chrono » : sauts 20 % plus rapides, Bouclier et Vie de départ, et tolérance aux dangers",
+        "Zone de sécurité de réanimation : une onde de choc dégage ±2 voies de circulation avec 2 s d'invulnérabilité",
+        "Localisation complète en anglais, espagnol et français, et corrections de performances"
+      ],
       "9.4.9": [
         "Dernière mise à jour stable, disponible sur Google Play pour tous les joueurs",
         "Nouvelles améliorations des performances, de la stabilité et des finitions"

@@ -2,16 +2,21 @@
   "road-hopper": {
     "tagline": "你能跳多远？",
     "description": "点按或滑动穿越繁忙的马路、河流和铁轨。躲开汽车和火车，踩着浮木过河，收集品牌 HCoins。上手容易，精通很难！",
-    "longDescription": "Road Hopper 是 SouMoster 推出的免费街机跳跃游戏。穿越繁忙的马路、河流和铁轨：躲开汽车和火车，踩着浮木过河，收集 HCoins。共有五种模式：Adventure（包含 9 个章节的 The Lost Litter 战役）、Endless（每局都是全新的随机世界）、Biomes（锁定经典地形并寻宝）、Worlds（独特的地形和危险）以及 Sprint（与时间赛跑赢取 Velocity Tokens）。解锁 Hopper、Cluck Norris 和 Neil Hopstrong 等英雄，装备跳跃拖尾，完成每日任务和 60 多项成就，并冲击 Google Play 游戏排行榜。完全支持离线游玩，只有可选购买需要联网。",
+    "longDescription": "Road Hopper 是 SouMoster 推出的免费街机跳跃游戏。穿越繁忙的马路、河流和铁轨：躲开汽车和火车，踩着浮木过河，收集 HCoins。共有五种模式：Adventure（包含 9 个章节的 The Lost Litter 战役）、Endless（每局都是全新的随机世界）、Biomes（锁定经典地形并寻宝）、Worlds（独特的地形和危险）以及 Sprint（与时间赛跑赢取 Velocity Tokens）。解锁 Hopper、Cluck Norris 和 Neil Hopstrong 等英雄，装备跳跃拖尾，完成每日任务和 60 多项成就，并冲击 Google Play 游戏排行榜。完全支持离线游玩，只有可选购买需要联网。9.5.1 版本“The Twilight Anomaly”加入第 4 战役：9 个新章节、72 个融合双重危险的马拉松关卡，每个章节结尾的时空暗影追逐，以及传奇英雄 Chrono。支持英语、西班牙语和法语。",
     "features": [
       "五种模式：Adventure、Endless、Biomes、Worlds 和 Sprint",
-      "Adventure 战役：9 个章节、星星、礼物和救援",
+      "冒险战役：章节、星级、礼物与营救",
+      "9.5.1 新内容 The Twilight Anomaly：第 4 战役，9 个章节、72 个融合双重危险的马拉松关卡",
+      "Boss 追逐：每个章节结尾都要甩开时空暗影",
+      "传奇英雄 Chrono：跳跃速度提升 20%，开局自带护盾和生命，并拥有危险宽容",
+      "复活安全区：冲击波清空左右各 2 条车道的车流，并获得 2 秒无敌",
       "Endless 模式：生动的生态区、天气变化和个人最佳纪录",
       "生态区宝藏（从普通到神话）和 Worlds 独有的遗物",
       "道具：Shield、Magnet、Double Coins、Speed Boost、Extra Life、Long Jump",
       "Cluck Norris、Neil Hopstrong、Rexy 等众多英雄",
       "皮肤、跳跃拖尾、每日礼物、任务和 60 多项成就",
       "Google Play 游戏排行榜，支持离线游玩",
+      "支持英语、西班牙语和法语",
       "无障碍选项：左右手模式、滑动灵敏度、省电模式、减少动态效果",
       "免费游玩：一切都可通过游戏获得；HCoin / 宝石礼包为可选购买"
     ],
@@ -40,7 +45,7 @@
       },
       {
         "question": "有哪些模式？",
-        "answer": "共五种模式：Adventure（剧情战役）、Endless、Biomes、Worlds 和 Sprint，每种都有各自的目标、危险和奖励。"
+        "answer": "五种模式：Adventure（剧情战役，现已加入第 4 战役：The Twilight Anomaly）、Endless、Biomes、Worlds 和 Sprint，每种模式都有各自的目标、危险和奖励。"
       },
       {
         "question": "如何报告错误？",
@@ -52,6 +57,13 @@
       }
     ],
     "versionHistory": {
+      "9.5.1": [
+        "The Twilight Anomaly！第 4 战役：9 个新章节、72 个融合双重危险的马拉松关卡",
+        "Boss 追逐：每个章节结尾迎战时空暗影",
+        "全新传奇英雄“Chrono”：跳跃速度提升 20%，开局自带护盾和生命，并拥有危险宽容",
+        "复活安全区：冲击波清空左右各 2 条车道的车流，并获得 2 秒无敌",
+        "完整的英语、西班牙语和法语本地化，以及性能修复"
+      ],
       "9.4.9": [
         "最新稳定版更新，已在 Google Play 面向全球玩家上线",
         "持续改进性能、稳定性和细节"

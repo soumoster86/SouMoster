@@ -15,10 +15,10 @@ const appList: App[] = [
     description:
       "Tap or swipe across busy roads, rivers and rails. Dodge cars and trains, ride logs, grab branded HCoins. Easy to learn, hard to master!",
     longDescription:
-      "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (The Lost Litter campaign with 9 chapters), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Offline play is fully supported; internet is only needed for optional purchases.",
+      "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (four story campaigns, including The Lost Litter and The Twilight Anomaly), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Version 9.5.1, The Twilight Anomaly, adds Campaign 4: 9 new chapters and 72 marathon levels of volatile dual-hazard fusions, Chrono Shadow boss pursuits on every chapter finale, and the Legendary hero Chrono. Play in English, Spanish or French. Offline play is fully supported; internet is only needed for optional purchases.",
     genre: "Arcade",
     category: "Arcade",
-    version: "9.4.9",
+    version: "9.5.1",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
@@ -36,15 +36,22 @@ const appList: App[] = [
       "/images/screenshots/Screenshot_20260704_103428.png",
     ],
     gameplayVideo: "/videos/road-hopper-gameplay.webm",
+    gameplayVideoOrientation: "portrait",
+    gameplayPoster: "/images/road-hopper-gameplay-poster.webp",
     features: [
       "Five modes: Adventure, Endless, Biomes, Worlds & Sprint",
-      "Adventure campaign — 9 chapters, stars, gifts & rescues",
+      "Adventure campaigns with chapters, stars, gifts & rescues",
+      "New in 9.5.1, The Twilight Anomaly: Campaign 4 with 9 chapters & 72 marathon levels of dual-hazard fusions",
+      "Boss pursuits: outrun the Chrono Shadow on every chapter finale",
+      "Legendary hero Chrono: 20% faster hops, a starting Shield & Life, and hazard grace",
+      "Revive Safe Zone: a shockwave clears ±2 lanes of traffic with 2s of invulnerability",
       "Endless runs with living biomes, weather & personal bests",
       "Biome treasures (Common → Mythic) and exclusive Worlds relics",
       "Power-ups: Shield, Magnet, Double Coins, Speed Boost, Extra Life, Long Jump",
       "Heroes including Cluck Norris, Neil Hopstrong, Rexy & more",
       "Skins, hop trails, daily gifts, missions & 60+ achievements",
       "Google Play Games leaderboards & offline play",
+      "Play in English, Spanish or French",
       "Accessibility: handedness, swipe sensitivity, battery saver, reduce motion",
       "Free to play — everything earnable; optional HCoin / gem packs",
     ],
@@ -59,6 +66,17 @@ const appList: App[] = [
       "Climb personal bests and Google Play Games leaderboards",
     ],
     versionHistory: [
+      {
+        version: "9.5.1",
+        date: "2026-11-14",
+        changes: [
+          "The Twilight Anomaly! Campaign 4: 9 new chapters & 72 marathon levels featuring volatile dual-hazard fusions",
+          "Boss Pursuits: face the Chrono Shadow on every chapter finale",
+          "New Legendary Hero \"Chrono\": 20% faster hops, starting Shield & Life, and hazard grace",
+          "Revive Safe Zone: a shockwave clears ±2 lanes of traffic with 2s invulnerability",
+          "Complete English, Spanish and French localization, plus performance fixes",
+        ],
+      },
       {
         version: "9.4.9",
         date: "2026-09-23",
@@ -118,7 +136,7 @@ const appList: App[] = [
       {
         question: "What modes are available?",
         answer:
-          "Five modes: Adventure (story campaign), Endless, Biomes, Worlds, and Sprint — each with its own goals, hazards, and rewards.",
+          "Five modes: Adventure (story campaigns, now including Campaign 4: The Twilight Anomaly), Endless, Biomes, Worlds, and Sprint — each with its own goals, hazards, and rewards.",
       },
       {
         question: "How do I report a bug?",
@@ -274,6 +292,9 @@ const appList: App[] = [
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/time-hopper/icon.png",
     banner: "/images/time-hopper/banner.webp",
+    gameplayVideo: "/videos/time-hopper-gameplay.mp4",
+    gameplayVideoOrientation: "portrait",
+    gameplayPoster: "/images/time-hopper/gameplay-poster.webp",
     screenshots: [
       "/images/time-hopper/screen-ramp-jump.webp",
       "/images/time-hopper/screen-time-hop.webp",
@@ -503,6 +524,8 @@ const appList: App[] = [
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/arena-legends/icon.svg",
     banner: "/images/arena-legends/banner.webp",
+    gameplayVideo: "/videos/arena-legends-gameplay.mp4",
+    gameplayPoster: "/images/arena-legends/gameplay-poster.webp",
     screenshotOrientation: "landscape",
     screenshots: [
       "/images/arena-legends/screen-brutus.webp",
@@ -626,6 +649,8 @@ const appList: App[] = [
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
     icon: "/images/nitro-racer/icon.png",
     banner: "/images/nitro-racer/banner.webp",
+    gameplayVideo: "/videos/nitro-racer-gameplay.mp4",
+    gameplayPoster: "/images/nitro-racer/gameplay-poster.webp",
     screenshotOrientation: "landscape",
     screenshots: [
       "/images/nitro-racer/screen-desert-racing.webp",

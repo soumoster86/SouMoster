@@ -2,16 +2,21 @@
   "road-hopper": {
     "tagline": "Até onde você consegue pular?",
     "description": "Toque ou deslize para atravessar estradas, rios e trilhos. Desvie de carros e trens, suba nos troncos e pegue HCoins. Fácil de aprender, difícil de dominar!",
-    "longDescription": "Road Hopper é um jogo arcade gratuito da SouMoster. Atravesse estradas, rios e trilhos: desvie de carros e trens, suba nos troncos e colete HCoins. São cinco modos: Adventure (a campanha The Lost Litter com 9 capítulos), Endless (um mundo aleatório novo a cada partida), Biomes (terras clássicas e tesouros para caçar), Worlds (terras e perigos exclusivos) e Sprint (corrida contra o relógio para ganhar Velocity Tokens). Desbloqueie heróis como Hopper, Cluck Norris e Neil Hopstrong, equipe rastros de pulo, complete missões diárias e mais de 60 conquistas e suba nos rankings do Google Play Games. Dá para jogar totalmente offline; a internet só é necessária para compras opcionais.",
+    "longDescription": "Road Hopper é um jogo arcade gratuito da SouMoster. Atravesse estradas, rios e trilhos: desvie de carros e trens, suba nos troncos e colete HCoins. São cinco modos: Adventure (a campanha The Lost Litter com 9 capítulos), Endless (um mundo aleatório novo a cada partida), Biomes (terras clássicas e tesouros para caçar), Worlds (terras e perigos exclusivos) e Sprint (corrida contra o relógio para ganhar Velocity Tokens). Desbloqueie heróis como Hopper, Cluck Norris e Neil Hopstrong, equipe rastros de pulo, complete missões diárias e mais de 60 conquistas e suba nos rankings do Google Play Games. Dá para jogar totalmente offline; a internet só é necessária para compras opcionais. A versão 9.5.1, The Twilight Anomaly, traz a Campanha 4: 9 novos capítulos e 72 fases maratona com fusões de perigos duplos, perseguições da Sombra Crono em todo final de capítulo e o herói lendário Chrono. Jogue em inglês, espanhol ou francês.",
     "features": [
       "Cinco modos: Adventure, Endless, Biomes, Worlds e Sprint",
-      "Campanha Adventure: 9 capítulos, estrelas, presentes e resgates",
+      "Campanhas de Aventura com capítulos, estrelas, presentes e resgates",
+      "Novidade na 9.5.1, The Twilight Anomaly: Campanha 4 com 9 capítulos e 72 fases maratona com fusões de perigos duplos",
+      "Perseguições de chefão: fuja da Sombra Crono no final de cada capítulo",
+      "Herói lendário Chrono: pulos 20% mais rápidos, Escudo e Vida iniciais e tolerância a perigos",
+      "Zona segura ao reviver: uma onda de choque limpa ±2 faixas de trânsito com 2 s de invulnerabilidade",
       "Partidas Endless com biomas vivos, clima e recordes pessoais",
       "Tesouros de biomas (de Comum a Mítico) e relíquias exclusivas dos Worlds",
       "Power-ups: Shield, Magnet, Double Coins, Speed Boost, Extra Life, Long Jump",
       "Heróis como Cluck Norris, Neil Hopstrong, Rexy e muitos outros",
       "Skins, rastros de pulo, presentes diários, missões e mais de 60 conquistas",
       "Rankings do Google Play Games e jogo offline",
+      "Jogue em inglês, espanhol ou francês",
       "Acessibilidade: mão dominante, sensibilidade do deslize, economia de bateria e menos animações",
       "Gratuito: tudo pode ser conquistado jogando; pacotes opcionais de HCoins e gemas"
     ],
@@ -40,7 +45,7 @@
       },
       {
         "question": "Quais modos estão disponíveis?",
-        "answer": "Cinco modos: Adventure (campanha), Endless, Biomes, Worlds e Sprint, cada um com seus objetivos, perigos e recompensas."
+        "answer": "Cinco modos: Adventure (campanhas, agora com a Campanha 4: The Twilight Anomaly), Endless, Biomes, Worlds e Sprint, cada um com seus objetivos, perigos e recompensas."
       },
       {
         "question": "Como relato um bug?",
@@ -52,6 +57,13 @@
       }
     ],
     "versionHistory": {
+      "9.5.1": [
+        "The Twilight Anomaly! Campanha 4: 9 novos capítulos e 72 fases maratona com fusões de perigos duplos",
+        "Perseguições de chefão: enfrente a Sombra Crono em todo final de capítulo",
+        "Novo herói lendário \"Chrono\": pulos 20% mais rápidos, Escudo e Vida iniciais e tolerância a perigos",
+        "Zona segura ao reviver: uma onda de choque limpa ±2 faixas de trânsito com 2 s de invulnerabilidade",
+        "Localização completa em inglês, espanhol e francês, além de melhorias de desempenho"
+      ],
       "9.4.9": [
         "Última atualização estável, disponível no Google Play para jogadores do mundo todo",
         "Mais melhorias de desempenho, estabilidade e acabamento"

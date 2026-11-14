@@ -2,16 +2,21 @@
   "road-hopper": {
     "tagline": "¿Hasta dónde llegarás saltando?",
     "description": "Toca o desliza para cruzar carreteras, ríos y vías de tren. Esquiva coches y trenes, súbete a los troncos y recoge HCoins. ¡Fácil de aprender, difícil de dominar!",
-    "longDescription": "Road Hopper es un juego arcade gratuito de SouMoster. Cruza carreteras, ríos y vías: esquiva coches y trenes, súbete a los troncos y recoge HCoins. Cinco modos: Adventure (la campaña The Lost Litter de 9 capítulos), Endless (un mundo aleatorio nuevo en cada partida), Biomes (tierras clásicas y tesoros por descubrir), Worlds (tierras y peligros exclusivos) y Sprint (contrarreloj para ganar Velocity Tokens). Desbloquea héroes como Hopper, Cluck Norris y Neil Hopstrong, equipa estelas de salto, completa misiones diarias y más de 60 logros, y escala en las clasificaciones de Google Play Juegos. Se puede jugar totalmente sin conexión; internet solo hace falta para las compras opcionales.",
+    "longDescription": "Road Hopper es un juego arcade gratuito de SouMoster. Cruza carreteras, ríos y vías: esquiva coches y trenes, súbete a los troncos y recoge HCoins. Cinco modos: Adventure (la campaña The Lost Litter de 9 capítulos), Endless (un mundo aleatorio nuevo en cada partida), Biomes (tierras clásicas y tesoros por descubrir), Worlds (tierras y peligros exclusivos) y Sprint (contrarreloj para ganar Velocity Tokens). Desbloquea héroes como Hopper, Cluck Norris y Neil Hopstrong, equipa estelas de salto, completa misiones diarias y más de 60 logros, y escala en las clasificaciones de Google Play Juegos. Se puede jugar totalmente sin conexión; internet solo hace falta para las compras opcionales. La versión 9.5.1, The Twilight Anomaly, añade la Campaña 4: 9 capítulos nuevos y 72 niveles maratón con fusiones de peligros dobles, persecuciones de la Sombra Crono en cada final de capítulo y el héroe legendario Chrono. Juega en inglés, español o francés.",
     "features": [
       "Cinco modos: Adventure, Endless, Biomes, Worlds y Sprint",
-      "Campaña Adventure: 9 capítulos, estrellas, regalos y rescates",
+      "Campañas de Aventura con capítulos, estrellas, regalos y rescates",
+      "Novedad en 9.5.1, The Twilight Anomaly: Campaña 4 con 9 capítulos y 72 niveles maratón con fusiones de peligros dobles",
+      "Persecuciones de jefe: escapa de la Sombra Crono en el final de cada capítulo",
+      "Héroe legendario Chrono: saltos un 20 % más rápidos, Escudo y Vida iniciales, y margen ante peligros",
+      "Zona segura al revivir: una onda expansiva despeja ±2 carriles de tráfico con 2 s de invulnerabilidad",
       "Partidas Endless con biomas vivos, clima y récords personales",
       "Tesoros de biomas (de Común a Mítico) y reliquias exclusivas de Worlds",
       "Potenciadores: Shield, Magnet, Double Coins, Speed Boost, Extra Life, Long Jump",
       "Héroes como Cluck Norris, Neil Hopstrong, Rexy y muchos más",
       "Aspectos, estelas de salto, regalos diarios, misiones y más de 60 logros",
       "Clasificaciones de Google Play Juegos y juego sin conexión",
+      "Juega en inglés, español o francés",
       "Accesibilidad: mano dominante, sensibilidad del deslizamiento, ahorro de batería y menos animaciones",
       "Gratis: todo se gana jugando; paquetes opcionales de HCoins y gemas"
     ],
@@ -40,7 +45,7 @@
       },
       {
         "question": "¿Qué modos hay?",
-        "answer": "Cinco modos: Adventure (campaña), Endless, Biomes, Worlds y Sprint, cada uno con sus propios objetivos, peligros y recompensas."
+        "answer": "Cinco modos: Adventure (campañas, ahora con la Campaña 4: The Twilight Anomaly), Endless, Biomes, Worlds y Sprint, cada uno con sus objetivos, peligros y recompensas."
       },
       {
         "question": "¿Cómo informo de un error?",
@@ -52,6 +57,13 @@
       }
     ],
     "versionHistory": {
+      "9.5.1": [
+        "¡The Twilight Anomaly! Campaña 4: 9 capítulos nuevos y 72 niveles maratón con fusiones de peligros dobles",
+        "Persecuciones de jefe: enfréntate a la Sombra Crono en cada final de capítulo",
+        "Nuevo héroe legendario «Chrono»: saltos un 20 % más rápidos, Escudo y Vida iniciales, y margen ante peligros",
+        "Zona segura al revivir: una onda expansiva despeja ±2 carriles de tráfico con 2 s de invulnerabilidad",
+        "Localización completa en inglés, español y francés, y mejoras de rendimiento"
+      ],
       "9.4.9": [
         "Última actualización estable, disponible en Google Play para jugadores de todo el mundo",
         "Más mejoras de rendimiento, estabilidad y acabado"
