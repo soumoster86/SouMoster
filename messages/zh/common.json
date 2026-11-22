@@ -9,7 +9,7 @@
     "blog": "博客",
     "contact": "联系我们",
     "mainNavigation": "主导航",
-    "homeLink": "SouMoster 首页",
+    "homeLink": "SouMoster Games 首页",
     "download": "下载",
     "downloadOnPlay": "在 Google Play 下载",
     "openMenu": "打开菜单",
@@ -65,7 +65,7 @@
     "nowLive": "现已上线",
     "downloadApp": "在 Google Play 下载 {name}",
     "downloadTestBuild": "在 Google Play 下载 {name} 封闭测试版",
-    "downloadOurGames": "在 Google Play 下载 SouMoster 的游戏"
+    "downloadOurGames": "在 Google Play 下载 SouMoster Games 的游戏"
   },
   "actions": {
     "learnMore": "了解更多",

@@ -2,10 +2,10 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "SouMoster — Indie Game Studio",
-    short_name: "SouMoster",
+    name: "SouMoster Games — Indie Game Studio",
+    short_name: "SouMoster Games",
     description:
-      "SouMoster is an independent Android game studio. Discover Road Hopper, Bank Hopper, Time Hopper, Arena Legends, Nitro Racer, Space Hopper and Lantern Depths. Watch trailers on YouTube @SouMosterGames.",
+      "SouMoster Games is an independent Android game studio. Discover Road Hopper, Bank Hopper, Time Hopper, Arena Legends, Nitro Racer, Space Hopper and Lantern Depths. Watch trailers on YouTube @SouMosterGames.",
     start_url: "/",
     display: "standalone",
     background_color: "#0F172A",

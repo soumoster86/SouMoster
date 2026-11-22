@@ -9,7 +9,7 @@
     "blog": "Blog",
     "contact": "Contact",
     "mainNavigation": "Main navigation",
-    "homeLink": "SouMoster home",
+    "homeLink": "SouMoster Games home",
     "download": "Download",
     "downloadOnPlay": "Download on Google Play",
     "openMenu": "Open menu",
@@ -65,7 +65,7 @@
     "nowLive": "NOW LIVE",
     "downloadApp": "Download {name} on Google Play",
     "downloadTestBuild": "Download the {name} Closed Testing build on Google Play",
-    "downloadOurGames": "Download SouMoster games on Google Play"
+    "downloadOurGames": "Download SouMoster Games titles on Google Play"
   },
   "actions": {
     "learnMore": "Learn More",

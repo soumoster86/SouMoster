@@ -1,5 +1,5 @@
 {
-  "title": "About SouMoster",
+  "title": "About SouMoster Games",
   "subtitle": "An independent Android game developer on a mission to create unforgettable mobile experiences",
   "mission": {
     "title": "Our Mission",
@@ -11,11 +11,11 @@
   },
   "story": {
     "title": "Developer Story",
-    "p1": "SouMoster is an independent Android game studio founded by a solo developer with a passion for creating fun, accessible, and engaging mobile games. What began as a personal journey to learn Android development has evolved into a commitment to building polished gaming experiences that players can enjoy anytime, anywhere.",
-    "p2": "Every project is driven by a simple philosophy: <strong>great games don't have to be complicated</strong>. By focusing on intuitive controls, satisfying gameplay, and continuous improvement, SouMoster aims to deliver games that are easy to pick up, difficult to put down, and enjoyable for players of all ages.",
+    "p1": "SouMoster Games is an independent Android game studio founded by a solo developer with a passion for creating fun, accessible, and engaging mobile games. What began as a personal journey to learn Android development has evolved into a commitment to building polished gaming experiences that players can enjoy anytime, anywhere.",
+    "p2": "Every project is driven by a simple philosophy: <strong>great games don't have to be complicated</strong>. By focusing on intuitive controls, satisfying gameplay, and continuous improvement, SouMoster Games aims to deliver games that are easy to pick up, difficult to put down, and enjoyable for players of all ages.",
     "p3": "Our debut title, <strong>Road Hopper</strong>, launched on Google Play in July 2026, combining fast-paced arcade gameplay with clean design and offline play. <strong>Bank Hopper</strong>, a one-thumb bank heist, followed in October 2026, and <strong>Time Hopper</strong>, a seven-era time-travel runner built around the Time Hop, went live later that month. Each launched after a Closed Test with players from our community.",
-    "p4": "<strong>Arena Legends</strong>, our first action game, completed Google Play Closed Testing and launched on Google Play in November 2026, taking SouMoster beyond the Hopper series into real-time gladiator combat. <strong>Nitro Racer</strong>, our first racing game, is now in Closed Testing, and <strong>Space Hopper</strong> and <strong>Lantern Depths</strong>, a turn-based roguelite, are in development. Each release builds on the lessons of the last, with player feedback shaping every update.",
-    "p5": "Follow trailers, gameplay, and behind-the-scenes videos on YouTube at <youtube>@SouMosterGames</youtube>. As SouMoster grows, the mission stays the same: to create high-quality Android games that are fun, polished, and memorable."
+    "p4": "<strong>Arena Legends</strong>, our first action game, completed Google Play Closed Testing and launched on Google Play in November 2026, taking SouMoster Games beyond the Hopper series into real-time gladiator combat. <strong>Nitro Racer</strong>, our first racing game, is now in Closed Testing, and <strong>Space Hopper</strong> and <strong>Lantern Depths</strong>, a turn-based roguelite, are in development. Each release builds on the lessons of the last, with player feedback shaping every update.",
+    "p5": "Follow trailers, gameplay, and behind-the-scenes videos on YouTube at <youtube>@SouMosterGames</youtube>. As SouMoster Games grows, the mission stays the same: to create high-quality Android games that are fun, polished, and memorable."
   },
   "games": {
     "eyebrow": "Our Games",
@@ -39,7 +39,7 @@
       {
         "period": "July 2026",
         "title": "First Release: Road Hopper",
-        "description": "Road Hopper launched on Google Play after an open beta, SouMoster's first published game. It has kept improving since, and is now at v9.6.0."
+        "description": "Road Hopper launched on Google Play after an open beta, SouMoster Games' first published game. It has kept improving since, and is now at v9.6.0."
       },
       {
         "period": "September 2026",
@@ -49,7 +49,7 @@
       {
         "period": "October 2026",
         "title": "Bank Hopper Goes Live",
-        "description": "Bank Hopper v1.0.0 launched on Google Play on 6 October, SouMoster's second published game."
+        "description": "Bank Hopper v1.0.0 launched on Google Play on 6 October, SouMoster Games' second published game."
       },
       {
         "period": "October 2026",
@@ -59,12 +59,12 @@
       {
         "period": "October 2026",
         "title": "Arena Legends Begins",
-        "description": "Work started on Arena Legends: Gladiator Wars, SouMoster's first action game: a gladiator brawler with combos, parries, four weapon classes and a five-chapter campaign."
+        "description": "Work started on Arena Legends: Gladiator Wars, SouMoster Games' first action game: a gladiator brawler with combos, parries, four weapon classes and a five-chapter campaign."
       },
       {
         "period": "October 2026",
         "title": "Time Hopper Goes Live",
-        "description": "Time Hopper v1.15.1 launched on Google Play on 24 October, SouMoster's third published game, with Timeline Bridges, the Chronicle campaign and the Emerald Expedition collection."
+        "description": "Time Hopper v1.15.1 launched on Google Play on 24 October, SouMoster Games' third published game, with Timeline Bridges, the Chronicle campaign and the Emerald Expedition collection."
       },
       {
         "period": "October 2026",
@@ -74,7 +74,7 @@
       {
         "period": "October 2026",
         "title": "Nitro Racer Begins",
-        "description": "Work started on Nitro Racer, SouMoster's first racing game: 8 championships, 32 circuits, six cars to upgrade and customise, and time trials against your ghost."
+        "description": "Work started on Nitro Racer, SouMoster Games' first racing game: 8 championships, 32 circuits, six cars to upgrade and customise, and time trials against your ghost."
       },
       {
         "period": "November 2026",

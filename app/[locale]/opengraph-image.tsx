@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "SouMoster — Indie Game Studio";
+export const alt = "SouMoster Games — Indie Game Studio";
 export const size = {
   width: 1200,
   height: 630,
@@ -72,7 +72,7 @@ export default async function Image() {
                 letterSpacing: "-0.5px",
               }}
             >
-              SouMoster
+              SouMoster Games
             </span>
             <span
               style={{

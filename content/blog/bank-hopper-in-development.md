@@ -1,14 +1,14 @@
 ---
 title: "Announcing Bank Hopper: High-Stakes Vault Heist Arcade Action"
-excerpt: "SouMoster announces Bank Hopper — an all-new cyber vault heist arcade hopper where you dodge security lasers, bypass alarm tiles, and crack high-tech vaults."
+excerpt: "SouMoster Games announces Bank Hopper — an all-new cyber vault heist arcade hopper where you dodge security lasers, bypass alarm tiles, and crack high-tech vaults."
 date: "2026-09-18"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Introducing Bank Hopper
 
-Following the successful global rollout of **Road Hopper v9.4.7**, SouMoster is thrilled to unveil our next major arcade project: **Bank Hopper**!
+Following the successful global rollout of **Road Hopper v9.4.7**, SouMoster Games is thrilled to unveil our next major arcade project: **Bank Hopper**!
 
 While Road Hopper challenged you to cross busy roads, rivers, and rails, **Bank Hopper** takes the signature intuitive hop controls into high-stakes **bank vault heist** action!
 

@@ -9,7 +9,7 @@
     "blog": "Blog",
     "contact": "Contato",
     "mainNavigation": "Navegação principal",
-    "homeLink": "Página inicial da SouMoster",
+    "homeLink": "Página inicial da SouMoster Games",
     "download": "Baixar",
     "downloadOnPlay": "Baixar no Google Play",
     "openMenu": "Abrir menu",
@@ -65,7 +65,7 @@
     "nowLive": "JÁ DISPONÍVEL",
     "downloadApp": "Baixar {name} no Google Play",
     "downloadTestBuild": "Baixar a versão de teste fechado de {name} no Google Play",
-    "downloadOurGames": "Baixar os jogos da SouMoster no Google Play"
+    "downloadOurGames": "Baixar os jogos da SouMoster Games no Google Play"
   },
   "actions": {
     "learnMore": "Saiba mais",

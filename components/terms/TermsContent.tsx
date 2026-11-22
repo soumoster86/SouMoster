@@ -24,6 +24,7 @@ import { Link } from "@/i18n/navigation";
 import {
   PLAY_STORE_DEVELOPER_URL,
   RESPONSE_TIME,
+  LEGAL_NAME,
   SITE_NAME,
   SITE_URL,
   SUPPORT_EMAIL,
@@ -97,9 +98,9 @@ export function TermsContent() {
   }, []);
 
   const handleCopyNoticeTemplate = () => {
-    const template = `Subject: Formal Notice under SouMoster Terms & Conditions
+    const template = `Subject: Formal Notice under SouMoster Games Terms & Conditions
 
-Dear SouMoster Legal & Support Team,
+Dear SouMoster Games Legal & Support Team,
 
 I am writing to submit an official notice / inquiry regarding the Terms & Conditions for your games and services.
 
@@ -325,8 +326,8 @@ Thank you for your review and response within the standard resolution timeframe.
                 These Terms and Conditions (&quot;Terms&quot;,
                 &quot;Agreement&quot;) constitute a legally binding contract
                 between you (&quot;User&quot;, &quot;Player&quot;, or
-                &quot;you&quot;) and <strong>{SITE_NAME}</strong>{" "}
-                (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;), governing
+                &quot;you&quot;) and <strong>{LEGAL_NAME}</strong>{" "}
+                (&quot;{SITE_NAME}&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;), governing
                 your access to and use of our mobile games, applications,
                 digital assets, official website located at{" "}
                 <a
@@ -559,7 +560,7 @@ Thank you for your review and response within the standard resolution timeframe.
                     <strong>zero real-world monetary value</strong>. They cannot
                     be redeemed, refunded, exchanged, or converted into fiat
                     currency, cryptocurrency, or tangible property of any kind
-                    from SouMoster or any third party.
+                    from SouMoster Games or any third party.
                   </p>
                 </div>
                 <div className="border-border bg-card/40 space-y-1 rounded-xl border p-4">
@@ -581,7 +582,7 @@ Thank you for your review and response within the standard resolution timeframe.
                   </span>
                   <p className="text-muted">
                     All financial transactions are processed exclusively through
-                    Google Play In-App Billing. SouMoster does not collect,
+                    Google Play In-App Billing. SouMoster Games does not collect,
                     receive, or store your credit card details, bank accounts,
                     or payment credentials.
                   </p>
@@ -709,7 +710,7 @@ Thank you for your review and response within the standard resolution timeframe.
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
                 We do not require you to create or maintain a proprietary
-                SouMoster account with a username or password. Our games are
+                SouMoster Games account with a username or password. Our games are
                 designed offline-first:
               </p>
               <ul className="list-disc space-y-1.5 pl-5 text-xs sm:text-sm">
@@ -751,7 +752,7 @@ Thank you for your review and response within the standard resolution timeframe.
                 Kotlin and Jetpack Compose code, graphics, character designs,
                 animation trails, sound effects, musical compositions, UI
                 design, and website copy—are the exclusive
-                intellectual property of <strong>{SITE_NAME}</strong> and are
+                intellectual property of <strong>{LEGAL_NAME}</strong> and are
                 protected by international copyright, trademark, and trade
                 secret laws.
               </p>
@@ -762,7 +763,7 @@ Thank you for your review and response within the standard resolution timeframe.
                 <p className="text-muted">
                   If you choose to submit feedback, bug reports, feature
                   suggestions, or creative gameplay ideas to us, you grant
-                  SouMoster an irrevocable, perpetual, royalty-free, worldwide
+                  SouMoster Games an irrevocable, perpetual, royalty-free, worldwide
                   license to use, adapt, implement, and incorporate your
                   suggestions into our games without obligation of attribution
                   or monetary compensation.
@@ -1065,7 +1066,7 @@ Thank you for your review and response within the standard resolution timeframe.
                   <Button
                     size="sm"
                     variant="primary"
-                    href={`mailto:${SUPPORT_EMAIL}?subject=Formal%20Notice%20under%20Terms%20and%20Conditions&body=Dear%20SouMoster%20Legal%20Team%2C%0A%0AI%20am%20submitting%20an%20inquiry%20regarding%20your%20Terms%20and%20Conditions.%0A%0AApp%3A%20%0ADescription%3A%20%0A%0AThank%20you.`}
+                    href={`mailto:${SUPPORT_EMAIL}?subject=Formal%20Notice%20under%20Terms%20and%20Conditions&body=Dear%20SouMoster%20Games%20Legal%20Team%2C%0A%0AI%20am%20submitting%20an%20inquiry%20regarding%20your%20Terms%20and%20Conditions.%0A%0AApp%3A%20%0ADescription%3A%20%0A%0AThank%20you.`}
                     className="text-xs"
                   >
                     <Mail className="h-3.5 w-3.5" />
@@ -1124,7 +1125,7 @@ Thank you for your review and response within the standard resolution timeframe.
               <div className="border-border bg-card/60 space-y-3 rounded-xl border p-5 text-xs sm:text-sm">
                 <div>
                   <span className="text-text font-semibold">
-                    {SITE_NAME} Legal & Developer Operations
+                    {LEGAL_NAME} Legal & Developer Operations
                   </span>
                 </div>
                 <div>

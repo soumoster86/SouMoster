@@ -58,7 +58,7 @@
     "communityHint": "For invitations to private tester chat rooms.",
     "notes": "Tester Notes or Prior Arcade Experience",
     "notesPlaceholder": "Let us know what games you enjoy or any specific mechanics you'd love to test...",
-    "consent": "I consent to SouMoster processing my email address strictly to deliver Google Play Closed Testing invitations and pre-release communications, in full compliance with the <privacy>Privacy Policy</privacy> and <terms>Terms & Conditions</terms>. You can opt out at any time.",
+    "consent": "I consent to SouMoster Games processing my email address strictly to deliver Google Play Closed Testing invitations and pre-release communications, in full compliance with the <privacy>Privacy Policy</privacy> and <terms>Terms & Conditions</terms>. You can opt out at any time.",
     "submit": "Submit Closed Beta Application",
     "submitting": "Registering for Closed Beta...",
     "emailRequired": "Please enter your Google Play account email.",
@@ -69,7 +69,7 @@
   "success": {
     "badge": "Application Confirmed",
     "title": "Welcome to the Test Track!",
-    "registered": "We have registered <strong>{email}</strong> for the SouMoster Google Play Closed Testing track.",
+    "registered": "We have registered <strong>{email}</strong> for the SouMoster Games Google Play Closed Testing track.",
     "nextTitle": "What happens next?",
     "step1": "Join our tester Google Group with the same Google account: <group>groups.google.com/g/roadhopper</group>",
     "step2": "You'll receive an opt-in web link (or email invite). Click <em>\"Join on the web / Join on Android\"</em> to accept.",
@@ -79,7 +79,7 @@
   "faq": {
     "eyebrow": "Need Help?",
     "title": "Frequently Asked Questions",
-    "subtitle": "Everything you need to know about participating in the SouMoster closed beta program",
+    "subtitle": "Everything you need to know about participating in the SouMoster Games closed beta program",
     "howWorks": {
       "q": "How does Google Play Closed Testing work?",
       "a": "Google Play requires developer accounts to invite trusted testers through specific closed testing tracks. Once we add your Google Play email, Google generates a private testing link allowing you to install the test build through the official Play Store app."

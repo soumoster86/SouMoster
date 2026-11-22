@@ -58,7 +58,7 @@
     "communityHint": "Para convidar você para as salas privadas de testadores.",
     "notes": "Observações ou experiência com jogos arcade",
     "notesPlaceholder": "Conte quais jogos você curte ou quais mecânicas gostaria de testar...",
-    "consent": "Concordo que a SouMoster use meu e-mail apenas para enviar convites de teste fechado do Google Play e comunicados antes do lançamento, de acordo com a <privacy>Política de Privacidade</privacy> e os <terms>Termos e Condições</terms>. Posso cancelar a qualquer momento.",
+    "consent": "Concordo que a SouMoster Games use meu e-mail apenas para enviar convites de teste fechado do Google Play e comunicados antes do lançamento, de acordo com a <privacy>Política de Privacidade</privacy> e os <terms>Termos e Condições</terms>. Posso cancelar a qualquer momento.",
     "submit": "Enviar inscrição para o beta fechado",
     "submitting": "Inscrevendo no beta fechado...",
     "emailRequired": "Digite o e-mail da sua conta do Google Play.",
@@ -69,7 +69,7 @@
   "success": {
     "badge": "Inscrição confirmada",
     "title": "Bem-vindo à equipe de testes!",
-    "registered": "Registramos <strong>{email}</strong> na faixa de teste fechado da SouMoster no Google Play.",
+    "registered": "Registramos <strong>{email}</strong> na faixa de teste fechado da SouMoster Games no Google Play.",
     "nextTitle": "E agora?",
     "step1": "Entre no nosso grupo do Google de testadores com a mesma conta Google: <group>groups.google.com/g/roadhopper</group>",
     "step2": "Você vai receber um link de inscrição (ou um convite por e-mail). Toque em <em>“Participar na Web / Participar no Android”</em> para aceitar.",
@@ -79,7 +79,7 @@
   "faq": {
     "eyebrow": "Precisa de ajuda?",
     "title": "Perguntas frequentes",
-    "subtitle": "Tudo o que você precisa saber para participar do beta fechado da SouMoster",
+    "subtitle": "Tudo o que você precisa saber para participar do beta fechado da SouMoster Games",
     "howWorks": {
       "q": "Como funciona o teste fechado do Google Play?",
       "a": "O Google Play exige que os desenvolvedores convidem testadores por meio de faixas de teste fechado. Depois que adicionamos seu e-mail do Google Play, o Google gera um link de teste privado para você instalar a versão de teste pelo app oficial da Play Store."

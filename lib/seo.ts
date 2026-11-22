@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { App } from "@/types";
 import { LOCALE_TAGS, localizedPath, routing, type Locale } from "@/i18n/routing";
-import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./constants";
+import { LEGAL_NAME, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "./constants";
 
 interface SEOProps {
   title?: string;
@@ -11,7 +11,7 @@ interface SEOProps {
   type?: "website" | "article";
   publishedTime?: string;
   locale?: string;
-  /** Complete page title, used as-is instead of "<title> | SouMoster". */
+  /** Complete page title, used as-is instead of "<title> | SouMoster Games". */
   fullTitle?: string;
   /** Content exists only in English: canonical points to the English URL, no hreflang alternates. */
   englishOnly?: boolean;
@@ -92,6 +92,7 @@ export function generateOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: SITE_NAME,
+    legalName: LEGAL_NAME,
     url: SITE_URL,
     logo: `${SITE_URL}/logo.svg`,
     description: SITE_DESCRIPTION,

@@ -2,7 +2,7 @@
   "road-hopper": {
     "tagline": "你能跳多远？",
     "description": "点按或滑动穿越繁忙的马路、河流和铁轨。躲开汽车和火车，踩着浮木过河，收集品牌 HCoins。上手容易，精通很难！",
-    "longDescription": "Road Hopper 是 SouMoster 推出的免费街机跳跃游戏。穿越繁忙的马路、河流和铁轨：躲开汽车和火车，踩着浮木过河，收集 HCoins。共有五种模式：Adventure（包含 9 个章节的 The Lost Litter 战役）、Endless（每局都是全新的随机世界）、Biomes（锁定经典地形并寻宝）、Worlds（独特的地形和危险）以及 Sprint（与时间赛跑赢取 Velocity Tokens）。解锁 Hopper、Cluck Norris 和 Neil Hopstrong 等英雄，装备跳跃拖尾，完成每日任务和 60 多项成就，并冲击 Google Play 游戏排行榜。完全支持离线游玩，只有可选购买需要联网。9.6.0 版本加入四个机械新世界（发条采石场、柳桥、摇摆渡轮和倾斜甲板），以及两场 72 关的新冒险 The Crossing Works 与 Frontier Relay。The Twilight Anomaly 战役带来时空暗影追逐和传奇英雄 Chrono。支持英语、西班牙语和法语。",
+    "longDescription": "Road Hopper 是 SouMoster Games 推出的免费街机跳跃游戏。穿越繁忙的马路、河流和铁轨：躲开汽车和火车，踩着浮木过河，收集 HCoins。共有五种模式：Adventure（包含 9 个章节的 The Lost Litter 战役）、Endless（每局都是全新的随机世界）、Biomes（锁定经典地形并寻宝）、Worlds（独特的地形和危险）以及 Sprint（与时间赛跑赢取 Velocity Tokens）。解锁 Hopper、Cluck Norris 和 Neil Hopstrong 等英雄，装备跳跃拖尾，完成每日任务和 60 多项成就，并冲击 Google Play 游戏排行榜。完全支持离线游玩，只有可选购买需要联网。9.6.0 版本加入四个机械新世界（发条采石场、柳桥、摇摆渡轮和倾斜甲板），以及两场 72 关的新冒险 The Crossing Works 与 Frontier Relay。The Twilight Anomaly 战役带来时空暗影追逐和传奇英雄 Chrono。支持英语、西班牙语和法语。",
     "features": [
       "五种模式：Adventure、Endless、Biomes、Worlds 和 Sprint",
       "冒险战役：章节、星级、礼物与营救",
@@ -103,7 +103,7 @@
   "bank-hopper": {
     "tagline": "跳跃。抢钱。逃出银行。",
     "description": "单指操作的竖屏街机银行劫案游戏，现已在 Google Play 上线！带着现金逐道跳出银行，在贪婪和安保警戒之间找到平衡。",
-    "longDescription": "Bank Hopper 是 SouMoster 推出的单指操作竖屏街机劫案游戏，现已在 Google Play 上线。带着现金一道一道跳出银行：点按前进，左右滑动换道，按住释放角色技能。躲开激光网和巡逻的安保无人机，在亮起的存款亭存下现金，或者冲过去追求更高的贪婪倍率，同时 Security 警戒值会让追捕越来越紧。体验 Endless、精心设计的劫案关卡和横跨八层楼的 Full Heist 模式，解锁角色、道具、天赋和逃跑载具，并冲击排行榜。无需账号，支持离线游玩。",
+    "longDescription": "Bank Hopper 是 SouMoster Games 推出的单指操作竖屏街机劫案游戏，现已在 Google Play 上线。带着现金一道一道跳出银行：点按前进，左右滑动换道，按住释放角色技能。躲开激光网和巡逻的安保无人机，在亮起的存款亭存下现金，或者冲过去追求更高的贪婪倍率，同时 Security 警戒值会让追捕越来越紧。体验 Endless、精心设计的劫案关卡和横跨八层楼的 Full Heist 模式，解锁角色、道具、天赋和逃跑载具，并冲击排行榜。无需账号，支持离线游玩。",
     "features": [
       "已在 Google Play 上线：免费下载，分级 7+",
       "单指竖屏操作：点按前进，左右滑动换道，按住释放技能",
@@ -178,7 +178,7 @@
   "time-hopper": {
     "tagline": "穿越时空。打破历史。修复时间线。",
     "description": "一款横跨七个时代的时空穿越跑酷游戏，每个时代都有两个世界。躲开前方障碍，或用 Time Hop 跃入回响时间线。现已在 Google Play 上线！",
-    "longDescription": "Time Hopper 是 SouMoster 使用 Kotlin 原生开发的时空穿越跑酷游戏，现已在 Google Play 上线。疾驰穿越七个时代：Prehistoric、Ancient Kingdom、Medieval、Industrial Age、Modern City、Cyber Future 和 Chrono Void。每个时代都有两个世界。当道路被堵死时，消耗能量发动 Time Hop 跃入回响时间线，紫色回响会提示那里有什么在等着你，然后准备好返回。穿过只存在于一条时间线中的 Timeline Bridges，选择 Stable、Relic 或 Paradox 传送门，甩开每个时代的追兵，并在每个 Chrono Gate 选择带着发现撤离，或继续深入。游玩 21 关的 Chronicle 剧情战役、Classic 和 Endless 模式、Paradox、Relic Hunt 和 Hardcore 变体、Boss Gauntlet、Timeline Puzzles、每周活动，以及可以挑战幽灵记录的 Daily Timeline。从七位拥有主动技能的旅行者中选择，为博物馆找回 65 件插画文物，并用服装、拖尾、传送门和 Time Hop 特效打造你的造型。",
+    "longDescription": "Time Hopper 是 SouMoster Games 使用 Kotlin 原生开发的时空穿越跑酷游戏，现已在 Google Play 上线。疾驰穿越七个时代：Prehistoric、Ancient Kingdom、Medieval、Industrial Age、Modern City、Cyber Future 和 Chrono Void。每个时代都有两个世界。当道路被堵死时，消耗能量发动 Time Hop 跃入回响时间线，紫色回响会提示那里有什么在等着你，然后准备好返回。穿过只存在于一条时间线中的 Timeline Bridges，选择 Stable、Relic 或 Paradox 传送门，甩开每个时代的追兵，并在每个 Chrono Gate 选择带着发现撤离，或继续深入。游玩 21 关的 Chronicle 剧情战役、Classic 和 Endless 模式、Paradox、Relic Hunt 和 Hardcore 变体、Boss Gauntlet、Timeline Puzzles、每周活动，以及可以挑战幽灵记录的 Daily Timeline。从七位拥有主动技能的旅行者中选择，为博物馆找回 65 件插画文物，并用服装、拖尾、传送门和 Time Hop 特效打造你的造型。",
     "features": [
       "已在 Google Play 上线：免费下载，分级 3+",
       "Time Hop：每个时代都有两个世界，道路被堵死时跃入回响时间线",
@@ -270,7 +270,7 @@
   "space-hopper": {
     "tagline": "Warp Gates 已损坏。跳跃穿越银河，将它们修复。",
     "description": "一款横跨八颗星球、点按即可跳跃的街机冒险。收集 Star Cores，躲开无人机和坍塌的地砖，修复银河的 Warp Gates。",
-    "longDescription": "Space Hopper 是 SouMoster 使用 Unity 6 开发的休闲街机跳跃游戏，目前正在开发中。银河的 Warp Gates 已经损坏：在八颗星球上逐道跳跃，从 Terra Prime 和月球，到 Volcanis、Gaia、小行星带、Cyber Nexus、Nebula X 和黑洞，收集 Star Cores 让它们重新运转。每个世界都有独特的玩法变化：熔岩喷口、弹跳板、无人机车流、传送带、迷雾和引力牵引。游玩 Endless Orbit、包含首领战的 Adventure Journey、Speed Run 或 Galaxy Explorer，七位英雄和五只宠物各自拥有真正的能力。进度保存在您的设备上。",
+    "longDescription": "Space Hopper 是 SouMoster Games 使用 Unity 6 开发的休闲街机跳跃游戏，目前正在开发中。银河的 Warp Gates 已经损坏：在八颗星球上逐道跳跃，从 Terra Prime 和月球，到 Volcanis、Gaia、小行星带、Cyber Nexus、Nebula X 和黑洞，收集 Star Cores 让它们重新运转。每个世界都有独特的玩法变化：熔岩喷口、弹跳板、无人机车流、传送带、迷雾和引力牵引。游玩 Endless Orbit、包含首领战的 Adventure Journey、Speed Run 或 Galaxy Explorer，七位英雄和五只宠物各自拥有真正的能力。进度保存在您的设备上。",
     "features": [
       "四种模式：Endless Orbit、Adventure Journey、Speed Run 和 Galaxy Explorer",
       "八颗星球，各有独特危险：虚空长跳、熔岩喷口、弹跳板、无人机车流、传送带、迷雾和黑洞引力",
@@ -321,8 +321,8 @@
   },
   "arena-legends": {
     "tagline": "Gladiator Wars。战斗吧，赢回你的自由。",
-    "description": "SouMoster 的首款动作游戏：一款拥有连招、格挡和 Boss 战的角斗士格斗游戏，包含五章战役。现已在 Google Play 上线。",
-    "longDescription": "Arena Legends: Gladiator Wars 是 SouMoster 的首款动作游戏，使用 Kotlin 和 libGDX 开发。经过 Google Play 封闭测试，1.0.2 版本现已在 Google Play 上线。你在竞技场下醒来，角斗场主给了你一个交易：战斗，赢得你的自由。穿越五章战役，从血坑和斗兽场到荒野试炼、灰烬竞技场和冠军殿堂，对抗掠夺者、长枪兵、蛮兵、持盾守卫、野兽和五位 Boss，最终迎战拥有三种架势的帝国冠军。读懂每一次预警，闪避攻击，在对手收招时出手：连招、蓄力重击、格挡、招架反击，击碎盾牌和护甲。选择剑与盾、长枪、双刃或巨斧，每种武器都有独特招式和专属技能，再通过武器精通解锁布料颜色、纹章旗帜、头盔羽饰、盾牌图案和金属涂装。带有增益的生存模式、限时 Boss 连战、每日挑战、每周冠军、每日和每周契约以及 20 项成就让内容更加丰富。可移动并调整动作按钮大小，支持左手模式，并可离线游玩：进度保存在你的设备上。",
+    "description": "SouMoster Games 的首款动作游戏：一款拥有连招、格挡和 Boss 战的角斗士格斗游戏，包含五章战役。现已在 Google Play 上线。",
+    "longDescription": "Arena Legends: Gladiator Wars 是 SouMoster Games 的首款动作游戏，使用 Kotlin 和 libGDX 开发。经过 Google Play 封闭测试，1.0.2 版本现已在 Google Play 上线。你在竞技场下醒来，角斗场主给了你一个交易：战斗，赢得你的自由。穿越五章战役，从血坑和斗兽场到荒野试炼、灰烬竞技场和冠军殿堂，对抗掠夺者、长枪兵、蛮兵、持盾守卫、野兽和五位 Boss，最终迎战拥有三种架势的帝国冠军。读懂每一次预警，闪避攻击，在对手收招时出手：连招、蓄力重击、格挡、招架反击，击碎盾牌和护甲。选择剑与盾、长枪、双刃或巨斧，每种武器都有独特招式和专属技能，再通过武器精通解锁布料颜色、纹章旗帜、头盔羽饰、盾牌图案和金属涂装。带有增益的生存模式、限时 Boss 连战、每日挑战、每周冠军、每日和每周契约以及 20 项成就让内容更加丰富。可移动并调整动作按钮大小，支持左手模式，并可离线游玩：进度保存在你的设备上。",
     "features": [
       "现已在 Google Play 上线：免费游玩，提供可选金币包",
       "五章战役：血坑、斗兽场、荒野试炼、灰烬竞技场和冠军殿堂",
@@ -354,7 +354,7 @@
       },
       {
         "question": "它和 Hopper 系列有什么不同？",
-        "answer": "Arena Legends 是 SouMoster 的首款动作游戏：即时近战，包含连招、招架、耐力和 Boss 战，横屏游玩，使用摇杆和动作按钮操作。"
+        "answer": "Arena Legends 是 SouMoster Games 的首款动作游戏：即时近战，包含连招、招架、耐力和 Boss 战，横屏游玩，使用摇杆和动作按钮操作。"
       },
       {
         "question": "Arena Legends 免费吗？",
@@ -396,8 +396,8 @@
   },
   "nitro-racer": {
     "tagline": "驶向下一个地平线。",
-    "description": "SouMoster 的首款竞速游戏：48 条赛道上的 12 个锦标赛，在 Rush Hour 车流中与时间赛跑，打造梦想车库。正在 Google Play 封闭测试中。",
-    "longDescription": "Nitro Racer 是 SouMoster 的首款竞速游戏，使用 Kotlin 和 libGDX 开发，目前正在 Google Play 进行封闭测试。在这款以贴身超车、氮气爆发和不断成长的车库为核心的街机赛道竞速游戏中找到你的节奏。在乡村、海岸公路、高山山口、霓虹城市之夜、沙漠峡谷、雨林、冰雪地带、火山地形、秋日公路、雾中高地、热带岛屿和月光下的太空港中，驰骋 12 个锦标赛的 48 条赛道，每条赛道都有独特地标和地区光照，与五名 AI 对手同场竞技。在 Rush Hour 中，在六条赛道上穿梭于掀背车、出租车、货车和摩托车之间，冲过检查点增加时间，把贴身超车连成最高 x5 的倍率。每完成一场比赛都能获得车手经验，10 辆赛车各有专属精通进度，Racing Journey 汇集每周轮换的三场 Weekly Cup，以及收集每条赛道隐藏代币的 Explorer 图册。升级引擎、涡轮、轮胎和氮气，自定义涂装、车身彩绘、加速特效、底盘灯和车牌，并在计时赛中挑战你的幽灵车刷新最佳圈速。引导练习会讲解每一个操作。可用重力感应或屏幕按钮操控，无需账号即可离线比赛。",
+    "description": "SouMoster Games 的首款竞速游戏：48 条赛道上的 12 个锦标赛，在 Rush Hour 车流中与时间赛跑，打造梦想车库。正在 Google Play 封闭测试中。",
+    "longDescription": "Nitro Racer 是 SouMoster Games 的首款竞速游戏，使用 Kotlin 和 libGDX 开发，目前正在 Google Play 进行封闭测试。在这款以贴身超车、氮气爆发和不断成长的车库为核心的街机赛道竞速游戏中找到你的节奏。在乡村、海岸公路、高山山口、霓虹城市之夜、沙漠峡谷、雨林、冰雪地带、火山地形、秋日公路、雾中高地、热带岛屿和月光下的太空港中，驰骋 12 个锦标赛的 48 条赛道，每条赛道都有独特地标和地区光照，与五名 AI 对手同场竞技。在 Rush Hour 中，在六条赛道上穿梭于掀背车、出租车、货车和摩托车之间，冲过检查点增加时间，把贴身超车连成最高 x5 的倍率。每完成一场比赛都能获得车手经验，10 辆赛车各有专属精通进度，Racing Journey 汇集每周轮换的三场 Weekly Cup，以及收集每条赛道隐藏代币的 Explorer 图册。升级引擎、涡轮、轮胎和氮气，自定义涂装、车身彩绘、加速特效、底盘灯和车牌，并在计时赛中挑战你的幽灵车刷新最佳圈速。引导练习会讲解每一个操作。可用重力感应或屏幕按钮操控，无需账号即可离线比赛。",
     "features": [
       "正在 Google Play 封闭测试中：加入测试者 Google 群组，然后选择加入并安装",
       "12 个锦标赛和 48 条赛道：乡村、海岸、高山山口、霓虹城市之夜、沙漠、雨林、北极、火山、秋日公路、雾中高地、热带岛屿和月光太空港",
@@ -435,8 +435,8 @@
         "answer": "Nitro Racer 正在 Google Play 进行封闭测试。用您 Android 手机上的 Google 账号加入我们的测试者 Google 群组，然后从 Play 页面选择加入，并从 Google Play 安装 Nitro Racer。"
       },
       {
-        "question": "它和 SouMoster 的其他游戏有什么不同？",
-        "answer": "是的。Nitro Racer 是 SouMoster 的首款竞速游戏：与 AI 对手进行锦标赛、在车流中进行 Rush Hour 比赛、计时赛，还有可升级和自定义的赛车车库，横屏游玩。"
+        "question": "它和 SouMoster Games 的其他游戏有什么不同？",
+        "answer": "是的。Nitro Racer 是 SouMoster Games 的首款竞速游戏：与 AI 对手进行锦标赛、在车流中进行 Rush Hour 比赛、计时赛，还有可升级和自定义的赛车车库，横屏游玩。"
       },
       {
         "question": "免费吗？",
@@ -487,9 +487,9 @@
   "lantern-depths": {
     "tagline": "照亮深渊的一盏灯。",
     "description": "一款回合制 Roguelite，灯笼里的油同时是你的生命、你的光亮和你的技能燃料。开发中。",
-    "longDescription": "Lantern Depths 是 SouMoster 的回合制 Roguelite，使用 Godot 开发，目前正在开发中。灯笼里的油同时是你的生命、你的光亮和你的技能燃料：每受一次伤，火光就暗一分，越虚弱，看得越少。一步一步小心地深入空洞之井。在你行动之前，一切都不会动，所以每一步都是一次抉择。用闪耀震慑怕光的敌人并照亮更远处，关上灯笼悄悄潜行，点燃木桶、引燃火焰，并在行动前看清每个敌人的下一步。每次下潜选择一件遗物，向商人购买物品，打开宝箱，并用灯笼玻璃保护你的灯油。在被水淹没的蓄水池中对抗老鼠、水蛭、灯蛾、溺亡搬运工、舱底弓手、暗影潜伏者和孢子怪，最终迎战溺亡敲钟人。每一次死亡都会充实井口营地：用余烬购买新灯芯、解锁守望者，并在档案馆中收集生物、书页和纪录。单局时间短，适合通勤，竖屏单手即可畅玩。",
+    "longDescription": "Lantern Depths 是 SouMoster Games 的回合制 Roguelite，使用 Godot 开发，目前正在开发中。灯笼里的油同时是你的生命、你的光亮和你的技能燃料：每受一次伤，火光就暗一分，越虚弱，看得越少。一步一步小心地深入空洞之井。在你行动之前，一切都不会动，所以每一步都是一次抉择。用闪耀震慑怕光的敌人并照亮更远处，关上灯笼悄悄潜行，点燃木桶、引燃火焰，并在行动前看清每个敌人的下一步。每次下潜选择一件遗物，向商人购买物品，打开宝箱，并用灯笼玻璃保护你的灯油。在被水淹没的蓄水池中对抗老鼠、水蛭、灯蛾、溺亡搬运工、舱底弓手、暗影潜伏者和孢子怪，最终迎战溺亡敲钟人。每一次死亡都会充实井口营地：用余烬购买新灯芯、解锁守望者，并在档案馆中收集生物、书页和纪录。单局时间短，适合通勤，竖屏单手即可畅玩。",
     "features": [
-      "SouMoster 的首款 Roguelite：回合制、单局简短、竖屏单手操作",
+      "SouMoster Games 的首款 Roguelite：回合制、单局简短、竖屏单手操作",
       "一种资源，三种用途：灯油是你的生命、光照范围和技能燃料",
       "灯油越少，视野越小；探索过的区域会以灰色记忆留在地图上",
       "灯笼行动：闪耀、遮光、焚烧和点火，还有油瓶和烟雾",

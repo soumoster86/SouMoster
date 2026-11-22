@@ -3,7 +3,7 @@ title: "Road Hopper v9.6.0 and Nitro Racer v0.5.4: New Worlds, Rush Hour and 48 
 excerpt: "Road Hopper adds four mechanical New Worlds and two 72-level Adventures. Nitro Racer's closed test grows to 12 championships, 48 circuits and Rush Hour traffic runs."
 date: "2026-11-22"
 category: "Release Notes"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Road Hopper v9.6.0

@@ -3,7 +3,7 @@ title: "Bank Hopper Enters Google Play Closed Testing"
 excerpt: "Bank Hopper v0.8.0 is live on the Google Play Closed Testing track. Join testers, hop through eight-floor heists, and watch trailers on YouTube @SouMosterGames."
 date: "2026-09-20"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Closed Testing is open

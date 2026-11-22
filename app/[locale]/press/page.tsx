@@ -10,6 +10,7 @@ import { hasBuildVersion } from "@/data/apps";
 import { Link } from "@/i18n/navigation";
 import {
   PLAY_STORE_DEVELOPER_URL,
+  LEGAL_NAME,
   SITE_NAME,
   SITE_URL,
   SUPPORT_EMAIL,
@@ -62,7 +63,7 @@ export default async function PressPage({ params }: PageProps) {
 
   const strong = (chunks: ReactNode) => <strong className="text-text">{chunks}</strong>;
   const studioFacts = [
-    { label: t("facts.studio"), value: SITE_NAME },
+    { label: t("facts.studio"), value: LEGAL_NAME },
     { label: t("facts.type"), value: t("facts.typeValue") },
     { label: t("facts.started"), value: "2024" },
     { label: t("facts.firstRelease"), value: "Road Hopper (2026)" },

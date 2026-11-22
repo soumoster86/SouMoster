@@ -24,7 +24,7 @@ export function getAllPosts(): BlogPost[] {
       excerpt: data.excerpt,
       date: data.date,
       category: data.category,
-      author: data.author || "SouMoster Team",
+      author: data.author || "SouMoster Games Team",
       content,
     } as BlogPost;
   });
@@ -45,7 +45,7 @@ export function getPostBySlug(slug: string): BlogPost | null {
     excerpt: data.excerpt,
     date: data.date,
     category: data.category,
-    author: data.author || "SouMoster Team",
+    author: data.author || "SouMoster Games Team",
     content,
   };
 }

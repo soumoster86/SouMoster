@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: "Delete Nitro Racer Cloud Account | SouMoster",
+  title: "Delete Nitro Racer Cloud Account | SouMoster Games",
   description: "Request deletion of a Nitro Racer cloud account, cloud backups and parent-consent records.",
   alternates: { canonical: "https://sou-moster.vercel.app/nitro-racer/delete-account" },
 };
@@ -11,7 +11,7 @@ export default async function DeleteNitroAccount({ params }: { params: Promise<{
   const { locale } = await params;
   setRequestLocale(locale);
   return <main lang="en" className="mx-auto max-w-3xl px-6 py-16 leading-relaxed">
-    <p className="mb-3 text-sm font-medium text-amber-600">SouMoster · Nitro Racer</p>
+    <p className="mb-3 text-sm font-medium text-amber-600">SouMoster Games LLC · Nitro Racer</p>
     <h1 className="mb-6 text-4xl font-bold">Delete your Nitro Racer cloud account</h1>
     <p className="mb-6">Cloud accounts are optional. You can request deletion without reinstalling the game. For a parent-managed account, the parent or guardian should make the request.</p>
     <h2 className="mb-3 text-2xl font-semibold">Delete from the game</h2>

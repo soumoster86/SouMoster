@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
-  title: "Nitro Racer Privacy Policy | SouMoster",
+  title: "Nitro Racer Privacy Policy | SouMoster Games",
   description: "Privacy information for Nitro Racer: local progress, optional cloud accounts, parent-managed recovery, family advertising and privacy choices.",
   alternates: { canonical: "https://sou-moster.vercel.app/privacy/nitro-racer" },
 };
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const sections = [
   [
     "Scope and publisher",
-    "This policy applies specifically to Nitro Racer (Android package com.soumo.nitrohopper), published by SouMoster. It explains this game's practices and takes precedence over descriptions of other games in our general website policy. Effective and last updated: 24 October 2026. Contact: soumoster@gmail.com."
+    "This policy applies specifically to Nitro Racer (Android package com.soumo.nitrohopper), published by SouMoster Games. It explains this game's practices and takes precedence over descriptions of other games in our general website policy. Effective and last updated: 24 October 2026. Contact: soumoster@gmail.com."
   ],
   [
     "Offline play and local saves",
@@ -64,7 +64,7 @@ export default async function NitroRacerPrivacy({ params }: { params: Promise<{ 
   setRequestLocale(locale);
   return (
     <main lang="en" className="mx-auto max-w-3xl px-6 py-16 leading-relaxed">
-      <p className="mb-3 text-sm font-medium text-amber-600">SouMoster · Nitro Racer</p>
+      <p className="mb-3 text-sm font-medium text-amber-600">SouMoster Games LLC · Nitro Racer</p>
       <h1 className="mb-4 text-4xl font-bold">Nitro Racer — Privacy Policy</h1>
       <p className="mb-10 text-sm opacity-75">Effective 24 October 2026 · Official English version</p>
       {sections.map(([heading, body]) => (

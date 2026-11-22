@@ -22,6 +22,7 @@ import { Button } from "@/components/ui/Button";
 import {
   PLAY_STORE_DEVELOPER_URL,
   RESPONSE_TIME,
+  LEGAL_NAME,
   SITE_NAME,
   SITE_URL,
   SUPPORT_EMAIL,
@@ -103,7 +104,7 @@ export function PrivacyContent() {
   const handleCopyDeletionTemplate = () => {
     const template = `Subject: Data Deletion Request under GDPR / Google Play Policy
 
-Dear SouMoster Privacy Team,
+Dear SouMoster Games Privacy Team,
 
 I am requesting the permanent deletion of all personal data associated with my use of your apps/games under Article 17 of the GDPR and Google Play Data Safety policies.
 
@@ -333,7 +334,7 @@ Thank you.`;
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                Welcome to <strong>{SITE_NAME}</strong> (&quot;we&quot;,
+                Welcome to <strong>{LEGAL_NAME}</strong> (&quot;{SITE_NAME}&quot;, &quot;we&quot;,
                 &quot;our&quot;, or &quot;us&quot;). We build enjoyable,
                 accessible, and high-quality mobile games and applications
                 published worldwide on the Google Play Store and related
@@ -483,7 +484,7 @@ Thank you.`;
                     Developer / Entity Name:
                   </span>
                   <span className="text-muted sm:col-span-2">
-                    {SITE_NAME} (Independent Developer)
+                    {LEGAL_NAME}
                   </span>
                 </div>
                 <div className="border-border/50 grid grid-cols-1 gap-2 border-b py-1 sm:grid-cols-3">
@@ -939,7 +940,7 @@ Thank you.`;
                   All monetary transactions are processed securely and
                   exclusively through the{" "}
                   <strong>Google Play In-App Billing API</strong> (Google
-                  Payment Corp / Google LLC). SouMoster does not receive,
+                  Payment Corp / Google LLC). SouMoster Games does not receive,
                   process, store, or have access to your credit card number,
                   banking details, or billing address.
                 </p>
@@ -964,7 +965,7 @@ Thank you.`;
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                SouMoster publishes apps and games globally. Consequently,
+                SouMoster Games publishes apps and games globally. Consequently,
                 personal data and telemetry collected through integrated SDKs
                 (such as Google AdMob, Firebase, and Google Play Games) may be
                 transferred to, stored, and processed on servers located outside
@@ -1401,7 +1402,7 @@ Thank you.`;
                     <Button
                       size="sm"
                       variant="primary"
-                      href={`mailto:${SUPPORT_EMAIL}?subject=Data%20Deletion%20Request%20under%20GDPR%20%2F%20Google%20Play&body=Dear%20SouMoster%20Privacy%20Team%2C%0A%0AI%20am%20requesting%20the%20permanent%20deletion%20of%20all%20personal%20data%20associated%20with%20my%20use%20of%20your%20apps%2Fgames.%0A%0AApp%20Name%3A%20%5BInsert%20game%20title%5D%0AEmail%3A%20%0A%0AThank%20you.`}
+                      href={`mailto:${SUPPORT_EMAIL}?subject=Data%20Deletion%20Request%20under%20GDPR%20%2F%20Google%20Play&body=Dear%20SouMoster%20Games%20Privacy%20Team%2C%0A%0AI%20am%20requesting%20the%20permanent%20deletion%20of%20all%20personal%20data%20associated%20with%20my%20use%20of%20your%20apps%2Fgames.%0A%0AApp%20Name%3A%20%5BInsert%20game%20title%5D%0AEmail%3A%20%0A%0AThank%20you.`}
                       className="text-xs"
                     >
                       <Mail className="h-3.5 w-3.5" />
@@ -1659,7 +1660,7 @@ Thank you.`;
               <div className="border-border bg-card/60 space-y-3 rounded-xl border p-5 text-xs sm:text-sm">
                 <div>
                   <span className="text-text font-semibold">
-                    SouMoster Privacy & Data Protection Desk
+                    SouMoster Games Privacy & Data Protection Desk
                   </span>
                 </div>
                 <div>

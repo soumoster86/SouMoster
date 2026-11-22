@@ -62,12 +62,12 @@ export default async function DeleteDataPage({ params }: PageProps) {
         <SectionHeading
           eyebrow="Account & Data Deletion"
           title="Delete Your Data"
-          subtitle={`How to delete data from ${SITE_NAME} games: ${releasedGames.join(", ")}, and any future ${SITE_NAME} titles.`}
+          subtitle={`How to delete data from ${SITE_NAME} titles: ${releasedGames.join(", ")}, and any future ${SITE_NAME} titles.`}
         />
 
         <div className="glass mb-10 rounded-2xl p-6 text-sm leading-relaxed sm:p-8">
           <p className="text-muted">
-            <strong className="text-text">{SITE_NAME} games do not require an account.</strong>{" "}
+            <strong className="text-text">{SITE_NAME} titles do not require an account.</strong>{" "}
             Game progress, currency, and settings are stored on your device.
             Leaderboards and achievements are stored by Google Play Games under
             your Google account. The only personal data we hold ourselves is

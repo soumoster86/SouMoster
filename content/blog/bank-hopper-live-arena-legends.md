@@ -1,9 +1,9 @@
 ---
 title: "Bank Hopper Is Live, Time Hopper Enters Closed Testing, and Meet Arena Legends"
-excerpt: "Bank Hopper v1.0.0 is out on Google Play, Time Hopper v1.13.2 is in Closed Testing, and we've started Arena Legends, SouMoster's first action game."
+excerpt: "Bank Hopper v1.0.0 is out on Google Play, Time Hopper v1.13.2 is in Closed Testing, and we've started Arena Legends, SouMoster Games' first action game."
 date: "2026-10-16"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Bank Hopper is live on Google Play
@@ -28,7 +28,7 @@ You can also request an invite on our [Beta page](/beta?game=time-hopper).
 
 ## Introducing Arena Legends: Gladiator Wars
 
-We've started work on **Arena Legends**, SouMoster's first action game. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom.
+We've started work on **Arena Legends**, SouMoster Games' first action game. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom.
 
 - **A five-chapter campaign**: the Blood Pits, the Coliseum, the Wild Trials, the Ashen Arena and the Hall of Champions
 - **Five bosses**, from Brutus the Iron Wall to the three-stance Imperial Champion

@@ -86,7 +86,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <span className="text-muted block text-lg font-semibold tracking-[0.3em] uppercase sm:text-xl">
-                SouMoster
+                SouMoster Games
               </span>
               <span className="gradient-text mt-2 block leading-tight">
                 {t("headline")}

@@ -3,7 +3,7 @@ title: "Road Hopper v9.2.9 — Now Live on Google Play"
 excerpt: "Road Hopper is live on Google Play with a big GPU performance update, smoother 60fps on budget devices, and the full five-mode arcade experience."
 date: "2026-07-27"
 category: "Release Notes"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## NEW in 9.2.9

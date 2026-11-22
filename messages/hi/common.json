@@ -9,7 +9,7 @@
     "blog": "ब्लॉग",
     "contact": "संपर्क",
     "mainNavigation": "मुख्य नेविगेशन",
-    "homeLink": "SouMoster होम",
+    "homeLink": "SouMoster Games होम",
     "download": "डाउनलोड",
     "downloadOnPlay": "Google Play पर डाउनलोड करें",
     "openMenu": "मेन्यू खोलें",
@@ -65,7 +65,7 @@
     "nowLive": "अब उपलब्ध",
     "downloadApp": "{name} को Google Play पर डाउनलोड करें",
     "downloadTestBuild": "{name} का क्लोज़्ड टेस्टिंग बिल्ड Google Play पर डाउनलोड करें",
-    "downloadOurGames": "SouMoster के गेम्स Google Play पर डाउनलोड करें"
+    "downloadOurGames": "SouMoster Games के गेम्स Google Play पर डाउनलोड करें"
   },
   "actions": {
     "learnMore": "और जानें",

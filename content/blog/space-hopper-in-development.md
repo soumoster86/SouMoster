@@ -1,14 +1,14 @@
 ---
 title: "Space Hopper Is in Development"
-excerpt: "While Road Hopper thrives on Google Play, SouMoster is building Space Hopper — our next hop-and-dodge adventure among the stars."
+excerpt: "While Road Hopper thrives on Google Play, SouMoster Games is building Space Hopper — our next hop-and-dodge adventure among the stars."
 date: "2026-07-08"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Introducing Space Hopper
 
-With **Road Hopper v9.4.7** now live on Google Play, SouMoster is turning its focus to the next title: **Space Hopper**.
+With **Road Hopper v9.4.7** now live on Google Play, SouMoster Games is turning its focus to the next title: **Space Hopper**.
 
 We're currently working on Space Hopper — a new hop-and-dodge experience set in space, carrying forward the same philosophy that shaped Road Hopper: simple controls, addictive runs, and polished feel.
 

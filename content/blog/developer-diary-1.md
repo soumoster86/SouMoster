@@ -1,9 +1,9 @@
 ---
-title: "Developer Diary #1 — Why I Started SouMoster"
-excerpt: "The story behind SouMoster — from a simple idea about polished mobile games to building Road Hopper and what comes next."
+title: "Developer Diary #1 — Why I Started SouMoster Games"
+excerpt: "The story behind SouMoster Games — from a simple idea about polished mobile games to building Road Hopper and what comes next."
 date: "2025-06-15"
 category: "Developer Diary"
-author: "SouMoster"
+author: "SouMoster Games"
 ---
 
 ## The Beginning
@@ -14,11 +14,11 @@ Every developer has a story, and mine began with a simple thought:
 
 Like many people, I spent countless hours playing mobile games during commutes, coffee breaks, and quiet weekends. While there were plenty of great ideas, I often found myself wishing for experiences that felt more refined—games that respected the player's time, offered smooth gameplay, and focused on fun above everything else.
 
-That idea eventually became **SouMoster**.
+That idea eventually became **SouMoster Games**.
 
 ## The Vision
 
-SouMoster was created with one clear goal: to build Android games that players enjoy coming back to.
+SouMoster Games was created with one clear goal: to build Android games that players enjoy coming back to.
 
 Every game we develop is guided by a few core principles:
 
@@ -49,10 +49,10 @@ Every update is an opportunity to make the experience better.
 
 Road Hopper is only the beginning — and **v9.2.9 is now live on Google Play**.
 
-We're currently working on **Space Hopper**, the next title in the Hopper series, while exploring more ideas that stay true to the same philosophy that inspired SouMoster from day one:
+We're currently working on **Space Hopper**, the next title in the Hopper series, while exploring more ideas that stay true to the same philosophy that inspired SouMoster Games from day one:
 
 **Build games that are fun to play, enjoyable to revisit, and crafted with care.**
 
-Thank you for joining me on this journey. Whether you've played Road Hopper, shared feedback, or simply stopped by to learn more about SouMoster, your support means a great deal.
+Thank you for joining me on this journey. Whether you've played Road Hopper, shared feedback, or simply stopped by to learn more about SouMoster Games, your support means a great deal.
 
 This is just the first chapter, and there's much more to come.

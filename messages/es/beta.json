@@ -58,7 +58,7 @@
     "communityHint": "Para invitarte a los chats privados de testers.",
     "notes": "Notas o experiencia con juegos arcade",
     "notesPlaceholder": "Cuéntanos qué juegos te gustan o qué mecánicas te gustaría probar...",
-    "consent": "Acepto que SouMoster use mi correo solo para enviarme invitaciones a pruebas cerradas de Google Play y comunicaciones previas al lanzamiento, de acuerdo con la <privacy>Política de privacidad</privacy> y los <terms>Términos y condiciones</terms>. Puedo darme de baja en cualquier momento.",
+    "consent": "Acepto que SouMoster Games use mi correo solo para enviarme invitaciones a pruebas cerradas de Google Play y comunicaciones previas al lanzamiento, de acuerdo con la <privacy>Política de privacidad</privacy> y los <terms>Términos y condiciones</terms>. Puedo darme de baja en cualquier momento.",
     "submit": "Enviar solicitud para la beta cerrada",
     "submitting": "Registrando en la beta cerrada...",
     "emailRequired": "Escribe el correo de tu cuenta de Google Play.",
@@ -69,7 +69,7 @@
   "success": {
     "badge": "Solicitud confirmada",
     "title": "¡Bienvenido al equipo de pruebas!",
-    "registered": "Hemos registrado <strong>{email}</strong> en el canal de prueba cerrada de Google Play de SouMoster.",
+    "registered": "Hemos registrado <strong>{email}</strong> en el canal de prueba cerrada de Google Play de SouMoster Games.",
     "nextTitle": "¿Qué pasa ahora?",
     "step1": "Únete a nuestro grupo de Google de testers con la misma cuenta de Google: <group>groups.google.com/g/roadhopper</group>",
     "step2": "Recibirás un enlace de inscripción (o una invitación por correo). Pulsa <em>«Unirse en la web / Unirse en Android»</em> para aceptar.",
@@ -79,7 +79,7 @@
   "faq": {
     "eyebrow": "¿Necesitas ayuda?",
     "title": "Preguntas frecuentes",
-    "subtitle": "Todo lo que necesitas saber para participar en la beta cerrada de SouMoster",
+    "subtitle": "Todo lo que necesitas saber para participar en la beta cerrada de SouMoster Games",
     "howWorks": {
       "q": "¿Cómo funciona la prueba cerrada de Google Play?",
       "a": "Google Play pide a los desarrolladores que inviten a sus testers mediante canales de prueba cerrada. Cuando añadimos tu correo de Google Play, Google genera un enlace de prueba privado para instalar la versión de prueba desde la aplicación oficial de Play Store."

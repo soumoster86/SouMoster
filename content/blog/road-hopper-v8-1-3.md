@@ -3,7 +3,7 @@ title: "Road Hopper v8.1.3 — Revive, Characters & Stability"
 excerpt: "Beta build notes: Revive after a hit, hilarious characters, and a more stable, polished Road Hopper experience."
 date: "2026-07-07"
 category: "Release Notes"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## NEW in 8.1.3 (Beta)

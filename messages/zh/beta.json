@@ -58,7 +58,7 @@
     "communityHint": "用于邀请您加入私密测试者聊天室。",
     "notes": "测试者备注或街机游戏经验",
     "notesPlaceholder": "告诉我们您喜欢哪些游戏，或者想测试哪些玩法...",
-    "consent": "我同意 SouMoster 仅将我的电子邮件地址用于发送 Google Play 封闭测试邀请和发布前通知，并完全遵守<privacy>隐私政策</privacy>和<terms>条款和条件</terms>。我可以随时退出。",
+    "consent": "我同意 SouMoster Games 仅将我的电子邮件地址用于发送 Google Play 封闭测试邀请和发布前通知，并完全遵守<privacy>隐私政策</privacy>和<terms>条款和条件</terms>。我可以随时退出。",
     "submit": "提交封闭测试申请",
     "submitting": "正在报名封闭测试...",
     "emailRequired": "请输入您的 Google Play 账号邮箱。",
@@ -69,7 +69,7 @@
   "success": {
     "badge": "申请已确认",
     "title": "欢迎加入测试！",
-    "registered": "我们已将 <strong>{email}</strong> 登记到 SouMoster 的 Google Play 封闭测试渠道。",
+    "registered": "我们已将 <strong>{email}</strong> 登记到 SouMoster Games 的 Google Play 封闭测试渠道。",
     "nextTitle": "接下来会怎样？",
     "step1": "使用同一个 Google 账号加入我们的测试者 Google 群组：<group>groups.google.com/g/roadhopper</group>",
     "step2": "您会收到一个选择加入的网页链接（或邮件邀请）。点击<em>“在网页上加入 / 在 Android 上加入”</em>即可接受。",
@@ -79,7 +79,7 @@
   "faq": {
     "eyebrow": "需要帮助？",
     "title": "常见问题",
-    "subtitle": "参加 SouMoster 封闭测试所需了解的一切",
+    "subtitle": "参加 SouMoster Games 封闭测试所需了解的一切",
     "howWorks": {
       "q": "Google Play 封闭测试是如何运作的？",
       "a": "Google Play 要求开发者通过特定的封闭测试渠道邀请可信的测试者。我们添加您的 Google Play 邮箱后，Google 会生成一个私密测试链接，让您通过官方 Play 商店应用安装测试版。"

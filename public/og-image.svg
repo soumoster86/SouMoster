@@ -7,6 +7,6 @@
       <stop offset="100%" stop-color="#22C55E"/>
     </linearGradient>
   </defs>
-  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="url(#g)">SouMoster</text>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="96" font-weight="bold" fill="url(#g)">SouMoster Games</text>
   <text x="600" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="#CBD5E1">Building fun, addictive Android games</text>
 </svg>

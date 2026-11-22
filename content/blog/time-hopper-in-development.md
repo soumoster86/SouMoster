@@ -3,12 +3,12 @@ title: "Time Hopper Is in Development"
 excerpt: "Meet Time Hopper: a seven-era runner where you can hop into an alternate timeline to escape danger. Plus Bank Hopper is ready for Google Play production access and Road Hopper is at v9.4.9."
 date: "2026-10-02"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Introducing Time Hopper
 
-SouMoster's next game is **Time Hopper**: *Hop Through Time. Break History. Fix the Timeline.*
+SouMoster Games' next game is **Time Hopper**: *Hop Through Time. Break History. Fix the Timeline.*
 
 It's a portrait three-lane runner, built natively in Kotlin, in which a traveller with a damaged time device sprints through seven eras: **Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future** and the **Chrono Void**.
 

@@ -4,7 +4,7 @@ import { BrandIcon } from "@/components/shared/BrandIcon";
 import { SocialIcon } from "@/components/shared/SocialIcon";
 import { apps } from "@/data/apps";
 import { Link } from "@/i18n/navigation";
-import { FOOTER_LINKS, NAV_LINKS, PLAY_STORE_DEV_URL, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
+import { FOOTER_LINKS, NAV_LINKS, LEGAL_NAME, PLAY_STORE_DEV_URL, SITE_NAME, SOCIAL_LINKS } from "@/lib/constants";
 
 export function Footer() {
   const t = useTranslations("common");
@@ -129,7 +129,7 @@ export function Footer() {
 
         <div className="mt-12 border-t border-border pt-8 text-center text-sm text-muted">
           <p>
-            {t("footer.rights", { year: currentYear, site: SITE_NAME })}
+            {t("footer.rights", { year: currentYear, site: LEGAL_NAME })}
           </p>
         </div>
       </div>

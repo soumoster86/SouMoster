@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { setRequestLocale } from "next-intl/server";
 
-export const metadata: Metadata = { title: "Delete Arena Legends Data | SouMoster" };
+export const metadata: Metadata = { title: "Delete Arena Legends Data | SouMoster Games" };
 
 export default async function DeleteArenaData({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
   return (
     <main lang="en" className="mx-auto max-w-3xl px-6 py-16 leading-relaxed">
-      <p className="mb-3 text-sm text-amber-600">SouMoster · com.arenalegends.game</p>
+      <p className="mb-3 text-sm text-amber-600">SouMoster Games LLC · com.arenalegends.game</p>
       <h1 className="mb-6 text-4xl font-bold">Delete Arena Legends: Gladiator Wars data</h1>
       <p className="mb-8">Arena Legends has no developer-hosted game account or cloud save. Version 0.1.4 adds optional adult Google Play Games achievement linking. The following steps apply specifically to this game. Updated 24 October 2026.</p>
       <section className="mb-9">

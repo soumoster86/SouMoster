@@ -3,7 +3,7 @@ title: "Arena Legends Is Live, Nitro Racer Enters Closed Testing, and Meet Lante
 excerpt: "Arena Legends: Gladiator Wars is out on Google Play, Nitro Racer is in Closed Testing, and we've started Lantern Depths, a turn-based roguelite where oil is your light and your life."
 date: "2026-11-11"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Arena Legends is live on Google Play

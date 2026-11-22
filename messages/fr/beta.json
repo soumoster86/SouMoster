@@ -58,7 +58,7 @@
     "communityHint": "Pour vous inviter dans les salons privés des testeurs.",
     "notes": "Remarques ou expérience des jeux d’arcade",
     "notesPlaceholder": "Dites-nous quels jeux vous aimez ou quelles mécaniques vous aimeriez tester...",
-    "consent": "J’accepte que SouMoster utilise mon adresse e-mail uniquement pour m’envoyer les invitations aux tests fermés Google Play et les communications avant sortie, conformément à la <privacy>politique de confidentialité</privacy> et aux <terms>conditions générales</terms>. Je peux me désinscrire à tout moment.",
+    "consent": "J’accepte que SouMoster Games utilise mon adresse e-mail uniquement pour m’envoyer les invitations aux tests fermés Google Play et les communications avant sortie, conformément à la <privacy>politique de confidentialité</privacy> et aux <terms>conditions générales</terms>. Je peux me désinscrire à tout moment.",
     "submit": "Envoyer ma candidature à la bêta fermée",
     "submitting": "Inscription à la bêta fermée...",
     "emailRequired": "Veuillez saisir l’adresse e-mail de votre compte Google Play.",
@@ -69,7 +69,7 @@
   "success": {
     "badge": "Candidature confirmée",
     "title": "Bienvenue parmi les testeurs !",
-    "registered": "Nous avons inscrit <strong>{email}</strong> sur la piste de test fermé Google Play de SouMoster.",
+    "registered": "Nous avons inscrit <strong>{email}</strong> sur la piste de test fermé Google Play de SouMoster Games.",
     "nextTitle": "Et maintenant ?",
     "step1": "Rejoignez notre groupe Google des testeurs avec le même compte Google : <group>groups.google.com/g/roadhopper</group>",
     "step2": "Vous recevrez un lien d’inscription (ou une invitation par e-mail). Cliquez sur <em>« Rejoindre sur le Web / Rejoindre sur Android »</em> pour accepter.",
@@ -79,7 +79,7 @@
   "faq": {
     "eyebrow": "Besoin d’aide ?",
     "title": "Questions fréquentes",
-    "subtitle": "Tout ce qu’il faut savoir pour participer à la bêta fermée de SouMoster",
+    "subtitle": "Tout ce qu’il faut savoir pour participer à la bêta fermée de SouMoster Games",
     "howWorks": {
       "q": "Comment fonctionne le test fermé de Google Play ?",
       "a": "Google Play demande aux développeurs d’inviter leurs testeurs via des pistes de test fermé. Une fois votre adresse Google Play ajoutée, Google génère un lien de test privé qui vous permet d’installer la version de test depuis l’application Play Store officielle."

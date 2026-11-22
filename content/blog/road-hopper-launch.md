@@ -1,9 +1,9 @@
 ---
 title: "Road Hopper Is Live on Google Play!"
-excerpt: "Hop across busy roads, rivers and rails. Five modes, heroes, biomes, worlds — free on Google Play from SouMoster."
+excerpt: "Hop across busy roads, rivers and rails. Five modes, heroes, biomes, worlds — free on Google Play from SouMoster Games."
 date: "2026-07-27"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## How far can you hop?

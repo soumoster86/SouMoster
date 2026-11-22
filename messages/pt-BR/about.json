@@ -1,5 +1,5 @@
 {
-  "title": "Sobre a SouMoster",
+  "title": "Sobre a SouMoster Games",
   "subtitle": "Uma desenvolvedora independente de jogos Android com a missão de criar experiências móveis inesquecíveis",
   "mission": {
     "title": "Nossa missão",
@@ -11,11 +11,11 @@
   },
   "story": {
     "title": "A história do estúdio",
-    "p1": "A SouMoster é um estúdio independente de jogos Android fundado por um desenvolvedor solo apaixonado por criar jogos mobile divertidos, acessíveis e envolventes. O que começou como uma jornada pessoal para aprender desenvolvimento Android virou o compromisso de criar jogos caprichados para jogar a qualquer hora, em qualquer lugar.",
-    "p2": "Todo projeto segue uma filosofia simples: <strong>jogos incríveis não precisam ser complicados</strong>. Com controles intuitivos, jogabilidade gostosa e melhorias constantes, a SouMoster quer entregar jogos fáceis de aprender, difíceis de largar e divertidos para todas as idades.",
+    "p1": "A SouMoster Games é um estúdio independente de jogos Android fundado por um desenvolvedor solo apaixonado por criar jogos mobile divertidos, acessíveis e envolventes. O que começou como uma jornada pessoal para aprender desenvolvimento Android virou o compromisso de criar jogos caprichados para jogar a qualquer hora, em qualquer lugar.",
+    "p2": "Todo projeto segue uma filosofia simples: <strong>jogos incríveis não precisam ser complicados</strong>. Com controles intuitivos, jogabilidade gostosa e melhorias constantes, a SouMoster Games quer entregar jogos fáceis de aprender, difíceis de largar e divertidos para todas as idades.",
     "p3": "Nosso primeiro jogo, <strong>Road Hopper</strong>, chegou ao Google Play em julho de 2026, com ação arcade rápida, visual limpo e jogo offline. Em outubro de 2026 veio <strong>Bank Hopper</strong>, um assalto a banco jogado com um polegar, e no fim do mesmo mês foi lançado <strong>Time Hopper</strong>, um runner por sete eras construído em torno do Time Hop. Cada um foi lançado depois de um teste fechado com jogadores da nossa comunidade.",
-    "p4": "<strong>Arena Legends</strong>, nosso primeiro jogo de ação, concluiu o teste fechado do Google Play e foi lançado em novembro de 2026, levando a SouMoster além da série Hopper para o combate de gladiadores em tempo real. <strong>Nitro Racer</strong>, nosso primeiro jogo de corrida, agora está em teste fechado, e <strong>Space Hopper</strong> e <strong>Lantern Depths</strong>, um roguelite por turnos, estão em desenvolvimento. Cada lançamento aproveita as lições do anterior, e o feedback dos jogadores molda cada atualização.",
-    "p5": "Acompanhe trailers, gameplay e bastidores no YouTube: <youtube>@SouMosterGames</youtube>. A SouMoster está crescendo, mas a missão continua a mesma: criar jogos Android de qualidade, divertidos, caprichados e marcantes."
+    "p4": "<strong>Arena Legends</strong>, nosso primeiro jogo de ação, concluiu o teste fechado do Google Play e foi lançado em novembro de 2026, levando a SouMoster Games além da série Hopper para o combate de gladiadores em tempo real. <strong>Nitro Racer</strong>, nosso primeiro jogo de corrida, agora está em teste fechado, e <strong>Space Hopper</strong> e <strong>Lantern Depths</strong>, um roguelite por turnos, estão em desenvolvimento. Cada lançamento aproveita as lições do anterior, e o feedback dos jogadores molda cada atualização.",
+    "p5": "Acompanhe trailers, gameplay e bastidores no YouTube: <youtube>@SouMosterGames</youtube>. A SouMoster Games está crescendo, mas a missão continua a mesma: criar jogos Android de qualidade, divertidos, caprichados e marcantes."
   },
   "games": {
     "eyebrow": "Nossos jogos",
@@ -39,7 +39,7 @@
       {
         "period": "Julho de 2026",
         "title": "Primeiro lançamento: Road Hopper",
-        "description": "Road Hopper chegou ao Google Play depois de um beta aberto: o primeiro jogo publicado da SouMoster. Desde então ele só melhorou e já está na v9.6.0."
+        "description": "Road Hopper chegou ao Google Play depois de um beta aberto: o primeiro jogo publicado da SouMoster Games. Desde então ele só melhorou e já está na v9.6.0."
       },
       {
         "period": "Setembro de 2026",
@@ -49,7 +49,7 @@
       {
         "period": "Outubro de 2026",
         "title": "Bank Hopper chega ao Google Play",
-        "description": "Bank Hopper v1.0.0 foi lançado no Google Play em 6 de outubro: o segundo jogo publicado da SouMoster."
+        "description": "Bank Hopper v1.0.0 foi lançado no Google Play em 6 de outubro: o segundo jogo publicado da SouMoster Games."
       },
       {
         "period": "Outubro de 2026",
@@ -59,12 +59,12 @@
       {
         "period": "Outubro de 2026",
         "title": "Começa Arena Legends",
-        "description": "Começou o desenvolvimento de Arena Legends: Gladiator Wars, o primeiro jogo de ação da SouMoster: combates de gladiadores com combos, aparadas, quatro classes de armas e uma campanha de cinco capítulos."
+        "description": "Começou o desenvolvimento de Arena Legends: Gladiator Wars, o primeiro jogo de ação da SouMoster Games: combates de gladiadores com combos, aparadas, quatro classes de armas e uma campanha de cinco capítulos."
       },
       {
         "period": "Outubro de 2026",
         "title": "Time Hopper chega ao Google Play",
-        "description": "Time Hopper v1.15.1 foi lançado no Google Play em 24 de outubro: o terceiro jogo publicado da SouMoster, com Timeline Bridges, a campanha Chronicle e a coleção Emerald Expedition."
+        "description": "Time Hopper v1.15.1 foi lançado no Google Play em 24 de outubro: o terceiro jogo publicado da SouMoster Games, com Timeline Bridges, a campanha Chronicle e a coleção Emerald Expedition."
       },
       {
         "period": "Outubro de 2026",
@@ -74,7 +74,7 @@
       {
         "period": "Outubro de 2026",
         "title": "Começa Nitro Racer",
-        "description": "Começou o desenvolvimento de Nitro Racer, o primeiro jogo de corrida da SouMoster: 8 campeonatos, 32 circuitos, seis carros para melhorar e personalizar e contra-relógios contra o seu fantasma."
+        "description": "Começou o desenvolvimento de Nitro Racer, o primeiro jogo de corrida da SouMoster Games: 8 campeonatos, 32 circuitos, seis carros para melhorar e personalizar e contra-relógios contra o seu fantasma."
       },
       {
         "period": "Novembro de 2026",

@@ -3,7 +3,7 @@ title: "Road Hopper v9.4.7 — Performance & Controls Update"
 excerpt: "Road Hopper v9.4.7 is now live on Google Play with performance enhancements, refined touch controls, and stability updates."
 date: "2026-09-15"
 category: "Patch Notes"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## What's New in v9.4.7

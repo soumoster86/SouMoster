@@ -3,7 +3,7 @@ title: "Road Hopper v9.5.1: The Twilight Anomaly"
 excerpt: "Campaign 4 brings 9 new chapters and 72 marathon levels, Chrono Shadow boss pursuits, the Legendary hero Chrono and a safer revive. Plus new gameplay videos for Time Hopper, Arena Legends and Nitro Racer."
 date: "2026-11-14"
 category: "Release Notes"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## The Twilight Anomaly

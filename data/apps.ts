@@ -15,7 +15,7 @@ const appList: App[] = [
     description:
       "Tap or swipe across busy roads, rivers and rails. Dodge cars and trains, ride logs, grab branded HCoins. Easy to learn, hard to master!",
     longDescription:
-      "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (six story campaigns, including The Lost Litter, The Twilight Anomaly, The Crossing Works and Frontier Relay), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (16 exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Version 9.6.0 adds four mechanical New Worlds, Clockwork Quarry, Willow Span, Swing Ferry and Tip Deck, and two new 72-level Adventures, The Crossing Works and Frontier Relay. The Twilight Anomaly campaign brings Chrono Shadow boss pursuits and the Legendary hero Chrono. Play in English, Spanish or French. Offline play is fully supported; internet is only needed for optional purchases.",
+      "Road Hopper is a free-to-play arcade hopper from SouMoster Games. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (six story campaigns, including The Lost Litter, The Twilight Anomaly, The Crossing Works and Frontier Relay), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (16 exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Version 9.6.0 adds four mechanical New Worlds, Clockwork Quarry, Willow Span, Swing Ferry and Tip Deck, and two new 72-level Adventures, The Crossing Works and Frontier Relay. The Twilight Anomaly campaign brings Chrono Shadow boss pursuits and the Legendary hero Chrono. Play in English, Spanish or French. Offline play is fully supported; internet is only needed for optional purchases.",
     genre: "Arcade",
     category: "Arcade",
     version: "9.6.0",
@@ -180,7 +180,7 @@ const appList: App[] = [
     description:
       "One-thumb portrait arcade bank heist, now live on Google Play! Hop lane-by-lane out of the bank with your cash and balance greed against the security meter.",
     longDescription:
-      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster, now live on Google Play. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Dodge laser grids and patrolling security drones, tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Endless, handcrafted heists and Full Heist runs across eight floors, unlock characters, gadgets, perks and getaway rides, and climb the leaderboards. No account needed, and it plays offline.",
+      "Bank Hopper is a one-thumb portrait arcade heist from SouMoster Games, now live on Google Play. Hop lane-by-lane out of the bank with your cash: tap forward, swipe left or right, and hold to unleash character abilities. Dodge laser grids and patrolling security drones, tap to bank at lit deposit booths, or run past and push deeper for greed multipliers while the Security meter escalates the chase. Play Endless, handcrafted heists and Full Heist runs across eight floors, unlock characters, gadgets, perks and getaway rides, and climb the leaderboards. No account needed, and it plays offline.",
     genre: "Arcade",
     category: "Arcade",
     version: "1.0.0",
@@ -302,7 +302,7 @@ const appList: App[] = [
     description:
       "A time-travel runner across seven eras, each with two worlds. Dodge what's ahead, or Time Hop into the alternate timeline. Now live on Google Play!",
     longDescription:
-      "Time Hopper is a native Kotlin time-travel runner from SouMoster, now live on Google Play. Sprint through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. Every era has two worlds. When the road closes in, spend energy to Time Hop into the echo timeline, where purple echoes show what's waiting, then prepare for your return. Cross Timeline Bridges that only exist in one timeline, pick Stable, Relic or Paradox portals, outrun each era's pursuit, and at every Chrono Gate extract with your discoveries or go deeper. Play the 21-level Chronicle story campaign, Classic and Endless runs, Paradox, Relic Hunt and Hardcore twists, Boss Gauntlet, Timeline Puzzles, weekly events and a Daily Timeline with a ghost to race. Choose from seven travellers with active abilities, recover 65 illustrated artifacts for your museum, and personalise your look with outfits, trails, gates and Time Hop effects.",
+      "Time Hopper is a native Kotlin time-travel runner from SouMoster Games, now live on Google Play. Sprint through seven eras: Prehistoric, Ancient Kingdom, Medieval, Industrial Age, Modern City, Cyber Future and the Chrono Void. Every era has two worlds. When the road closes in, spend energy to Time Hop into the echo timeline, where purple echoes show what's waiting, then prepare for your return. Cross Timeline Bridges that only exist in one timeline, pick Stable, Relic or Paradox portals, outrun each era's pursuit, and at every Chrono Gate extract with your discoveries or go deeper. Play the 21-level Chronicle story campaign, Classic and Endless runs, Paradox, Relic Hunt and Hardcore twists, Boss Gauntlet, Timeline Puzzles, weekly events and a Daily Timeline with a ghost to race. Choose from seven travellers with active abilities, recover 65 illustrated artifacts for your museum, and personalise your look with outfits, trails, gates and Time Hop effects.",
     genre: "Arcade",
     category: "Arcade",
     version: "1.15.1",
@@ -453,7 +453,7 @@ const appList: App[] = [
     description:
       "A tap-to-hop arcade adventure across eight planets. Collect Star Cores, dodge drones and collapsing tiles, and restore the galaxy's Warp Gates.",
     longDescription:
-      "Space Hopper is a casual arcade hopper from SouMoster, built in Unity 6 and now in development. The galaxy's Warp Gates are damaged: hop lane by lane across eight planets, from Terra Prime and the Moon to Volcanis, Gaia, the Asteroid Belt, Cyber Nexus, Nebula X and the Black Hole, collecting Star Cores to bring them back online. Each world adds its own twist, from lava vents and spring pads to drone traffic, conveyors, fog and gravity pulls. Play Endless Orbit, Adventure Journey with bosses, Speed Run or Galaxy Explorer, with seven heroes and five pets that each bring a real ability. Progress is saved on your device.",
+      "Space Hopper is a casual arcade hopper from SouMoster Games, built in Unity 6 and now in development. The galaxy's Warp Gates are damaged: hop lane by lane across eight planets, from Terra Prime and the Moon to Volcanis, Gaia, the Asteroid Belt, Cyber Nexus, Nebula X and the Black Hole, collecting Star Cores to bring them back online. Each world adds its own twist, from lava vents and spring pads to drone traffic, conveyors, fog and gravity pulls. Play Endless Orbit, Adventure Journey with bosses, Speed Run or Galaxy Explorer, with seven heroes and five pets that each bring a real ability. Progress is saved on your device.",
     genre: "Arcade",
     category: "Arcade",
     version: "1.0.0",
@@ -532,9 +532,9 @@ const appList: App[] = [
     name: "Arena Legends",
     tagline: "Gladiator Wars. Fight, and earn your freedom.",
     description:
-      "SouMoster's first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now live on Google Play.",
+      "SouMoster Games' first action game: a gladiator brawler with combos, parries and boss fights across a five-chapter campaign. Now live on Google Play.",
     longDescription:
-      "Arena Legends: Gladiator Wars is SouMoster's first action game, built in Kotlin with libGDX. After Google Play Closed Testing, version 1.0.2 is now live on Google Play. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Read each warning, dodge the impact and strike during recovery: chain combos, charge heavy attacks, block, parry and counter, and break shields and armour. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, then build weapon mastery and unlock cloth colours, heraldic standards, helmet crests, shield designs and metal finishes. Survival with perks, a timed Boss Rush, the Daily Challenge, a rotating Weekly Champion, daily and weekly contracts and 20 achievements round it out. Move and resize the action buttons, play left-handed, and play offline: progress stays on your device.",
+      "Arena Legends: Gladiator Wars is SouMoster Games' first action game, built in Kotlin with libGDX. After Google Play Closed Testing, version 1.0.2 is now live on Google Play. You wake beneath the arena, and the pitmaster offers one bargain: fight, and earn your freedom. Battle through a five-chapter campaign, from the Blood Pits and the Coliseum to the Wild Trials, the Ashen Arena and the Hall of Champions, against raiders, lancers, brutes, shield guardians, beasts and five bosses, ending with the three-stance Imperial Champion. Read each warning, dodge the impact and strike during recovery: chain combos, charge heavy attacks, block, parry and counter, and break shields and armour. Choose Sword & Shield, Spear, Dual Blades or Great Axe, each with its own moves and special skill, then build weapon mastery and unlock cloth colours, heraldic standards, helmet crests, shield designs and metal finishes. Survival with perks, a timed Boss Rush, the Daily Challenge, a rotating Weekly Champion, daily and weekly contracts and 20 achievements round it out. Move and resize the action buttons, play left-handed, and play offline: progress stays on your device.",
     genre: "Action",
     category: "Action",
     version: "1.0.2",
@@ -631,7 +631,7 @@ const appList: App[] = [
       {
         question: "Is it different from the Hopper games?",
         answer:
-          "Yes. Arena Legends is SouMoster's first action game: real-time melee combat with combos, parries, stamina and boss fights, played in landscape with a joystick and action buttons.",
+          "Yes. Arena Legends is SouMoster Games' first action game: real-time melee combat with combos, parries, stamina and boss fights, played in landscape with a joystick and action buttons.",
       },
       {
         question: "Is Arena Legends free?",
@@ -657,9 +657,9 @@ const appList: App[] = [
     name: "Nitro Racer",
     tagline: "Chase the next horizon.",
     description:
-      "SouMoster's first racing game: race 12 championships across 48 circuits, beat the clock in Rush Hour traffic and build your dream garage. Now in Google Play Closed Testing.",
+      "SouMoster Games' first racing game: race 12 championships across 48 circuits, beat the clock in Rush Hour traffic and build your dream garage. Now in Google Play Closed Testing.",
     longDescription:
-      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in Google Play Closed Testing. Find your racing rhythm in an arcade circuit racer built around close passes, nitro bursts and a garage that grows with you. Race 12 championships and 48 circuits through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes, volcanic terrain, autumn roads, misty highlands, tropical islands and a moonlit spaceport, each with its own landmarks and regional lighting, against five AI rivals. In Rush Hour, weave through hatchbacks, taxis, vans and motorcycles on six circuits, cross checkpoints to add time and chain close overtakes into multipliers up to x5. Every finish earns driver XP, each of the 10 cars has its own mastery track, and Racing Journey brings together a rotating three-race Weekly Cup and an Explorer Album of hidden tokens on every circuit. Upgrade engine, turbo, tyres and nitro, personalise paints, liveries, boost effects, underglow and number plates, and chase your best lap against your ghost in Time Trial. A guided practice teaches each control. Steer with tilt or on-screen controls, and race offline with no account needed.",
+      "Nitro Racer is SouMoster Games' first racing game, built in Kotlin with libGDX and now in Google Play Closed Testing. Find your racing rhythm in an arcade circuit racer built around close passes, nitro bursts and a garage that grows with you. Race 12 championships and 48 circuits through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes, volcanic terrain, autumn roads, misty highlands, tropical islands and a moonlit spaceport, each with its own landmarks and regional lighting, against five AI rivals. In Rush Hour, weave through hatchbacks, taxis, vans and motorcycles on six circuits, cross checkpoints to add time and chain close overtakes into multipliers up to x5. Every finish earns driver XP, each of the 10 cars has its own mastery track, and Racing Journey brings together a rotating three-race Weekly Cup and an Explorer Album of hidden tokens on every circuit. Upgrade engine, turbo, tyres and nitro, personalise paints, liveries, boost effects, underglow and number plates, and chase your best lap against your ghost in Time Trial. A guided practice teaches each control. Steer with tilt or on-screen controls, and race offline with no account needed.",
     genre: "Racing",
     category: "Racing",
     version: "0.5.4",
@@ -777,9 +777,9 @@ const appList: App[] = [
           "Nitro Racer is in Google Play Closed Testing. Join our tester Google Group with the Google account on your Android phone, then opt in from the Play listing and install Nitro Racer from Google Play.",
       },
       {
-        question: "Is it different from SouMoster's other games?",
+        question: "Is it different from SouMoster Games' other games?",
         answer:
-          "Yes. Nitro Racer is SouMoster's first racing game: championship races against AI rivals, Rush Hour traffic runs, time trials and a garage of cars to upgrade and customise, played in landscape.",
+          "Yes. Nitro Racer is SouMoster Games' first racing game: championship races against AI rivals, Rush Hour traffic runs, time trials and a garage of cars to upgrade and customise, played in landscape.",
       },
       {
         question: "Is it free?",
@@ -806,7 +806,7 @@ const appList: App[] = [
     description:
       "A turn-based roguelite where your lantern's oil is your health, your light and your spell fuel. Now in development.",
     longDescription:
-      "Lantern Depths is a turn-based roguelite from SouMoster, built with Godot and now in development. Your lantern's oil is your health, your light and your spell fuel, all at once: every hit you take dims the flame, so the weaker you get, the less you can see. Descend the Hollow Well one careful step at a time. Nothing moves until you act, so every step is a decision. Flare to stun light-sensitive foes and reveal more, Shut your lantern to sneak, Burn barrels and Kindle fires, and read each enemy's next move before you commit. Pick a relic for every descent, buy from the Merchant, open chests and protect your oil with Lantern Glass. Face rats, leeches, lamp moths, drowned haulers, bilge archers, gloomers and sporelings in the flooded Cistern, ending with the Drowned Bellringer. Death feeds Wellhead Camp, where embers buy new Wicks, unlock the Warden and fill the Archive with creatures, pages and records. Short runs fit a commute, and everything plays with one thumb in portrait.",
+      "Lantern Depths is a turn-based roguelite from SouMoster Games, built with Godot and now in development. Your lantern's oil is your health, your light and your spell fuel, all at once: every hit you take dims the flame, so the weaker you get, the less you can see. Descend the Hollow Well one careful step at a time. Nothing moves until you act, so every step is a decision. Flare to stun light-sensitive foes and reveal more, Shut your lantern to sneak, Burn barrels and Kindle fires, and read each enemy's next move before you commit. Pick a relic for every descent, buy from the Merchant, open chests and protect your oil with Lantern Glass. Face rats, leeches, lamp moths, drowned haulers, bilge archers, gloomers and sporelings in the flooded Cistern, ending with the Drowned Bellringer. Death feeds Wellhead Camp, where embers buy new Wicks, unlock the Warden and fill the Archive with creatures, pages and records. Short runs fit a commute, and everything plays with one thumb in portrait.",
     genre: "Strategy",
     category: "Strategy",
     version: "0.2.0",
@@ -826,7 +826,7 @@ const appList: App[] = [
       "/images/lantern-depths/screen-run-recap.webp",
     ],
     features: [
-      "SouMoster's first roguelite: turn-based, short runs, one-thumb portrait play",
+      "SouMoster Games' first roguelite: turn-based, short runs, one-thumb portrait play",
       "One resource, three jobs: oil is your health, your light radius and your ability fuel",
       "The lower your oil, the less you can see; explored tiles stay on the map as a grey memory",
       "Lantern actions: Flare, Shut, Burn and Kindle, plus Oil Flasks and Smoke",

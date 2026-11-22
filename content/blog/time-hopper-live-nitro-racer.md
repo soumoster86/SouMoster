@@ -1,9 +1,9 @@
 ---
 title: "Time Hopper Is Live, Arena Legends Enters Closed Testing, and Meet Nitro Racer"
-excerpt: "Time Hopper v1.15.1 is out on Google Play, Arena Legends v0.1.11 is in Closed Testing, and we've started Nitro Racer, SouMoster's first racing game."
+excerpt: "Time Hopper v1.15.1 is out on Google Play, Arena Legends v0.1.11 is in Closed Testing, and we've started Nitro Racer, SouMoster Games' first racing game."
 date: "2026-10-26"
 category: "Announcement"
-author: "SouMoster Team"
+author: "SouMoster Games Team"
 ---
 
 ## Time Hopper is live on Google Play
@@ -22,7 +22,7 @@ To join, submit the Google Play email from your Android phone on our [Beta page]
 
 ## Introducing Nitro Racer
 
-We've started work on **Nitro Racer**, SouMoster's first racing game. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag.
+We've started work on **Nitro Racer**, SouMoster Games' first racing game. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag.
 
 - **8 championships and 32 circuits**: countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, arctic and volcanic roads, plus mirrored variants
 - **Five AI rivals**, nitro bottles, gold trails, boost pads, shortcuts and overtake combos

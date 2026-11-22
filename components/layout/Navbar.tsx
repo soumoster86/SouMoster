@@ -33,7 +33,7 @@ export function Navbar() {
       >
         <Link href="/" className="flex items-center gap-2.5" aria-label={t("homeLink")}>
           <BrandIcon size={40} className="rounded-xl shadow-lg shadow-primary/20" />
-          <span className="font-heading text-xl font-bold text-text">SouMoster</span>
+          <span className="font-heading text-lg font-bold whitespace-nowrap text-text sm:text-xl">SouMoster Games</span>
         </Link>
 
         <div className="hidden items-center gap-1 md:flex">
