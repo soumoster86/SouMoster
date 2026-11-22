@@ -52,7 +52,7 @@ const GAME_OPTIONS: GameOption[] = [
   {
     id: "nitro-racer",
     name: "Nitro Racer",
-    version: "v0.1.0",
+    version: "v0.5.4",
     taglineKey: "nitroRacer",
     icon: "/images/nitro-racer/icon.png",
     status: "active-testing",

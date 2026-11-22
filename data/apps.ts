@@ -15,10 +15,10 @@ const appList: App[] = [
     description:
       "Tap or swipe across busy roads, rivers and rails. Dodge cars and trains, ride logs, grab branded HCoins. Easy to learn, hard to master!",
     longDescription:
-      "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (four story campaigns, including The Lost Litter and The Twilight Anomaly), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Version 9.5.1, The Twilight Anomaly, adds Campaign 4: 9 new chapters and 72 marathon levels of volatile dual-hazard fusions, Chrono Shadow boss pursuits on every chapter finale, and the Legendary hero Chrono. Play in English, Spanish or French. Offline play is fully supported; internet is only needed for optional purchases.",
+      "Road Hopper is a free-to-play arcade hopper from SouMoster. Cross busy roads, rivers, and rails—dodge cars and trains, ride logs, and collect HCoins. Play five modes: Adventure (six story campaigns, including The Lost Litter, The Twilight Anomaly, The Crossing Works and Frontier Relay), Endless (a new random world every run), Biomes (lock to classic lands and hunt treasures), Worlds (16 exclusive lands and hazards), and Sprint (race the clock for Velocity Tokens). Unlock heroes like Hopper, Cluck Norris, and Neil Hopstrong, equip hop trails, complete daily missions and 60+ achievements, and climb Google Play Games leaderboards. Version 9.6.0 adds four mechanical New Worlds, Clockwork Quarry, Willow Span, Swing Ferry and Tip Deck, and two new 72-level Adventures, The Crossing Works and Frontier Relay. The Twilight Anomaly campaign brings Chrono Shadow boss pursuits and the Legendary hero Chrono. Play in English, Spanish or French. Offline play is fully supported; internet is only needed for optional purchases.",
     genre: "Arcade",
     category: "Arcade",
-    version: "9.5.1",
+    version: "9.6.0",
     playStoreUrl:
       "https://play.google.com/store/apps/details?id=com.roadohopper.game",
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
@@ -41,7 +41,9 @@ const appList: App[] = [
     features: [
       "Five modes: Adventure, Endless, Biomes, Worlds & Sprint",
       "Adventure campaigns with chapters, stars, gifts & rescues",
-      "New in 9.5.1, The Twilight Anomaly: Campaign 4 with 9 chapters & 72 marathon levels of dual-hazard fusions",
+      "New in 9.6.0: four mechanical New Worlds: Clockwork Quarry, Willow Span, Swing Ferry and Tip Deck",
+      "Two new Adventures, The Crossing Works and Frontier Relay, each with 9 chapters & 72 uniquely named levels",
+      "The Twilight Anomaly: 9 chapters & 72 marathon levels of dual-hazard fusions",
       "Boss pursuits: outrun the Chrono Shadow on every chapter finale",
       "Legendary hero Chrono: 20% faster hops, a starting Shield & Life, and hazard grace",
       "Revive Safe Zone: a shockwave clears ±2 lanes of traffic with 2s of invulnerability",
@@ -52,6 +54,7 @@ const appList: App[] = [
       "Skins, hop trails, daily gifts, missions & 60+ achievements",
       "Google Play Games leaderboards & offline play",
       "Play in English, Spanish or French",
+      "Optional Simplified Menu with all five modes in one picker",
       "Accessibility: handedness, swipe sensitivity, battery saver, reduce motion",
       "Free to play — everything earnable; optional HCoin / gem packs",
     ],
@@ -66,6 +69,22 @@ const appList: App[] = [
       "Climb personal bests and Google Play Games leaderboards",
     ],
     versionHistory: [
+      {
+        version: "9.6.0",
+        date: "2026-11-22",
+        changes: [
+          "Four mechanical New Worlds: Clockwork Quarry (gear-plate bridges and minecarts), Willow Span (rising bridges and boats), Swing Ferry (moving ferries through a cargo harbor) and Tip Deck (tilting platforms and steam vents)",
+          "Two new Adventures, each with 9 chapters and 72 uniquely named levels: The Crossing Works tours all four worlds, while Frontier Relay mixes them with five classic biomes",
+        ],
+      },
+      {
+        version: "9.5.2",
+        date: "2026-11-18",
+        changes: [
+          "Clockwork Quarry joins New Worlds: staggered ledges, gear-plate bridges, stamp presses, steam jets and minecarts, with the rare Amber Gear on the treasure route",
+          "Optional Simplified Menu: all five modes in one picker, with quick access to Rewards, Shop and Progress (Settings → Visuals)",
+        ],
+      },
       {
         version: "9.5.1",
         date: "2026-11-14",
@@ -136,7 +155,7 @@ const appList: App[] = [
       {
         question: "What modes are available?",
         answer:
-          "Five modes: Adventure (story campaigns, now including Campaign 4: The Twilight Anomaly), Endless, Biomes, Worlds, and Sprint — each with its own goals, hazards, and rewards.",
+          "Five modes: Adventure (six story campaigns, now including The Crossing Works and Frontier Relay), Endless, Biomes, Worlds, and Sprint — each with its own goals, hazards, and rewards.",
       },
       {
         question: "How do I report a bug?",
@@ -638,12 +657,12 @@ const appList: App[] = [
     name: "Nitro Racer",
     tagline: "Chase the next horizon.",
     description:
-      "SouMoster's first racing game: race 8 championships across 32 circuits, collect nitro and build your dream garage. Now in Google Play Closed Testing.",
+      "SouMoster's first racing game: race 12 championships across 48 circuits, beat the clock in Rush Hour traffic and build your dream garage. Now in Google Play Closed Testing.",
     longDescription:
-      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in Google Play Closed Testing. Steer through sweeping bends, slipstream your rivals and unleash nitro on the road to the chequered flag. Race through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes and volcanic terrain across 8 championships and 32 circuits, each dressed with its own scenery, then take on mirrored variants. Compete against five AI rivals, collect nitro bottles, follow gold trails, hit boost pads, risk shortcuts and chain clean overtakes into combos. Unlock six cars, upgrade engine, turbo, tyres and nitro, and personalise paint, stripes, boost effects, underglow and number plates. Create your racer, chase your best lap against your saved ghost in time trials, and keep a daily challenge streak. Steer with tilt or on-screen controls, and race offline with no account needed.",
+      "Nitro Racer is SouMoster's first racing game, built in Kotlin with libGDX and now in Google Play Closed Testing. Find your racing rhythm in an arcade circuit racer built around close passes, nitro bursts and a garage that grows with you. Race 12 championships and 48 circuits through countryside, coastal roads, alpine passes, neon city nights, desert canyons, rainforest, icy landscapes, volcanic terrain, autumn roads, misty highlands, tropical islands and a moonlit spaceport, each with its own landmarks and regional lighting, against five AI rivals. In Rush Hour, weave through hatchbacks, taxis, vans and motorcycles on six circuits, cross checkpoints to add time and chain close overtakes into multipliers up to x5. Every finish earns driver XP, each of the 10 cars has its own mastery track, and Racing Journey brings together a rotating three-race Weekly Cup and an Explorer Album of hidden tokens on every circuit. Upgrade engine, turbo, tyres and nitro, personalise paints, liveries, boost effects, underglow and number plates, and chase your best lap against your ghost in Time Trial. A guided practice teaches each control. Steer with tilt or on-screen controls, and race offline with no account needed.",
     genre: "Racing",
     category: "Racing",
-    version: "0.1.0",
+    version: "0.5.4",
     status: "closed-testing",
     playStoreUrl: NITRO_RACER_PLAY_STORE_URL,
     youtubeUrl: "https://www.youtube.com/@SouMosterGames",
@@ -654,28 +673,31 @@ const appList: App[] = [
     screenshotOrientation: "landscape",
     screenshots: [
       "/images/nitro-racer/screen-desert-racing.webp",
+      "/images/nitro-racer/screen-rush-hour-traffic.webp",
       "/images/nitro-racer/screen-alpine-racing.webp",
       "/images/nitro-racer/screen-neon-night-racing.webp",
       "/images/nitro-racer/screen-rainforest-racing.webp",
-      "/images/nitro-racer/screen-championships.webp",
-      "/images/nitro-racer/screen-garage.webp",
-      "/images/nitro-racer/screen-customise-your-car.webp",
-      "/images/nitro-racer/screen-create-your-racer.webp",
       "/images/nitro-racer/screen-main-menu.webp",
+      "/images/nitro-racer/screen-weekly-cup.webp",
+      "/images/nitro-racer/screen-explorer-album.webp",
+      "/images/nitro-racer/screen-rush-hour-circuits.webp",
+      "/images/nitro-racer/screen-customise-your-car.webp",
     ],
     features: [
       "Now in Google Play Closed Testing: join the tester Google Group, then opt in and install",
-      "8 championships and 32 circuits: countryside, coast, alpine passes, neon city nights, desert, rainforest, arctic and volcanic roads",
-      "Scenery for every biome: wildflowers and hay bales, driftwood and dune grass, snowy fences and charred snags",
-      "Mirrored track variants and replayable championships",
-      "Race five AI rivals: nitro bottles, gold trails, boost pads, shortcuts and overtake combos",
-      "Six cars with engine, turbo, tyre and nitro upgrades",
-      "Customise paint, racing stripes, boost effects, underglow and number plates, with previews before you buy",
-      "Create your racer: pick a driver, suit, helmet and racing nickname",
-      "Time trials against your saved ghost, with bronze, silver and gold medals",
-      "Daily challenges and streaks, cinematic finishes and a rear-view camera",
-      "Tilt steering or on-screen controls, with adjustable sensitivity",
-      "16 achievements, with optional Google Play Games linking and cloud save",
+      "12 championships and 48 circuits: countryside, coast, alpine passes, neon city nights, desert, rainforest, arctic, volcanic, autumn roads, misty highlands, tropical islands and a moonlit spaceport",
+      "Landmarks and regional lighting on every circuit, with mirrored layouts in Time Trial",
+      "Rush Hour: weave through civilian traffic on six circuits at Easy, Normal or Expert, with checkpoints and overtake multipliers up to x5",
+      "Race five AI rivals: nitro cylinders, gold trails, boost pads, shortcuts and overtake combos",
+      "Driver XP and levels from every finished race, plus mastery rewards for each car",
+      "Racing Journey: a rotating three-race Weekly Cup with an exclusive portrait frame",
+      "Explorer Album: find three hidden tokens on every circuit to unlock themed number plates",
+      "10 cars with engine, turbo, tyre and nitro upgrades",
+      "Customise paints, liveries, boost effects, underglow and number plates, with previews before you buy",
+      "Choose your driver, nickname, racing title and portrait frame",
+      "Time Trial against your saved ghost, with bronze, silver and gold medals",
+      "Guided practice for every control, tilt or on-screen steering, large touch buttons and chase or cockpit views",
+      "Achievements, with optional Google Play Games linking and cloud save",
       "Race offline; no account needed",
     ],
     howToPlay: [
@@ -684,10 +706,41 @@ const appList: App[] = [
       "Collect nitro bottles and gold trails, and hit boost pads for extra speed",
       "Chain clean overtakes into combos, and take a shortcut when you dare",
       "Hold REAR to check the rivals behind you",
+      "In Rush Hour, cross cyan checkpoints to add time and chain close overtakes for multipliers",
+      "Search shortcuts and quieter lines for three hidden Explorer tokens on each circuit",
       "Finish in the top three to unlock the next championship",
       "Spend gold in the Garage on upgrades and new looks",
     ],
     versionHistory: [
+      {
+        version: "0.5.4",
+        date: "2026-11-21",
+        changes: [
+          "New landmarks across all 48 circuits and Practice Drive",
+          "Clearer bends, lighting that matches each region, and a brief flash when boost kicks in",
+          "Speed sits beside the boost control in chase view, clearing the centre of the road",
+          "Larger Settings and profile buttons, counters and main menu text, plus improved device compatibility",
+        ],
+      },
+      {
+        version: "0.5.3",
+        date: "2026-11-17",
+        changes: [
+          "Guided practice: a pointing hand shows each button, or how to tilt with Gyro",
+          "Rush Hour: six circuits with three difficulty events each, plus new cosmetics to earn",
+          "12 championships and 48 circuits, with four new regions and 10 cars",
+        ],
+      },
+      {
+        version: "0.1.0 (builds 16–20)",
+        date: "2026-11-14",
+        changes: [
+          "Racing Journey: driver XP and levels, car mastery, a Weekly Cup and the Explorer Album",
+          "Larger steering, brake and boost buttons, with more reliable boost taps",
+          "SouMoster Games trackside billboards on every circuit",
+          "Fixed a loading-screen crash on Android 12 and earlier",
+        ],
+      },
       {
         version: "0.1.0 (build 15)",
         date: "2026-11-11",
@@ -726,7 +779,7 @@ const appList: App[] = [
       {
         question: "Is it different from SouMoster's other games?",
         answer:
-          "Yes. Nitro Racer is SouMoster's first racing game: championship races against AI rivals, time trials and a garage of cars to upgrade and customise, played in landscape.",
+          "Yes. Nitro Racer is SouMoster's first racing game: championship races against AI rivals, Rush Hour traffic runs, time trials and a garage of cars to upgrade and customise, played in landscape.",
       },
       {
         question: "Is it free?",

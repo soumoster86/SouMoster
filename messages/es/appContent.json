@@ -2,11 +2,13 @@
   "road-hopper": {
     "tagline": "¿Hasta dónde llegarás saltando?",
     "description": "Toca o desliza para cruzar carreteras, ríos y vías de tren. Esquiva coches y trenes, súbete a los troncos y recoge HCoins. ¡Fácil de aprender, difícil de dominar!",
-    "longDescription": "Road Hopper es un juego arcade gratuito de SouMoster. Cruza carreteras, ríos y vías: esquiva coches y trenes, súbete a los troncos y recoge HCoins. Cinco modos: Adventure (la campaña The Lost Litter de 9 capítulos), Endless (un mundo aleatorio nuevo en cada partida), Biomes (tierras clásicas y tesoros por descubrir), Worlds (tierras y peligros exclusivos) y Sprint (contrarreloj para ganar Velocity Tokens). Desbloquea héroes como Hopper, Cluck Norris y Neil Hopstrong, equipa estelas de salto, completa misiones diarias y más de 60 logros, y escala en las clasificaciones de Google Play Juegos. Se puede jugar totalmente sin conexión; internet solo hace falta para las compras opcionales. La versión 9.5.1, The Twilight Anomaly, añade la Campaña 4: 9 capítulos nuevos y 72 niveles maratón con fusiones de peligros dobles, persecuciones de la Sombra Crono en cada final de capítulo y el héroe legendario Chrono. Juega en inglés, español o francés.",
+    "longDescription": "Road Hopper es un juego arcade gratuito de SouMoster. Cruza carreteras, ríos y vías: esquiva coches y trenes, súbete a los troncos y recoge HCoins. Cinco modos: Adventure (la campaña The Lost Litter de 9 capítulos), Endless (un mundo aleatorio nuevo en cada partida), Biomes (tierras clásicas y tesoros por descubrir), Worlds (tierras y peligros exclusivos) y Sprint (contrarreloj para ganar Velocity Tokens). Desbloquea héroes como Hopper, Cluck Norris y Neil Hopstrong, equipa estelas de salto, completa misiones diarias y más de 60 logros, y escala en las clasificaciones de Google Play Juegos. Se puede jugar totalmente sin conexión; internet solo hace falta para las compras opcionales. La versión 9.6.0 añade cuatro Nuevos Mundos mecánicos (Cantera Mecánica, Puente de Sauces, Ferry Oscilante y Cubierta Basculante) y dos nuevas Aventuras de 72 niveles, Los cuatro cruces y Relevo fronterizo. La campaña The Twilight Anomaly trae las persecuciones de la Sombra Crono y el héroe legendario Chrono. Juega en inglés, español o francés.",
     "features": [
       "Cinco modos: Adventure, Endless, Biomes, Worlds y Sprint",
       "Campañas de Aventura con capítulos, estrellas, regalos y rescates",
-      "Novedad en 9.5.1, The Twilight Anomaly: Campaña 4 con 9 capítulos y 72 niveles maratón con fusiones de peligros dobles",
+      "Novedad en 9.6.0: cuatro Nuevos Mundos mecánicos: Cantera Mecánica, Puente de Sauces, Ferry Oscilante y Cubierta Basculante",
+      "Dos nuevas Aventuras, Los cuatro cruces y Relevo fronterizo, cada una con 9 capítulos y 72 niveles con nombre propio",
+      "The Twilight Anomaly: 9 capítulos y 72 niveles maratón con fusiones de peligros dobles",
       "Persecuciones de jefe: escapa de la Sombra Crono en el final de cada capítulo",
       "Héroe legendario Chrono: saltos un 20 % más rápidos, Escudo y Vida iniciales, y margen ante peligros",
       "Zona segura al revivir: una onda expansiva despeja ±2 carriles de tráfico con 2 s de invulnerabilidad",
@@ -17,6 +19,7 @@
       "Aspectos, estelas de salto, regalos diarios, misiones y más de 60 logros",
       "Clasificaciones de Google Play Juegos y juego sin conexión",
       "Juega en inglés, español o francés",
+      "Menú simplificado opcional con los cinco modos en un solo selector",
       "Accesibilidad: mano dominante, sensibilidad del deslizamiento, ahorro de batería y menos animaciones",
       "Gratis: todo se gana jugando; paquetes opcionales de HCoins y gemas"
     ],
@@ -45,7 +48,7 @@
       },
       {
         "question": "¿Qué modos hay?",
-        "answer": "Cinco modos: Adventure (campañas, ahora con la Campaña 4: The Twilight Anomaly), Endless, Biomes, Worlds y Sprint, cada uno con sus objetivos, peligros y recompensas."
+        "answer": "Cinco modos: Adventure (seis campañas, ahora con Los cuatro cruces y Relevo fronterizo), Endless, Biomes, Worlds y Sprint, cada uno con sus objetivos, peligros y recompensas."
       },
       {
         "question": "¿Cómo informo de un error?",
@@ -57,6 +60,14 @@
       }
     ],
     "versionHistory": {
+      "9.6.0": [
+        "Cuatro Nuevos Mundos mecánicos: Cantera Mecánica (puentes con placas de engranaje y vagonetas), Puente de Sauces (puentes levadizos y botes), Ferry Oscilante (ferris móviles por un puerto de carga) y Cubierta Basculante (plataformas basculantes y chorros de vapor)",
+        "Dos nuevas Aventuras de 9 capítulos y 72 niveles con nombre propio: Los cuatro cruces recorre los cuatro mundos y Relevo fronterizo los combina con cinco biomas clásicos"
+      ],
+      "9.5.2": [
+        "Cantera Mecánica llega a Nuevos Mundos: plataformas escalonadas, puentes con placas de engranaje, prensas, chorros de vapor y vagonetas, con el raro Engranaje de Ámbar en la ruta del tesoro",
+        "Menú simplificado opcional: los cinco modos en un solo selector, con acceso rápido a Recompensas, Tienda y Progreso (Ajustes → Visual)"
+      ],
       "9.5.1": [
         "¡The Twilight Anomaly! Campaña 4: 9 capítulos nuevos y 72 niveles maratón con fusiones de peligros dobles",
         "Persecuciones de jefe: enfréntate a la Sombra Crono en cada final de capítulo",
@@ -385,21 +396,23 @@
   },
   "nitro-racer": {
     "tagline": "A por el siguiente horizonte.",
-    "description": "El primer juego de carreras de SouMoster: 8 campeonatos en 32 circuitos, nitro que recoger y el garaje de tus sueños. En la prueba cerrada de Google Play.",
-    "longDescription": "Nitro Racer es el primer juego de carreras de SouMoster, desarrollado en Kotlin con libGDX y ahora en la prueba cerrada de Google Play. Traza curvas amplias, aprovecha el rebufo de tus rivales y libera el nitro camino de la bandera a cuadros. Corre por campiña, carreteras costeras, puertos alpinos, noches urbanas de neón, cañones del desierto, selva, paisajes helados y tierras volcánicas en 8 campeonatos y 32 circuitos, cada uno con su propio escenario, y luego atrévete con las variantes en espejo. Compite contra cinco rivales de IA, recoge botellas de nitro, sigue los rastros de oro, pisa los potenciadores, arriesga en los atajos y encadena adelantamientos limpios en combos. Desbloquea seis coches, mejora motor, turbo, neumáticos y nitro, y personaliza pintura, franjas, efectos de turbo, luces de bajos y matrículas. Crea tu piloto, persigue tu mejor vuelta contra tu fantasma en contrarreloj y mantén tu racha de desafíos diarios. Conduce inclinando el móvil o con controles en pantalla, y corre sin conexión y sin cuenta.",
+    "description": "El primer juego de carreras de SouMoster: 12 campeonatos en 48 circuitos, contrarrelojes entre el tráfico de Rush Hour y el garaje de tus sueños. En la prueba cerrada de Google Play.",
+    "longDescription": "Nitro Racer es el primer juego de carreras de SouMoster, desarrollado en Kotlin con libGDX y ahora en la prueba cerrada de Google Play. Encuentra tu ritmo en un juego de carreras arcade de adelantamientos ajustados, acelerones de nitro y un garaje que crece contigo. Corre 12 campeonatos y 48 circuitos por campiña, carreteras costeras, puertos alpinos, noches urbanas de neón, cañones del desierto, selva, paisajes helados, tierras volcánicas, carreteras otoñales, tierras altas brumosas, islas tropicales y un puerto espacial a la luz de la luna, cada uno con sus monumentos e iluminación propia, contra cinco rivales de IA. En Rush Hour, esquiva utilitarios, taxis, furgonetas y motos en seis circuitos, cruza los puntos de control para ganar tiempo y encadena adelantamientos ajustados con multiplicadores de hasta x5. Cada carrera terminada da XP de piloto, cada uno de los 10 coches tiene su propia maestría y Racing Journey reúne una Weekly Cup de tres carreras y un álbum Explorer de fichas ocultas en cada circuito. Mejora motor, turbo, neumáticos y nitro, personaliza pinturas, decoraciones, efectos de turbo, luces de bajos y matrículas, y persigue tu mejor vuelta contra tu fantasma en contrarreloj. Una práctica guiada enseña cada control. Conduce inclinando el móvil o con controles en pantalla, y corre sin conexión y sin cuenta.",
     "features": [
       "En la prueba cerrada de Google Play: únete al grupo de Google de testers, inscríbete e instala",
-      "8 campeonatos y 32 circuitos: campiña, costa, puertos alpinos, noches urbanas de neón, desierto, selva, Ártico y volcanes",
-      "Escenarios para cada bioma: flores silvestres y balas de heno, madera a la deriva y hierba de dunas, vallas nevadas y troncos calcinados",
-      "Circuitos en espejo y campeonatos rejugables",
+      "12 campeonatos y 48 circuitos: campiña, costa, puertos alpinos, noches urbanas de neón, desierto, selva, Ártico, volcanes, carreteras otoñales, tierras altas brumosas, islas tropicales y puerto espacial a la luz de la luna",
+      "Monumentos e iluminación regional en cada circuito, con circuitos en espejo en contrarreloj",
+      "Rush Hour: esquiva el tráfico en seis circuitos en Fácil, Normal o Experto, con puntos de control y multiplicadores de adelantamiento de hasta x5",
       "Compite contra cinco rivales de IA: botellas de nitro, rastros de oro, potenciadores, atajos y combos de adelantamiento",
-      "Seis coches con mejoras de motor, turbo, neumáticos y nitro",
-      "Personaliza pintura, franjas, efectos de turbo, luces de bajos y matrículas, con vista previa antes de comprar",
-      "Crea tu piloto: elige piloto, mono, casco y apodo",
+      "XP y niveles de piloto en cada carrera terminada, además de recompensas de maestría para cada coche",
+      "Racing Journey: una Weekly Cup de tres carreras que cambia cada semana, con un marco de retrato exclusivo",
+      "Álbum Explorer: encuentra tres fichas ocultas en cada circuito para desbloquear matrículas temáticas",
+      "10 coches con mejoras de motor, turbo, neumáticos y nitro",
+      "Personaliza pinturas, decoraciones, efectos de turbo, luces de bajos y matrículas, con vista previa antes de comprar",
+      "Elige tu piloto, apodo, título de carreras y marco de retrato",
       "Contrarreloj contra tu fantasma, con medallas de bronce, plata y oro",
-      "Desafíos diarios y rachas, llegadas cinematográficas y cámara trasera",
-      "Dirección por inclinación o controles en pantalla, con sensibilidad ajustable",
-      "16 logros, con vinculación opcional a Google Play Juegos y guardado en la nube",
+      "Práctica guiada para cada control, dirección por inclinación o en pantalla, botones táctiles grandes y vista de persecución o cabina",
+      "Logros, con vinculación opcional a Google Play Juegos y guardado en la nube",
       "Corre sin conexión; no necesitas cuenta"
     ],
     "howToPlay": [
@@ -408,6 +421,8 @@
       "Recoge botellas de nitro y rastros de oro, y pisa las placas de impulso para ganar velocidad",
       "Encadena adelantamientos limpios en combos y toma un atajo si te atreves",
       "Mantén REAR para vigilar a los rivales que vienen detrás",
+      "En Rush Hour, cruza los puntos de control cian para ganar tiempo y encadena adelantamientos ajustados para los multiplicadores",
+      "Busca en atajos y trazadas menos transitadas las tres fichas Explorer ocultas de cada circuito",
       "Termina entre los tres primeros para desbloquear el siguiente campeonato",
       "Gasta tu oro en el garaje en mejoras y nuevos estilos"
     ],
@@ -421,7 +436,7 @@
       },
       {
         "question": "¿Es diferente de los otros juegos de SouMoster?",
-        "answer": "Sí. Nitro Racer es el primer juego de carreras de SouMoster: campeonatos contra rivales de IA, contrarrelojes y un garaje de coches para mejorar y personalizar, en horizontal."
+        "answer": "Sí. Nitro Racer es el primer juego de carreras de SouMoster: campeonatos contra rivales de IA, carreras Rush Hour entre el tráfico, contrarrelojes y un garaje de coches para mejorar y personalizar, en horizontal."
       },
       {
         "question": "¿Es gratis?",
@@ -437,6 +452,23 @@
       }
     ],
     "versionHistory": {
+      "0.5.4": [
+        "Nuevos monumentos en los 48 circuitos y en Practice Drive",
+        "Curvas más claras, iluminación adaptada a cada región y un breve destello al activar el turbo",
+        "La velocidad aparece junto al control de turbo en la vista de persecución, despejando el centro de la carretera",
+        "Botones de Ajustes y perfil, contadores y textos del menú más grandes, y mejor compatibilidad con dispositivos"
+      ],
+      "0.5.3": [
+        "Práctica guiada: una mano señala cada botón o cómo inclinar con el giroscopio",
+        "Rush Hour: seis circuitos con tres pruebas de dificultad cada uno, y nuevos cosméticos que ganar",
+        "12 campeonatos y 48 circuitos, con cuatro regiones nuevas y 10 coches"
+      ],
+      "0.1.0 (builds 16–20)": [
+        "Racing Journey: XP y niveles de piloto, maestría de coches, Weekly Cup y álbum Explorer",
+        "Botones de dirección, freno y turbo más grandes, con toques de turbo más fiables",
+        "Vallas publicitarias de SouMoster Games en cada circuito",
+        "Corregido un cierre en la pantalla de carga en Android 12 y anteriores"
+      ],
       "0.1.0 (build 15)": [
         "Cinco ilustraciones a pantalla completa mientras carga la carrera, con el nombre del circuito y el progreso",
         "Celebración con monedas y confeti tras una compra de oro correcta"
