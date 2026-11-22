@@ -69,7 +69,7 @@ const SECTIONS: SectionItem[] = [
   { id: "indemnification", title: "16. Indemnification" },
   {
     id: "dispute-resolution",
-    title: "17. Dispute Resolution & EU ODR",
+    title: "17. Dispute Resolution & Governing Law",
     badge: "Disputes",
   },
   { id: "contact-notices", title: "18. Contact Information & Legal Notices" },
@@ -149,11 +149,11 @@ Thank you for your review and response within the standard resolution timeframe.
           </span>
           <span>•</span>
           <span>
-            <strong>Last Updated:</strong> September 20, 2026
+            <strong>Last Updated:</strong> November 22, 2026
           </span>
           <span>•</span>
           <span>
-            <strong>Version:</strong> 2.0 (Global & EU Compliance Edition)
+            <strong>Version:</strong> 2.1 (Global & EU Compliance Edition)
           </span>
         </div>
       </div>
@@ -612,9 +612,13 @@ Thank you for your review and response within the standard resolution timeframe.
             </div>
             <div className="glass space-y-4 rounded-2xl p-6 sm:p-8">
               <p>
-                If you are a consumer residing within the European Union or
-                European Economic Area, Directive 2011/83/EU on Consumer Rights
-                provides statutory consumer rights regarding distance contracts:
+                {SITE_NAME} has declared itself a <strong>trader</strong> on
+                Google Play, so EU and UK consumer protection laws apply to our
+                games. If you are a consumer residing within the European
+                Union, European Economic Area or United Kingdom, Directive
+                2011/83/EU on Consumer Rights (and the equivalent UK rules)
+                provides statutory consumer rights regarding distance
+                contracts:
               </p>
               <div className="border-primary/30 bg-primary/10 text-text space-y-3 rounded-xl border p-5 text-xs sm:text-sm">
                 <div className="flex items-center gap-2 font-semibold">
@@ -638,9 +642,13 @@ Thank you for your review and response within the standard resolution timeframe.
                 </p>
               </div>
               <p className="text-muted text-xs">
-                Nothing in these Terms diminishes any non-waivable statutory
-                warranty rights you enjoy under the laws of your EU Member State
-                regarding the conformity of digital content.
+                Nothing in these Terms diminishes your statutory rights,
+                including the legal guarantee that digital content and in-app
+                items conform to the contract under Directive (EU) 2019/770 on
+                Digital Content, as implemented in your EU Member State, or the
+                UK Consumer Rights Act 2015. If a purchased item is faulty or
+                not delivered, contact us and we will fix it, re-deliver it or
+                help you obtain a refund through Google Play.
               </p>
             </div>
           </section>
@@ -955,11 +963,15 @@ Thank you for your review and response within the standard resolution timeframe.
               </ul>
               <div className="border-primary/20 bg-primary/5 text-text rounded-xl border p-4 text-xs">
                 <strong>Statutory Protections:</strong> Certain jurisdictions
-                (including the European Union) do not permit the exclusion of
-                certain warranties or the limitation of liability for
-                intentional misconduct, gross negligence, or personal injury. In
-                such jurisdictions, our liability shall be limited to the
-                minimum extent permitted by mandatory applicable law.
+                (including the European Union and the United Kingdom) do not
+                permit the exclusion of certain warranties or the limitation of
+                liability for intentional misconduct, gross negligence, or
+                personal injury. In such jurisdictions, our liability shall be
+                limited to the minimum extent permitted by mandatory applicable
+                law. If you are a consumer in the EU, EEA or UK, the disclaimer
+                in Section 14 and the liability cap above do not apply to the
+                extent they would limit your statutory consumer rights,
+                including your legal guarantee for digital content.
               </div>
             </div>
           </section>
@@ -1001,7 +1013,7 @@ Thank you for your review and response within the standard resolution timeframe.
             <div className="mb-3 flex items-center gap-2">
               <Badge variant="primary">Dispute Resolution</Badge>
               <h2 className="text-text text-2xl font-bold">
-                17. Dispute Resolution, Governing Law & EU ODR
+                17. Dispute Resolution & Governing Law
               </h2>
             </div>
             <div className="glass space-y-5 rounded-2xl p-6 sm:p-8">
@@ -1062,30 +1074,36 @@ Thank you for your review and response within the standard resolution timeframe.
                 </div>
               </div>
 
-              {/* EU Online Dispute Resolution Notice */}
+              <p>
+                <strong>Governing Law:</strong> These Terms are governed by the
+                laws of the country in which {SITE_NAME} is established as a
+                trader, as shown in the trader information on our{" "}
+                <a
+                  href={PLAY_STORE_DEVELOPER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary font-medium hover:underline"
+                >
+                  Google Play listing
+                </a>
+                , without regard to its conflict-of-law rules.
+              </p>
+
+              {/* Consumer protection notice */}
               <div className="border-border bg-card/40 space-y-2 rounded-xl border p-4 text-xs">
                 <div className="text-text flex items-center gap-2 font-semibold">
                   <Globe className="text-primary h-4 w-4" />
-                  European Union Online Dispute Resolution (ODR) Platform
+                  Consumers in the EU, EEA and UK
                 </div>
                 <p className="text-muted leading-relaxed">
-                  Pursuant to Article 14 of Regulation (EU) No 524/2013, the
-                  European Commission provides an online dispute resolution
-                  platform for consumers residing in the EU to resolve consumer
-                  disputes out-of-court. You can access the official EU ODR
-                  portal at:
+                  If you are a consumer, this choice of law does not deprive you
+                  of the protection of the mandatory consumer laws of the
+                  country where you live, and you may bring proceedings in the
+                  courts of that country. You can also contact your national
+                  consumer authority or an approved alternative dispute
+                  resolution (ADR) body for help with a complaint we have not
+                  been able to resolve.
                 </p>
-                <div className="pt-1">
-                  <a
-                    href="https://ec.europa.eu/consumers/odr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-primary inline-flex items-center gap-1 font-medium hover:underline"
-                  >
-                    https://ec.europa.eu/consumers/odr
-                    <ArrowUpRight className="h-3 w-3" />
-                  </a>
-                </div>
               </div>
             </div>
           </section>
@@ -1134,6 +1152,24 @@ Thank you for your review and response within the standard resolution timeframe.
                     <ArrowUpRight className="h-3 w-3" />
                   </a>
                 </div>
+              </div>
+              <div className="border-primary/20 bg-primary/5 text-text rounded-xl border p-4 text-xs">
+                <strong>Trader Information:</strong> {SITE_NAME} is a declared
+                trader on Google Play. Our verified trader name, geographic
+                address, phone number and email address are published in the
+                trader information section of each game&apos;s listing on
+                Google Play (under &quot;App support&quot; or &quot;About the
+                developer&quot;) and on our{" "}
+                <a
+                  href={PLAY_STORE_DEVELOPER_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary font-medium hover:underline"
+                >
+                  Google Play developer page
+                </a>
+                . You may send legal notices to any of those contact details or
+                to the email address above.
               </div>
             </div>
           </section>
